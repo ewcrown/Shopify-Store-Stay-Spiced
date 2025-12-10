@@ -1,5 +1,8 @@
 {{ 'testimonial.css' | asset_url | stylesheet_tag }}
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <div
   style="padding: 100px 40px;"
   class="container--large {% unless section.settings.remove_margin %} container--vertical-space {% endunless %} "
@@ -11,30 +14,46 @@
   -%}
 
   <div class="testimonial-container {%  if section.settings.trust_element_type == "test--02" %} limit-width {% endif %} {% if section.settings.section_background_color != "rgba(0,0,0,0)" %} container--has-background {% endif %}">
-    <css-slider
-      data-options='
-        {
-          "selector": ".slider-item",
-          "indexNav": true,
-          "groupCells": true,
-          "navigationDOM": "<span class=\"css-slider-button css-slider-prev\" style=\"display:none\"><svg fill=\"none\" height=\"13\" viewBox=\"0 0 8 13\" width=\"8\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#000\" ><path d=\"m7.91419 1.41431-6.48529 6.48528-1.4142102-1.41422 6.4852802-6.48527702z\"/><path d=\"m6.48528 12.9849-6.48528027-6.48532 1.41421027-1.41421 6.48528 6.48523z\"/></g></svg></span><span class=\"css-slider-button css-slider-next\" style=\"display:none\"><svg width=\"9\" height=\"13\" viewBox=\"0 0 9 13\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0.914169 11.5857L7.39945 5.10041L8.81367 6.51463L2.32838 12.9999L0.914169 11.5857Z\" fill=\"black\"/><path d=\"M2.34307 0.0151367L8.82835 6.50042L7.41414 7.91463L0.928857 1.42935L2.34307 0.0151367Z\" fill=\"black\"/></svg></span>"
-        }
-      '
-      class="css-slider css-slider--bottom-navigation"
-      id="css-slider-{{ section.id }}"
-    >
-      {%- render 'custom-shadow', section_id: section.id -%}
-      {% assign column_count = section.settings.section_content_layout %}
+    {%- render 'custom-shadow', section_id: section.id -%}
+    {% assign column_count = section.settings.section_content_layout %}
 
-      <div
-        class="grid grid--slider grid-{{ column_count }} grid-portable-3 grid-lap-1 grid-tiny-1 grid--layout"
-        style="padding-top: 20px; {% if section.settings.trust_element_type == "test--01" %} padding-bottom: 20px; margin-bottom: 20px; {% endif %}"
-      >
-        {%- for block in section.blocks -%}
-          <div
-            class="slider-item"
-            style="{% if section.settings.trust_element_type == "test--01" %} padding: {{ section.settings.padding_value }}px; {% endif %}"
-          >
+    <div
+      class="splide testimonial-splide"
+      id="testimonial-splide-{{ section.id }}"
+      data-splide='{
+        "type": "loop",
+        "perPage": {{ column_count }},
+        "perMove": 1,
+        "gap": "20px",
+        "pagination": false,
+        "arrows": true,
+        "rewind": true,
+        "breakpoints": {
+          "1024": {
+            "perPage": 3,
+            "pagination": false,
+            "arrows": true
+          },
+          "768": {
+            "perPage": 1,
+            "pagination": false,
+            "arrows": true
+          },
+          "480": {
+            "perPage": 1,
+            "pagination": false,
+            "arrows": true
+          }
+        }
+      }'
+    >
+      <div class="splide__track">
+        <div class="splide__list" style="padding-top: 20px; {% if section.settings.trust_element_type == "test--01" %} padding-bottom: 20px; margin-bottom: 20px; {% endif %}">
+          {%- for block in section.blocks -%}
+            <div
+              class="splide__slide slider-item"
+              style="{% if section.settings.trust_element_type == "test--01" %} padding: {{ section.settings.padding_value }}px; {% endif %}"
+            >
             <div
               class="card__image border-radius-top testimonial-img {% if section.settings.trust_element_type == "test--02" %} testimonial-hidden {% endif %}"
               style="padding-top:{{ 100 | divided_by: 1 }}%;"
@@ -91,39 +110,240 @@
                 <div class="text-align--center test-02-content text-weight--bold">{{ block.settings.content }}</div>
               {% endunless %}
             </div>
-          </div>
-        {%- endfor -%}
+            </div>
+          {%- endfor -%}
+        </div>
       </div>
-    </css-slider>
+    </div>
   </div>
 </div>
 
 <script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function () {
-    const ratings = document.querySelectorAll('.star-rating');
-
-    ratings.forEach((rating) => {
-      const value = parseFloat(rating.getAttribute('data-review'));
-      setRating(rating, value);
-    });
-
-    function setRating(element, value) {
-      const starTotal = 5; // Total number of stars
-      const starPercentage = (value / starTotal) * 100;
-      const starInner = element.querySelector('.stars-inner');
-
-      // Create a new style element
-      //   const styleElement = document.createElement('style');
-      //   styleElement.type = 'text/css';
-      //   document.head.appendChild(styleElement);
-
-      let sheet = document.styleSheets[0];
-
-      // Insert the CSS rule dynamically
-      sheet.insertRule(`.stars-inner-${value}::before { width: ${starPercentage}%; }`, sheet.cssRules.length);
+  (function() {
+    const sectionId = '{{ section.id }}';
+    const columnCount = {{ column_count }};
+    
+    function initTestimonialSlider() {
+      const splideElement = document.getElementById('testimonial-splide-' + sectionId);
+      if (!splideElement) return;
+      
+      // Destroy existing instance if any
+      if (splideElement.splide) {
+        splideElement.splide.destroy();
+      }
+      
+      // Count total slides
+      const totalSlides = splideElement.querySelectorAll('.splide__slide').length;
+      
+      // Initialize Splide - arrows only, no pagination
+      const splide = new Splide(splideElement, {
+        type: 'loop',
+        perPage: columnCount,
+        perMove: 1,
+        gap: '20px',
+        pagination: false, // Disable pagination
+        arrows: true, // Enable arrows
+        rewind: true,
+        updateOnMove: true,
+        breakpoints: {
+          1024: {
+            perPage: 3,
+            pagination: false,
+            arrows: true
+          },
+          768: {
+            perPage: 1,
+            pagination: false,
+            arrows: true
+          },
+          480: {
+            perPage: 1,
+            pagination: false,
+            arrows: true
+          }
+        }
+      });
+      
+      splide.mount();
+      
     }
-  });
+    
+    function initStarRatings() {
+      const ratings = document.querySelectorAll('#testimonial-splide-' + sectionId + ' .star-rating');
+
+      ratings.forEach((rating) => {
+        const value = parseFloat(rating.getAttribute('data-review'));
+        setRating(rating, value);
+      });
+
+      function setRating(element, value) {
+        const starTotal = 5;
+        const starPercentage = (value / starTotal) * 100;
+        const selector = `.stars-inner-${value}::before`;
+        
+        // Check if rule already exists
+        let ruleExists = false;
+        try {
+          for (let i = 0; i < document.styleSheets.length; i++) {
+            const sheet = document.styleSheets[i];
+            try {
+              const rules = sheet.cssRules || sheet.rules;
+              for (let j = 0; j < rules.length; j++) {
+                if (rules[j].selectorText === selector) {
+                  ruleExists = true;
+                  break;
+                }
+              }
+            } catch (e) {
+              // Cross-origin stylesheet, skip
+            }
+            if (ruleExists) break;
+          }
+        } catch (e) {}
+        
+        if (!ruleExists) {
+          try {
+            const sheet = document.styleSheets[0];
+            sheet.insertRule(`${selector} { width: ${starPercentage}%; }`, sheet.cssRules.length);
+          } catch (e) {
+            const style = document.createElement('style');
+            style.textContent = `${selector} { width: ${starPercentage}%; }`;
+            document.head.appendChild(style);
+          }
+        }
+      }
+    }
+    
+    // Initialize on DOM ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        initTestimonialSlider();
+        initStarRatings();
+      });
+    } else {
+      initTestimonialSlider();
+      initStarRatings();
+    }
+    
+    // Reinitialize on Shopify section load (theme editor)
+    document.addEventListener('shopify:section:load', function(event) {
+      if (event.detail.sectionId === sectionId) {
+        setTimeout(function() {
+          initTestimonialSlider();
+          initStarRatings();
+        }, 100);
+      }
+    });
+  })();
 </script>
+
+<style>
+  /* Splide customization for testimonial slider */
+  #testimonial-splide-{{ section.id }} {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__track {
+    overflow: visible;
+  }
+  
+  /* Hide pagination completely */
+  #testimonial-splide-{{ section.id }} .splide__pagination {
+    display: none !important;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__list {
+    display: flex;
+    margin: 0;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__slide {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  
+  #testimonial-splide-{{ section.id }} {
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  /* Hide pagination */
+  #testimonial-splide-{{ section.id }} .splide__pagination {
+    display: none !important;
+  }
+  
+  /* Style arrows - centered at bottom */
+  #testimonial-splide-{{ section.id }} .splide__arrows {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 10;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__arrow {
+    position: static !important;
+    background: transparent;
+    opacity: 0.6;
+    width: auto;
+    height: auto;
+    transform: none !important;
+    pointer-events: all;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__arrow:hover {
+    opacity: 1;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__arrow svg {
+    fill: #666;
+    width: 16px;
+    height: 16px;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__arrow--prev {
+    left: auto;
+  }
+  
+  #testimonial-splide-{{ section.id }} .splide__arrow--next {
+    right: auto;
+  }
+  
+  /* Ensure no white space */
+  .testimonial-container {
+    width: 100%;
+    overflow: visible;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  .testimonial-container .splide {
+    width: 100%;
+    position: relative;
+  }
+
+  @media (max-width: 768px) {
+    #testimonial-splide-{{ section.id }} {
+      padding-bottom: 100px !important;
+    }
+    #testimonial-splide-{{ section.id }} .splide__slide {
+      padding: 0 !important;
+    }
+    #testimonial-splide-{{ section.id }} .splide__arrows {
+      bottom: 0px !important;
+    } 
+  }
+</style>
 
 {%- if section.settings.section_background_color != 'rgba(0,0,0,0)'
   and section.settings.trust_element_type == 'test--01'

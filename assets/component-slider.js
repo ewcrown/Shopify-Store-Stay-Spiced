@@ -28,6 +28,7 @@ if (typeof CSSSlider !== "function") {
           observer: true,
           disableMouseDownEvent: true,
           autoplay: 0,
+          loop: false,
         },
         ...JSON.parse(this.dataset.options),
       };
@@ -53,6 +54,7 @@ if (typeof CSSSlider !== "function") {
     }
 
     destroySlider() {
+      this._removeLoopClones();
       this.innerHTML = `${this.originalHTML}`;
       this.classList.remove("enabled");
       this.sliderEnabled = false;
@@ -104,11 +106,21 @@ if (typeof CSSSlider !== "function") {
         this.element.scrollLeft = 0;
       }
 
-      this.items = this.querySelectorAll(`${this.o.selector}`);
+      // Get items, excluding clones
+      const allItems = this.querySelectorAll(`${this.o.selector}`);
+      this.items = Array.from(allItems).filter(item => {
+        // Check if item itself is a clone or has clone parent
+        const isClone = item.classList.contains("css-slide-clone") || 
+                       item.hasAttribute("data-is-clone") ||
+                       item.closest(".css-slide-clone, [data-is-clone='true']");
+        return !isClone;
+      });
       this.indexedItems = [];
       this.index = 0;
       this.length = this.items.length;
       this.windowWidth = window.innerWidth;
+      this.loopClones = [];
+      this.loopStartOffset = 0;
 
       if (this.o.disableMouseDownEvent) {
         this.querySelector(".css-slider-container").addEventListener(
@@ -171,12 +183,56 @@ if (typeof CSSSlider !== "function") {
             (entries) => {
               if (!this._sliderBlockScroll) {
                 entries.forEach((entry) => {
+                  // Skip clones in observer
+                  if (entry.target.classList.contains("css-slide-clone") || 
+                      entry.target.hasAttribute("data-is-clone")) {
+                    return;
+                  }
+                  
+                  // Handle loop scroll jump for observer mode
+                  if (this.o.loop && this.loopClones.length > 0 && entry.intersectionRatio >= 0.5) {
+                    const scrollLeft = this.element.scrollLeft;
+                    const firstRealItem = this.indexedItems[0];
+                    const lastRealItem = this.indexedItems[this.indexedItems.length - 1];
+                    
+                    if (firstRealItem && lastRealItem) {
+                      const firstItemMargin = parseInt(getComputedStyle(firstRealItem).marginLeft || 0);
+                      const firstRealPosition = firstRealItem.offsetLeft - firstItemMargin;
+                      const lastRealPosition = lastRealItem.offsetLeft + lastRealItem.offsetWidth - firstItemMargin;
+                      
+                      // Check if we're at end clones
+                      if (scrollLeft >= lastRealPosition - 1) {
+                        const overflow = scrollLeft - lastRealPosition;
+                        const jumpOffset = firstRealPosition + overflow;
+                        this._sliderBlockScroll = true;
+                        this.element.scrollLeft = jumpOffset;
+                        setTimeout(() => {
+                          this._sliderBlockScroll = false;
+                        }, 10);
+                        return;
+                      }
+                      
+                      // Check if we're at beginning clones
+                      if (scrollLeft < firstRealPosition - 1) {
+                        const underflow = firstRealPosition - scrollLeft;
+                        const jumpOffset = lastRealPosition - underflow;
+                        this._sliderBlockScroll = true;
+                        this.element.scrollLeft = jumpOffset;
+                        setTimeout(() => {
+                          this._sliderBlockScroll = false;
+                        }, 10);
+                        return;
+                      }
+                    }
+                  }
+                  
                   if (entry.intersectionRatio >= 0.5) {
-                    this.index = parseInt(
-                      entry.target.getAttribute("data-index"),
-                    );
-                    this.checkSlide();
-                    this.dispatchEvent(this._changeEvent);
+                    const dataIndex = entry.target.getAttribute("data-index");
+                    if (dataIndex !== null && !isNaN(dataIndex)) {
+                      this.index = parseInt(dataIndex);
+                      this.checkSlide();
+                      this.dispatchEvent(this._changeEvent);
+                    }
                   }
                 });
               }
@@ -186,7 +242,49 @@ if (typeof CSSSlider !== "function") {
             },
           );
         } else {
-          this.SCROLL_EVENT = debounce(() => {
+          let scrollRAF = null;
+          this.SCROLL_EVENT = () => {
+            if (this._sliderBlockScroll) return;
+            
+            const scrollLeft = this.element.scrollLeft;
+            
+            // Handle loop scroll jump - check FIRST before normal scroll detection
+            if (this.o.loop && this.loopClones.length > 0 && this.indexedItems.length > 0) {
+              const firstRealItem = this.indexedItems[0];
+              const lastRealItem = this.indexedItems[this.indexedItems.length - 1];
+              
+              if (firstRealItem && lastRealItem) {
+                const firstItemMargin = parseInt(getComputedStyle(firstRealItem).marginLeft || 0);
+                const firstRealPosition = firstRealItem.offsetLeft - firstItemMargin;
+                const lastRealPosition = lastRealItem.offsetLeft + lastRealItem.offsetWidth - firstItemMargin;
+                
+                // Check if we're at or past the end clones (after real slides)
+                if (scrollLeft >= lastRealPosition - 1) {
+                  const overflow = scrollLeft - lastRealPosition;
+                  const jumpOffset = firstRealPosition + overflow;
+                  this._sliderBlockScroll = true;
+                  this.element.scrollLeft = jumpOffset;
+                  setTimeout(() => {
+                    this._sliderBlockScroll = false;
+                  }, 10);
+                  return;
+                }
+                
+                // Check if we're at the beginning clones (before real slides)
+                if (scrollLeft < firstRealPosition - 1) {
+                  const underflow = firstRealPosition - scrollLeft;
+                  const jumpOffset = lastRealPosition - underflow;
+                  this._sliderBlockScroll = true;
+                  this.element.scrollLeft = jumpOffset;
+                  setTimeout(() => {
+                    this._sliderBlockScroll = false;
+                  }, 10);
+                  return;
+                }
+              }
+            }
+            
+            // Normal scroll detection - only run if we didn't jump
             if (!this._sliderBlockScroll) {
               const scrollItems = this.indexedItems.entries();
               const scrollArray = Array.from(scrollItems, (elm) =>
@@ -194,24 +292,35 @@ if (typeof CSSSlider !== "function") {
               );
               const scrollDistance = Math.min(...scrollArray);
               const scrollIndex = scrollArray.indexOf(scrollDistance);
-              if (scrollIndex != this.index) {
+              if (scrollIndex != this.index && scrollIndex >= 0) {
                 this.index = scrollIndex;
                 this.checkSlide();
                 this.dispatchEvent(this._changeEvent);
               }
             }
-          }, 10);
+          };
 
-          this.element.addEventListener("scroll", this.SCROLL_EVENT, {
-            passive: true,
-          });
+          // Use requestAnimationFrame for smooth scroll detection
+          this.element.addEventListener("scroll", () => {
+            if (scrollRAF) {
+              cancelAnimationFrame(scrollRAF);
+            }
+            scrollRAF = requestAnimationFrame(this.SCROLL_EVENT);
+          }, { passive: true });
         }
 
         // reset on resize
 
         this.RESIZE_EVENT = debounce(() => {
           if (this.windowWidth != window.innerWidth && this.o.groupCells) {
+            const wasLooping = this.o.loop;
             this.resetSlider();
+            // Recreate clones after resize if loop was enabled
+            if (wasLooping && this.o.loop) {
+              setTimeout(() => {
+                this._createLoopClones(false);
+              }, 250);
+            }
           }
           if (!this.o.groupCells) {
             this.checkSlide();
@@ -325,15 +434,36 @@ if (typeof CSSSlider !== "function") {
       // function that changes the slide, either by word (next/prev) or index
 
       if (direction == "next") {
-        if (this.index + 1 < this.length) {
-          this.index++;
+        if (this.o.loop) {
+          // Loop: wrap around to first slide if at the end
+          this.index = (this.index + 1) % this.length;
+        } else {
+          // No loop: stop at the end
+          if (this.index + 1 < this.length) {
+            this.index++;
+          } else {
+            return; // Can't go further
+          }
         }
       } else if (direction == "prev") {
-        if (this.index - 1 >= 0) {
-          this.index--;
+        if (this.o.loop) {
+          // Loop: wrap around to last slide if at the beginning
+          this.index = this.index - 1 < 0 ? this.length - 1 : this.index - 1;
+        } else {
+          // No loop: stop at the beginning
+          if (this.index - 1 >= 0) {
+            this.index--;
+          } else {
+            return; // Can't go further
+          }
         }
       } else if (parseInt(direction) >= 0) {
-        this.index = parseInt(direction);
+        const targetIndex = parseInt(direction);
+        if (targetIndex >= 0 && targetIndex < this.length) {
+          this.index = targetIndex;
+        } else {
+          return; // Invalid index
+        }
       }
 
       this._sliderBlockScroll = true;
@@ -342,21 +472,24 @@ if (typeof CSSSlider !== "function") {
       }, 500);
 
       this.checkSlide();
-      this.element.scrollTo({
-        top: 0,
-        left:
-          this._rtl && this.slidesPerPage > 1
-            ? (this.querySelector(".css-slider-container").offsetWidth -
-                (this.indexedItems[this.index].offsetLeft -
-                  parseInt(
-                    getComputedStyle(this.indexedItems[0]).marginLeft,
-                  ))) *
-              -1
-            : this.indexedItems[this.index].offsetLeft -
-              parseInt(getComputedStyle(this.indexedItems[0]).marginLeft),
-        behavior: behavior,
-      });
-      this.dispatchEvent(this._changeEvent);
+      
+      // Calculate scroll position - ensure we're using real indexed items, not clones
+      if (this.indexedItems[this.index]) {
+        const firstItemMargin = parseInt(getComputedStyle(this.indexedItems[0]).marginLeft || 0);
+        let scrollLeft = this.indexedItems[this.index].offsetLeft - firstItemMargin;
+        
+        if (this._rtl && this.slidesPerPage > 1) {
+          scrollLeft = (this.querySelector(".css-slider-container").offsetWidth -
+            (this.indexedItems[this.index].offsetLeft - firstItemMargin)) * -1;
+        }
+        
+        this.element.scrollTo({
+          top: 0,
+          left: scrollLeft,
+          behavior: behavior,
+        });
+        this.dispatchEvent(this._changeEvent);
+      }
     }
 
     checkSlide() {
@@ -365,11 +498,14 @@ if (typeof CSSSlider !== "function") {
       if (this.o.navigation) {
         this.prevEl.classList.remove("disabled");
         this.nextEl.classList.remove("disabled");
-        if (this.index == 0) {
-          this.prevEl.classList.add("disabled");
-        }
-        if (this.index == this.length - 1) {
-          this.nextEl.classList.add("disabled");
+        // Only disable navigation buttons if loop is disabled
+        if (!this.o.loop) {
+          if (this.index == 0) {
+            this.prevEl.classList.add("disabled");
+          }
+          if (this.index == this.length - 1) {
+            this.nextEl.classList.add("disabled");
+          }
         }
       }
 
@@ -403,7 +539,15 @@ if (typeof CSSSlider !== "function") {
     }
 
     afterAppend() {
-      this.items = this.querySelectorAll(`${this.o.selector}`);
+      // Re-query items, excluding clones
+      const allItems = this.querySelectorAll(`${this.o.selector}`);
+      this.items = Array.from(allItems).filter(item => {
+        // Check if item itself is a clone or has clone parent
+        const isClone = item.classList.contains("css-slide-clone") || 
+                       item.hasAttribute("data-is-clone") ||
+                       item.closest(".css-slide-clone, [data-is-clone='true']");
+        return !isClone;
+      });
     }
 
     _initAutoplay() {
@@ -427,6 +571,8 @@ if (typeof CSSSlider !== "function") {
         hideNavigation = false;
 
       // reset entire slider
+      // Don't remove clones here - they'll be recreated if needed
+      const hadClones = this.loopClones.length > 0;
 
       this.slidesPerPage = 0;
       this.indexedItems = [];
@@ -436,6 +582,15 @@ if (typeof CSSSlider !== "function") {
       }
 
       // find out how many pages (slides there are now)
+      // Re-query items to exclude clones
+      const allItems = this.querySelectorAll(`${this.o.selector}`);
+      this.items = Array.from(allItems).filter(item => {
+        // Check if item itself is a clone or has clone parent
+        const isClone = item.classList.contains("css-slide-clone") || 
+                       item.hasAttribute("data-is-clone") ||
+                       item.closest(".css-slide-clone, [data-is-clone='true']");
+        return !isClone;
+      });
 
       this.items.forEach((elm, i) => {
         elm.classList.remove("css-slide--snap");
@@ -457,9 +612,13 @@ if (typeof CSSSlider !== "function") {
         this.setAttribute("data-slides-per-page-difference", "large");
       }
 
-      // set each slide for observer
+      // set each slide for observer - skip clones
 
       this.items.forEach((elm, i) => {
+        // Skip clones when setting up snap points
+        if (elm.classList.contains("css-slide-clone") || elm.hasAttribute("data-is-clone")) {
+          return;
+        }
         if (i % this.slidesPerPage == 0) {
           elm.classList.add("css-slide--snap");
           elm.setAttribute("data-index", page++);
@@ -476,6 +635,19 @@ if (typeof CSSSlider !== "function") {
         this.index = 0;
       }
       this.length = Math.ceil(this.items.length / this.slidesPerPage);
+      
+      // Create loop clones if loop is enabled - do it after everything is set up
+      if (this.o.loop && this.length > 1 && this.indexedItems.length > 0) {
+        // Wait for layout to be complete, then create clones
+        setTimeout(() => {
+          this._createLoopClones(resetIndex);
+        }, 300);
+      } else {
+        // Only remove clones if loop is disabled
+        if (!this.o.loop) {
+          this._removeLoopClones();
+        }
+      }
 
       // recreate navigation
 
@@ -524,17 +696,165 @@ if (typeof CSSSlider !== "function") {
       this.checkSlide();
 
       if (!nojump) {
-        this.element.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "auto",
-        });
+        // If loop is enabled, wait for clones to be created before setting scroll
+        // Otherwise scroll to start
+        if (!this.o.loop || this.loopClones.length > 0) {
+          // For loop, scroll position is set in _createLoopClones
+          if (!this.o.loop) {
+            this.element.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "auto",
+            });
+          }
+        }
       }
       this.element.classList.remove("disable-snapping");
 
       this.setAttribute("data-slider-length", this.length);
 
       this.dispatchEvent(this._resetEvent);
+    }
+
+    _createLoopClones(resetIndex = false) {
+      const container = this.querySelector(".css-slider-container");
+      if (!container) return;
+      
+      // Re-query to get current state (in case resetSlider was called)
+      const allItems = this.querySelectorAll(`${this.o.selector}`);
+      const realItems = Array.from(allItems).filter(item => {
+        const isClone = item.classList.contains("css-slide-clone") || 
+                       item.hasAttribute("data-is-clone") ||
+                       item.closest(".css-slide-clone, [data-is-clone='true']");
+        return !isClone;
+      });
+      
+      // Re-query indexed items (snap points)
+      const currentIndexedItems = this.querySelectorAll(`${this.o.selector}.css-slide--snap`);
+      const realIndexedItems = Array.from(currentIndexedItems).filter(item => {
+        const isClone = item.classList.contains("css-slide-clone") || 
+                       item.hasAttribute("data-is-clone") ||
+                       item.closest(".css-slide-clone, [data-is-clone='true']");
+        return !isClone;
+      });
+      
+      if (realIndexedItems.length === 0 || realItems.length === 0) {
+        return;
+      }
+      
+      // Remove existing clones first
+      this._removeLoopClones();
+      
+      // Get the first and last real indexed items (snap points)
+      const firstIndexedItem = realIndexedItems[0];
+      const lastIndexedItem = realIndexedItems[realIndexedItems.length - 1];
+      
+      if (!firstIndexedItem || !lastIndexedItem) {
+        return;
+      }
+      
+      // Clone the last indexed item and prepend to beginning
+      const lastClone = lastIndexedItem.cloneNode(true);
+      // Mark as clone
+      lastClone.classList.add("css-slide-clone", "css-slide-clone-start");
+      lastClone.setAttribute("data-clone-index", realIndexedItems.length - 1);
+      lastClone.setAttribute("data-is-clone", "true");
+      // Remove snap class from clone so it doesn't interfere with indexing
+      lastClone.classList.remove("css-slide--snap");
+      // Ensure the cloned element itself is marked (in case it matches the selector)
+      if (lastClone.matches && lastClone.matches(this.o.selector)) {
+        lastClone.classList.add("css-slide-clone");
+      }
+      // Mark any nested elements that match the selector
+      const lastCloneChildren = lastClone.querySelectorAll(this.o.selector);
+      lastCloneChildren.forEach(slide => {
+        slide.classList.add("css-slide-clone");
+        slide.setAttribute("data-is-clone", "true");
+      });
+      // Insert before first real item
+      container.insertBefore(lastClone, firstIndexedItem);
+      this.loopClones.push(lastClone);
+      
+      // Clone the first indexed item and append to end
+      const firstClone = firstIndexedItem.cloneNode(true);
+      // Mark as clone
+      firstClone.classList.add("css-slide-clone", "css-slide-clone-end");
+      firstClone.setAttribute("data-clone-index", 0);
+      firstClone.setAttribute("data-is-clone", "true");
+      // Remove snap class from clone so it doesn't interfere with indexing
+      firstClone.classList.remove("css-slide--snap");
+      // Ensure the cloned element itself is marked (in case it matches the selector)
+      if (firstClone.matches && firstClone.matches(this.o.selector)) {
+        firstClone.classList.add("css-slide-clone");
+      }
+      // Mark any nested elements that match the selector
+      const firstCloneChildren = firstClone.querySelectorAll(this.o.selector);
+      firstCloneChildren.forEach(slide => {
+        slide.classList.add("css-slide-clone");
+        slide.setAttribute("data-is-clone", "true");
+      });
+      // Append to end
+      container.appendChild(firstClone);
+      this.loopClones.push(firstClone);
+      
+      // Force multiple reflows to ensure clones are laid out
+      container.offsetHeight;
+      void container.offsetWidth;
+      
+      // Recalculate positions after clones are added
+      const updatePositions = () => {
+        // Re-query positions after clones are added
+        const updatedFirstItem = this.querySelector(`${this.o.selector}.css-slide--snap:not(.css-slide-clone):not([data-is-clone])`);
+        const updatedLastItem = Array.from(this.querySelectorAll(`${this.o.selector}.css-slide--snap:not(.css-slide-clone):not([data-is-clone])`)).pop();
+        
+        if (updatedFirstItem && updatedLastItem) {
+          const firstItemMargin = parseInt(getComputedStyle(updatedFirstItem).marginLeft || 0);
+          const firstRealPosition = updatedFirstItem.offsetLeft - firstItemMargin;
+          const lastRealPosition = updatedLastItem.offsetLeft + updatedLastItem.offsetWidth - firstItemMargin;
+          this.loopStartOffset = lastRealPosition;
+          
+          // Scroll to first real slide (not the clones) if resetting
+          if (resetIndex && !this._sliderBlockScroll) {
+            this._sliderBlockScroll = true;
+            this.element.scrollLeft = firstRealPosition;
+            setTimeout(() => {
+              this._sliderBlockScroll = false;
+            }, 200);
+          }
+        }
+      };
+      
+      // Use multiple animation frames to ensure layout is complete
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            updatePositions();
+          });
+        });
+      });
+    }
+
+    _removeLoopClones() {
+      // Remove clones from DOM
+      if (this.loopClones && this.loopClones.length > 0) {
+        this.loopClones.forEach(clone => {
+          if (clone && clone.parentNode) {
+            clone.parentNode.removeChild(clone);
+          }
+        });
+        this.loopClones = [];
+      }
+      
+      // Also remove any orphaned clones that might exist
+      const container = this.querySelector(".css-slider-container");
+      if (container) {
+        const orphanedClones = container.querySelectorAll(".css-slide-clone, [data-is-clone='true']");
+        orphanedClones.forEach(clone => {
+          if (clone.parentNode) {
+            clone.parentNode.removeChild(clone);
+          }
+        });
+      }
     }
   }
 
