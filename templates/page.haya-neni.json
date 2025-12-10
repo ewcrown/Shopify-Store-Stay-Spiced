@@ -1,0 +1,491 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_QPHp8r": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Kopie_von_Header_Startseite_-_Desktop_4.png",
+        "mobile_image": "shopify://shop_images/Kopie_von_Header_Startseite_-_Mobile.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "featured_product_DErhEX": {
+      "type": "featured-product",
+      "blocks": {
+        "title_maHfPh": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_fKUCgR": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_emnzbz": {
+          "type": "space",
+          "settings": {}
+        },
+        "price_QamALg": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_8tFefc": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_nA6kEr": {
+          "type": "space",
+          "settings": {}
+        },
+        "bullet_x6CVDb": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "🌿 Geschmack wie aus 1001 Nacht: Entdecke die faszinierende Welt der Levante mit perfekt abgestimmten S! Gewürzen für Hummus, Falafel, Shawarma & mehr.",
+            "bullet_02": "🫓 Orientalisch, kreativ, alltagstauglich: Hol dir das Streetfood-Feeling nach Hause – ideal für Wraps, Ofengerichte & vegetarische Highlights.",
+            "bullet_03": "📦 Mit Rezepten & Genussgarantie: Freu dich auf inspirierende Rezepte und außergewöhnliche Gewürze, die deine Küche in ein Levante-Paradies verwandeln."
+          }
+        }
+      },
+      "block_order": [
+        "title_maHfPh",
+        "variant_picker_fKUCgR",
+        "space_emnzbz",
+        "price_QamALg",
+        "buy_buttons_8tFefc",
+        "space_nA6kEr",
+        "bullet_x6CVDb"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "levante-gewurze-set-6er-geschenkbox",
+        "gallery_ratio": "1",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "slideshow_dU7ida": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8GtYWy": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/SCHNEGGEN_JETZT_CHEGGEN_1.png",
+            "mobile_image": "shopify://shop_images/Kopie_von_Header_Startseite_-_Mobile-2.png",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "image_8GtYWy"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "featured_collection_qUQHP3": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_KpVVLb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_qHdFtj": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_43rAmX": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_KpVVLb",
+        "title_qHdFtj",
+        "quick_buy_43rAmX"
+      ],
+      "settings": {
+        "heading": "Levante Küche für dein Zuhause",
+        "header-width-limit": 580,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "haya-molcho-neni",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "custom_liquid_PGAiYT": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "iframe {width: 90%; height: 600px; margin: 0 auto; background-color: #777;"
+      ],
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<iframe width=\"80%\" height=\"500px\" src=\"https://www.youtube.com/embed/rFkEYxDg6AE?si=4iz7VBKK7mhxQ4aR\" title=\"YouTube video player\" frameborder=\"0\" text-align:center; allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "media_with_text_overlay_YjJ7C4": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_fg6Phr": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/fisch_zubereitung.mov",
+            "external_video_link": "https://www.youtube.com/shorts/93Si0LsBwh0",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_fg6Phr"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_3NCQLz": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_7TWyq9": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_7TWyq9"
+      ],
+      "settings": {
+        "title": "LEVANTE REZEPTE:",
+        "subheading": "",
+        "post_limit": 6,
+        "section_heading_layout": "section-heading--center",
+        "blog": "haya-molcho",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "0.666667",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_cw3icz": {
+      "type": "rich-text",
+      "blocks": {
+        "title_yCheJA": {
+          "type": "title",
+          "settings": {
+            "title": "HAYA MOLCHO & NENI: Die Levante-Gewürze von STAY SPICED !",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_KVBQGc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Haya Molcho prägt wie kaum eine andere Köchin die moderne <strong>Levante-Küche</strong>. Geboren 1955 in Tel Aviv, sammelte sie auf Reisen von Indien bis Marokko kulinarische Eindrücke, die ihren kreativen Stil formten. </p><p><strong>2009</strong> eröffnete sie mit ihren vier Söhnen das erste <strong>NENI Restaurant</strong> am Wiener Naschmarkt – heute eine europaweit gefeierte Marke. </p><p>Gemeinsam mit STAY SPICED ! entstand daraus eine <strong>exklusive Levante-Gewürzlinie</strong>: von S! Zaatar über S! Harissa bis S! Tel Aviv – inspiriert von Begegnungen, Märkten und jahrzehntelanger Kochleidenschaft.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_yCheJA",
+        "text_KVBQGc"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/DSC02499.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#cad948",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_icons_7mBGmc": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_6fMdef": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "100% Gewürz",
+            "caption": "Unsere Suppengewürze bestehen zu 100 % aus natürlichen & hochwertigen Zutaten!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_GgzVcW": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "image": "shopify://shop_images/delivery-256.png",
+            "title": "Super schnelle Lieferung",
+            "caption": "Und ab 39,99 sogar Versandkostenfrei zu dir nach hause",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_cPTxqN": {
+          "type": "image",
+          "settings": {
+            "icon": "tree",
+            "image": "shopify://shop_images/heart-256.png",
+            "title": "Ohne künstliche Zusatzstoffe",
+            "caption": "Unsere Suppengewürze sind ganz ohne künstliche Zusatzstoffe – für den puren, natürlichen Geschmack!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_6fMdef",
+        "image_GgzVcW",
+        "image_cPTxqN"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_cbQCV6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_DiGW4z": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ckYCnq": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_TaG4Uf": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_DiGW4z",
+        "title_ckYCnq",
+        "quick_buy_TaG4Uf"
+      ],
+      "settings": {
+        "heading": "UNSERE NENI KOCHBÜCHER:",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "haya-molcho-bucher",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_7wVFwr": {
+      "type": "rich-text",
+      "blocks": {
+        "title_YeKbJt": {
+          "type": "title",
+          "settings": {
+            "title": "Der Moment, der unsere LEVANTE-Gewürze prägte!",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_LKQrAf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ein Schlüsselmoment in der Entwicklung dieser Linie: Lukas M. Walchhofer, CEO von STAY SPICED !, begleitete Haya Molcho durch <strong>Tel Aviv</strong>. Gemeinsam erkundeten sie die kulinarische Vielfalt der Stadt – von traditionellen Familienküchen über Streetfood bis zu duftenden Gewürzmärkten – immer auf der Suche nach dem perfekten Geschmack der Levanten Küche.</p><p><strong>Jetzt die Levante-Gewürze von Haya Molcho entdecken und den Geschmack Tel Avivs in deine Küche holen!</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_tptH7C": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gewürze entdecken!",
+            "link": "shopify://collections/levante-gewurze",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_YeKbJt",
+        "text_LKQrAf",
+        "button_tptH7C"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/IMG_9874.jpg",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#cad948",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "image_QPHp8r",
+    "main",
+    "featured_product_DErhEX",
+    "slideshow_dU7ida",
+    "featured_collection_qUQHP3",
+    "custom_liquid_PGAiYT",
+    "media_with_text_overlay_YjJ7C4",
+    "blog_slider_3NCQLz",
+    "rich_text_cw3icz",
+    "text_columns_icons_7mBGmc",
+    "featured_collection_cbQCV6",
+    "rich_text_7wVFwr"
+  ]
+}

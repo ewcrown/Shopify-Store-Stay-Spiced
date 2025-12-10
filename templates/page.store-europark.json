@@ -1,0 +1,380 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_WGieQ7": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/EP_x_SCS_4-tinified.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "media_with_text_overlay_GKy9gX": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_fFbijg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EP_x_SCS_4-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_fFbijg"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h2",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_icons_8NbXg6": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_aH9h7z": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "image": "shopify://shop_images/Taste_3a202183-0971-4bd5-a9c2-a858e1cdf6a7.png",
+            "title": "Verkoste täglich Ideen rund um's Thema Kochen und Gewürze",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_6UHMdY": {
+          "type": "image",
+          "settings": {
+            "icon": "time-limit",
+            "image": "shopify://shop_images/Feel_2_ff87f5ef-26f3-4997-bee6-da58abc7ea70.png",
+            "title": "Erlebe mehr als 500+ Gewürze aus aller Welt mit all deinen Sinnen",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_TyyUNR": {
+          "type": "image",
+          "settings": {
+            "icon": "store",
+            "image": "shopify://shop_images/Learn_2_058aa964-2fda-47b1-baba-610d59c857e2.png",
+            "title": "Lass dich von unserem Team beraten, zu deinen Kochideen",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_aH9h7z",
+        "image_6UHMdY",
+        "image_TyyUNR"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 0,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_MhQxzX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Ahrrmc": {
+          "type": "title",
+          "settings": {
+            "title": "<em><strong>STAY SPICED ! Store im Europark Salzburg</strong></em>",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_gqMNEU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Mit viel Herzblut und Leidenschaft entstand unser erster Concept Store im Europark Salzburg. Hier kannst du in die Welt der Gewürze eintauchen – riechen, schmecken & staunen. Entdecke, wie intensiv guter Geschmack wirklich sein kann und finde deine Lieblingsmischung direkt vor Ort. Jedes Detail ist darauf ausgelegt, deine Sinne zu wecken und deine Küche zu inspirieren.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_yrXRqT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Auf Google ansehen",
+            "link": "https://maps.app.goo.gl/C1JH8VvdrzpoiK5i9",
+            "target_id": "Mehr erfahren",
+            "open_in_new_window": true,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Ahrrmc",
+        "text_gqMNEU",
+        "button_yrXRqT"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Teamfotos_Website_11_6.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "#1d1d1d",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_Bhhexw": {
+      "type": "rich-text",
+      "blocks": {
+        "title_PXWaGf": {
+          "type": "title",
+          "settings": {
+            "title": "<em><strong>STAY SPICED ! Store in der Shopping City Süd (SCS) Wien</strong></em>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_tTjKMt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Endlich ist es so weit: Unser Concept Store hat auch in Wien seine Türen geöffnet! Mitten im urbanen Trubel findest du bei uns eine Oase für Genießer*innen. Komm vorbei, koste dich durch handverlesene Gewürze und entdecke neue Geschmäcker, die deine Kochlust wecken. Ein Ort, an dem Geschmack lebendig wird – intensiv, ehrlich und voller Emotion.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_LeAgfx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Auf Google ansehen",
+            "link": "https://maps.app.goo.gl/aoXaLciqunJhkK7C7",
+            "target_id": "ansehen",
+            "open_in_new_window": true,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_PXWaGf",
+        "text_tTjKMt",
+        "button_LeAgfx"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Teamfotos_Website_11_7_-tinified_1.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "content_toggles_xez9hR": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_haRWFp": {
+          "type": "text",
+          "settings": {
+            "title": "Öffnungszeiten",
+            "subtitle": "",
+            "icon": "appointment",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Unsere Shops haben folgende Öffnungszeiten:</p><p><strong>MO 09:00 - 19:30<br/>DI 09:00 - 19:30<br/>MI 09:00 - 19:30<br/>DO 09:00 - 19:30<br/>FR 09:00 - 21:00<br/>SA 09:00 - 18:00<br/>SO geschlossen</strong></p><p>(<strong>EUROPARK </strong>Salzburg in der Europastraße 1, 5020 Salzburg. Unser STAY SPICED ! Store befindet sich im 1. Stock Theaterplatz.)</p><p>(<strong>SCS </strong>Vösendorf Wien: Vösendorfer Südring, 2334 Vösendorf. Level 0, Eingang 6)</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_BAkWiK": {
+          "type": "text",
+          "settings": {
+            "title": "Zahlungsarten",
+            "subtitle": "",
+            "icon": "currency",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>Cashless only!</strong> Wir akzeptieren alle gängigen Zahlungsarten:</p><p>Mastercard, VISA-Karte, American Express, Diners Club, Maestro, Giro Pay, EC-Card, V Pay, Apple Pay, Google Pay, Mobile Zahlung per NFC</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_hKwLmg": {
+          "type": "text",
+          "settings": {
+            "title": "Anfahrt",
+            "subtitle": "",
+            "icon": "map-marker",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>SALZBURG - EUROPARK</strong></p><p>Europastraße 1, 5020 Salzburg: Unser STAY SPICED ! Store befindet sich im 1. Stock Theaterplatz.</p><p><span style=\"text-decoration:underline\">Anreise mit dem Auto:</span></p><ul><li>A1: Autobahnabfahrt 293 Salzburg Klessheim </li><li>Über die Klessheimer Allee und Peter-Pfenninger-Straße</li><li>Parken: Zahlreiche kostenlose Parkplätze vom Europark zur Verfügung. </li></ul><p><span style=\"text-decoration:underline\">Öffentliche Verkehrsmittel:</span></p><ul><li>O-Buslinien: 1, 9, 12, 28, 34</li><li>Postbus-Linie: 142</li><li>S-Bahn-Linien: S2, S3</li></ul><p>-</p><p><strong>WIEN - SCS Vösendorf</strong></p><p>Vösendorfer Südring, 2334 Vösendorf. Level 0, Eingang 6.</p><p><span style=\"text-decoration:underline\">Anreise mit dem Auto:</span></p><ul><li>Südautobahn A2: Abfahrt SCS/Shopping City Süd</li><li>Alternativ über die B17: Triester Straße → Wiener Neudorf → SCS</li><li>Parken: Die SCS bietet über 10.000 kostenfreie Parkplätze, ideal gelegen nahe Eingang 6 (Level 0)</li></ul><p><span style=\"text-decoration:underline\">Öffentliche Verkehrsmittel:</span></p><ul><li>Badner Bahn: Station Vösendorf-SCS – ca. 5 Gehminuten bis Eingang 6</li><li>U-Bahn/U6: bis Siebenhirten, dann weiter mit dem Bus 207 oder Badner Bahn</li><li>Buslinien: 200, 207, 265, 266 (je nach Startpunkt)</li></ul>",
+            "hide_block_if": false
+          }
+        },
+        "text_9bjNHq": {
+          "type": "text",
+          "settings": {
+            "title": "Kontakt",
+            "subtitle": "",
+            "icon": "helpline",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>SALZBURG - EUROPARK</strong></p><ul><li><span style=\"text-decoration:underline\">Ansprechperson</span>: Herr Tobias Sedlmaier</li><li><span style=\"text-decoration:underline\">E-Mail:</span><strong> </strong>store.salzburg@stayspiced.com</li><li><span style=\"text-decoration:underline\">Website:</span> stayspiced.com</li><li><span style=\"text-decoration:underline\">Adresse</span><strong>:</strong> Europark: Europastraße 1, 5018 Salzburg: (1. Stock, Theaterplatz)</li></ul><p><strong>WIEN - SCS Vösendorf</strong></p><ul><li><span style=\"text-decoration:underline\">Ansprechperson</span>: Herr Jonathan Tobischek</li><li><span style=\"text-decoration:underline\">E-Mail:</span><strong> </strong>store.wien@stayspiced.com</li><li><span style=\"text-decoration:underline\">Website:</span> stayspiced.com</li><li><span style=\"text-decoration:underline\">Adresse</span>: Vösendorfer Südring, 2334 Vösendorf: (Level 0, Eingang 6.)</li></ul>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_haRWFp",
+        "text_BAkWiK",
+        "text_hKwLmg",
+        "text_9bjNHq"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "custom_liquid_76MjEg": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1W8lAttJhvVhFyh06vSgFErEreJmhEm8&ehbc=2E312F\" width=\"100%\" height=\"450\"></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "featured_collection_fUTmeA": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_XKBLAb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ir6LDy": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ggfjB8": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_XKBLAb",
+        "title_ir6LDy",
+        "quick_buy_ggfjB8"
+      ],
+      "settings": {
+        "heading": "Würzige Geschenke",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "alle-geschenke",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_WGieQ7",
+    "media_with_text_overlay_GKy9gX",
+    "text_columns_icons_8NbXg6",
+    "rich_text_MhQxzX",
+    "rich_text_Bhhexw",
+    "content_toggles_xez9hR",
+    "custom_liquid_76MjEg",
+    "featured_collection_fUTmeA"
+  ]
+}

@@ -1,0 +1,5 @@
+button.localization-form__item-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

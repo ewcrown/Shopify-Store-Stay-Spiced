@@ -1,0 +1,163 @@
+<div class="flex gap-3">
+  <product-quantity
+    class="product-quantity"
+    {% unless variant.available %}
+      style="display:none"
+    {% endunless %}
+    data-js-product-quantity
+  >
+    <button
+      class="product-quantity__minus qty-minus no-js-hidden"
+      aria-label="{{ 'general.accessibility_labels.decrease_quantity' | t }}"
+      role="button"
+      controls="qty-{{ id }}"
+    >
+      {%- render 'theme-symbols', icon: 'minus' -%}
+    </button>
+
+    <label for="qty-{{ id }}" class="visually-hidden">{{ 'general.accessibility_labels.quantity' | t }}</label>
+    <input
+      type="number"
+      name="quantity"
+      value="1"
+      min="1"
+      max="999"
+      class="product-quantity__selector qty-selector text-size--xlarge"
+      id="qty-{{ id }}"
+    >
+
+    <button
+      class="product-quantity__plus qty-plus no-js-hidden"
+      aria-label="{{ 'general.accessibility_labels.increase_quantity' | t }}"
+      role="button"
+      controls="qty-{{ id }}"
+    >
+      {%- render 'theme-symbols', icon: 'plus' -%}
+    </button>
+  </product-quantity>
+  {%- if block.settings.show_stock_info -%}
+    <stock-info>
+      {%- for variant in product.variants -%}
+        {%- if variant.inventory_quantity >= 10 -%}
+          <input
+            type="hidden"
+            data-variant-id="{{ variant.id }}"
+            data-variant-availability="green"
+            data-variant-stock-text="{{ 'products.custom.available' | t }}"
+            data-variant-shipping-text="{{ 'products.custom.available_shipping' | t }}"
+          >
+          {%- if variant.id == product.selected_or_first_available_variant.id -%}
+            {%- assign variant_availability = 'green' -%}
+            {%- assign variant_stock_text = 'products.custom.available' | t -%}
+            {%- assign variant_shipping_text = 'products.custom.available_shipping' | t -%}
+          {%- endif -%}
+        {%- elsif variant.inventory_quantity > 0 and variant.inventory_quantity < 10 -%}
+          <input
+            type="hidden"
+            data-variant-id="{{ variant.id }}"
+            data-variant-availability="green"
+            data-variant-stock-text="{{ 'products.custom.available_low_stock' | t }}"
+            data-variant-shipping-text="{{ 'products.custom.available_low_stock_shipping' | t }}"
+          >
+          {%- if variant.id == product.selected_or_first_available_variant.id -%}
+            {%- assign variant_availability = 'green' -%}
+            {%- assign variant_stock_text = 'products.custom.available_low_stock' | t -%}
+            {%- assign variant_shipping_text = 'products.custom.available_low_stock_shipping' | t -%}
+          {%- endif -%}
+        {%- elsif variant.inventory_quantity <= 0
+          and variant.inventory_policy == 'continue'
+          and product.template_suffix != 'product_handelsware'
+        -%}
+          <input
+            type="hidden"
+            data-variant-id="{{ variant.id }}"
+            data-variant-availability="orange"
+            data-variant-stock-text="{{ 'products.custom.in_production' | t }}"
+            data-variant-shipping-text="{{ 'products.custom.in_production_shipping' | t }}"
+          >
+          {%- if variant.id == product.selected_or_first_available_variant.id -%}
+            {%- assign variant_availability = 'orange' -%}
+            {%- assign variant_stock_text = 'products.custom.in_production' | t -%}
+            {%- assign variant_shipping_text = 'products.custom.in_production_shipping' | t -%}
+          {%- endif -%}
+        {%- elsif variant.inventory_quantity <= 0 and product.template_suffix == 'product_handelsware' -%}
+          <input
+            type="hidden"
+            data-variant-id="{{ variant.id }}"
+            data-variant-availability="orange"
+            data-variant-stock-text="{{ 'products.custom.backorder' | t }}"
+            data-variant-shipping-text="{{ 'products.custom.backorder_shipping' | t }}"
+          >
+          {%- if variant.id == product.selected_or_first_available_variant.id -%}
+            {%- assign variant_availability = 'orange' -%}
+            {%- assign variant_stock_text = 'products.custom.backorder' | t -%}
+            {%- assign variant_shipping_text = 'products.custom.backorder_shipping' | t -%}
+          {%- endif -%}
+        {%- elsif variant.inventory_quantity <= 0 and variant.inventory_policy == 'deny' -%}
+          <input
+            type="hidden"
+            data-variant-id="{{ variant.id }}"
+            data-variant-availability="red"
+            data-variant-stock-text="{{ 'products.custom.unavailable' | t }}"
+            data-variant-shipping-text="{{ 'products.custom.unavailable_shipping' | t }}"
+          >
+          {%- if variant.id == product.selected_or_first_available_variant.id -%}
+            {%- assign variant_availability = 'red' -%}
+            {%- assign variant_stock_text = 'products.custom.unavailable' | t -%}
+            {%- assign variant_shipping_text = 'products.custom.unavailable_shipping' | t -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+      <div
+        class="product__variant-availability text-size--xsmall"
+        data-variant-availability="{{ variant_availability }}"
+      >
+        {{ variant_stock_text }}
+      </div>
+      <div class="product__variant-shipping-info text-size--xsmall">
+        {%- if variant_shipping_text != blank -%}
+          {%- render 'icon-pack', icon: 'shipping-truck' -%}
+          {{- variant_shipping_text -}}
+        {%- endif -%}
+      </div>
+    </stock-info>
+  {%- endif -%}
+</div>
+<style>
+  stock-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .product__variant-availability,
+  .product__variant-shipping-info {
+    display: flex;
+    align-items: center;
+  }
+  .product__variant-availability::before {
+    border-radius: 100%;
+    content: '';
+    display: block;
+    height: 10px;
+    margin-inline-end: 5px;
+    width: 10px;
+  }
+
+  .product__variant-availability[data-variant-availability='red']::before {
+    background: red;
+  }
+
+  .product__variant-availability[data-variant-availability='green']::before {
+    background: green;
+  }
+
+  .product__variant-availability[data-variant-availability='orange']::before {
+    background: orange;
+  }
+
+  .product__variant-shipping-info svg {
+    margin-inline-end: 5px;
+    height: auto;
+    width: 20px;
+  }
+</style>

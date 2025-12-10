@@ -1,0 +1,1199 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "trusted_shops_easy_integration_mini_stars_LyxBbz": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        },
+        "text_iyX4pw": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.txt_newshortdescription.value }}</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#6a6a6a",
+            "text_transform": false,
+            "text_id": ""
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "type": "{{ product.metafields.custom.att_categoriesshop.value }}"
+          }
+        },
+        "product_benefits_i4BF4W": {
+          "type": "product_benefits",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "select",
+            "label": "Wähle deine Größe"
+          }
+        },
+        "price_Xx3gHx": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_stock_info": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "buy_button_background_color": "#ffff00",
+            "buy_button_border_color": "#1d1d1d",
+            "buy_button_color": "#1d1d1d"
+          }
+        },
+        "payment_rrinff": {
+          "type": "payment",
+          "settings": {
+            "override_payments": "visa,master,american_express,paypal"
+          }
+        },
+        "icons_XFxmNa": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify://shop_images/icons-regional.png",
+            "icon_1_label": "Regional hergestellt",
+            "icon_2_image": "shopify://shop_images/icon-versand.png",
+            "icon_2_label": "CO2 neutraler Versand",
+            "icon_3_image": "shopify://shop_images/icon-frei.png",
+            "icon_3_label": "Nachhaltige Verpackung",
+            "icon_4_image": "shopify://shop_images/icons-frei.png",
+            "icon_4_label": "Frei von Zusatzstoffen",
+            "icon_5_label": "",
+            "icon_6_label": "",
+            "hide_block_if": false
+          }
+        },
+        "text_CraKEw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>KURZBESCHREIBUNG<br/></strong></em>{{ product.metafields.custom.txt_newshortdescription.value }}</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false,
+            "text_id": ""
+          }
+        },
+        "text_dqM7Li": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>VERWENDUNG<br/></strong></em>{{ product.metafields.custom._txt_usage.value }}</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false,
+            "text_id": ""
+          }
+        },
+        "text_RDUhDb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>GUT ZU WISSEN<br/></strong></em>{{ product.metafields.custom.txt_goodtoknow.value }}</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false,
+            "text_id": ""
+          }
+        },
+        "text_CnJYwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>GESCHMACK<br/></strong></em>{{ product.metafields.custom.txt_taste.value }}</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false,
+            "text_id": ""
+          }
+        },
+        "text_HcmqtK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>PRODUKTION<br/></strong></em>{{ product.metafields.custom.att_produktion.value }}</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false,
+            "text_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "trusted_shops_easy_integration_mini_stars_LyxBbz",
+        "text_iyX4pw",
+        "title",
+        "product_benefits_i4BF4W",
+        "variant_picker",
+        "price_Xx3gHx",
+        "buy_buttons",
+        "payment_rrinff",
+        "icons_XFxmNa",
+        "text_CraKEw",
+        "text_dqM7Li",
+        "text_RDUhDb",
+        "text_CnJYwU",
+        "text_HcmqtK"
+      ],
+      "custom_css": [
+        ".main-product {max-width: 1360px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "gallery_style": "slider",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_block_padding": 0,
+        "gallery_inline_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "main_background": "{{ product.metafields.custom.background_color.value }}"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "quick_buy"
+      ],
+      "disabled": true,
+      "settings": {
+        "list_products": [],
+        "heading": "You may also like",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    },
+    "anchor_navigation_p4CpLb": {
+      "type": "anchor-navigation",
+      "blocks": {
+        "navigation_item_YVy6HR": {
+          "type": "navigation_item",
+          "settings": {
+            "title": "Verwendung",
+            "anchor": "#usage"
+          }
+        },
+        "navigation_item_DB9zq6": {
+          "type": "navigation_item",
+          "settings": {
+            "title": "Details",
+            "anchor": "#details"
+          }
+        },
+        "navigation_item_Y8cLBt": {
+          "type": "navigation_item",
+          "settings": {
+            "title": "Geschmack",
+            "anchor": "#taste"
+          }
+        },
+        "navigation_item_CwFchn": {
+          "type": "navigation_item",
+          "settings": {
+            "title": "Gut zu Wissen",
+            "anchor": "#goodtoknow"
+          }
+        },
+        "navigation_item_DXBRLK": {
+          "type": "navigation_item",
+          "settings": {
+            "title": "Bewertungen",
+            "anchor": "#ratings"
+          }
+        }
+      },
+      "block_order": [
+        "navigation_item_YVy6HR",
+        "navigation_item_DB9zq6",
+        "navigation_item_Y8cLBt",
+        "navigation_item_CwFchn",
+        "navigation_item_DXBRLK"
+      ],
+      "settings": {}
+    },
+    "product_info_anchor_bpQWBc": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#description"
+      }
+    },
+    "rich_text_D6GD48": {
+      "type": "rich-text",
+      "blocks": {
+        "title_gnArqN": {
+          "type": "title",
+          "settings": {
+            "title": "{{ product.title }}",
+            "title_size": "h3",
+            "seo_h_tag": "h3"
+          }
+        },
+        "subtitle_UeqPGq": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Verwendung und Anwendung",
+            "title_size": "h2"
+          }
+        },
+        "text_j9Hqgi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom._txt_usage.value }}</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_gnArqN",
+        "subtitle_UeqPGq",
+        "text_j9Hqgi"
+      ],
+      "settings": {
+        "element_id": "#usage",
+        "image": "{{ product.featured_image }}",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "product_info_anchor_FwAQeJ": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#details"
+      }
+    },
+    "product_ingredients_nyW8et": {
+      "type": "product-ingredients",
+      "blocks": {
+        "ingredient_MWnAmE": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Zutaten",
+            "value": "{{ product.metafields.custom.zutaten.value }}",
+            "liquid": ""
+          }
+        },
+        "ingredient_TA6BJK": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Verkehrsbezeichnung",
+            "value": "{{ product.metafields.custom.att_vkz.value }}",
+            "liquid": ""
+          }
+        },
+        "nutrition_9cJgmg": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Durchschnittliche Nährwerte pro",
+            "value": "100",
+            "unit": "ml*"
+          }
+        },
+        "nutrition_tgmKa3": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Brennwert",
+            "value": "{{ product.metafields.custom.brennwert.value }}",
+            "unit": "kJ"
+          }
+        },
+        "nutrition_VfCT9n": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Kalorien",
+            "value": "{{ product.metafields.custom.kalorien.value }}",
+            "unit": "kCal"
+          }
+        },
+        "nutrition_KWj4XJ": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Fett",
+            "value": "{{ product.metafields.custom.fett.value }}",
+            "unit": "g"
+          }
+        },
+        "nutrition_ezHLyC": {
+          "type": "nutrition",
+          "settings": {
+            "title": "- davon gesättigt",
+            "value": "{{ product.metafields.custom.davon_gesaettigte_fettsaeuren.value }}",
+            "unit": "g"
+          }
+        },
+        "nutrition_YgFiMP": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Kohlenhydrate",
+            "value": "{{ product.metafields.custom.kohlenhydrate.value }}",
+            "unit": "g"
+          }
+        },
+        "nutrition_WmC3Ct": {
+          "type": "nutrition",
+          "settings": {
+            "title": "- davon Zucker",
+            "value": "{{ product.metafields.custom.davon_zucker.value }}",
+            "unit": "g"
+          }
+        },
+        "nutrition_EYc7NN": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Eiweiß",
+            "value": "{{ product.metafields.custom.eiweiss.value }}",
+            "unit": "g"
+          }
+        },
+        "nutrition_CXkLX7": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Salz",
+            "value": "{{ product.metafields.custom.salz_neu.value }}",
+            "unit": "g"
+          }
+        },
+        "nutrition_D3Rb9f": {
+          "type": "nutrition",
+          "settings": {
+            "title": "",
+            "value": "*",
+            "unit": "in fertiger Suppe"
+          }
+        },
+        "ingredient_btBV7U": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mahlgrad",
+            "value": "{{ product.metafields.custom.att_grind.value }}",
+            "liquid": ""
+          }
+        },
+        "ingredient_TKWXp6": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Empfohlen für",
+            "value": "",
+            "liquid": "{% assign items =  product.metafields.custom.att_usage.value  | split: \",\" %}\n{% assign formatted_items = \"\" %}\n\n{% for item in items %}\n  {% assign capitalized_item = item | capitalize %}\n  {% if forloop.last %}\n    {% assign formatted_items = formatted_items | append: capitalized_item %}\n  {% else %}\n    {% assign formatted_items = formatted_items | append: capitalized_item | append: \", \" %}\n  {% endif %}\n{% endfor %}\n\n{{ formatted_items }}"
+          }
+        },
+        "ingredient_DWtLWK": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Schärfegrad",
+            "value": "{{ product.metafields.custom.att_scharfgrad.value }}",
+            "liquid": ""
+          }
+        },
+        "ingredient_8LEENy": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Gewicht:",
+            "value": "",
+            "liquid": ""
+          }
+        },
+        "ingredient_KMTbzb": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Region",
+            "value": "",
+            "liquid": "{% assign items =  product.metafields.custom.att_world.value  | split: \",\" %}\n{% assign formatted_items = \"\" %}\n\n{% for item in items %}\n  {% assign capitalized_item = item | capitalize %}\n  {% if forloop.last %}\n    {% assign formatted_items = formatted_items | append: capitalized_item %}\n  {% else %}\n    {% assign formatted_items = formatted_items | append: capitalized_item | append: \", \" %}\n  {% endif %}\n{% endfor %}\n\n{{ formatted_items }}"
+          }
+        },
+        "ingredient_CLReRG": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Lagerung",
+            "value": "",
+            "liquid": "{% assign text = product.metafields.custom.lagerung.value %}\n{% assign first_letter = text | slice: 0, 1 | upcase %}\n{% assign rest_of_text = text | slice: 1, text.size %}\n{% assign capitalized_text = first_letter | append: rest_of_text %}\n\n{{ capitalized_text }}"
+          }
+        },
+        "ingredient_ALf7PJ": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Artikelnummer",
+            "value": "",
+            "liquid": "{% for variant in product.variants %}\n\n{{ variant.sku -}}\n{%- unless forloop.last -%} ,\n{%- endunless -%}\n\n{% endfor %}"
+          }
+        },
+        "ingredient_AhPYiR": {
+          "type": "ingredient",
+          "settings": {
+            "title": "EAN",
+            "value": "",
+            "liquid": "{% for variant in product.variants %}\n\n{{ variant.barcode -}}\n{%- unless forloop.last -%},\n{%- endunless -%}\n{% endfor %}"
+          }
+        },
+        "ingredient_ik39mj": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Gewicht",
+            "value": "",
+            "liquid": "{% for variant in product.variants %}\n\n{{ variant.weight | weight_with_unit -}}\n{%- unless forloop.last -%},\n{%- endunless -%}\n\n{% endfor %}"
+          }
+        }
+      },
+      "block_order": [
+        "ingredient_MWnAmE",
+        "ingredient_TA6BJK",
+        "nutrition_9cJgmg",
+        "nutrition_tgmKa3",
+        "nutrition_VfCT9n",
+        "nutrition_KWj4XJ",
+        "nutrition_ezHLyC",
+        "nutrition_YgFiMP",
+        "nutrition_WmC3Ct",
+        "nutrition_EYc7NN",
+        "nutrition_CXkLX7",
+        "nutrition_D3Rb9f",
+        "ingredient_btBV7U",
+        "ingredient_TKWXp6",
+        "ingredient_DWtLWK",
+        "ingredient_8LEENy",
+        "ingredient_KMTbzb",
+        "ingredient_CLReRG",
+        "ingredient_ALf7PJ",
+        "ingredient_AhPYiR",
+        "ingredient_ik39mj"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Details",
+        "title_size": "h3",
+        "seo_h_tag": "h2"
+      }
+    },
+    "related_recipes_A3gwKf": {
+      "type": "related-recipes",
+      "blocks": {
+        "title_pTEyCT": {
+          "type": "title",
+          "settings": {}
+        },
+        "summary_qDUjWW": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 10
+          }
+        }
+      },
+      "block_order": [
+        "title_pTEyCT",
+        "summary_qDUjWW"
+      ],
+      "settings": {
+        "title": "Passende Rezepte zu {{ product.title }}",
+        "subheading": "",
+        "show_view_all": false,
+        "section_heading_layout": "section-heading--center",
+        "blog": "news,rezepte,profi-koche,roland-trettl,tom-heinzle,haya-molcho,ben-perry,blogger-vips,s!-rezepte,backen,barbecue,curry,fisch,fleisch,gemuse,grill,sepp-schellhorn",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": false,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "product_info_anchor_wxAddB": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#sustainability"
+      }
+    },
+    "product_ingredients_keVp4K": {
+      "type": "product-ingredients",
+      "settings": {
+        "title": "Details",
+        "title_size": "h2",
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_A9TtLT": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Etpf3J": {
+          "type": "title",
+          "settings": {
+            "title": "WIR L(I)EBEN GEWÜRZE",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_TRqAEB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_6Fr8ei": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Etpf3J",
+        "text_TRqAEB",
+        "button_6Fr8ei"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/20241018060138-dsc01034.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "product_info_anchor_hTFKA3": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#origin"
+      }
+    },
+    "rich_text_zdy6NH": {
+      "type": "rich-text",
+      "blocks": {
+        "title_nK7NbJ": {
+          "type": "title",
+          "settings": {
+            "title": "Herkunft",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_a4NwhQ": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Unsere Dosen bestehen....",
+            "title_size": "h2"
+          }
+        },
+        "text_BEnTeE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_MH9Cdy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_nK7NbJ",
+        "subtitle_a4NwhQ",
+        "text_BEnTeE",
+        "button_MH9Cdy"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Bildschirmfoto_2024-10-18_um_08.13.58.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "{{ product.metafields.custom.background_color.value }}",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "content_toggles_T4jUNc": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_cdHNUX": {
+          "type": "text",
+          "repeater": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.title.value }}",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_cdHNUX"
+      ],
+      "settings": {
+        "heading": "Frequently asked question",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "product_info_anchor_Je4mPa": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#ratings"
+      }
+    },
+    "172949930252a92eb1": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_easy_integration_product_review_list_qDt388": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/product-review-list/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_easy_integration_product_review_list_qDt388"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "product_recommendations_UBjNCt": {
+      "type": "product-recommendations",
+      "settings": {
+        "list_products": [],
+        "heading": "Diese Gewürze werden dir auch gut schmecken!",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 8,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    },
+    "image_accordion_MpheP6": {
+      "type": "image-accordion",
+      "blocks": {
+        "title_Ftc7im": {
+          "type": "title",
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_bzwzn9": {
+          "type": "text",
+          "repeater": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.title.value }}",
+            "subtitle": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        },
+        "text_9b7jPN": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping Information",
+            "subtitle": "Question Subtitle",
+            "body": "<p>Provide shipping details here.</p>"
+          }
+        },
+        "text_nEQV7p": {
+          "type": "text",
+          "settings": {
+            "title": "Delivery Information",
+            "subtitle": "Question Subtitle",
+            "body": "<p>Provide delivery information here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_Ftc7im",
+        "text_bzwzn9",
+        "text_9b7jPN",
+        "text_nEQV7p"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "heading": "Frequently Asked Questions",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false
+      }
+    },
+    "content_toggles_MYTCxT": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_f4dNd4": {
+          "type": "text",
+          "repeater": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.title.value }}",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_f4dNd4"
+      ],
+      "settings": {
+        "heading": "Frequently asked question",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonial_element_73pxUF": {
+      "type": "testimonial-element",
+      "blocks": {
+        "element_bLGzAL": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.chefs.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.avatar.value }}",
+            "reviewer": "{{ block.repeater.reviewer.value }}",
+            "content": "{{ block.repeater.content | metafield_tag }}",
+            "review": 5,
+            "date": "{{ block.repeater.date | metafield_text }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_bLGzAL"
+      ],
+      "settings": {
+        "title": "Profis über STAY SPICED!",
+        "trust_element_type": "test--01",
+        "padding_value": 80,
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 3,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_9nh9qk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_iHgacR": {
+          "type": "title",
+          "settings": {
+            "title": "Außergewöhnliche Geschenke",
+            "title_size": "h3",
+            "seo_h_tag": "h3"
+          }
+        },
+        "subtitle_nXD67p": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Gewürze mag Jede/r!",
+            "title_size": "h2"
+          }
+        },
+        "text_6VJUJG": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Verschenke einzigartigen Genuss mit unseren exquisiten <a href=\"/collections/gewurz\" title=\"Alle Gewürze\"><em><strong>Gewürzen</strong></em></a>! Unsere hochwertigen Gewürzmischungen sind das perfekte Geschenk für alle Feinschmecker - das ganze Jahr über. <br/><br/></p><p>Stelle aus unserer Vielfalt eine <a href=\"/collections/alle-geschenke\" title=\"Alle Geschenke\"><em><strong>Geschenkbox </strong></em></a>zusammen, die genau auf den Geschmack des Beschenkten abgestimmt ist. Egal ob für besondere Anlässe oder als kleine Überraschung - unsere attraktiven Banderolen und variierenden Boxengrößen machen jedes Geschenk zu einem echten Hingucker. </p><p><br/>Du bist noch unentschlossen? Mit unseren <a href=\"/products/stay-spicesd-gutschein\" title=\"STAY Spiced ! Gutschein\"><em><strong>Gutscheinen </strong></em></a>schenkst du Freude und Flexibilität zugleich. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_6QMWD6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Entdecke hier deine Geschenkideen",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_iHgacR",
+        "subtitle_nXD67p",
+        "text_6VJUJG",
+        "button_6QMWD6"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Geschenke_STAYSPICED_8360e4f2-eeb9-431f-8b4c-74660bb7eb5a.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_LjLARD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_dypBCy": {
+          "type": "title",
+          "settings": {
+            "title": "Welche Gewürze braucht man?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_tVrW6e": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Entdecke die perfekte Gewürzmischung für unvergleichliche Geschmackserlebnisse!",
+            "title_size": "h2"
+          }
+        },
+        "text_cGaMHM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Von <a href=\"/collections/grillen\" title=\"Grillen\"><em><strong>Grillgewürzen </strong></em></a>über Backgewürze, von Barbecue-Gewürzen bis hin zu Curry-Gewürzen – wir haben alles für dich zusammengefasst. Unsere <a href=\"/collections/mediterran\" title=\"Mediterran\">mediterranen Gewürze</a>, indischen Gewürze, <a href=\"/collections/fisch\" title=\"Fisch\"><em><strong>Gewürze für Fisch</strong></em>,</a> Gemüse und Fleisch sowie<em><strong> </strong></em><a href=\"/collections/free\" title=\"FREE - Gewürze ohne\"><em><strong>salzfreie Gewürzmischungen</strong></em></a> bieten dir grenzenlose Inspiration und <a href=\"/pages/alle-rezepte\" title=\"Alle Rezepte\"><em><strong>köstliche Rezepte</strong></em>.</a> <br/><br/></p><p>Vertraue dabei auf die Empfehlungen unserer Testimonials wie <a href=\"/collections/roland-trettl\" title=\"Roland Trettl\"><em><strong>Roland Trettl</strong></em></a>, <a href=\"/collections/haya-molcho-neni\" title=\"Haya Molcho - NENI\"><em><strong>Haya Molcho</strong></em></a>,<em><strong> </strong></em><a href=\"/collections/tom-heinzle\" title=\"Tom Heinzle\"><em><strong>Tom Heinzle</strong></em></a> und <a href=\"/collections/ben-perry\" title=\"Ben Perry\"><em><strong>Ben Perry</strong></em></a> sowie auf die leidenschaftliche Community.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_UbXT4X": {
+          "type": "button",
+          "settings": {
+            "button_label": "Entdecke hier alle Gewürze",
+            "link": "shopify://collections/gewurz",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_dypBCy",
+        "subtitle_tVrW6e",
+        "text_cGaMHM",
+        "button_UbXT4X"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Welche_Gewuerze_braucht_man_STAYSPICED.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_txeMVW": {
+      "type": "rich-text",
+      "blocks": {
+        "title_9mWz73": {
+          "type": "title",
+          "settings": {
+            "title": "Die besten Gewürze Online",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_pPckyz": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Wir wählen sorgfältig die besten Rohgewürze",
+            "title_size": "h3"
+          }
+        },
+        "text_JQXYYy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unsere Experten wählen sorgfältig die besten Rohgewürze wie <a href=\"/collections/salz\" title=\"Salz\"><em><strong>edle Salze</strong></em></a>, <a href=\"/collections/pfeffer\" title=\"Pfeffer\"><em><strong>handsortierte Pfeffer</strong></em></a>, Safran, <a href=\"/collections/gourmet-gewurze\" title=\"Gourmet Gewürze\"><em><strong>Vanille</strong></em></a>, Chili, <a href=\"/products/curcuma-gelbwurz-gemahlen\" title=\"Curcuma - Gelbwurz - gemahlen\"><em><strong>Kurkuma</strong></em></a>, Fleur de Sel, <a href=\"/products/zimt-canehl-gemahlen-extra-fruchtig-sri-lanka\" title=\"Zimt Canehl gemahlen - extra fruchtig - Sri Lanka\"><em><strong>handgerollten Zimt</strong></em></a> und <a href=\"/collections/curry\" title=\"Curry\"><em><strong>Curry </strong></em></a>aus den renommiertesten Anbaugebieten weltweit aus. Wir garantieren dir ein Geschmackserlebnis, das seinesgleichen sucht.</p><p><br/></p><p>Bei STAY SPICED! vereinen wir <a href=\"/pages/landing_page/stay-spiced-mission-und-werte\" title=\"STAY SPICED !  Mission und Werte\"><em><strong>höchste Qualität</strong></em></a>, unverfälschten Geschmack und Nachhaltigkeit. Unsere Gewürze sind frei von künstlichen Aromen, zugesetzten Glutamaten, Farbstoffen oder Rieselhilfen. Stattdessen setzen wir auf unkonventionelle Genusskreationen, die mit einer Extraportion Liebe und Leidenschaft hergestellt werden.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_9mWz73",
+        "subtitle_pPckyz",
+        "text_JQXYYy"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/die_Besten_Gewuerze_bei_STAYSPICED.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_icons_BYJe7j": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_tLV4w4": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "Gratis Lieferung ab 39€",
+            "caption": "Wir versenden deine Bestellung nach Deutschland und Österreich ab EUR 39,- kostenlos mit DHL Paket oder Post.at",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_gBrczX": {
+          "type": "image",
+          "settings": {
+            "icon": "leaf",
+            "title": "Frei von Geschmacks-verstärkern",
+            "caption": "Unsere Gewürze sind frei von zugesetzten Geschmacksverstärkern, künstlichen Aromen",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_HLek4T": {
+          "type": "image",
+          "settings": {
+            "icon": "map-marker",
+            "title": "Regional hergestellt",
+            "caption": "Wir verwenden viele Gewürz aus Deutschland und Österreich und Mischen und füllen selbst ab",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_Lamg4H": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "title": "Würze über 365 Gerichte",
+            "caption": "Wir bieten dir eine breite Abwechslung aus mehr als 365 Gewürzen - für jeden Tag ein neuer Geschmack",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_9aifeP": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/conference-256.png",
+            "title": "Von Menschen für Menschen",
+            "caption": "Unser 32-köpfiges Team kümmert sich mit Liebe & Freakness um alle Details",
+            "link": "shopify://pages/team",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_tLV4w4",
+        "image_gBrczX",
+        "image_HLek4T",
+        "image_Lamg4H",
+        "image_9aifeP"
+      ],
+      "settings": {
+        "heading": "Deine Vorteile mit STAY SPICED !",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "#89ccca",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h2"
+      }
+    },
+    "trust_element_logo_4g7AhP": {
+      "type": "trust-element-logo",
+      "blocks": {
+        "element_GFHHKM": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.trust_elements.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.image.value }}",
+            "link": "{{ block.repeater.link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_GFHHKM"
+      ],
+      "settings": {
+        "title": "Du kennst uns vielleicht aus",
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 5,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "anchor_navigation_p4CpLb",
+    "product_info_anchor_bpQWBc",
+    "rich_text_D6GD48",
+    "product_info_anchor_FwAQeJ",
+    "product_ingredients_nyW8et",
+    "related_recipes_A3gwKf",
+    "product_info_anchor_wxAddB",
+    "product_ingredients_keVp4K",
+    "rich_text_A9TtLT",
+    "product_info_anchor_hTFKA3",
+    "rich_text_zdy6NH",
+    "content_toggles_T4jUNc",
+    "product_info_anchor_Je4mPa",
+    "172949930252a92eb1",
+    "product_recommendations_UBjNCt",
+    "image_accordion_MpheP6",
+    "content_toggles_MYTCxT",
+    "testimonial_element_73pxUF",
+    "rich_text_9nh9qk",
+    "rich_text_LjLARD",
+    "rich_text_txeMVW",
+    "text_columns_icons_BYJe7j",
+    "trust_element_logo_4g7AhP"
+  ]
+}

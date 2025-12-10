@@ -1,0 +1,42 @@
+<div class="star-rating">
+  {% assign rating = rating | default: 0 %}
+  {% for i in (1..5) %}
+    <span class="star{% if i <= rating %} star-filled{% endif %}" data-value="{{ i }}">★</span>
+  {% endfor %}
+</div>
+
+<style>
+  .star-rating {
+    display: inline-block;
+  }
+  .star {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+  .star-filled {
+    color: black;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const stars = document.querySelectorAll('.star-rating .star');
+    const ratingInput = document.querySelector('.rating-input');
+
+    stars.forEach(function (star) {
+      star.addEventListener('click', function () {
+        const value = this.getAttribute('data-value');
+        ratingInput.value = value;
+
+        stars.forEach(function (star, index) {
+          if (index < value) {
+            star.classList.add('star-filled');
+          } else {
+            star.classList.remove('star-filled');
+          }
+        });
+      });
+    });
+  });
+</script>

@@ -1,0 +1,762 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "center": false
+      }
+    },
+    "image_mYNWYP": {
+      "type": "image",
+      "name": "t:sections.local-extra-words.sections.image-section.name",
+      "settings": {
+        "image": "shopify://shop_images/Header_Herbst_Desktop_77a04856-bec2-4101-a434-1ac61c8c1659.png",
+        "mobile_image": "shopify://shop_images/Header_Herbst_Mobile_faaf8880-b238-480a-a21f-0ce748c229ef.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "featured_collection_JVMAUL": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_yg4r47": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_VyNDF8": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ANEHFD": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_yg4r47",
+        "title_VyNDF8",
+        "quick_buy_ANEHFD"
+      ],
+      "custom_css": [
+        "{margin-bottom: 40px;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "GETTING \"WILD\"",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "wild",
+        "section_background_color": "#a86543",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_nYFx9n": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_ApnNfQ": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_yb48FJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_zPxTig": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_ApnNfQ",
+        "title_yb48FJ",
+        "quick_buy_zPxTig"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "GETTING \"COZY\"",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "GETTING \"COZY\"",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 4,
+        "product-info-width-limit": 500,
+        "collection": "cozy",
+        "section_background_color": "#fdc300",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_p6ALTU": {
+      "type": "featured-product",
+      "blocks": {
+        "title_QtYj3w": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_VCFehX": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_49FdBj": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_iEEiab": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_WpkCqQ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_ii9dMb": {
+          "type": "space",
+          "settings": {}
+        },
+        "bullet_WYYKg4": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_QtYj3w",
+        "price_VCFehX",
+        "variant_picker_49FdBj",
+        "space_iEEiab",
+        "buy_buttons_WpkCqQ",
+        "space_ii9dMb",
+        "bullet_WYYKg4"
+      ],
+      "custom_css": [],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "waidmannsheil-gewurze-set-4er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "media_with_text_overlay_GBMJFd": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_7UW96m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_b1b56357-69c8-4200-8cc8-f0979d641c4f.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "GETTING WILD",
+            "subtitle": "Der Wilde Herbst bringt Dir kräftige Gewürze, die perfekt zu herzhafter Küche, Wildgerichten und wärmenden Schmorgerichten passen. Lass Dich inspirieren",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_VVG8BE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_a08b6069-4008-497d-a8b4-0b61ac1e3ab9.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "GETTING COZY",
+            "subtitle": "Im Cozy Herbst dreht sich alles um Wohlfühlgerichte, warme Gewürze und herbstliche Klassiker. hier findest Du alles, was Deinen Herbst kuschelig, köstlich und unvergesslich macht.",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_7UW96m",
+        "image_VVG8BE"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_jqAAXe": {
+      "type": "rich-text",
+      "blocks": {
+        "title_63LJR9": {
+          "type": "title",
+          "settings": {
+            "title": "Einlegen leicht gemacht",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_3cwixD": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "100 %Geschmack, 0 % Kompromisse.",
+            "title_size": "h2"
+          }
+        },
+        "text_kCUHDe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die S! Gewürzmischung eignet sich hervorragend dafür, Gemüse zu konservieren und dabei einen würzig-sauren Geschmack zu verleihen. Sie ist aber nicht nur zum Einlegen gedacht, sondern kann auch für verschiedenste Sauce oder Suppen verwendet werden. Deine Kreativität ist gefragt!<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_NnAFHJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Hier gehts zum Gewürz",
+            "link": "shopify://products/mixed-pickles",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_63LJR9",
+        "subtitle_3cwixD",
+        "text_kCUHDe",
+        "button_NnAFHJ"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Design_ohne_Titel_10_0c26868a-9b0f-4748-b536-f144e6b09d50.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ffffff",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_EbCDxR": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_figC7i": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_d4Eh8C": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_dbHQKB": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_figC7i",
+        "title_d4Eh8C",
+        "quick_buy_dbHQKB"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "EINKOCHEN UND KOMPOTTS",
+        "header-width-limit": 680,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "einkochen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_CEPhfk": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_XRpAy4": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_XRpAy4"
+      ],
+      "name": "Blog Slider",
+      "settings": {
+        "title": "WILDE REZEPTE",
+        "subheading": "",
+        "post_limit": 8,
+        "section_heading_layout": "section-heading--center",
+        "blog": "wild",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "0.83333",
+        "section_background_color": "#a86543",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_yppJdH": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_j8EUcm": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_j8EUcm"
+      ],
+      "name": "Blog Slider",
+      "settings": {
+        "title": "COZY REZEPTE",
+        "subheading": "Showcase your best products",
+        "post_limit": 10,
+        "section_heading_layout": "section-heading--center",
+        "blog": "cozy",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "#fdc300",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_CJUJVH": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_rk7AT8": {
+          "type": "text",
+          "settings": {
+            "title": "Sind alle STAY SPICED ! Gewürze vegan?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Fast alle – <strong>ja!</strong><br/><br/>Nahezu das gesamte Sortiment von STAY SPICED ! ist vegan. <strong>Ausnahmen bilden<br/>lediglich die Mischungen „Rindssuppe“ und „Hühnersuppe“</strong>, da diese tierische<br/>Bestandteile enthalten. Alle anderen Produkte sind zu 100 % pflanzlich – ohne versteckte Zusätze auf die wir generell bei<br/>allen Gewürzmischungen bewusst verzichten.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_34idRD": {
+          "type": "text",
+          "settings": {
+            "title": "Wie erkenne ich bei STAY SPICED ! vegane Produkte?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ganz einfach: Die meisten unserer Gewürze sind grundsätzlich vegan – wir kennzeichnen alle Ausnahmen transparent. Bei Unsicherheiten hilft dir unser Kundenservice gerne weiter. Noch besser: Unsere Zutatenlisten sind klar und ohne Schnickschnack.</p>",
+            "image": "shopify://shop_images/Zutatenliste.png",
+            "hide_block_if": false
+          }
+        },
+        "text_m3dqYn": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Gewürze passen besonders gut zur veganen Küche?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Vegan kochen heißt nicht „weniger Geschmack“ – im Gegenteil!<br/>Beliebte Allrounder für pflanzliche Gerichte sind z. B. <a href=\"/products/umami\" target=\"_blank\" title=\"Umami\"><strong>Umami</strong></a><strong>, </strong><a href=\"/products/curcuma-gelbwurz-gemahlen\" target=\"_blank\" title=\"Kurkuma - Gelbwurz - gemahlen\"><strong>Kurkuma</strong></a><strong>, </strong><a href=\"/products/avocado-guacamole-dip-gewurz\" target=\"_blank\" title=\"Avocado - Guacamole & Dip Gewürz\"><strong>Avocado</strong></a><strong>, </strong><a href=\"/products/cyprus-hills-urlaubsgewurz\" target=\"_blank\" title=\"Cyprus Hills - Urlaubsgewürz\"><strong>Cyprus Hills</strong></a><strong>, </strong><a href=\"/products/pimenton-de-la-vera-doux-paprika-gerauchert-edelsuss-mild\" target=\"_blank\" title=\"Pimenton de la Vera Doux - Paprika geräuchert edelsüß/mild\"><strong>geräucherter Paprika</strong></a><strong>, </strong><a href=\"/products/garam-masala-indische-gewurzzubereitung\" target=\"_blank\" title=\"Garam Masala - indische Gewürzzubereitung\"><strong>Garam Masala</strong></a><strong>, </strong><a href=\"/products/ras-el-hanout-cous-cous-und-gemuse\" target=\"_blank\" title=\"Ras el Hanout - Cous Cous und Gemüse\"><strong>Ras el Hanout</strong></a><strong>, </strong><a href=\"/products/harissa-wurzige-gewurzmischung\" target=\"_blank\" title=\"Harissa, würzige Gewürzmischung\"><strong>Harissa</strong></a> oder <a href=\"/products/zwiebelzwiebelmehl-fein-gemahlen\" target=\"_blank\" title=\"Zwiebel(Zwiebelmehl) fein - gemahlen\"><strong>Zwiebelpulver</strong></a>. (Gewürze bitte verlinken) Auch fermentierte Pfeffersorten oder Kräutermischungen wie unser Frühlingskräuteraufstrich bringen Tiefe ins vegane Kocherlebnis.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_MH3XJw": {
+          "type": "text",
+          "settings": {
+            "title": "Wie würze ich pflanzliche Proteinquellen wie Tofu, Tempeh oder Seitan richtig?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Mit der richtigen Würze wird aus Tofu ein Star auf dem Teller. Probiere zum Beispiel:<br/></p><ul><li><a href=\"/products/tingting-asiatisches-wok-grillgewurz\" target=\"_blank\" title=\"TingTing - Asiatisches Wok & Grillgewürz\"><strong>TingTing</strong></a>: Ingwer, Sojasauce, Zitronengras, Chili<br/></li><li><a href=\"/products/green-vegan-gewurzsalz\" target=\"_blank\" title=\"Green Vegan Gewürzsalz\"><strong>Green Vegan</strong></a>: Rauchsalz, Paprika geräuchert, Zwiebel, Kreuzkümmel<br/></li><li><a href=\"/products/mediterran-universalgewurz\" target=\"_blank\" title=\"Mediterran - Universalgewürz\"><strong>Mediterran</strong></a>: Thymian, Oregano, Knoblauch, Rosmarin<br/>Unsere STAY SPICED ! Rubs eignen sich übrigens auch perfekt für Tofu vom Grill!<br/></li><li><a href=\"/products/yakitori-tofu-grillgewurz\" target=\"_blank\" title=\"Yakitori Tofu - Grillgewürz\"><strong>Tofu</strong></a>: Ideal für Marinaden, Rubs oder als Grundlage für würzige Gerichte<br/></li><li><a href=\"/products/roland-trettl-sojami-mediterran-15\" target=\"_blank\" title=\"Roland Trettl - Sojami - Mediterran\"><strong>Sojami</strong></a>: Perfekt für Wok-Gemüse, Marinaden, Sushi oder Risotto<br/></li></ul>",
+            "hide_block_if": false
+          }
+        },
+        "text_nahi3C": {
+          "type": "text",
+          "settings": {
+            "title": "Gibt es spezielle STAY SPICED ! Gewürzmischungen für vegane Küche?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ja – viele! Unsere Sorten wie <a href=\"/products/green-vegan-gewurzsalz\" target=\"_blank\" title=\"Green Vegan Gewürzsalz\"><strong>Green Vegan</strong></a>, <a href=\"/products/madras-curry-kraftig-elegant\" target=\"_blank\" title=\"Madras Curry, kräftig & elegant\"><strong>Madras Curry</strong></a>, <a href=\"/products/avocado-guacamole-dip-gewurz\" target=\"_blank\" title=\"Avocado - Guacamole & Dip Gewürz\"><strong>Avocado Topping</strong></a> oder <a href=\"/products/hummus-falafel-orientalische-gewurzmischung\" target=\"_blank\" title=\"Hummus & Falafel - orientalische Gewürzmischung\"><strong>Hummus & Falafel</strong></a><strong> </strong>sind speziell für pflanzliche Gerichte konzipiert. Und: Auch unsere <strong>Reingewürze<br/></strong>wie Chili, Zimt, Kardamom oder Pfeffer sind natürlich vegan.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_xEadam": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Gewürze passen zu süßen veganen Gerichten wie Porridge oder Kuchen?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Für Süßes empfehlen wir:<br/></p><ul><li><a href=\"/products/zimt-cassia-gemahlen\" target=\"_blank\" title=\"Zimt Cassia gemahlen\"><strong>Zimt</strong></a> für ein feines Aroma<br/></li><li><a href=\"/products/bourbon-vanille-madagaskar-gemahlen\" target=\"_blank\" title=\"Bourbon Vanille - Madagaskar gemahlen\"><strong>Bourbon Vanille</strong></a> gemahlen für echte Tiefe<br/></li><li><a href=\"/products/kardamom-grun-ganz-1-qualitat\" title=\"Kardamom grün ganz - 1.Qualität\"><strong>Kardamom</strong></a><strong> & </strong><a href=\"/products/tonkabohnen-ganz-brasilien\" target=\"_blank\" title=\"Tonkabohnen ganz - Brasilien\"><strong>Tonkabohne</strong></a> für besondere Noten<br/></li><li><a href=\"/products/sugar-spice-bratapfel\" target=\"_blank\" title=\"Sugar & Spice - Bratapfel\"><strong>Bratapfel</strong></a> – wie Omas Wintertraum, nur moderner & das ganze Jahr ein Genuss<br/></li><li><a href=\"/products/cinnamon-date-dessert-gewurz\" target=\"_blank\" title=\"Cinnamon Date - Dessert Gewürz\"><strong>Cinnamon Date</strong></a> – süß-würzige Mischung mit Zimt & Dattelzucker statt normalem Zucker<br/></li><li><a href=\"/products/sweet-bowl-spice\" target=\"_blank\" title=\"Sweet Bowl Spice\"><strong>Sweet Bowl </strong></a><strong>& </strong><a href=\"/products/salty-bowl-spice\" target=\"_blank\" title=\"Salty Bowl Spice\"><strong>Salty Bowl</strong></a><strong> </strong>– perfekt für deine Bowl und Müslis<br/></li></ul>",
+            "hide_block_if": false
+          }
+        },
+        "text_JGeMCN": {
+          "type": "text",
+          "settings": {
+            "title": "Sind Gewürze eigentlich gesund?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ja, Gewürze sind nicht nur Geschmacksträger – sie sind auch wahre Kraftpakete! Dass wissen unsere Vorfahren seit vielen Jahrhunderten. Viele Gewürze wie <strong>Kurkuma, Ingwer, Knoblauch oder Zimt </strong>enthalten sekundäre Pflanzenstoffe und können dadurch positive Effekte erzielen. Natürlich ersetzen sie keine ausgewogene Ernährung – aber sie machen gesunde Küche noch leckerer, vielseitiger und oft besser verträglich. Kurz gesagt: Würzen macht’s besser!</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_rk7AT8",
+        "text_34idRD",
+        "text_m3dqYn",
+        "text_MH3XJw",
+        "text_nahi3C",
+        "text_xEadam",
+        "text_JGeMCN"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "FAQs und häufig gestellte Fragen zu veganen Gewürzen bei STAY SPICED !",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "#ffffff",
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_EWCenE": {
+      "type": "rich-text",
+      "blocks": {
+        "title_mDh9tz": {
+          "type": "title",
+          "settings": {
+            "title": "STAY SPICED ! x NENI – DES IS LEVANT",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_yxCafc": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Life is beautiful with Spices!",
+            "title_size": "h2"
+          }
+        },
+        "text_rnkVDc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Haya Molcho</strong>: Top Gastronomin & Familienmensch.<br/></p><p>Tauch ein in die faszinierende Welt der Levante-Küche mit unseren sieben einzigartigen Gewürzmischungen, kreiert<em><strong> in Zusammenarbeit mit NENI und der sensationellen Köchin Haya Molcho</strong></em>. Sie bringen dir die unverwechselbaren Aromen des östlichen Mittelmeerraums direkt in deine Küche!<br/></p><p><strong>Viel Spaß beim entdecken, probieren und teilen - frei nach dem Motto: sharing is caring!</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_JWdncR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr erfahren",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_mDh9tz",
+        "subtitle_yxCafc",
+        "text_rnkVDc",
+        "button_JWdncR"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_haya-molcho-edition_1e7a88d6-0f4a-4bca-8bf4-45aa3478795f.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#d7007f",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_6WWPgB": {
+      "type": "rich-text",
+      "blocks": {
+        "title_8CrPeD": {
+          "type": "title",
+          "settings": {
+            "title": "WIR L(I)EBEN  GEWÜRZE",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_AryGcB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STAY SPICED ! - die perfekte Symbiose aus Qualität, Geschmack und Nachhaltigkeit – abgerundet durch ein innovatives Packaging und Genuss-Kreationen, die ihresgleichen suchen. Ohne künstliche Aromen, zugesetzte Glutamate, Farbstoffe oder Rieselhilfen – dafür unkonventionell und mit einer Extraportion Liebe. Nachhaltige und regionale Verarbeitung, ein Gespür für die optimale Veredelung und die Passion für die besten Gewürze der Welt– das macht uns aus!<br/></p><p><strong>100 % natürliche Inhaltsstoffe<br/>Ohne Geschmacksverstärker<br/>MUST-HAVE für jede Küche</strong></p><p></p><p><strong>Wir beraten dich gerne:<br/></strong>T <a href=\"tel:+43662890919\">+43 662 890919</a><br/>T <a href=\"tel:+4986544093911\">+49 8654 4093911</a><br/>Mo - Do: 08:00 - 17:00 <br/>Fr: 08:00 - 14:00 </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_eHJYnG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr über uns!",
+            "link": "shopify://pages/unternehmensgeschichte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_8CrPeD",
+        "text_AryGcB",
+        "button_eHJYnG"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_team-foto_ab3cf881-4278-4d10-8956-6b62d43bd056.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ffffff",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "trust_element_logo_wbiHPR": {
+      "type": "trust-element-logo",
+      "blocks": {
+        "element_KH8Pgk": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.trust_elements.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.image.value }}",
+            "link": "{{ block.repeater.link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_KH8Pgk"
+      ],
+      "name": "Trust Element Logo",
+      "settings": {
+        "title": "Du kennst uns vielleicht aus",
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_HKeGkU": {
+      "type": "rich-text",
+      "blocks": {
+        "title_qre3YC": {
+          "type": "title",
+          "settings": {
+            "title": "Selbstverständlich nachhaltig",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_cb697e": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns stehen Nachhaltigkeit und Qualität an erster Stelle.",
+            "title_size": "h2"
+          }
+        },
+        "text_yDatFp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Unsere Gewürze und Kräuter werden mit<em><strong> viel Leidenschaft und in bester Qualität</strong></em> von unserem 35-köpfigen Team mit viel Handarbeit im Herzen von Salzburg verarbeitet, verpackt und versendet. <br/></p><p>Wir setzen auf <em><strong>umweltfreundliche, 100% recycelbare Weißblechdosen</strong></em> und achten auf faire Arbeitsbedingungen in unserer nachhaltigen Produktionsstätte in Österreich. <br/></p><p>Wir versenden unsere Produkte CO2-neutral in umweltfreundlicher, plastikfreier Verpackung und legen großen Wert darauf, deinen Einkauf so einfach und angenehm wie möglich zu gestalten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_iRmeQF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr erfahren",
+            "link": "shopify://pages/mission-werte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_qre3YC",
+        "subtitle_cb697e",
+        "text_yDatFp",
+        "button_iRmeQF"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/STAYSPICED_Nachhaltig.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_mYNWYP",
+    "featured_collection_JVMAUL",
+    "featured_collection_nYFx9n",
+    "featured_product_p6ALTU",
+    "media_with_text_overlay_GBMJFd",
+    "rich_text_jqAAXe",
+    "featured_collection_EbCDxR",
+    "blog_slider_CEPhfk",
+    "blog_slider_yppJdH",
+    "content_toggles_CJUJVH",
+    "rich_text_EWCenE",
+    "rich_text_6WWPgB",
+    "trust_element_logo_wbiHPR",
+    "rich_text_HKeGkU"
+  ]
+}

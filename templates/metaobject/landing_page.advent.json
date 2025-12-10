@@ -1,0 +1,884 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_hotspots_GaUa73": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "product_7iAVFU": {
+          "type": "product",
+          "settings": {
+            "product": "adventskalender-stay-spiced-deluxe-edition-2024",
+            "vertical_offset_desktop": 70,
+            "horizontal_offset_desktop": 64,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "product_MJ3arK": {
+          "type": "product",
+          "settings": {
+            "product": "adventskalender-stay-spiced-spicetower-edition-2024",
+            "vertical_offset_desktop": 50,
+            "horizontal_offset_desktop": 79,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        }
+      },
+      "block_order": [
+        "product_7iAVFU",
+        "product_MJ3arK"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "image": "shopify://shop_images/Adventskalender-2024_Roland_1.png",
+        "is_fullwidth": false,
+        "color_text": "#000000",
+        "color_background": "#009ee3",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h3"
+      }
+    },
+    "text_columns_icons_Ccreak": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_xp88Vb": {
+          "type": "image",
+          "settings": {
+            "icon": "open-box",
+            "title": "Gratis Lieferung ab € 39",
+            "caption": "Versandkostenfrei nach DE & AT",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_ntFm9J": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "100% Gewürz",
+            "caption": "Natürliche Gewürzmischungen ohne Zusatzstoffe",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_nBAnDR": {
+          "type": "image",
+          "settings": {
+            "icon": "map-marker",
+            "title": "Regional Hergestellt",
+            "caption": "Nachhaltig und mit extra viel Liebe produziert und verpackt",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_XbpmxD": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "title": "300x einfach",
+            "caption": "Koche mit unseren Rezepten über 300 leckere Gerichte",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_xp88Vb",
+        "image_ntFm9J",
+        "image_nBAnDR",
+        "image_XbpmxD"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_images_pxpxpM": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_G44jqE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/101024_STAY-SPICED-__highres-39.jpg",
+            "title": "Ideal als Geschenk",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_KmbVdG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/101024_STAY-SPICED-__highres-19.jpg",
+            "title": "Hochwertige Verpackung mit Goldfolie veredelt",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_bciPc6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/101024_STAY-SPICED-__highres-35.jpg",
+            "title": "20 exklusive Gewürze & 4 Gimmicks",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_NJtgYn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/101024_STAY-SPICED-__highres-89.jpg",
+            "title": "Gratis Kochbuch",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_G44jqE",
+        "image_KmbVdG",
+        "image_bciPc6",
+        "image_NJtgYn"
+      ],
+      "settings": {
+        "heading": "Was dich erwartet",
+        "subheading": "Unser Deluxe Adventskalender im Detail",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_DkBBBb": {
+      "type": "rich-text",
+      "blocks": {
+        "title_LtPTj3": {
+          "type": "title",
+          "settings": {
+            "title": "Adventskalender Deluxe 2024",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_j4aJf3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Unser Deluxe Adventskalender lässt zu Weihnachten keine Wünsche offen. </strong></p><p></p><p>15 Gewürzmischungen in Originalgröße kombiniert mit 5 Mikrodosen und 4 tollen Gimmicks rund um das Thema „Würzen“ sorgen für ein abwechslungsreiches Geschmackserlebnis in der Vorweihnachtszeit. Liebevoll in Einzelkartons verpackt, findest du darin neben überraschenden Newcomer auch absolute Must-Haves!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "product_Re79G7": {
+          "type": "product",
+          "settings": {
+            "product": "adventskalender-stay-spiced-deluxe-edition-2024"
+          }
+        }
+      },
+      "block_order": [
+        "title_LtPTj3",
+        "text_j4aJf3",
+        "product_Re79G7"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_deluxe-image-lp.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "media_with_text_overlay_F6LYEL": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_xYQ3dW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/101024_STAY-SPICED-__highres-22.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "Lässt keine Wünsche offen",
+            "title": "Adventskalender Deluxe",
+            "subtitle": "20 exklusive Gewürze und Gewürzmischungen sowie 4 Gimmicks & gratis Kochbuch.",
+            "link": "shopify://products/adventskalender-stay-spiced-deluxe-edition-2024",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kaufen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_rprW4j": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/stay-spiced_deluxe_ohneTOS_2024.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_xYQ3dW",
+        "image_rprW4j"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "sp_rich_text_hqJpjk": {
+      "type": "sp-rich-text",
+      "blocks": {
+        "title_hjcjRp": {
+          "type": "title",
+          "settings": {
+            "title": "3"
+          }
+        },
+        "subtitle_zL9V7t": {
+          "type": "subtitle",
+          "settings": {}
+        },
+        "text_7pPCqG": {
+          "type": "text",
+          "settings": {}
+        },
+        "button_F3n7Ke": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "product_7zifYh": {
+          "type": "product",
+          "settings": {
+            "product": "adventskalender-stay-spiced-spicetower-edition-2024"
+          }
+        }
+      },
+      "block_order": [
+        "title_hjcjRp",
+        "subtitle_zL9V7t",
+        "text_7pPCqG",
+        "button_F3n7Ke",
+        "product_7zifYh"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_snippet": 3,
+        "liquid": "",
+        "seo_h_tag": "h2",
+        "title_size": "h3",
+        "text_size": "large",
+        "is_use_video": false,
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "related_product_columns": 1,
+        "is_fullwidth": false,
+        "set_video_background": false,
+        "section_background_color": "{{ metaobject[\"3_text_block\"].value.background_color.value.color.value }}",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "{{ metaobject[\"1_text_block\"].value.text_color.value.color.value }}",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "slideshow_XeTqMP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_m4FRQk": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-51_dee14608-6fb7-4960-8ce5-712b8db31689.jpg",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_nkMwtn": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-132.jpg",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_EbQy3j": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-90.jpg",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_m4FRQk",
+        "image_nkMwtn",
+        "image_EbQy3j"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "rich_text_n8dPen": {
+      "type": "rich-text",
+      "blocks": {
+        "title_KNqth9": {
+          "type": "title",
+          "settings": {
+            "title": "Adventskalender Spicetower 2024",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_ViecMW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Mit unserem Spicetower befördern wir dich hoch hinaus in neue Geschmacksphären!</strong> </p><p></p><p>Wir sorgen für abwechslungsreiche Genussmomente im Advent und darüber hinaus. Aus diesem Grund eignet er sich auch perfekt als Geschenk für alle, die auf der Suche nach neuen Geschmackserlebnissen sind und uns kennenlernen wollen. Egal ob süß oder salzig, exotisch oder traditionell – hier ist für alle etwas dabei!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "product_chbrtX": {
+          "type": "product",
+          "settings": {
+            "product": "adventskalender-stay-spiced-spicetower-edition-2024"
+          }
+        }
+      },
+      "block_order": [
+        "title_KNqth9",
+        "text_ViecMW",
+        "product_chbrtX"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_spicetower-image-lp.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_KRKt6i": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_3cFaCh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-73.jpg",
+            "title": "24 hochwertige Gewürze",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_CBRkJx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web.jpg",
+            "title": "Regional Hergestellt",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_z6cEeH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-132.jpg",
+            "title": "Ideal als Geschenk",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_WCdRgE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-33.jpg",
+            "title": "Praktische Probiergrößen",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_3cFaCh",
+        "image_CBRkJx",
+        "image_z6cEeH",
+        "image_WCdRgE"
+      ],
+      "settings": {
+        "heading": "Was dich erwartet:",
+        "subheading": "Unser Tower Adventskalender im Detail",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "feedback_K8cLag": {
+      "type": "feedback",
+      "blocks": {
+        "feedback_GpTV7e": {
+          "type": "feedback",
+          "settings": {
+            "author": "Karin",
+            "date": "01/01/2024",
+            "rating": 5,
+            "quote": "<p>24 kleine Döschen zum probieren und kennen lernen. So kann man leicht entscheiden welche Gewürze unbedingt in „groß“ her müssen</p>"
+          }
+        },
+        "feedback_H7TczY": {
+          "type": "feedback",
+          "settings": {
+            "author": "Sabine",
+            "date": "01/01/2024",
+            "rating": 5,
+            "quote": "<p>Schöne Produkte, leckere Gewürze, der Kalender hat sich gelohnt</p>"
+          }
+        },
+        "feedback_MnCCbP": {
+          "type": "feedback",
+          "settings": {
+            "author": "Martin",
+            "date": "17/01/2024",
+            "rating": 5,
+            "quote": "<p>Der Kalender war ein voller Erfolg, die beschenkte hat sich extrem darüber gefreut</p>"
+          }
+        },
+        "feedback_Mkk9EJ": {
+          "type": "feedback",
+          "settings": {
+            "author": "Julius",
+            "date": "05/01/2024",
+            "rating": 5,
+            "quote": "<p>Tolle Gewürze und tolle Gimmicks. Nächstes Jahr gerne wieder</p>"
+          }
+        },
+        "feedback_ENcKgD": {
+          "type": "feedback",
+          "settings": {
+            "author": "Christa",
+            "date": "20/01/2024",
+            "rating": 3,
+            "quote": "<p>Ein sehr cooler Adventskalender. Da ist wirklich für jeden was dabei - süß, salzig, scharf... sehr toll</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feedback_GpTV7e",
+        "feedback_H7TczY",
+        "feedback_MnCCbP",
+        "feedback_Mkk9EJ",
+        "feedback_ENcKgD"
+      ],
+      "settings": {
+        "quote_font": "serif",
+        "quote_font_size": 32,
+        "quote_line_height": 1.1,
+        "content_alignment": "center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    },
+    "media_with_text_overlay_zT3DN7": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_KpVyck": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/stay-spiced_spicetower_video.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_XitmJG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-51_dee14608-6fb7-4960-8ce5-712b8db31689.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "Weihnachten kann kommen",
+            "title": "Adventskalender Spicetower",
+            "subtitle": "24x Gewürze für würzige Weihnachten",
+            "link": "shopify://products/adventskalender-stay-spiced-spicetower-edition-2024",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kaufen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_KpVyck",
+        "image_XitmJG"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_wzTkVA": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_jLWPLG": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_qiXMRD": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_b6k7Jh": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_jLWPLG",
+        "title_qiXMRD",
+        "quick_buy_b6k7Jh"
+      ],
+      "settings": {
+        "heading": "Wen beschenkst du zu Weihnachten?",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "sondereditions",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_Trym8r": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_8PVrRr": {
+          "type": "text",
+          "repeater": "{{ metaobject.faqs.value }}",
+          "settings": {
+            "title": "﻿{{ block.repeater.title.value }}",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8PVrRr"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "#ffffff",
+        "seo_h_tag": "h2"
+      }
+    },
+    "category_slider_x3eatn": {
+      "type": "category-slider",
+      "blocks": {
+        "card_wyXyQx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_kategorie_topseller.jpg",
+            "title": "Topseller",
+            "link": "",
+            "collection": "gewurz",
+            "open_in_new_window": false,
+            "button_label": "Jetzt shoppen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_6hXdNP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_kategorie_roland-trettl.png",
+            "title": "Roland Trettl",
+            "link": "",
+            "collection": "roland-trettl",
+            "open_in_new_window": false,
+            "button_label": "Jetzt shoppen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_TzUE4t": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_kategorie_geschenke.png",
+            "title": "Geschenke",
+            "link": "",
+            "collection": "alle-geschenke",
+            "open_in_new_window": false,
+            "button_label": "Jetzt shoppen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_wyXyQx",
+        "card_6hXdNP",
+        "card_TzUE4t"
+      ],
+      "settings": {
+        "heading": "UNSERE BELIEBTESTEN KATEGORIEN",
+        "section_heading_layout": "section-heading--center",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "title_size": "h3",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "image_with_hotspots_GaUa73",
+    "text_columns_icons_Ccreak",
+    "text_columns_images_pxpxpM",
+    "rich_text_DkBBBb",
+    "media_with_text_overlay_F6LYEL",
+    "sp_rich_text_hqJpjk",
+    "slideshow_XeTqMP",
+    "rich_text_n8dPen",
+    "text_columns_images_KRKt6i",
+    "feedback_K8cLag",
+    "media_with_text_overlay_zT3DN7",
+    "featured_collection_wzTkVA",
+    "content_toggles_Trym8r",
+    "category_slider_x3eatn"
+  ]
+}

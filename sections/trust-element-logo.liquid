@@ -1,0 +1,209 @@
+<div
+  style="padding: 100px 40px;"
+  class="container--large {% unless section.settings.remove_margin %} container--vertical-space {% endunless %} {% if section.settings.section_background_color != "rgba(0,0,0,0)" %} container--has-background {% endif %}"
+>
+  {%- if section.settings.title != blank -%}
+    {%- render 'section-heading',
+      heading: section.settings.title,
+      heading_tag: section.settings.seo_h_tag,
+      layout: section.settings.section_heading_layout
+    -%}
+  {%- endif -%}
+
+  <div>
+    <css-slider
+      data-options='
+        {
+          "selector": ".slider-item",
+          "indexNav": true,
+          "groupCells": true,
+          "navigationDOM": "<span class=\"css-slider-button css-slider-prev\" style=\"display:none\"><svg fill=\"none\" height=\"13\" viewBox=\"0 0 8 13\" width=\"8\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#000\" ><path d=\"m7.91419 1.41431-6.48529 6.48528-1.4142102-1.41422 6.4852802-6.48527702z\"/><path d=\"m6.48528 12.9849-6.48528027-6.48532 1.41421027-1.41421 6.48528 6.48523z\"/></g></svg></span><span class=\"css-slider-button css-slider-next\" style=\"display:none\"><svg width=\"9\" height=\"13\" viewBox=\"0 0 9 13\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0.914169 11.5857L7.39945 5.10041L8.81367 6.51463L2.32838 12.9999L0.914169 11.5857Z\" fill=\"black\"/><path d=\"M2.34307 0.0151367L8.82835 6.50042L7.41414 7.91463L0.928857 1.42935L2.34307 0.0151367Z\" fill=\"black\"/></svg></span>"
+        }
+      '
+      class="css-slider css-slider--bottom-navigation trust-element-slider"
+      id="css-slider-{{ section.id }}"
+    >
+      {%- render 'custom-shadow', section_id: section.id -%}
+      {% assign column_count = section.settings.section_content_layout %}
+
+      <div
+        class="grid grid--slider grid-{{ column_count }} grid-portable-3 grid-lap-2 grid-tiny-1 grid--layout"
+        style="padding-top: 20px; padding-bottom: 20px; margin-bottom: 20px;"
+      >
+        {%- for block in section.blocks -%}
+          <div
+            class="card__image border-radius-top slider-item trust-element-logo"
+          >
+            {% if block.settings.link %}
+              <a href="{{ block.settings.link }}">
+            {% endif %}
+            {%- liquid
+              unless block.settings.element_img == blank
+                assign sizes = 'sizes="(max-width: 767px) calc(100vw - 20px), (max-width: 1360px) 33vw, 420px"'
+                if section.index == 1 and forloop.index <= 2
+                  assign preload = true
+                else
+                  assign preload = false
+                endif
+                render 'lazy-image', image: block.settings.element_img, sizes: sizes, ratio: '1', type: 'background', alt: block.settings.title, preload: preload
+              else
+                echo 'image' | placeholder_svg_tag
+              endunless
+            -%}
+            {% if block.settings.link %}
+              </a>
+            {% endif %}
+          </div>
+        {%- endfor -%}
+      </div>
+    </css-slider>
+  </div>
+</div>
+
+{% style %}
+  .trust-element-slider .css-slider-viewport {
+    background-color: white;
+  }
+
+  .trust-element-logo {
+    padding-top:{{ 100 | divided_by: 2.85 }}%; width: 80%;
+  }
+{% endstyle %}
+
+{%- if section.settings.section_background_color != 'rgba(0,0,0,0)' -%}
+  {% style %}
+    #shopify-section-{{ section.id }} .container--has-background {
+      --color-background-section: {{ section.settings.section_background_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+{%- if section.settings.section_heading_color != 'rgba(0,0,0,0)' -%}
+  {% style %}
+    #shopify-section-{{ section.id }}, .element__name {
+      --color-text-main: {{ section.settings.section_heading_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Trust Element Logo",
+  "blocks": [
+    {
+      "type": "element",
+      "name": "element block",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "element_img",
+          "label": "Select Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:local-march-update.labels.heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.blog-posts.settings.title.label",
+      "default": "Trust Element"
+    },
+    {
+      "type": "select",
+      "id": "section_heading_layout",
+      "label": "t:sections.rich-text.settings.text_alignment.label",
+      "options": [
+        {
+          "value": "section-heading--left",
+          "label": "t:sections.rich-text.settings.text_alignment.options__1.label"
+        },
+        {
+          "value": "section-heading--center",
+          "label": "t:sections.rich-text.settings.text_alignment.options__2.label"
+        }
+      ],
+      "default": "section-heading--center"
+    },
+    {
+      "type": "range",
+      "id": "section_content_layout",
+      "label": "Column Count",
+      "min": 2,
+      "max": 8,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "t:local-march-update.labels.section_design"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "section_heading_color",
+      "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.text_color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_margin",
+      "label": "t:sections.local-extra-words.sections.rich-text.settings.remove_margin.label",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "t:sections.refactor_words.seo.name"
+    },
+    {
+      "type": "select",
+      "id": "seo_h_tag",
+      "label": "t:sections.refactor_words.seo.label",
+      "info": "t:sections.refactor_words.seo.info",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "span",
+          "label": "span"
+        }
+      ],
+      "default": "h2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust Element Logo",
+      "blocks": [{ "type": "element" }]
+    }
+  ]
+}
+{% endschema %}

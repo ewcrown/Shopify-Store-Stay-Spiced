@@ -1,0 +1,65 @@
+{{ 'anchor-navigation.css' | asset_url | stylesheet_tag }}
+
+{%- if section.blocks.size > 0 -%}
+  <div class="remove-empty-space element--hide-on-small container--fullwidth">
+    <div class="anchor-navigation__wrapper">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.title != blank and block.settings.anchor != blank -%}
+          <a
+            href="#"
+            data-target-id="{{- block.settings.anchor -}}"
+            class="anchor-navigation__item"
+          >
+            {{- block.settings.title -}}
+          </a>
+        {%- endif -%}
+      {%- endfor %}
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Anchor Navigation",
+  "class": "anchor-navigation",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Navigation Items"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "navigation_item",
+      "name": "Navigtion Item",
+      "settings": [
+        {
+          "type": "header",
+          "content": "t:sections.local-extra-words.sections.headings.text_content"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Item Title",
+          "default": "Text"
+        },
+        {
+          "type": "text",
+          "id": "anchor",
+          "label": "Item Anchor",
+          "default": "#anchor"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Anchor Navigation"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["product"],
+    "groups": ["aside"]
+  }
+}
+{% endschema %}

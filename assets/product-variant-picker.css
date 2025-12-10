@@ -1,0 +1,16 @@
+product-variants select.product-variant-container {
+  font-size: 125%;
+  height: var(--button-product);
+}
+
+@media screen and (min-width: 1279px) {
+  product-variants select.product-variant-container {
+    max-width: 50%;
+  }
+}
+
+.product-quick-view__product
+  .product-variants
+  select.product-variant-container {
+  max-width: unset;
+}

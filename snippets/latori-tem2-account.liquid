@@ -1,0 +1,50 @@
+{{ "latori-tem2-style.css" | asset_url | stylesheet_tag }}
+
+{%- assign vat_id = "" -%}
+{%- for tag in customer.tags -%}
+{%- if tag contains "vat_id" -%}
+  {%- assign vat_id  = tag | split: ":" | last -%}
+{%- endif -%}
+{%- endfor -%}
+
+<script id="latori-tem2-data" type="application/json">
+  {
+    "shop": {
+      "domain": "{{- shop.permanent_domain -}}",
+      "wrongSyntax": "{{- shop.metafields.latori_tem2.wrong_syntax -}}",
+      "invalid": "{{- shop.metafields.latori_tem2.invalid -}}",
+      "valid": "{{- shop.metafields.latori_tem2.valid -}}",
+      "viesDown": "{{- shop.metafields.latori_tem2.vies_down -}}",
+      "serverDown": "{{- shop.metafields.latori_tem2.server_down -}}",
+      "vatDeletedMessage": "{{- shop.metafields.latori_tem2.vat_deleted_message -}}",
+      "vatSaveMessage": "{{- shop.metafields.latori_tem2.vat_saved_message -}}"
+    },
+    "customer": {
+      "id": "{{- customer.id -}}",
+      "vatId": "{{- vat_id -}}"
+    },
+    "app": {
+      "url": "{{- shop.metafields.latori_tem2_config.app_url -}}"
+    }
+  }
+</script>
+
+<tax-exempt-manager id="latori-tem2-account-page" class="latori-tem2-container">
+  <p>{{- shop.metafields.latori_tem2.account_page_message -}}</p>
+  <input
+    type="text"
+    id="latori-tem2-account-page-vat-id-input"
+    data-vat-id=""
+    placeholder="{{- shop.metafields.latori_tem2.vat_input_placeholder_message -}}"
+    value="{{- vat_id -}}"
+  />
+  <div class="latori-tem2-button-container">
+    <button id="latori-tem2-save-vat-button" type="submit" disabled>
+      {{- shop.metafields.latori_tem2.save_button -}}
+    </button>
+    <button id="latori-tem2-delete-vat-button" type="button" disabled>
+      {{- shop.metafields.latori_tem2.delete_button -}}
+    </button>
+  </div>
+  <div class="latori-tem2-message latori-tem2-hide"></div>
+</tax-exempt-manager>

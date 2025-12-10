@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.refactor_words.labels.header_group",
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "blocks": {
+        "content_EtT9jh": {
+          "type": "content",
+          "repeater": "{{ localization.market.metafields.custom.top_navigation.value }}",
+          "settings": {
+            "text": "{{ block.repeater.top_nav_eintrag.value }}",
+            "link": "",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "content_EtT9jh"
+      ],
+      "settings": {
+        "visibility": "all",
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_social_icons": false,
+        "bar_bgcolor": "#e1e1e1",
+        "bar_txtcolor": "#1d1d1d"
+      }
+    },
+    "marquee_tzYJq7": {
+      "type": "marquee",
+      "blocks": {
+        "text_9twy3b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "marquee_text": "🌱 Nachhaltige Verpackung"
+          }
+        },
+        "text_n8E4TU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "marquee_text": "🇦🇹 Regional produziert"
+          }
+        },
+        "text_JPqeWn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "marquee_text": "❤️ Ohne künstliche Zusatzstoffe"
+          }
+        },
+        "text_w7WeQ8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "marquee_text": "🥘 100% Geschmack ohne Kompromisse"
+          }
+        },
+        "text_cNJRMR": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<em>Versandkostenfreies Wochenende</em>. Jetzt Versandkosten sparen! (in AT DE IT)"
+          }
+        }
+      },
+      "block_order": [
+        "text_9twy3b",
+        "text_n8E4TU",
+        "text_JPqeWn",
+        "text_w7WeQ8",
+        "text_cNJRMR"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "scrolling-text {font-size: 0.8rem; height: 2rem;}",
+        ".italic {font-style: normal;}",
+        ".scrolling-text__container > span {display: inline-block; padding-left: 4.5rem; padding-right: 4.5rem;}"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 20,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#cad948",
+        "color_text_main": "#1d1d1d"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "info": {
+          "type": "info",
+          "settings": {
+            "caption": "Jetzt",
+            "title": "Adventskalender sichern",
+            "link": "shopify://pages/adventskalender-2025",
+            "link_type": "_self",
+            "icon": "no-icon",
+            "custom_icon": "shopify://shop_images/tree.svg"
+          }
+        }
+      },
+      "block_order": [
+        "info"
+      ],
+      "settings": {
+        "logo_src": "shopify://shop_images/logo.svg",
+        "logo_height": 34,
+        "main_linklist": "main-menu",
+        "show_search": true,
+        "show_wishlist": true,
+        "sticky_header": true,
+        "select_header_actions_on_mobile": "show_always",
+        "show_header_actions": false,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_social_icons": true
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "marquee_tzYJq7",
+    "header"
+  ]
+}

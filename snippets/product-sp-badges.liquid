@@ -1,0 +1,92 @@
+{% assign categories_shop = product.metafields.connect.att_categoriesShop | downcase %}
+{% assign global_badges = shop.metaobjects.badges.values %}
+
+{% assign product_tags_lc = '' %}
+{% for tag in product.tags %}
+  {% assign product_tags_lc = product_tags_lc | append: tag | append: ',' %}
+{% endfor %}
+{% assign product_tags_array = product_tags_lc | downcase | split: ',' %}
+
+{% assign product_compare_at_price = 0 %}
+{% assign product_price = product.price %}
+
+{% if product.variants_count > 1 %}
+  {%  for variant in product.variants %} 
+    {% if product_compare_at_price < variant.compare_at_price %}
+      {%  assign product_compare_at_price = variant.compare_at_price %}
+    {% endif %}
+    {% if product_price > variant.price %}
+      {%  assign product_price = variant.price %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% assign product_compare_at_price = product.compare_at_price %}
+  {% assign product_price = product.price %}
+{% endif %}
+
+<div class="product-item__badges sp__badges {{ text_class }}">
+  {% for badge in global_badges %}
+    {% assign badge_words = badge.title | downcase | strip | split: ' ' %}
+
+    {% for word in badge_words %}
+      {% if product_tags_array contains word %}
+        <span
+          class="product-item__badge product-item__badge--sale"
+          style="background-color: transparent; color: {{ badge.color.value }}; padding-left: 20px; padding-right: 20px; font-size: 20px; font-weight: 900;"
+        >
+          {{ badge.title }}
+        </span>
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {%- if product.available == false -%}
+    <span
+      class="product-item__badge product-item__badge--sold"
+      style="background-color: {{ settings.product_card_badge_sold_out_color }}; color: {{ settings.product_card_badge_sold_out_text_color }}"
+    >
+      {{ 'products.grid.sold_out_product' | t }}
+    </span>
+  {%- endif -%}
+
+  {%- if product_compare_at_price > product_price -%}
+    <span
+      class="product-item__badge product-item__badge--sale"
+      style="background-color: #D7007F; color: #000000; padding-left: 20px; padding-right: 20px; font-size: 20px; font-weight: 900;"
+    >
+      Aktion
+    </span>
+  {% elsif categories_shop contains 'topseller' %}
+    <span
+      class="product-item__badge product-item__badge--sale"
+      style="background-color: #FFFD01; color: #000000; padding-left: 20px; padding-right: 20px; font-size: 20px; font-weight: 900;"
+    >
+      Topseller
+    </span>
+  {% else %}
+    {% assign today = 'now' | date: '%s' %}
+    {% assign product_created_at = product.created_at | date: '%s' %}
+    {% assign sixty_days_ago = today | minus: 5184000 %}
+    {% assign product_age = product_created_at | plus: 0 %}
+
+    {% if product_age > sixty_days_ago %}
+      <span
+        class="product-item__badge product-item__badge--sale"
+        style="background-color: #88CCCA; color: #000000; padding-left: 20px; padding-right: 20px; font-size: 20px; font-weight: 900;"
+      >
+        Neu
+      </span>
+    {% endif %}
+  {%- endif -%}
+
+  {% if product.metafields.custom.labels %}
+    {% for label in product.metafields.custom.labels.value %}
+      <span
+        class="product-item__badge product-item__badge--round product-item__badge--custom"
+        style="--badge-background-color: {{label.color.value.color}}; --badge-color: {{ label.color.value.secondary }}"
+      >
+        {{ label.title | metafield_text -}}
+      </span>
+    {% endfor %}
+  {% endif %}
+</div>

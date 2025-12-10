@@ -1,0 +1,36 @@
+{{ "latori-tem2-style.css" | asset_url | stylesheet_tag }}
+
+<script id="latori-tem2-data" type="application/json">
+  {
+    "shop": {
+      "domain": "{{- shop.permanent_domain -}}",
+      "wrongSyntax": "{{- shop.metafields.latori_tem2.wrong_syntax -}}",
+      "invalid": "{{- shop.metafields.latori_tem2.invalid -}}",
+      "valid": "{{- shop.metafields.latori_tem2.valid -}}",
+      "viesDown": "{{- shop.metafields.latori_tem2.vies_down -}}",
+      "serverDown": "{{- shop.metafields.latori_tem2.server_down -}}",
+      "vatDeletedMessage": "{{- shop.metafields.latori_tem2.vat_deleted_message -}}",
+      "vatSaveMessage": "{{- shop.metafields.latori_tem2.vat_saved_message -}}",
+      "placeholderMessage": "{{- shop.metafields.latori_tem2.vat_input_placeholder_message -}}"
+    },
+    "customer": {
+      "id": "{{- customer.id -}}"
+    },
+    "app": {
+      "url": "{{- shop.metafields.latori_tem2_config.app_url -}}"
+    },
+    "vat_id_required": "{{- vat_id_required -}}"
+  }
+</script>
+
+{%- unless cart == empty -%}
+  <tax-exempt-manager class="latori-tem2-container latori-tem2-cart">
+    <h4>{{- shop.metafields.latori_tem2.cart_page_message -}}</h4>
+    <input
+      type="text"
+      name="latori-tem2-vat-id"
+    />
+    <p class="latori-tem2-disclaimer">{{- shop.metafields.latori_tem2.disclaimer_message -}}</p>
+    <div class="latori-tem2-message latori-tem2-hide"></div>
+  </tax-exempt-manager>
+{%- endunless -%}

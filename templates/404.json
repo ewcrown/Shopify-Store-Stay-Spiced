@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_YQHqBc": {
+      "type": "image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "large"
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_Cdnjtk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_qP67tB": {
+          "type": "title",
+          "settings": {
+            "title": "DA WO DER PFEFFER WÄCHST",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_RQB3mr": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Leider bist du nun dort wo der Pfeffer wächst.</h2><p>Normalerweise gehen WIR dorthin wo der Pfeffer wächst, um die besten Gewürze zu finden. Irgendwie bist du nun leider hier gelandet. Das ist aber nicht schlimm, denn hier findest du unsere besten Pfefferprodukte. Genieß die Spezialitäten aus den feinen Körnern!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_4WnK98": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Pfeffershop",
+            "link": "shopify://collections/pfeffer",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_qP67tB",
+        "text_RQB3mr",
+        "button_4WnK98"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/404_1.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#a36754",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "category_slider_HFaXha": {
+      "type": "category-slider",
+      "blocks": {
+        "card_cJwK4L": {
+          "type": "card",
+          "settings": {
+            "title": "Category name",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_XxA9Xe": {
+          "type": "card",
+          "settings": {
+            "title": "Category name",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_dkcJpV": {
+          "type": "card",
+          "settings": {
+            "title": "Category name",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_CgDQqe": {
+          "type": "card",
+          "settings": {
+            "title": "Category name",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_cJwK4L",
+        "card_XxA9Xe",
+        "card_dkcJpV",
+        "card_CgDQqe"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Hier eine kleine Vorschau",
+        "section_heading_layout": "section-heading--center",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "title_size": "h3",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_gd7iRY": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_ExWnDf": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_CazNnP": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_BrKpTt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_ExWnDf",
+        "title_CazNnP",
+        "quick_buy_BrKpTt"
+      ],
+      "settings": {
+        "heading": "Featured collection",
+        "header-width-limit": 500,
+        "subheading": "Showcase your best products",
+        "show_view_all": true,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 4,
+        "product-info-width-limit": 410,
+        "collection": "pfeffer",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "image_YQHqBc",
+    "main",
+    "rich_text_Cdnjtk",
+    "category_slider_HFaXha",
+    "featured_collection_gd7iRY"
+  ]
+}

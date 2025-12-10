@@ -1,0 +1,449 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_LrWzE7": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Df7Phz": {
+          "type": "title",
+          "settings": {
+            "title": "PROBIERSET Grill-Gewürze",
+            "title_size": "h1",
+            "seo_h_tag": "h1"
+          }
+        },
+        "subtitle_6azpCm": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Schicke deinen Geschmack auf Entdeckungsreise!",
+            "title_size": "h2"
+          }
+        },
+        "text_gEFbKB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du hast das GRILL Probierset schon ausprobiert? Hol dir jetzt deine Lieblingsgewürze in der großen 170ml-Dose – perfekt für dein nächstes BBQ! Top Qualität, nachhaltige Verpackung und das beste Preis-Leistungs-Verhältnis.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_MCEdgG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rezepte entdecken",
+            "link": "",
+            "target_id": "all-blog",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        },
+        "button_VzkXHf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr Gewürze",
+            "link": "",
+            "target_id": "featured-collection",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Df7Phz",
+        "subtitle_6azpCm",
+        "text_gEFbKB",
+        "button_MCEdgG",
+        "button_VzkXHf"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Probiersets-GRILL-Header_1x1_329dab8b-bbad-4b2f-b8ec-fed442b099e9.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "#f8ad60",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "image_with_hotspots_h7cxw7": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "product_CjMwMk": {
+          "type": "product",
+          "settings": {
+            "product": "susswasser-fisch-elegantes-fischgewurz",
+            "vertical_offset_desktop": 37,
+            "horizontal_offset_desktop": 36,
+            "vertical_offset_mobile": 38,
+            "horizontal_offset_mobile": 27,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "product_k6T76J": {
+          "type": "product",
+          "settings": {
+            "product": "geflugel-wiesen-hendl-brathuhn-gewurz",
+            "vertical_offset_desktop": 35,
+            "horizontal_offset_desktop": 51,
+            "vertical_offset_mobile": 37,
+            "horizontal_offset_mobile": 54,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "product_4AUkxy": {
+          "type": "product",
+          "settings": {
+            "product": "cajun-alabama-style-grillgewurz",
+            "vertical_offset_desktop": 33,
+            "horizontal_offset_desktop": 67,
+            "vertical_offset_mobile": 36,
+            "horizontal_offset_mobile": 80,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "product_iyzjbj": {
+          "type": "product",
+          "settings": {
+            "product": "pork-beef-krauter-gewurzzubereitung",
+            "vertical_offset_desktop": 66,
+            "horizontal_offset_desktop": 36,
+            "vertical_offset_mobile": 64,
+            "horizontal_offset_mobile": 28,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "product_mpbAjH": {
+          "type": "product",
+          "settings": {
+            "product": "tel-aviv-grill-bratengewurz",
+            "vertical_offset_desktop": 64,
+            "horizontal_offset_desktop": 52,
+            "vertical_offset_mobile": 62,
+            "horizontal_offset_mobile": 54,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "product_mwjtfW": {
+          "type": "product",
+          "settings": {
+            "product": "grillgemuse-grill-mariniergewurz",
+            "vertical_offset_desktop": 61,
+            "horizontal_offset_desktop": 67,
+            "vertical_offset_mobile": 59,
+            "horizontal_offset_mobile": 81,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        }
+      },
+      "block_order": [
+        "product_CjMwMk",
+        "product_k6T76J",
+        "product_4AUkxy",
+        "product_iyzjbj",
+        "product_mpbAjH",
+        "product_mwjtfW"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "image": "shopify://shop_images/Probierset-GRILL_f3434a71-464e-473d-86f4-07bcb74a3d0a.png",
+        "image_mobile": "shopify://shop_images/Probierset-GRILL-Hotspots_mobile.png",
+        "is_fullwidth": false,
+        "color_text": "#1d1d1d",
+        "color_background": "#ffffff",
+        "section_background_color": "#f8ad60",
+        "section_heading_color": "#1d1d1d",
+        "remove_margin": false,
+        "seo_h_tag": "h1"
+      }
+    },
+    "media_with_text_overlay_xmemVT": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_mVhmgV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/photo-fire.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "NOCH MEHR GRILL-GEWÜRZE ENTDECKEN",
+            "subtitle": "",
+            "link": "https://stayspiced.com/collections/grillen",
+            "open_in_new_window": false,
+            "button_label": "Jetzt entdecken",
+            "color_background_main": "#1d1d1d",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_T9QDqQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tom_heinzle_portrait-rauch.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "TOM HEINZLE",
+            "title": "GRILLEN WIE EIN PROFI",
+            "subtitle": "",
+            "link": "https://stayspiced.com/blogs/tom-heinzle",
+            "open_in_new_window": false,
+            "button_label": "Jetzt entdecken",
+            "color_background_main": "#1d1d1d",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_mVhmgV",
+        "image_T9QDqQ"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_BeDkrJ": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_437emw": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_xDUiLP": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_achQKm": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_437emw",
+        "title_xDUiLP",
+        "quick_buy_achQKm"
+      ],
+      "settings": {
+        "heading": "Du brauchst Nachschub?",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "probierset-grill",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "all_blog_m4tWXW": {
+      "type": "all-blog",
+      "blocks": {
+        "title_ebkE4k": {
+          "type": "title",
+          "settings": {}
+        },
+        "summary_KaHqRN": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_ebkE4k",
+        "summary_KaHqRN"
+      ],
+      "settings": {
+        "title": "Rezept-Ideen zum Thema:",
+        "blog_handles": "Grill",
+        "layout": "grid-3 grid-lap-1",
+        "post_limit": 6,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333"
+      }
+    },
+    "related_recipes_9WM8N6": {
+      "type": "related-recipes",
+      "blocks": {
+        "title_znLLBE": {
+          "type": "title",
+          "settings": {}
+        },
+        "info_4Xeq93": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "summary_gHfkYq": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_znLLBE",
+        "info_4Xeq93",
+        "summary_gHfkYq"
+      ],
+      "settings": {
+        "title": "Latest Articles",
+        "subheading": "Showcase your best products",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "blog": "Grillen, rezepte",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": true,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "Die Entdeckungsreise geht weiter ...",
+        "header-width-limit": 730,
+        "subheading": "Hier findest du alle unsere Probiersets. Entdecke neuen Geschmack: TOPSELLER oder MEDITERRAN!",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "probierset-grill-gewurze",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_column_metaobject_EGaDR4": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_qJ3QrN": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Du hast das STAY SPICED! GRILL Probierset bereits zu Hause und dich durch unsere beliebtesten BBQ-Mischungen probiert? Dann ist jetzt der perfekte Zeitpunkt, um deine Favoriten in der großen 170ml-Schraubdose nachzubestellen.<br/>Dieses Probierset wurde speziell für Neukunden entwickelt, die STAY SPICED! erstmalig entdecken wollten – mit 6 kleinen Kostproben als Einstieg in die Welt hochwertiger Grillgewürze. Jetzt kannst du dein Lieblingsgewürz ganz einfach nachkaufen.</p><p><br/>✔ 6 beliebte Grillgewürze – einzeln in 170ml verfügbar<br/>✔ Ideal für Fleisch, Fisch & Gemüse<br/>✔ Ohne Zusatzstoffe, made in Austria<br/>✔ Für alle, die STAY SPICED! weiter genießen wollen</p><p><br/>Du hast probiert – jetzt wird dauerhaft gewürzt. Bestelle jetzt deine Lieblings-Grillgewürze in der großen 170ml-Schraubdose und würze dein BBQ mit bester Qualität.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qJ3QrN"
+      ],
+      "name": "Meta Text",
+      "settings": {
+        "title": "S! PROBIERSET Grill-Gewürze",
+        "subheading": "",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_LrWzE7",
+    "image_with_hotspots_h7cxw7",
+    "media_with_text_overlay_xmemVT",
+    "featured_collection_BeDkrJ",
+    "all_blog_m4tWXW",
+    "related_recipes_9WM8N6",
+    "featured_collection_wpmJ6R",
+    "text_column_metaobject_EGaDR4"
+  ]
+}

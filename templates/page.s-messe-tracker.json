@@ -1,0 +1,994 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "slideshow_zVpgN4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9HNiAD": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/Messe-Guide_desktop_9886d14d-8a9a-452e-afb1-5906350effad.png",
+            "mobile_image": "shopify://shop_images/Messe-Guide_mobile_eda3d399-1abd-4f7b-9015-6c155ed95388.png",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_9HNiAD"
+      ],
+      "settings": {
+        "desktop_height": "50vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 3,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h1",
+        "button_size": "regular",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "promotion_cards_8NaWML": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_JmwUbp": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Image_56.jpg",
+            "caption": "14.–18. März in Hamburg",
+            "title": "Internorga",
+            "subtitle": "Halle A3, Stand 329",
+            "link": "https://www.internorga.com/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#f39323",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_JmwUbp"
+      ],
+      "settings": {
+        "heading": "März 2025",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_8VFfjA": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_B6pdC6": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/PUR_62bce799-30ea-476d-a47d-36aab5653f26.png",
+            "caption": "07.–08. April in Salzburg",
+            "title": "Transgourmet Messe PUR",
+            "subtitle": "Halle 10, Stand 248",
+            "link": "https://pur.transgourmet.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d30146",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_B6pdC6"
+      ],
+      "settings": {
+        "heading": "April 2025",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_cd4LLL": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_9LLy4j": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/IFFA.png",
+            "caption": "03.–08. Mai",
+            "title": "IFFA",
+            "subtitle": "Frankfurt, Deutschland",
+            "link": "https://iffa.messefrankfurt.com/frankfurt/de/profil/overview.html?wt_mc=iffa.dach.bsea.google.brand&gad_source=1&gbraid=0AAAAADEmwAq5ahqgo1vV2iSrmQ3bXRhJZ&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIqRbOkp_454CIDkWNebO9RcOhmqNTXBRH4vUpZ1ytXUmaQ8WFtDNVsaApVfEALw_wcB",
+            "open_in_new_window": true,
+            "button_label": "Show more",
+            "color_background_main": "#dbb6d7",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_BbXXnm": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSC08578.jpg",
+            "caption": "26.–27. Mai",
+            "title": "Rolling Pin Convention Graz",
+            "subtitle": "Graz, Österreich",
+            "link": "https://www.rollingpinconvention.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#dbb6d7",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_9LLy4j",
+        "card_BbXXnm"
+      ],
+      "settings": {
+        "heading": "Mai 2025",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_gKpJh8": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_Jnj4wX": {
+          "type": "card",
+          "settings": {
+            "caption": "05.–06. September",
+            "title": "27. AUSTRIAN GRILL OPEN",
+            "subtitle": "Kaindorf bei Hartberg, Österreich",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_BLFm6D": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Gault-Millau.png",
+            "caption": "13.–14. September",
+            "title": "Gault & Millau Genussmesse",
+            "subtitle": "Wien, Österreich",
+            "link": "https://www.gaultmillau.at/news/gaultmillau-genussmesse-2025",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_VU699J": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Rolling-Pin-Convention.png",
+            "caption": "29.–30. September",
+            "title": "Rolling Pin Convention Düsseldorf",
+            "subtitle": "Düsseldorf, Deutschland",
+            "link": "https://www.rollingpinconvention.de/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_m3witM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Alpine-Kueche_402fcb80-379c-42c1-8ac5-f59c13240fa2.png",
+            "caption": "TBA",
+            "title": "Festspiele der Alpinen Küche",
+            "subtitle": "Zell am See-Kaprun, Österreich",
+            "link": "",
+            "open_in_new_window": true,
+            "button_label": "",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_Jnj4wX",
+        "card_BLFm6D",
+        "card_VU699J",
+        "card_m3witM"
+      ],
+      "settings": {
+        "heading": "September 2025",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_Ya7Ydc": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_XqGbt9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Anuga.png",
+            "caption": "04.–08. Oktober",
+            "title": "Anuga",
+            "subtitle": "Köln, Deutschland",
+            "link": "https://www.anuga.de/die-messe/anuga/",
+            "open_in_new_window": true,
+            "button_label": "Show more",
+            "color_background_main": "#d2da4d",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_6Qmb6r": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Gewnusswelten.png",
+            "caption": "24.–26. Oktober",
+            "title": "Genusswelten MAK Wien",
+            "subtitle": "Wien, Österreich",
+            "link": "https://genusswelten.at/-/index.htm",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d2da4d",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_XqGbt9",
+        "card_6Qmb6r"
+      ],
+      "settings": {
+        "heading": "Oktober 2025",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_daT96T": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_GXCCgN": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Kuchenmesse.png",
+            "caption": "14.–16. November",
+            "title": "Kuchen- Kreativ- Kaffeemesse Wels",
+            "subtitle": "Wels, Österreich",
+            "link": "https://kuchenmesse.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d7007f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_GXCCgN"
+      ],
+      "settings": {
+        "heading": "November 2025",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_QgbKQX": {
+      "type": "marquee",
+      "blocks": {
+        "text_rYhf3M": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_rYhf3M"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 20,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#ffffff",
+        "color_text_main": "#ffffff"
+      }
+    },
+    "marquee_tU3QwM": {
+      "type": "marquee",
+      "blocks": {
+        "text_hHLbkD": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "VERGANGENE MESSEN & EVENTS <3"
+          }
+        }
+      },
+      "block_order": [
+        "text_hHLbkD"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#e74019",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "promotion_cards_he7Djt": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_fRTUqi": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_gast-messe_gerichte_0724_-014.jpg",
+            "caption": "08.–13. November",
+            "title": "Alles für den GAST Salzburg",
+            "subtitle": "Salzburg, Österreich",
+            "link": "https://www.gastmesse.at/de/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d7007f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_CaBYEj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Kuchenmesse.png",
+            "caption": "15.–17. Oktober",
+            "title": "Kuchen- Kreativ- Kaffeemesse Wels",
+            "subtitle": "Wels, Österreich",
+            "link": "https://kuchenmesse.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d7007f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_fRTUqi",
+        "card_CaBYEj"
+      ],
+      "settings": {
+        "heading": "November 2024",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_N3qGrb": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_RcxR67": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Gewnusswelten.png",
+            "caption": "18.–20. Oktober",
+            "title": "Genusswelten MAK Wien",
+            "subtitle": "Wien, Österreich",
+            "link": "",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d2da4d",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_RcxR67"
+      ],
+      "settings": {
+        "heading": "Oktober 2024",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_HnFMpX": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_4Bc9gL": {
+          "type": "card",
+          "settings": {
+            "caption": "06.–07. September",
+            "title": "26. AUSTRIAN GRILL OPEN",
+            "subtitle": "Kaindorf bei Hartberg, Österreich",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_cxY4dW": {
+          "type": "card",
+          "settings": {
+            "caption": "13. September",
+            "title": "Workshop Tourismusschule Klessheim",
+            "subtitle": "Klessheim, Österreich",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_WJyDiq": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Gault-Millau_Genussmesse.png",
+            "caption": "27.–29. September",
+            "title": "Gault & Millau Genussmesse",
+            "subtitle": "Wien, Österreich",
+            "link": "https://www.gaultmillau.at/news/gaultmillau-genussmesse-2024",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_8QdRxY": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSC08947.jpg",
+            "caption": "30. September – 01.Oktober",
+            "title": "Rolling Pin Convention Düsseldorf",
+            "subtitle": "Düsseldorf, Deutschland",
+            "link": "https://www.rollingpinconvention.de/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_tzhXhG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Alpine-Kueche.png",
+            "caption": "30. September",
+            "title": "Festspiele der Alpinen Küche",
+            "subtitle": "Zell am See-Kaprun, Österreich",
+            "link": "https://alpine-kueche.com/de/festspiele-der-alpinen-kueche",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_4Bc9gL",
+        "card_cxY4dW",
+        "card_WJyDiq",
+        "card_8QdRxY",
+        "card_tzhXhG"
+      ],
+      "settings": {
+        "heading": "September 2024",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_aUbYVX": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_RYV3WH": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSC08578.jpg",
+            "caption": "13.–14. Mai",
+            "title": "Rolling Pin Convention Graz",
+            "subtitle": "Graz, Österreich",
+            "link": "https://www.rollingpinconvention.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#dbb6d7",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_RYV3WH"
+      ],
+      "settings": {
+        "heading": "Mai 2024",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_9gyx68": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_NxGpG7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/PUR_62bce799-30ea-476d-a47d-36aab5653f26.png",
+            "caption": "08.–09. April",
+            "title": "Transgourmet Messe PUR",
+            "subtitle": "Salzburg, Österreich",
+            "link": "https://pur.transgourmet.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d30146",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_NxGpG7"
+      ],
+      "settings": {
+        "heading": "April 2024",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_V4cwcp": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_paEiTG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Selgros.png",
+            "caption": "05.–06. März",
+            "title": "Sel Gros Roadshow - mit Roland Trettl",
+            "subtitle": "Leipzig & Nürnberg, Deutschland",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#95c11f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_WKLtKG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Genussfest.png",
+            "caption": "15.–17. März",
+            "title": "Kulinarik Messe Salzburg",
+            "subtitle": "Salzburg, Österreich",
+            "link": "https://www.kulinarik-salzburg.at/de/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#95c11f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_paEiTG",
+        "card_WKLtKG"
+      ],
+      "settings": {
+        "heading": "März 2024",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_Ax3ja6": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_6B4YA6": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Chef-and-Service.png",
+            "caption": "24. Jänner",
+            "title": "Chef & Service Connect",
+            "subtitle": "Wien, Österreich",
+            "link": "https://www.chef-and-service-connect.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#dcc38e",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_6B4YA6"
+      ],
+      "settings": {
+        "heading": "Jänner 2024",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_F78iqi": {
+      "type": "rich-text",
+      "blocks": {
+        "title_7dYyBC": {
+          "type": "title",
+          "settings": {
+            "title": "Get in Touch!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_tfEtjg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Marlene ist bei uns im Haus deine persönliche Ansprechperson und kümmert sich gemeinsam mit ihrem Team um alle Anliegen rund um unsere Messen & Events.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "text_hx8gfj": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>KONTAKT:<br/>T +43 662 890 919<br/>E office@stayspiced.com</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_7dYyBC",
+        "text_tfEtjg",
+        "text_hx8gfj"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Marlene-Standl_f16f9d61-8677-4847-96fb-f14d46698d33.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_zVpgN4",
+    "promotion_cards_8NaWML",
+    "promotion_cards_8VFfjA",
+    "promotion_cards_cd4LLL",
+    "promotion_cards_gKpJh8",
+    "promotion_cards_Ya7Ydc",
+    "promotion_cards_daT96T",
+    "marquee_QgbKQX",
+    "marquee_tU3QwM",
+    "promotion_cards_he7Djt",
+    "promotion_cards_N3qGrb",
+    "promotion_cards_HnFMpX",
+    "promotion_cards_aUbYVX",
+    "promotion_cards_9gyx68",
+    "promotion_cards_V4cwcp",
+    "promotion_cards_Ax3ja6",
+    "rich_text_F78iqi"
+  ]
+}

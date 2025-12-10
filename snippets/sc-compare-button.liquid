@@ -1,0 +1,40 @@
+{% assign metafields_list = compare_button_settings.compare_metafields | split: ',' %}
+
+{% assign metafields_json = '{' %}
+{% assign translations_json = '{' %}
+{% for metafield in metafields_list %}
+  {% assign metafield_handle = metafield | strip %}
+  {% assign metafield_value = product.metafields.custom[metafield_handle] %}
+  {% assign metafield_translation = 'custom.metafields.' | append: metafield_handle | t %}
+
+  {% if metafield_value != blank %}
+    {% assign metafields_json = metafields_json | append: '"' | append: metafield_handle | append: '":"' | append: metafield_value | append: '",' %}
+    {% assign translations_json = translations_json | append: '"' | append: metafield_handle | append: '":"' | append: metafield_translation | append: '",' %}
+  {% endif %}
+{% endfor %}
+{% assign metafields_json = metafields_json | remove_last: ',' | append: '}' %}
+{% assign translations_json = translations_json | remove_last: ',' | append: '}' %}
+
+<div
+    class="compare-button"
+    style="--button-background-color: {{ compare_button_settings.background_color }}; --button-border-color: {{ compare_button_settings.border_color }}; --button-color: {{ compare_button_settings.button_color }};"
+    product-add-to-compare
+    {% if product %}
+        data-product-id="{{ product.selected_or_first_available_variant.id }}"
+        data-product-handle="{{ product.handle }}"
+        data-product-image="{{ product.featured_image | image_url }}"
+        data-product-price-at="{% if product.compare_at_price > 0  %}{{ product.compare_at_price | money_with_currency }}{% endif %}"
+        data-product-price="{{ product.price | money_with_currency }}"
+        data-product-name="{{ product.title }}"
+        data-product-objects="{{ metafields_json | escape }}"
+        data-product-url="{{ product.url }}"
+        data-product-translations="{{ translations_json | escape }}"
+        data-product-skus="{{ product.variants |  map: 'sku' | join: ',' }}"
+    {% endif %}
+>
+    <span class="compare-button-icon">
+    {% render 'icon-pack', icon: 'compare' %}
+    </span>
+
+    <span>{{ 'custom.product.compare' | t }}</span>
+</div>

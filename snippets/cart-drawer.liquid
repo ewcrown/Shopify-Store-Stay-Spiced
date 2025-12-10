@@ -1,0 +1,75 @@
+<sidebar-drawer
+  id="site-cart-sidebar"
+  class="sidebar sidebar--right {% if cart.item_count == 0 %} cart-is-empty {% endif %}"
+  tabindex="-1"
+  role="dialog"
+  aria-modal="true"
+  data-cart-items="{{ cart.item_count }}"
+  style="display:none"
+  data-js-site-cart-sidebar
+>
+  <div class="sidebar__header">
+    <span class="sidebar__title h5">
+      {{ 'cart.title' | t }} (<span data-header-cart-count>
+        {{ cart.item_count -}}</span
+      >)
+    </span>
+    <button class="sidebar__close" data-js-close>
+      <span class="visually-hidden">{{ 'general.accessibility_labels.close_sidebar' | t }}</span>
+      <span aria-hidden="true" aria-role="img">{%- render 'theme-symbols', icon: 'close' -%}</span>
+    </button>
+  </div>
+
+  <div class="sidebar__body">
+    <div class="cart-form sidebar-large-padding">
+      {%- render 'cart-form', type: 'sidebar' -%}
+      <a
+        href="{{ routes.all_products_collection_url }}"
+        class="cart-continue button button--fullwidth button--solid button--regular"
+      >
+        {{ 'cart.continue_browsing' | t }}
+      </a>
+    </div>
+
+    {%- if settings.cart_recommendations -%}
+      <cart-recommendations
+        id="cart-recommendations"
+        data-section="cart-recommendations"
+        data-limit="6"
+      ></cart-recommendations>
+      <script src="{{ 'component-cart-recommendations.js' | asset_url }}" defer></script>
+    {%- endif -%}
+
+    {%- if settings.cart_notes_enable -%}
+      <div class="cart-instructions hide-if-empty-cart">
+        <div class="form-field">
+          <label for="cartSpecialInstructions">{{ 'cart.note' | t }}</label>
+          <textarea name="note" id="cartSpecialInstructions" form="cart">{{ cart.note }}</textarea>
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+
+  <div
+    class="sidebar__footer hide-if-empty-cart"
+    {% if settings.sticky_cart_actions %}
+      style="position: sticky;"
+    {% endif %}
+  >
+    {%- render 'cart-subtotal', type: 'sidebar' -%}
+  </div>
+</sidebar-drawer>
+
+<script>
+  new MutationObserver((mutations, observer) => {
+    if (document.getElementById('cart').classList.contains('cart--empty')) {
+      document.getElementById('site-cart-sidebar').classList.add('cart-is-empty');
+    } else {
+      document.getElementById('site-cart-sidebar').classList.remove('cart-is-empty');
+    }
+  }).observe(document.querySelector('.cart-form'), {
+    attributes: false,
+    childList: true,
+    subtree: true,
+  });
+</script>

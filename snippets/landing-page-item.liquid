@@ -1,0 +1,26 @@
+<div class="landing-page-item">
+  <a href="{{ landing_page.url }}">
+    <figure class="landing-page-item__image lazy-image lazy-image--animation element--border-radius lazyloaded">
+      {% if landing_page.featured_image != blank %}
+        {{ landing_page.featured_image | image_url: height: 300 | image_tag: loading: 'lazy' }}
+      {% endif %}
+    </figure>
+  </a>
+  <div class="landing-page-item__content">
+    <h3 class="landing-page-item__title">{{ landing_page.title }}</h3>
+    <div class="landing-page-item__description">{{ landing_page.description | metafield_tag }}</div>
+  </div>
+  <div class="landing-page-item__button">
+    <a href="{{ landing_page.url }}" class="bold element--is-inline-block">
+      {{ 'custom.landing_page.button_text' | t }}
+    </a>
+  </div>
+</div>
+
+{% style %}
+  .landing-page-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+{% endstyle %}

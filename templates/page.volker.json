@@ -1,0 +1,293 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_product_Kd4ezT": {
+      "type": "featured-product",
+      "blocks": {
+        "title_a9byTW": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_pebYfV": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_yMhJFM": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_AzDXqQ": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_PpjiRN": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_6WBHhE": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_hNKByx": {
+          "type": "description",
+          "settings": {}
+        },
+        "bullet_DdhXhL": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_a9byTW",
+        "price_pebYfV",
+        "variant_picker_yMhJFM",
+        "space_AzDXqQ",
+        "buy_buttons_PpjiRN",
+        "space_6WBHhE",
+        "description_hNKByx",
+        "bullet_DdhXhL"
+      ],
+      "settings": {
+        "title": "Product Title",
+        "section_heading_layout": "section-heading--center",
+        "product": "tel-aviv-by-neni-food-people-stories-by-haya-molcho-kochbuch",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "center": false
+      }
+    },
+    "blog_slider_8dKBWq": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_t94zx4": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_zDdAUg": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_t94zx4",
+        "title_zDdAUg"
+      ],
+      "settings": {
+        "title": "Latest Articles",
+        "subheading": "Showcase your best products",
+        "post_limit": 3,
+        "section_heading_layout": "section-heading--left",
+        "blog": "",
+        "article_list": "osterreichische-pofesen",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_mGAjjw": {
+      "type": "featured-product",
+      "blocks": {
+        "title_eim4Ah": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_6KgXCf": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_hYLWgF": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_7K8jgj": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_6RFKWb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_gMQyE8": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_hVXALz": {
+          "type": "description",
+          "settings": {}
+        },
+        "bullet_8VgziE": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_eim4Ah",
+        "price_6KgXCf",
+        "variant_picker_hYLWgF",
+        "space_7K8jgj",
+        "buy_buttons_6RFKWb",
+        "space_gMQyE8",
+        "description_hVXALz",
+        "bullet_8VgziE"
+      ],
+      "settings": {
+        "title": "Product Title",
+        "section_heading_layout": "section-heading--center",
+        "product": "umami",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_74h6nB": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_zEtqzT": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_c7e4jq": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_LNWT8W": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_zEtqzT",
+        "title_c7e4jq",
+        "quick_buy_LNWT8W"
+      ],
+      "settings": {
+        "heading": "Featured collection",
+        "header-width-limit": 500,
+        "subheading": "Showcase your best products",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "alle-geschenke",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "all_blog_FiQhKg": {
+      "type": "all-blog",
+      "blocks": {
+        "title_JeW68N": {
+          "type": "title",
+          "settings": {}
+        },
+        "info_Az9zxF": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "summary_gK4qpn": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_JeW68N",
+        "info_Az9zxF",
+        "summary_gK4qpn"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Alle Rezepte",
+        "blog_handles": "backen,barbecue,ben-perry,blogger-vips,curry,fleisch,gemuse,grill,haya-molcho,profi-koche,rezepte,roland-trettl,s-rezepte,tom-heinzle",
+        "layout": "grid-3 grid-lap-1",
+        "post_limit": 96,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333"
+      }
+    }
+  },
+  "order": [
+    "featured_product_Kd4ezT",
+    "main",
+    "blog_slider_8dKBWq",
+    "featured_product_mGAjjw",
+    "featured_collection_74h6nB",
+    "all_blog_FiQhKg"
+  ]
+}

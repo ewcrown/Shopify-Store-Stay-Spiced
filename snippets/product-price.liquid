@@ -1,0 +1,61 @@
+{%- unless customer == blank and settings.b2b_hide_price == true -%}
+  <div class="product-price">
+    {%- if product_price_varies -%}
+      <span class="product-price--original" data-js-product-price-original>
+        {%- liquid
+          assign price = target.price | money
+          if target.compare_at_price > target.price or target.compare_at_price_varies
+            echo 'products.grid.on_sale_from_html' | t: price: price
+          else
+            echo 'products.grid.from_text_html' | t: price: price
+          endif
+        -%}
+      </span>
+
+    {%- else -%}
+      {% comment %} <span class="discount-percent {{ text_size_class }}">-20%</span> {% endcomment %}
+      <span class="product-price--original {{ text_size_class }}" data-js-product-price-original>
+        {{- target.price | money -}}
+      </span>
+
+      <del class="product-price--compare" data-js-product-price-compare>
+        {%- liquid
+          if target.compare_at_price > target.price
+            echo target.compare_at_price | money | prepend: '<span>' | append: '</span>'
+            if show_saving
+              assign saving = target.compare_at_price | minus: target.price | money
+              echo 'products.page.sales_amount_html' | t: amount: saving | prepend: '<span>' | append: '</span>'
+            endif
+          endif
+        -%}
+      </del>
+    {%- endif -%}
+    <span class="product-price--info text-size--small">
+      {{- 'products.page.include_taxes' | t }}
+      {{ 'products.page.shipping_policy_html' | t: link: shop.shipping_policy.url -}}
+    </span>
+    {% unless product.template_suffix == 'product_book' or product.template_suffix == 'product_handelsware' %}
+      <span class="product-price--unit text-size--small" data-js-product-price-unit>
+        {%- liquid
+          if variant.unit_price_measurement
+            assign unit_price = variant.unit_price | money
+            if variant.unit_price_measurement.reference_value != 1
+              assign reference_value = variant.unit_price_measurement.reference_value
+            endif
+            assign reference_unit = variant.unit_price_measurement.reference_unit
+          elsif variant.weight
+            assign variant_price = variant.price | times: 100.0
+            assign variant_weight = variant.weight | times: 100.0
+            assign unit_price = variant_price | divided_by: variant_weight | times: 100.0 | money
+            assign reference_value = 100
+            assign reference_unit = 'g'
+          endif
+        -%}
+        {{-
+          'products.page.unit_price'
+          | t: unit_price: unit_price, reference_value: reference_value, reference_unit: reference_unit
+        -}}
+      </span>
+    {%- endunless -%}
+  </div>
+{%- endunless -%}

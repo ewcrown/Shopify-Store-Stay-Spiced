@@ -1,0 +1,281 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_ijByMX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_4Vq3Y8": {
+          "type": "title",
+          "settings": {
+            "title": "Handverlesener Paprika aus der Donauregion",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_THitUi": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Der Stolz ungarischer Paprikakunst",
+            "title_size": "h2"
+          }
+        },
+        "text_n9kwCy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unsere neue Ernte überzeugt mit einem Spitzenwert von 220 ASTA – ein Qualitätsmerkmal für außergewöhnliche Farbintensität. Das Resultat: ein strahlend rotes, hocharomatisches Paprikapulver, das deinen Gerichten nicht nur Geschmack, sondern Charakter verleiht.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_4Vq3Y8",
+        "subtitle_THitUi",
+        "text_n9kwCy"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Paprika_Header-1x1_09962e68-cdc1-4611-b370-da85d7c98ae8.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "#d2da4d",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_8M4GDt": {
+      "type": "featured-product",
+      "blocks": {
+        "title_pFGJCy": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_GTwHxt": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_ccwPBQ": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "bullet_UF9bT3": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "space_Wb6kYq": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_GVUEhJ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_TtPGMD": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_wjXkfT": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "text_xQMcGX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Gut zu Wissen:</strong><br/>{{ section.settings.product.metafields.custom.txt_goodtoknow.value }}</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false
+          }
+        }
+      },
+      "block_order": [
+        "title_pFGJCy",
+        "price_GTwHxt",
+        "variant_picker_ccwPBQ",
+        "bullet_UF9bT3",
+        "space_Wb6kYq",
+        "buy_buttons_GVUEhJ",
+        "space_TtPGMD",
+        "description_wjXkfT",
+        "text_xQMcGX"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "handselektierer-paprika-edelsuss-220-asta",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "image_TLh9Dg": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Paprika_220_ASTA_Kreislauf_1.png",
+        "mobile_image": "shopify://shop_images/Paprika_220_ASTA_Kreislauf_mobile_1.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "image_bFVp48": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Paprika_Philosophie_desktop_0f1a6245-e918-4096-b85b-816d797d23cb.png",
+        "mobile_image": "shopify://shop_images/Paprika_Philosophie_mobile_ab3e4fca-175d-42a0-bfc6-aba373bfad0a.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "rich_text_PzaUgc": {
+      "type": "rich-text",
+      "blocks": {
+        "title_V63aEE": {
+          "type": "title",
+          "settings": {
+            "title": "Vom Feld bis zur Dose",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_BzheaB": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Vom ersten Keimling bis zur letzten gemahlenen Flocke steckt in jeder Portion unseres Paprikas die volle Kraft traditioneller Handarbeit: ",
+            "title_size": "h2"
+          }
+        },
+        "text_PaqdQr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Paprikasamen werden im Frühjahr gesät, versorgt mit dem nährstoffreichen Wasser der Donau. Die Ernte erfolgt ausschließlich von Hand – und es wird nur die erste Ernte verarbeitet, denn nur sie enthält die volle Kraft der Aromen. Eine 6-wöchige Nachreife in der Sonne verleiht dem Paprika seine intensiv leuchtende Farbe und seinen vollmundigen Geschmack. Nach der behutsamen Trocknung wird jeder Paprika sorgfältig sortiert, entstielt und von Mark befreit. Frisch gemahlen und sofort luftdicht verpackt – für ein Gewürz, das in jeder Prise seine Herkunft schmecken lässt.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_V63aEE",
+        "subtitle_BzheaB",
+        "text_PaqdQr"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Papryka_Feld.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#d2da4d",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_RQrnxB": {
+      "type": "rich-text",
+      "blocks": {
+        "title_9D4ypw": {
+          "type": "title",
+          "settings": {
+            "title": "Leuchtend rot. Intensiv aromatisch. Voller Geschichte. ",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_ghdn66": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seit 1990 wird bei unserem Partner in der ungarischen Donauregion ein Gewürzpaprika kultiviert, der weltweit seinesgleichen sucht. </p><p>In einem traditionsreichen Familienbetrieb sorgt heute bereits die vierte Generation mit größter Hingabe dafür, dass aus jeder einzelnen Paprikaschote ein echtes Premiumgewürz entsteht. </p><p></p><p>STAY SPICED ! bringt diesen einzigartigen Paprika jetzt in deine Küche – und damit ein Stück ungarische Tradition, veredelt durch jahrzehntelange Handarbeit und Leidenschaft.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_9D4ypw",
+        "text_ghdn66"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Paprika_Hand.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#d2da4d",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_ijByMX",
+    "featured_product_8M4GDt",
+    "rich_text_PzaUgc",
+    "image_TLh9Dg",
+    "image_bFVp48",
+    "rich_text_RQrnxB"
+  ]
+}

@@ -1,0 +1,457 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_QPHp8r": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Stayspiced_FB_Titelbilder_Vatertag.jpg",
+        "mobile_image": "shopify://shop_images/Kein_Titel_1500_x_2083_px_1.jpg",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "featured_product_DTVtqi": {
+      "type": "featured-product",
+      "blocks": {
+        "title_UnfeVX": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_QQJBt8": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_BXyytf": {
+          "type": "space",
+          "settings": {}
+        },
+        "price_zjJ9AY": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_r3CEzV": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_wiNbUV": {
+          "type": "space",
+          "settings": {}
+        },
+        "bullet_37RQVj": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_UnfeVX",
+        "variant_picker_QQJBt8",
+        "space_BXyytf",
+        "price_zjJ9AY",
+        "buy_buttons_r3CEzV",
+        "space_wiNbUV",
+        "bullet_37RQVj"
+      ],
+      "settings": {
+        "title": "Zu jedem 6er Karton: Banderole + Stickerset gratis",
+        "section_heading_layout": "section-heading--center",
+        "product": "buy-x-get-y-3",
+        "gallery_ratio": "1",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "featured_collection_qUQHP3": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_KpVVLb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_qHdFtj": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_43rAmX": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_KpVVLb",
+        "title_qHdFtj",
+        "quick_buy_43rAmX"
+      ],
+      "settings": {
+        "heading": "Liebe geht durch den Magen!",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "muttertag-2025",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_slider_aY8amt": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_cKxNQ7": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_6er-box.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "1: 6er Box auswählen",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p><strong>Wähle eine Gewürzbox oder stelle deine Box individuell zusammen.<br/><br/></strong></p>",
+            "text_size": "large",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_9kAaqa": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_2000_x_1502_px_1.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "<strong>2: Gratis Papa-Banderole + Sticker hinzufügen</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p><strong>Füge im Warenkorb die Banderole und süße Sticker gratis hinzu. <br/><br/></strong></p>",
+            "text_size": "large",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_YH3bw7": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_2000_x_1502_px.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "<strong>3: Zuhause kreativ werden & Papa überraschen!</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p><strong>Gestalte das Geschenk ganz individuell – beklebe die Box mit den Stickern und mach Mama eine riesige Freude! <br/><br/></strong></p>",
+            "text_size": "large",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_cKxNQ7",
+        "content_9kAaqa",
+        "content_YH3bw7"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "color_background_main": "#00baec",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_cbQCV6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_DiGW4z": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ckYCnq": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_TaG4Uf": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_DiGW4z",
+        "title_ckYCnq",
+        "quick_buy_TaG4Uf"
+      ],
+      "settings": {
+        "heading": "Zum Vatertag wird beschenkt!",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "boxen-6er",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_cw3icz": {
+      "type": "rich-text",
+      "blocks": {
+        "title_yCheJA": {
+          "type": "title",
+          "settings": {
+            "title": "Für das besondere Ostergeschenk",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_KVBQGc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beim Kauf einer STAY SPICED ! Geschenkbox packen wir dir eine gratis \"HOP HOP HOP\" Osterbanderole in deine Bestellung mit rein. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_yCheJA",
+        "text_KVBQGc"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/OSTER-Banderole_9x16_f9774f03-f262-44d8-bd74-f52826ec464a.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_icons_7mBGmc": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_6fMdef": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "100% Gewürz",
+            "caption": "Unsere Gewürzmischungen bestehen zu 100 % aus natürlichen & hochwertigen Zutaten!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_cPTxqN": {
+          "type": "image",
+          "settings": {
+            "icon": "tree",
+            "image": "shopify://shop_images/heart-256.png",
+            "title": "Ohne künstliche Zusatzstoffe",
+            "caption": "Ganz ohne künstliche Zusatzstoffe – für den puren, natürlichen Geschmack!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_4A9hJH": {
+          "type": "image",
+          "settings": {
+            "icon": "ecological",
+            "image": "shopify://shop_images/birthday-cake-256.png",
+            "title": "Perfekt als Geschenk",
+            "caption": "Ob Geburtstag, Weihnachten, Hochzeiten oder einfach so - STAY SPICED ! Gewürze passen zu jedem Anlass",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_6fMdef",
+        "image_cPTxqN",
+        "image_4A9hJH"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_3NCQLz": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_7TWyq9": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_7TWyq9"
+      ],
+      "settings": {
+        "title": "Zum Vatertag wird gegrillt!",
+        "subheading": "",
+        "post_limit": 4,
+        "section_heading_layout": "section-heading--center",
+        "blog": "tom-heinzle",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "custom_liquid_n8Xzfn": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .video-wrapper {\n    position: relative;\n    width: 100%;\n    /* The padding-top percentage is calculated as (height / width) * 100% for a 9:16 ratio */\n    padding-top: 177.77%; /* (16/9) * 100 */\n  }\n\n  .video-wrapper iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"video-wrapper\">\n  <iframe src=\"https://www.youtube.com/embed/fid_0mgGCvE\" title=\"Olivia Dean - felt like a fluffy dream !!! #shorts\" frameborder=\"0\" \n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n  referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "media_with_text_overlay_Lffd4f": {
+      "type": "media-with-text-overlay",
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "image_QPHp8r",
+    "featured_product_DTVtqi",
+    "main",
+    "featured_collection_qUQHP3",
+    "rich_text_slider_aY8amt",
+    "featured_collection_cbQCV6",
+    "rich_text_cw3icz",
+    "text_columns_icons_7mBGmc",
+    "blog_slider_3NCQLz",
+    "custom_liquid_n8Xzfn",
+    "media_with_text_overlay_Lffd4f"
+  ]
+}

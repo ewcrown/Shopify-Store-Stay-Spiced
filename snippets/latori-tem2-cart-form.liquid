@@ -1,0 +1,8 @@
+{%- assign vat_id = "" -%}
+{%- for tag in customer.tags -%}
+{%- if tag contains "vat_id" -%}
+  {%- assign vat_id  = tag | split: ":" | last -%}
+{%- endif -%}
+{%- endfor -%}
+
+<input type="hidden" id="latori-tem2-hidden-input" name="attributes[vat_id]" value="{{- vat_id -}}" />

@@ -1,0 +1,23 @@
+    html {
+    scroll-behavior: smooth;
+  }
+
+  .anchor-navigation .container--fullwidth {
+    border-block: 1px solid var(--color-borders-forms-primary);
+  }
+
+  .anchor-navigation .anchor-navigation__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1360px;
+    padding-block: 1rem;
+    padding-inline: var(--gutter-container);
+  }
+
+  .anchor-navigation .anchor-navigation__item {
+    font-weight: 700;
+    padding: 0.25rem 2rem;
+  }

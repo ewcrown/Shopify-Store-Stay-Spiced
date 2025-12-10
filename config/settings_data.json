@@ -1,0 +1,402 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "presets": {
+    "Light": {
+      "headings_font": "dm_sans_n5",
+      "headings_size": 70,
+      "headings_line": 1.2,
+      "body_font": "dm_sans_n4",
+      "body_size": 17,
+      "body_line": 1.5,
+      "buttons_weight": "bolder",
+      "menu_size": 16,
+      "menu_weight": "bolder",
+      "color_background_header": "#ffffff",
+      "color_text_header": "#1d1d1d",
+      "color_accent_header": "#000000",
+      "color_background_main": "#ffffff",
+      "color_text_main": "#1d1d1d",
+      "color_accent_main": "#000000",
+      "color_background_cards": "transparent",
+      "color_text_cards": "#1d1d1d",
+      "color_accent_cards": "#000000",
+      "color_borders_cards": "#e1e1e1",
+      "color_background_footer": "#ffffff",
+      "color_text_footer": "#000000",
+      "color_accent_footer": "#298556",
+      "grid_gap": 26,
+      "border_radius_cards": 10,
+      "border_width_buttons": 1,
+      "border_radius_buttons": 30,
+      "product_icon_1_image": "",
+      "product_icon_1_label": "",
+      "cart_free_shipping": false
+    },
+    "Lively": {
+      "headings_font": "cooper_bt_n5",
+      "headings_size": 80,
+      "body_font": "basic_commercial_n4",
+      "body_size": 16,
+      "body_line": 1.4,
+      "menu_size": 18,
+      "color_background_header": "#3e2f25",
+      "color_text_header": "#f5e2b0",
+      "color_accent_header": "#ffa000",
+      "color_background_main": "#3e2f25",
+      "color_text_main": "#f5e2b0",
+      "color_accent_main": "#ffa000",
+      "color_background_cards": "#3e2f25",
+      "color_text_cards": "#f5e2b0",
+      "color_accent_cards": "#ffa000",
+      "color_borders_cards": "#534338",
+      "shadow_cards_color": "#000000",
+      "shadow_buttons_color": "#000000",
+      "color_background_footer": "#352820",
+      "color_text_footer": "#c6b68d",
+      "color_accent_footer": "#ffa000",
+      "container_vertical_space": 100,
+      "grid_gap": 30,
+      "border_width_cards": 1,
+      "border_radius_cards": 16,
+      "border_width_buttons": 1,
+      "border_radius_buttons": 30,
+      "border_width_forms": 1,
+      "border_radius_forms": 6,
+      "shadow_cards_x": 0,
+      "shadow_cards_y": 0,
+      "shadow_cards_blur": 0,
+      "shadow_buttons_x": 3,
+      "shadow_buttons_y": 4,
+      "product_card_aspect_ratio": "0.666667",
+      "product_card_aspect_ratio_fit": true,
+      "proudct_card_aspect_ratio_padding": 10,
+      "product_card_show_secondary_image": false,
+      "product_card_text_alignment": "center",
+      "product_card_text_size": "xlarge",
+      "product_card_button_style": "solid",
+      "product_card_align_buy": true,
+      "product_card_color_text_main": "#f5e2b0",
+      "product_card_color_button_main": "#4b3b30",
+      "product_card_badge_sold_out_color": "#534338",
+      "product_card_badge_sold_out_text_color": "#807b78",
+      "product_card_badge_sale_color": "#f47315",
+      "product_card_badge_custom_1_color": "#76553c",
+      "product_card_badge_custom_1_text_color": "#fceabb",
+      "product_card_badge_custom_2_color": "#b9745a",
+      "product_card_badge_custom_2_text_color": "#fceabb",
+      "product_card_badge_custom_3_color": "#934141",
+      "product_card_badge_custom_3_text_color": "#cab19d",
+      "cart_image_ratio": "0.666667",
+      "cart_image_fit": true
+    },
+    "Dark": {
+      "headings_font": "bitter_n4",
+      "headings_size": 70,
+      "body_font": "inter_n4",
+      "body_size": 15,
+      "body_line": 1.5,
+      "menu_size": 16,
+      "color_background_header": "#696b61",
+      "color_text_header": "#f1ebe4",
+      "color_accent_header": "#f1ebe4",
+      "color_background_main": "#696b61",
+      "color_text_main": "#f1ebe4",
+      "color_accent_main": "#f1ebe4",
+      "color_background_cards": "#f3ebe2",
+      "color_text_cards": "#32332e",
+      "color_accent_cards": "#32332e",
+      "color_borders_cards": "rgba(0,0,0,0)",
+      "shadow_cards_color": "#32332e",
+      "shadow_buttons_color": "rgba(0,0,0,0)",
+      "color_background_footer": "#32332e",
+      "color_text_footer": "#f1ebe4",
+      "color_accent_footer": "#f1ebe4",
+      "container_vertical_space": 100,
+      "grid_gap": 26,
+      "border_width_cards": 0,
+      "border_radius_cards": 6,
+      "border_width_buttons": 2,
+      "border_radius_buttons": 29,
+      "border_width_forms": 1,
+      "border_radius_forms": 5,
+      "shadow_cards_x": 4,
+      "shadow_cards_y": 4,
+      "shadow_cards_blur": 0,
+      "shadow_buttons_x": 0,
+      "shadow_buttons_y": 0,
+      "product_card_aspect_ratio": "natural",
+      "proudct_card_aspect_ratio_padding": 10,
+      "product_card_text_alignment": "left",
+      "product_card_text_size": "xlarge",
+      "product_card_button_style": "outline",
+      "product_card_align_buy": true,
+      "product_card_color_text_main": "rgba(0,0,0,0)",
+      "product_card_color_button_main": "rgba(0,0,0,0)",
+      "product_card_badge_sold_out_color": "#757575",
+      "product_card_badge_sold_out_text_color": "#ffffff",
+      "product_card_badge_sale_color": "#D14545",
+      "product_card_badge_custom_1_color": "#3C863B",
+      "product_card_badge_custom_1_text_color": "#ffffff",
+      "product_card_badge_custom_2_color": "#A36754",
+      "product_card_badge_custom_2_text_color": "#ffffff",
+      "product_card_badge_custom_3_color": "#000000",
+      "product_card_badge_custom_3_text_color": "#ffffff"
+    }
+  },
+  "current": {
+    "headings_font": "neue_haas_unica_i7",
+    "headings_size": 70,
+    "headings_line": 1.2,
+    "body_font": "neue_haas_unica_n4",
+    "body_size": 17,
+    "body_line": 1.5,
+    "buttons_weight": "bolder",
+    "menu_size": 16,
+    "menu_weight": "bolder",
+    "color_background_header": "#ffffff",
+    "color_text_header": "#1d1d1d",
+    "color_accent_header": "#000000",
+    "color_background_main": "#ffffff",
+    "color_text_main": "#1d1d1d",
+    "color_accent_main": "#000000",
+    "color_background_cards": "transparent",
+    "color_text_cards": "#1d1d1d",
+    "color_accent_cards": "#000000",
+    "color_borders_cards": "#e1e1e1",
+    "color_background_footer": "#ffffff",
+    "color_text_footer": "#000000",
+    "color_accent_footer": "#298556",
+    "grid_gap": 12,
+    "border_radius_cards": 0,
+    "border_width_buttons": 1,
+    "border_radius_buttons": 0,
+    "border_radius_forms": 0,
+    "shadow_cards_x": -3,
+    "shadow_cards_blur": 0,
+    "quick_buy_disable_modal": true,
+    "product_card_aspect_ratio": "natural",
+    "product_card_aspect_ratio_fit": true,
+    "product_card_show_secondary_image": false,
+    "product_card_button_style": "outline",
+    "product_icon_1_image": "",
+    "product_icon_1_label": "",
+    "favicon": "shopify://shop_images/Logo_Profilbild-orange_1214196a-aa87-4110-9ff6-5874982595e0.jpg",
+    "cart_action": "overlay",
+    "cart_notes_enable": false,
+    "cart_additional_buttons": false,
+    "cart_drawer_actions": "show-checkout",
+    "sticky_cart_actions": true,
+    "cart_image_ratio": "1",
+    "cart_image_fit": true,
+    "cart_recommendations_heading": "Oft zusammen gekauft",
+    "enable_recommendations_quick_buy": true,
+    "cart_free_shipping": true,
+    "cart_free_shipping_amount": "39",
+    "progress_bar_background_color": "#e1e1e1",
+    "progress_bar_foreground_color": "#538000",
+    "show_goal_badge": true,
+    "goal_badge_text_color": "#ffffff",
+    "goal_badge_background": "#d7007f",
+    "all_goals_label": "<span>Du hast alle Geschenke erhalten.</span><p style=\"font-size: 8px;\">* Solange der Vorrat reicht. Nur gültig für Privatkunden.</p>",
+    "excluded_products": [
+      "stay-spiced-gewurz-adventskalender-2025-edition-gewurzregal",
+      "adventskalender-stay-spiced-cube-edition-2025"
+    ],
+    "show_gotop": true,
+    "within_filter_enabled": false,
+    "social_email": "mailto:support@stayspiced.com",
+    "social_phone": "tel:+43662890919",
+    "social_facebook": "https://www.facebook.com/STAYSPICEDcom/",
+    "social_instagram": "https://www.instagram.com/stayspicedcom",
+    "social_linkedin": "https://www.linkedin.com/company/stayspiced",
+    "social_pinterest": "https://de.pinterest.com/stayspicedcom/",
+    "social_tiktok": "https://www.tiktok.com/@stayspiced",
+    "social_twitter": "",
+    "social_youtube": "https://www.youtube.com/@stayspiced",
+    "sections": {
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "image_GqwWyU": {
+            "type": "image",
+            "settings": {
+              "enable": true,
+              "show_after": 10,
+              "show_repeat": "week",
+              "visibility": "cart",
+              "image": "shopify://shop_images/stay-spiced_streueinsatz-popup-image.jpg",
+              "link": "shopify://products/streueinsatz-fur-170ml-schraubdose-10",
+              "link_type": "_self",
+              "box_size": "small"
+            }
+          }
+        },
+        "block_order": [
+          "image_GqwWyU"
+        ],
+        "settings": {
+          "popup_border_radius": 0
+        }
+      },
+      "popup-age-verification": {
+        "type": "popup-age-verification",
+        "settings": {
+          "enable": false,
+          "heading": "Age verification",
+          "content": "<p>By clicking enter, I certify that I am over the age of 18</p>",
+          "button_label": "Enter",
+          "popup_bgcolor": "#111111",
+          "popup_txtcolor": "#ffffff"
+        }
+      },
+      "store-selector": {
+        "type": "store-selector",
+        "blocks": {
+          "store-selector-0": {
+            "type": "store",
+            "disabled": true,
+            "settings": {
+              "store_name": "My store",
+              "store_pickup_price": "Free",
+              "store_pickup_time": "Usually ready in 24 hrs",
+              "store_address": "<p>123 John Doe Street<br/>Your Town, YT 12345</p><p> </p><p><strong>Store Hours<br/></strong>Sun: Closed<br/>Mon-Fri: 9:00 - 17:00<br/>Sat: 10:00 - 13:00</p><p><strong>What to expect at pickup</strong></p><p> </p>",
+              "store_closing_times": "<p>Closed</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 1pm</p>",
+              "store_map_latitude": "46.7834818",
+              "store_map_longitude": "23.5464733"
+            }
+          }
+        },
+        "block_order": [
+          "store-selector-0"
+        ],
+        "settings": {
+          "map_enable": true,
+          "map_zoom": 10,
+          "map_style": "silver"
+        }
+      },
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "settings": {
+          "logo_src": "shopify://shop_images/STAYSPICED_LOGO.svg",
+          "logo_width": 200
+        }
+      },
+      "gift_card-template": {
+        "type": "gift_card-template",
+        "settings": {
+          "gutscheindesign": "shopify://shop_images/Gutschein-Template.jpg",
+          "wertcolor": "#000000",
+          "wertfont": "instrument_sans_i7",
+          "wertsize": "49",
+          "codecolor": "#000000",
+          "codefont": "instrument_sans_i7",
+          "codesize": "21",
+          "buttoncolor": "#000000",
+          "buttonfontcolor": "#ffffff",
+          "showqrcode": false
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "6610233760104865948": {
+        "type": "shopify://apps/pushowl-brevo/blocks/pushowl-app-embed-3d2ff2b5/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#d7007f",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "question_mark",
+          "button_text": "help",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
+      },
+      "12196260394306439754": {
+        "type": "shopify://apps/adcell-tracking-remarketing/blocks/theme_extension/578397e0-3e42-4c27-add7-dfc15023b09b",
+        "disabled": false,
+        "settings": {}
+      },
+      "17676059084223943535": {
+        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {}
+      },
+      "1530068250781986104": {
+        "type": "shopify://apps/fbp-fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
+        "disabled": false,
+        "settings": {
+          "home": false
+        }
+      },
+      "16539996847170303178": {
+        "type": "shopify://apps/cookie-manager-by-usercentrics/blocks/usercentrics/d783c71c-954e-4d69-bffa-7ee251c9a052",
+        "disabled": false,
+        "settings": {}
+      },
+      "5946647744298494267": {
+        "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+          "storefront_layout_enabled": true,
+          "storefront_layout_primary_bg_color": "#000000",
+          "storefront_layout_primary_text_color": "#ffffff",
+          "storefront_layout_secondary_bg_color": "#f4f8fe",
+          "storefront_layout_secondary_text_color": "#333333",
+          "storefront_layout_ui_border_radius": 6,
+          "storefront_layout_notification_position": "right",
+          "storefront_layout_action_popup_position": "right",
+          "storefront_layout_drawer_position": "left",
+          "storefront_layout_as_section_page": ""
+        }
+      },
+      "10274264662263595587": {
+        "type": "shopify://apps/wishlist-plus/blocks/wishlist-collections-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+          "swym_collections_icon_type": "heart",
+          "swym_collections_icon_thickness": 1.7,
+          "swym_collections_position": "top-right",
+          "swym_collections_vertical_offset": 0,
+          "swym_collections_horizontal_offset": 0,
+          "swym_collections_button_size": 25,
+          "swym_collections_icon_color": "#000000",
+          "swym_collections_product_link_selector": "-",
+          "swym_collections_product_tile_selector": "-",
+          "enable_variant_selector": false,
+          "swym_add_to_wishlist_title_color": "#333",
+          "swym_variant_selector_font_size_1": 14,
+          "swym_variant_selector_popup_bg_color": "#fff",
+          "swym_variant_selector_section_heading_color": "#000",
+          "swym_variant_selector_section_heading_font_size_2": 12,
+          "swym_variant_selector_choose_create_text": "Neue Wishlist auswählen oder erstellen",
+          "swym_variant_selector_wishlist_btn_bg_color": "#292929",
+          "swym_variant_selector_wishlist_btn_color": "#fff",
+          "swym_variant_selector_product_detail_font_color": "#fff",
+          "swym_variant_selector_create_list_placeholder_text": "Wishlist-Namen eingeben",
+          "swym_variant_selector_create_list_title": "Wishlist benennen"
+        }
+      },
+      "17368511000352060744": {
+        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  }
+}

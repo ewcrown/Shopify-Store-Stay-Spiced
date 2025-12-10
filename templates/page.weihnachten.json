@@ -1,0 +1,416 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_Gc3HMK": {
+      "type": "image",
+      "name": "t:sections.local-extra-words.sections.image-section.name",
+      "settings": {
+        "image": "shopify://shop_images/xmas.png",
+        "mobile_image": "shopify://shop_images/xmas_mobil.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "featured_collection_EqYi8a": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_DK49Nf": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ngezaP": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_BJiULA": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_DK49Nf",
+        "title_ngezaP",
+        "quick_buy_BJiULA"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "Unsere XMAS Sondereditions",
+        "header-width-limit": 500,
+        "subheading": "Ideal zum Wichteln oder als kleines Mitbringsel",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 9,
+        "product-info-width-limit": 500,
+        "collection": "sondereditions",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_pHemEQ": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_WUcAzA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/832303-998002x_6.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "Adventskalender",
+            "title": "Gewürzregal",
+            "subtitle": "",
+            "link": "shopify://products/stay-spiced-gewurz-adventskalender-2025-edition-gewurzregal",
+            "open_in_new_window": false,
+            "button_label": "Jetzt sichern",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_9Bmkrf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/833047-021025_STAY-SPICED-AK_Gew_25C3_25BCrzw_25C3_25BCrfel-14.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "Adventskalender",
+            "title": "Gewürzwürfel",
+            "subtitle": "",
+            "link": "shopify://products/adventskalender-stay-spiced-cube-edition-2025",
+            "open_in_new_window": false,
+            "button_label": "Jetzt sichern",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_WUcAzA",
+        "image_9Bmkrf"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_miJHM7": {
+      "type": "rich-text",
+      "blocks": {
+        "title_mhd78g": {
+          "type": "title",
+          "settings": {
+            "title": "DEIN GANZ PERSÖNLICHES GESCHENK",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_nWb3gy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du sucht nach einem ganz persönlichen Geschenk? Dann stell dir jetzt deine DIY Gewürzbox zusammen. <strong>Wähle aus einer umfassenden Auswahl an Gewürzen</strong>. Wie es aussieht? Du entscheidest welche Banderole das Genschenk vollendet!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_XrwhWT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt selbst bestücken",
+            "link": "shopify://pages/geschenk-boxen-selbst-bestucken",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_mhd78g",
+        "text_nWb3gy",
+        "button_XrwhWT"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/RT_Gewuerzboxen.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#b6cbd8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_gcgGHa": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_hkfCnC": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_bqzLYz": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_A4w8VH": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_hkfCnC",
+        "title_bqzLYz",
+        "quick_buy_A4w8VH"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Weihnachtliche Gewürze",
+        "header-width-limit": 500,
+        "subheading": "für Genussmomente voller Feststimmung",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "weihnachtliche-gewurze",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_ANRBHa": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_cjmkpm": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_CbFaRW": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_3xcakH": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_cjmkpm",
+        "title_CbFaRW",
+        "quick_buy_3xcakH"
+      ],
+      "settings": {
+        "heading": "Empfehlungen für dich",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "alle-geschenke",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_ydrKne": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_BcDfjB": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_dh6DaK": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_k49cfp": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_BcDfjB",
+        "title_dh6DaK",
+        "quick_buy_k49cfp"
+      ],
+      "settings": {
+        "heading": "Aktuelle Kochbücher",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "bucher",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_Q33r4d": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_cekLdL": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_cekLdL"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Media with text overlay",
+        "subheading": "Promote your best products",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_3UQjNK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_rPHFhk": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Weihnachtsgewürze & Geschenkideen von STAY SPICED! – Festlicher Genuss und Inspiration</strong></p><p>Entdecke die Weihnachtswelt von STAY SPICED! und lass deine Küche in den Festgeschmack von Zimt, Kardamom und Vanille kommen. Unsere weihnachtlichen Gewürzmischungen und Reingewürze für Weihnachten bringen nicht nur himmlischen Geschmack in Plätzchen und Festtagsgerichte, sondern machen auch Glühwein, Punsch und heiße Schokolade zu einem besonderen Erlebnis.</p><p><strong>Weihnachtsgewürze für Plätzchen & Festtagsspezialitäten<br/></strong>STAY SPICED! bietet dir alles, was du für traditionelle und kreative Weihnachtsbäckerei benötigst: Lebkuchen-Gewürz, Spekulatius-Gewürz, und das Glühwein-Gewürz sind ideal für Gebäck und heiße Getränke. Unsere Gewürzmischungen sind aus hochwertigen Zutaten zusammengestellt und verleihen deinen Weihnachtsrezepten das gewisse Etwas – perfekt für den festlichen Genuss zu Hause.</p><h2></h2><p><strong>Geschenkideen für Genießer & Hobbyköche</strong><em><br/></em>Schenke Genussmomente, die bleiben! Unsere DIY-Geschenkboxen und Gewürzkoffer bieten Platz für individuelle Auswahl und sind die ideale Geschenkidee für alle, die Vielfalt und Geschmack lieben. STAY SPICED! Gutscheine sind ebenfalls das perfekte Präsent für Foodies, die sich selbst ihr Gewürzsortiment zusammenstellen möchten.</p><h3></h3><p><strong>Deine Vorteile:</strong></p><ul><li>Hochwertige Zutaten ohne Zusatzstoffe für authentischen Geschmack</li><li>Vielseitig einsetzbar für Plätzchen, Glühwein, Desserts und Festtagsspeisen</li><li>Nachhaltige Verpackungen – ideal als Geschenk oder zur eigenen Freude</li></ul><p>Stöbere durch unser weihnachtliches Gewürzsortiment und finde Geschenkideen, die jedes Foodie-Herz höherschlagen lassen. Schaffe unvergessliche Genussmomente in der Weihnachtszeit – mit STAY SPICED!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_rPHFhk"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_Gc3HMK",
+    "featured_collection_EqYi8a",
+    "media_with_text_overlay_pHemEQ",
+    "rich_text_miJHM7",
+    "featured_collection_gcgGHa",
+    "featured_collection_ANRBHa",
+    "featured_collection_ydrKne",
+    "media_with_text_overlay_Q33r4d",
+    "rich_text_3UQjNK"
+  ]
+}

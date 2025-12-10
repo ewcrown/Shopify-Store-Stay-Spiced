@@ -1,0 +1,74 @@
+@media screen and (min-width: 1024px) {
+    .nutrition--wrapper {
+        margin-inline: 6rem;
+    }
+
+    .product-ingredients .toggle--faq {
+        pointer-events: none;
+    }
+
+    .product-ingredients .toggle--faq .toggle__icon-alternate {
+        display: none;
+    }
+
+    .product-ingredients .toggle--faq #toggle--details {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .product-ingredients .grid {
+        grid-gap: calc(var(--col-gap) * 3);
+    }
+
+    .product-ingredients .toggle--faq #toggle--details {
+        display: none;
+    }
+
+    .product-ingredients .toggle--faq.opened #toggle--details {
+        display: grid;
+    }
+}
+
+.ingredients--item {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-column-gap: 5rem;
+    padding-block: 0.1rem;
+}
+
+.ingredients--item:first-child {
+    border-top: 1px solid #000000;
+}
+
+.ingredients--item {
+    border-bottom: 1px solid #000000;
+}
+
+.ingredients--item span.key {
+    font-weight: 700;
+}
+
+.nutrition--item:first-child {
+    border-top: 1px solid #000000;
+    font-weight: 700;
+}
+
+.nutrition--item:last-child {
+    border-bottom: 1px solid #000000;
+}
+
+.nutrition--item {
+    display: flex; 
+    justify-content: space-between;
+    padding-block: 0.1rem;
+}
+
+.product-ingredients .toggle--faq, .product-ingredients .toggle--faq:hover {
+    background: none;
+}
+
+.product-ingredients .toggle--faq .section-heading {
+    flex-direction: row;
+    justify-content: space-between;
+}

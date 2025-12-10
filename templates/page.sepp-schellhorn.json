@@ -1,0 +1,403 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_FmLcNV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zAPpDr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sepp-Schellhorn_Header-desktop.png",
+            "mobile_image": "shopify://shop_images/Sepp-Schellhorn_Header-mobile.png",
+            "caption": "Koch. Hotelier. Unternehmer. Politiker. Kochen macht sexy.",
+            "title": "SEPP SCHELLHORN",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_zAPpDr"
+      ],
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-center align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 730,
+        "subheading": "\"Kochen ohne Gewürze ist wie Musik ohne Noten. Die besten Gewürze gibts hier, meine Lieblingsgewürze. Ehrlich. Fürs Gaumenaquaplaning.\"",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": false,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "sepp-schellhorn",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_aWRgr8": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Anwzg4": {
+          "type": "title",
+          "settings": {
+            "title": "Sepp, wie würzt du?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_hTaW7x": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Nur mit dem Besten. Dazu mein Buch, damit nix schief geht.\"</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "product_HTPXXU": {
+          "type": "product",
+          "settings": {
+            "product": "sepp-was-machst-du-ein-richtig-gutes-kochbuch-by-sepp-schellhorn-kochbuch"
+          }
+        }
+      },
+      "block_order": [
+        "title_Anwzg4",
+        "text_hTaW7x",
+        "product_HTPXXU"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "featured_collection_JXWgUM": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_XTiXnq": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_eBbFGz": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_dLjJBN": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_XTiXnq",
+        "title_eBbFGz",
+        "quick_buy_dLjJBN"
+      ],
+      "settings": {
+        "heading": "Sepp's Lieblinge",
+        "header-width-limit": 730,
+        "subheading": "\"Damit ist alles gesagt. Und du bist ausgestattet.\"",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": false,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "sepps-lieblingsgewurze",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_4dnFLt": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6D7c9B": {
+          "type": "title",
+          "settings": {
+            "title": "Über Sepp",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_xJdAde": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Josef \"Sepp\" Schellhorn, geboren am 12. Mai 1967 in Schwarzach im Pongau, ist ein österreichischer Unternehmer, Gastronom und Politiker. Er wuchs in Goldegg am See auf und strebte zunächst eine Karriere als Skirennläufer an, bevor er seine Leidenschaft für die Kulinarik entdeckte. Nach Stationen in Österreich, Pisa, Miami, Paris sowie bei renommierten Köchen wie Jörg Wörther und Eckart Witzigmann übernahm er 1996 den elterlichen Betrieb \"Der Seehof\" in Goldegg.</p><p>In den letzten Jahren erlangte Schellhorn durch humorvolle Kochvideos auf Plattformen wie Instagram, YouTube und TikTok zusätzliche Bekanntheit. Diese Videos führten zur Veröffentlichung seines Kochbuchs \"Sepp, was machst du?\", in dem er 90 seiner beliebtesten Rezepte präsentiert.</p><p>Aktuell betreibt er den \"Gasthof zum Bierführer\" in Goldegg, nur wenige Meter von seinem früheren Betrieb entfernt.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_6D7c9B",
+        "text_xJdAde"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Sepp_1x1_ca5be72f-ac22-4c58-b20f-dc24c8df0417.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#fee8fc",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_slider_NYiLzN": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_Mn4Exa": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_RgWhX9": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_Mn4Exa",
+        "title_RgWhX9"
+      ],
+      "settings": {
+        "title": "Rezepte",
+        "subheading": "",
+        "post_limit": 2,
+        "section_heading_layout": "section-heading--left",
+        "blog": "",
+        "article_list": "sepp-schellhorn/spatzle-mit-sauce,sepp-schellhorn/vegane-melanzani-mit-chakalaka",
+        "layout": "grid-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_PBxXXi": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_amCE7V": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_Xr6rXi": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_BGypD7": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_amCE7V",
+        "title_Xr6rXi",
+        "quick_buy_BGypD7"
+      ],
+      "settings": {
+        "heading": "Featured collection",
+        "header-width-limit": 500,
+        "subheading": "Showcase your best products",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "sp_rich_text_WrXRra": {
+      "type": "sp-rich-text",
+      "blocks": {
+        "title_VtFy6k": {
+          "type": "title",
+          "settings": {
+            "title": ""
+          }
+        },
+        "subtitle_CU8ycn": {
+          "type": "subtitle",
+          "settings": {}
+        },
+        "text_b8jrX6": {
+          "type": "text",
+          "settings": {}
+        },
+        "button_QKbgGk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "product_P4iyMC": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "faq_A3DReA": {
+          "type": "faq",
+          "settings": {
+            "title": "",
+            "answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_VtFy6k",
+        "subtitle_CU8ycn",
+        "text_b8jrX6",
+        "button_QKbgGk",
+        "product_P4iyMC",
+        "faq_A3DReA"
+      ],
+      "settings": {
+        "text_snippet": 1,
+        "liquid": "",
+        "seo_h_tag": "h2",
+        "title_size": "h2",
+        "text_size": "regular",
+        "is_use_video": false,
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "related_product_columns": 3,
+        "is_fullwidth": false,
+        "set_video_background": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_FmLcNV",
+    "featured_collection_wpmJ6R",
+    "rich_text_aWRgr8",
+    "main",
+    "featured_collection_JXWgUM",
+    "rich_text_4dnFLt",
+    "blog_slider_NYiLzN",
+    "featured_collection_PBxXXi",
+    "sp_rich_text_WrXRra"
+  ]
+}

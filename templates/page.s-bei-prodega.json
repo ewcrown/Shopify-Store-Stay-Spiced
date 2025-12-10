@@ -1,0 +1,478 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "image_BLTWaB": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Prodega_Schweiz_Landing_Page_Header-_Desktop.png",
+        "mobile_image": "shopify://shop_images/Prodega_Schweiz_Landing_Page_Header-_Mobile.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "rich_text_9giQQe": {
+      "type": "rich-text",
+      "blocks": {
+        "title_yXKMcN": {
+          "type": "title",
+          "settings": {
+            "title": "DEINE WÜRZE - BALD BEI PRODEGA",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_HHBaFk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du arbeitest in der Gastronomie? Mit <strong>STAY SPICED ! </strong>aus Österreich holst du <strong>intensive Würze und echten Geschmack </strong>in deine Gerichte – ohne Zusatzstoffe ❌ und mit 100 % natürliche Zutaten! 🌿</p><p>Ob <strong>Reingewürze</strong> oder <strong>kreative Gewürzmischungen</strong> – ideal für Profi-Küchen, die Wert auf Premium-Qualität legen. </p><p><strong>Bald bei Transgourmet/Prodega in der Schweiz erhältlich!</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_yXKMcN",
+        "text_HHBaFk"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Interspar_STAY_IN_Landing_Page_1x1_Bilder_3cdddcc9-ff63-4344-ade1-77aaac48b8c0.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "marquee_trNVFN": {
+      "type": "marquee",
+      "blocks": {
+        "text_DFaVPy": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "DEINE WÜRZE - BALD BEI PRODEGA"
+          }
+        }
+      },
+      "block_order": [
+        "text_DFaVPy"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 50,
+        "pause_on_hover": false,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#ed1c24",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_ef48wB": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_N3MCLt": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/20220609_140042137_iOS.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_N3MCLt"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_GdQBm8": {
+      "type": "rich-text",
+      "blocks": {
+        "title_UtNQkt": {
+          "type": "title",
+          "settings": {
+            "title": "JETZT PRODEGA MÄRKTE FINDEN:",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_UtNQkt"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_i3hLMC": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3254903.5404159226!2d6.284498672289512!3d46.65587874202492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sprodega%20schweiz!5e0!3m2!1sen!2sat!4v1760354981380!5m2!1sen!2sat\" width=\"100%\" height=\"450\"></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "rich_text_fhTUcR": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Hwiq3k": {
+          "type": "title",
+          "settings": {
+            "title": "",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_MGXYEt": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_RznbyH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr Entdecken!",
+            "link": "https://stayspiced.com/collections/gewurzmischung",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Hwiq3k",
+        "text_MGXYEt",
+        "button_RznbyH"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image_position": "left",
+        "height": "large",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_kHdiPA": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_NVJfnT": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_j8xyme": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_hQBnTR": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_NVJfnT",
+        "title_j8xyme",
+        "quick_buy_hQBnTR"
+      ],
+      "settings": {
+        "heading": "ENTDECKE UNSERE GEWÜRZE:",
+        "header-width-limit": 520,
+        "subheading": "Egal ob Reingewürze oder Gewürzmischungen – wir haben die passenden Gewürze für deine Profi-Küche.",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "interspar",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonial_element_gma6Ve": {
+      "type": "testimonial-element",
+      "blocks": {
+        "element_W3iLme": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.chefs.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.avatar.value }}",
+            "reviewer": "{{ block.repeater.reviewer.value }}",
+            "content": "{{ block.repeater.content | metafield_tag }}",
+            "review": 5,
+            "date": "{{ block.repeater.date | metafield_text }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_W3iLme"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "GENIESSE AUCH DU UNSERE EXZELLENTEN GEWÜRZE",
+        "trust_element_type": "test--01",
+        "padding_value": 0,
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_cR6rXj": {
+      "type": "rich-text",
+      "blocks": {
+        "title_NrECxW": {
+          "type": "title",
+          "settings": {
+            "title": "Welche Gewürze braucht man?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_TU6dmt": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns findest du eine vielfältige Auswahl an Gewürzen und Gewürzmischungen, die dein tägliches Kochen zum Kinderspiel machen. ",
+            "title_size": "h2"
+          }
+        },
+        "text_4BLffa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Von <em><strong>Grillgewürzen </strong></em>über Backgewürze, von Barbecue-Gewürzen bis hin zu Curry-Gewürzen – wir haben alles für dich zusammengefasst. Unsere mediterranen Gewürze, indischen Gewürze, <em><strong>Gewürze für Fisch</strong></em>, Gemüse und Fleisch sowie<em><strong> salzfreie Gewürzmischungen</strong></em> bieten dir grenzenlose Inspiration und <em><strong>köstliche Rezepte</strong></em>. <br/></p><p>Vertraue dabei auf die Empfehlungen unserer Testimonials wie <em><strong>Roland Trettl</strong></em>, <em><strong>Haya Molcho, Tom Heinzle</strong></em> und <em><strong>Ben Perry</strong></em> sowie auf die leidenschaftliche Community.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_whwkBF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Entdecke alle Gewürze",
+            "link": "shopify://collections/gewurz",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_NrECxW",
+        "subtitle_TU6dmt",
+        "text_4BLffa",
+        "button_whwkBF"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Welche_Gewuerze_braucht_man_STAYSPICED.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_MEwJez": {
+      "type": "rich-text",
+      "blocks": {
+        "title_adDGUe": {
+          "type": "title",
+          "settings": {
+            "title": "Selbstverständlich nachhaltig",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_ypbwFf": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns stehen Nachhaltigkeit und Qualität an erster Stelle.",
+            "title_size": "h2"
+          }
+        },
+        "text_NgJY3K": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Unsere Gewürze und Kräuter werden mit<em><strong> viel Leidenschaft und in bester Qualität</strong></em> von unserem 35-köpfigen Team mit viel Handarbeit im Herzen von Salzburg verarbeitet, verpackt und versendet. <br/></p><p>Wir setzen auf <em><strong>umweltfreundliche, 100% recycelbare Weißblechdosen</strong></em> und achten auf faire Arbeitsbedingungen in unserer nachhaltigen Produktionsstätte in Österreich. <br/></p><p>Wir versenden unsere Produkte CO2-neutral in umweltfreundlicher, plastikfreier Verpackung und legen großen Wert darauf, deinen Einkauf so einfach und angenehm wie möglich zu gestalten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_adDGUe",
+        "subtitle_ypbwFf",
+        "text_NgJY3K"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/STAYSPICED_Nachhaltig.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_posts_eijYMM": {
+      "type": "blog-posts",
+      "blocks": {
+        "title_tepc9j": {
+          "type": "title",
+          "settings": {}
+        },
+        "summary_efjgax": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_tepc9j",
+        "summary_efjgax"
+      ],
+      "settings": {
+        "title": "Rolands Lieblingsrezepte",
+        "subheading": "Lass dich von Roland Trettls Rezept-Ideen inspirieren!",
+        "show_view_all": false,
+        "post_limit": 6,
+        "section_heading_layout": "section-heading--left",
+        "blog": "roland-trettl",
+        "article_list": "",
+        "blog_tag": "",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": false,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_BLTWaB",
+    "rich_text_9giQQe",
+    "marquee_trNVFN",
+    "media_with_text_overlay_ef48wB",
+    "rich_text_GdQBm8",
+    "custom_liquid_i3hLMC",
+    "rich_text_fhTUcR",
+    "featured_collection_kHdiPA",
+    "testimonial_element_gma6Ve",
+    "rich_text_cR6rXj",
+    "rich_text_MEwJez",
+    "blog_posts_eijYMM"
+  ]
+}

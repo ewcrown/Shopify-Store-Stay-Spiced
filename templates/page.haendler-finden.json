@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_yeGftq": {
+      "type": "rich-text",
+      "blocks": {
+        "title_JThTFy": {
+          "type": "title",
+          "settings": {
+            "title": "Finde STAY SPICED ! Händler in deiner Nähe.",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_6MC7cK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Deine S! <a href=\"https://stayspiced.com/produkt/umami-der-wuerzige-allrounder\"><span style=\"text-decoration:underline\">Umami </span></a>Dose ist leer? Du brauchst unbedingt <a href=\"https://stayspiced.com/kategorie/bruschetta\"><span style=\"text-decoration:underline\">Bruschetta</span></a>-Nachschub? Es ist dringend ein genussvolles <a href=\"https://stayspiced.com/kategorie/boxen\"><span style=\"text-decoration:underline\">Geschenk </span></a>gefragt? Du willst wissen wo man STAY SPICED ! Produkte außerhalb es Online Shops kaufen kann?</p><p>Kein Problem! Hier findest du alle STAY SPICED ! Händler in deiner Nähe! Es lohnt sich immer wieder vorbeizuschauen, da sich unser Händlernetzwerk stetig erweitert. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_8CNjCn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zur Händlerkarte",
+            "link": "",
+            "target_id": "#karte",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_8ynGgV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Händler werden",
+            "link": "shopify://pages/haendler-werden",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_JThTFy",
+        "text_6MC7cK",
+        "button_8CNjCn",
+        "button_8ynGgV"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/trettl-cutout2_new_1.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_rXrheB": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe id=\"#karte\" src=\"https://www.google.com/maps/d/embed?mid=19NCMdBS-1gXZ32xaPdhOgl3HYx_qDyo&ehbc=2E312F\" width=\"100%\" height=\"450\"></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "featured_collection_fUTmeA": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_XKBLAb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ir6LDy": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ggfjB8": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_XKBLAb",
+        "title_ir6LDy",
+        "quick_buy_ggfjB8"
+      ],
+      "settings": {
+        "heading": "Unsere Topseller",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "topseller",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_yeGftq",
+    "custom_liquid_rXrheB",
+    "featured_collection_fUTmeA"
+  ]
+}

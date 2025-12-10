@@ -1,0 +1,407 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_qDLr3h": {
+      "type": "rich-text",
+      "blocks": {
+        "title_x88DPb": {
+          "type": "title",
+          "settings": {
+            "title": "Entdecke den geheimnisvollen 5. Geschmack: Umami",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_hAdKfD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Wenn du auf der Suche nach neuen Geschmackserlebnissen bist, solltest du unbedingt Umami kennenlernen.</strong></p><p>Umami ist ein herzhafter, fleischiger und angenehmer Geschmack, der als der fünfte Geschmack neben süß, sauer, salzig und bitter gilt. Er entsteht durch das Vorhandensein von Glutaminsäure, Inosinat oder Guanylat in Lebensmitteln und verleiht vielen Gerichten eine besondere Geschmacksnote. Ob in Tomaten, Käse, Pilzen, Fleisch oder Sojasauce - Umami ist überall zu finden und verleiht deinen Gerichten das gewisse Etwas. In unserem Artikel erfährst du alles, was du über Umami wissen musst, und wie du ihn in deiner Küche einsetzen kannst. Lass dich von Umami inspirieren und erlebe den fünften Geschmack auf eine völlig neue Art und Weise!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_x88DPb",
+        "text_hAdKfD"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/fruehstuecksburger_zutaten.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "video_YUUcNH": {
+      "type": "video",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "section_heading_layout": "section-heading--left",
+        "video": "https://www.youtube.com/watch?v=kYk2pTpZAKY",
+        "image": "shopify://shop_images/Thumbnail-Umami.png",
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_zgVbcy": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_UyTX77": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist Umami?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Umami ist ein Geschmack, der als herzhaft, fleischig und angenehm beschrieben wird. Es wird oft als der fünfte Geschmack neben süß, sauer, salzig und bitter bezeichnet und entsteht durch das Vorhandensein von Glutaminsäure, Inosinat oder Guanylat in Lebensmitteln.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_XqJiqP": {
+          "type": "text",
+          "settings": {
+            "title": "Wo schmeckt man Umami?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Umami wird durch spezielle Rezeptoren auf der Zunge und im Mund wahrgenommen. Diese Rezeptoren erkennen die umami-reichen Stoffe in Lebensmitteln und senden Signale an das Gehirn, die den Geschmack als herzhaft und angenehm interpretieren.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_Ejh4fE": {
+          "type": "text",
+          "settings": {
+            "title": "Wo ist Umami enthalten?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Umami ist in vielen Lebensmitteln enthalten, insbesondere in solchen, die natürlich reich an Glutaminsäure, Inosinat oder Guanylat sind. Einige Beispiele für umami-reiche Lebensmittel sind Fleisch, Fisch, Meeresfrüchte, Tomaten, Käse, Pilze, Sojasauce und Algen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_tjiBzg": {
+          "type": "text",
+          "settings": {
+            "title": "Wann wurde Umami entdeckt?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Umami wurde erstmals im Jahr 1908 vom japanischen Chemiker Kikunae Ikeda entdeckt. Er erkannte, dass ein bestimmter Bestandteil von getrockneten Seetangflocken, die er in seiner Suppe verwendete, einen besonderen Geschmack erzeugte</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_U7VDFC": {
+          "type": "text",
+          "settings": {
+            "title": "Ist Umami gesund?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Umami selbst ist weder gesund noch ungesund, sondern einfach ein Geschmack. Allerdings sind viele Lebensmittel, die umami-reich sind, auch reich an Nährstoffen wie Protein, Eisen und Vitaminen. Eine ausgewogene Ernährung, die umami-reiche Lebensmittel in Maßen enthält, kann daher durchaus gesund sein.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_RJjKJc": {
+          "type": "text",
+          "settings": {
+            "title": "Wie kann man Umami verwenden?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Umami wird oft als natürlicher Geschmacksverstärker eingesetzt, da es den Geschmack anderer Aromen verstärken kann. Zum Beispiel kann eine Prise umami-reicher Sojasauce oder Tomatenmark den Geschmack von Suppen, Saucen oder Eintöpfen verbessern.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_UyTX77",
+        "text_XqJiqP",
+        "text_Ejh4fE",
+        "text_tjiBzg",
+        "text_U7VDFC",
+        "text_RJjKJc"
+      ],
+      "settings": {
+        "heading": "Was ist Umami, woher kommt es und wie schmeckt man es?!",
+        "subheading": "Alle Fragen rund um das Thema \"Umami\" und die Hard-Facts beantworten wir dir hier.",
+        "section_heading_layout": "section-heading--left",
+        "open_first": true,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_XYTDAX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_gY9xtA": {
+          "type": "title",
+          "settings": {
+            "title": "würze,",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_iGwd8R": {
+          "type": "title",
+          "settings": {
+            "title": "UM dAs leben",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_MKUAiT": {
+          "type": "title",
+          "settings": {
+            "title": "Mit geschmack",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_AidNc8": {
+          "type": "title",
+          "settings": {
+            "title": "zu genIeßen!",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_gY9xtA",
+        "title_iGwd8R",
+        "title_MKUAiT",
+        "title_AidNc8"
+      ],
+      "custom_css": [
+        "h2 {margin: 1rem;}"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_6pHe7e": {
+      "type": "rich-text",
+      "blocks": {
+        "text_n6mUDQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Warum ist Umami in einer Speise wichtig?<br/></strong>Obwohl die meisten Menschen die vier Grundgeschmäcker süß, sauer, salzig und bitter kennen, ist Umami als fünfter Geschmack genauso wichtig. Der Umami-Geschmack, der oft als herzhaft, würzig oder fleischig beschrieben wird, gibt Gerichten eine zusätzliche Geschmacksdimension und sorgt dafür, dass sie voller und befriedigender schmecken. </p><p><strong>Umami macht den Unterschied<br/></strong>Durch die Anwesenheit von Umami-Geschmack wird das Essen reicher, schmackhafter und befriedigender, was bedeutet, dass eine Speise mit Umami-Geschmack die Gäste mehr zufriedenstellt als eine Speise ohne diesen Geschmack. Durch die Verwendung von umami-reichen Lebensmitteln und Gewürzen kann man ein Gericht verfeinern und ein noch besseres Geschmackserlebnis schaffen.</p><p><strong>Wie kann man Umami erzeugen?<br/></strong>Es gibt verschiedene Möglichkeiten, um den Umami-Geschmack in Gerichten zu erzeugen. Einige umami-reiche Lebensmittel sind zum Beispiel Tomaten, Pilze, Käse, Fleisch und Fisch. Auch Sojasauce, Hefeextrakt und grüner Tee sind sehr umami-haltig. Wenn man diese Zutaten in Gerichten verwendet, kann man den Umami-Geschmack verstärken. </p><p><strong>Umami als Geschmacksverstärker<br/></strong>Umami kann auch als Geschmacksverstärker verwendet werden, da es die Geschmacksrezeptoren auf der Zunge stimuliert und dadurch andere Aromen und Geschmacksrichtungen im Essen verstärkt. Wenn man Umami in einem Gericht hinzufügt, kann man somit auch die anderen Geschmacksrichtungen wie Süße, Säure, Salz und Bitterkeit intensivieren und das Essen insgesamt geschmackvoller machen. </p><p><strong>Fazit<br/></strong>Umami ist ein wichtiger Bestandteil der Geschmackswahrnehmung und gibt Gerichten eine zusätzliche Dimension und Tiefe. Wenn man Umami in einem Gericht hinzufügt, kann man das Essen schmackhafter, reicher und befriedigender machen. <a href=\"https://stayspiced.com/produkt/umami-der-wuerzige-allrounder?adb_sid=04146ba2-86d4-41ac-9bed-759e307cba11\">Umami </a>ist somit nicht nur ein interessantes Konzept in der Welt des Kochens, sondern auch ein wichtiger Aspekt für ein rundum gelungenes Geschmackserlebnis.</p>",
+            "content_source": "custom",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "text_n6mUDQ"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_ULbPrH": {
+      "type": "featured-product",
+      "blocks": {
+        "title_KJWUXK": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_mJkCJk": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "select",
+            "show_quantities": "no"
+          }
+        },
+        "space_kFrkkx": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_kYPKie": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "bullet_bNYcH9": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "title_KJWUXK",
+        "variant_picker_mJkCJk",
+        "space_kFrkkx",
+        "buy_buttons_kYPKie",
+        "bullet_bNYcH9"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "umami",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_9xW4GX": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_neKBkR": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_8itzLC": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_H3TNJm": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_neKBkR",
+        "title_8itzLC",
+        "quick_buy_H3TNJm"
+      ],
+      "settings": {
+        "heading": "Unsere Geschmacksbooster",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 9,
+        "product-info-width-limit": 500,
+        "collection": "geschmacksbooster",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_JxdmQj": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_Lqgzjw": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_Lqgzjw"
+      ],
+      "name": "Blog Slider",
+      "settings": {
+        "title": "Umami Rezepte",
+        "subheading": "",
+        "post_limit": 5,
+        "section_heading_layout": "section-heading--left",
+        "blog": "roland-trettl",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_qDLr3h",
+    "video_YUUcNH",
+    "content_toggles_zgVbcy",
+    "rich_text_XYTDAX",
+    "rich_text_6pHe7e",
+    "featured_product_ULbPrH",
+    "featured_collection_9xW4GX",
+    "blog_slider_JxdmQj"
+  ]
+}

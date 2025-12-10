@@ -1,0 +1,396 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_QPHp8r": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/SUPPERPOWER_Website_Header_1.jpg",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "featured_collection_qUQHP3": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_KpVVLb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_qHdFtj": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_43rAmX": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_KpVVLb",
+        "title_qHdFtj",
+        "quick_buy_43rAmX"
+      ],
+      "settings": {
+        "heading": "UNSERE SUPPEN-KLASSIKER",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "klare-suppengewurze",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_icons_7mBGmc": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_6fMdef": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "100% Gewürz",
+            "caption": "Unsere Suppengewürze bestehen zu 100 % aus natürlichen & hochwertigen Zutaten!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_GgzVcW": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "image": "shopify://shop_images/gluten-free-256.png",
+            "title": "Ohne Gluten",
+            "caption": "Perfekt für alle, die auf Gluten verzichten möchten, aber nicht auf vollen Geschmack!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_cPTxqN": {
+          "type": "image",
+          "settings": {
+            "icon": "tree",
+            "image": "shopify://shop_images/heart-256.png",
+            "title": "Ohne künstliche Zusatzstoffe",
+            "caption": "Unsere Suppengewürze sind ganz ohne künstliche Zusatzstoffe – für den puren, natürlichen Geschmack!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_6fMdef",
+        "image_GgzVcW",
+        "image_cPTxqN"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_slider_knmMpM": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_Xaqgey": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_rezeptbild-cutout_ramensuppe-min.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "Beef Ramensuppe mit Shitakepilzen",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Entdecke den Geschmack von Natur pur unserer S! Rindsuppe und noch viel mehr! Denn für dein Tofu emfpehlen wir das S! Yakitori Tofu und das Ei wird mit S! Eggciting gepimpt.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "zum Rezept",
+            "button_01_url": "https://stayspiced.com/blogs/fleisch/beef-ramensuppe-mit-shitakepilzen?_pos=2&_psq=ramen&_ss=e&_v=1.0",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Xaqgey"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_cw3icz": {
+      "type": "rich-text",
+      "blocks": {
+        "title_yCheJA": {
+          "type": "title",
+          "settings": {
+            "title": "Schmecke natUr pur und Perfektionimus ohne komPromissE!",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_KVBQGc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die STAY SPICED ! Suppengewürze überzeugen mit natürlichem Geschmack und Vielseitigkeit. Die Gemüsesuppe ist vegan, glutenfrei und mit der vollen Kraft von Kräutern und Gemüse. Unsere fein abgestimmte Hühnersuppe verbindet sich optimal mit dem kraftvollen Geschmack vom Huhn. Die Rindsuppe ist intensiv im Geschmack und besticht durch ihren natürlichen, charakteristischen Rindfleischgeschmack. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_yCheJA",
+        "text_KVBQGc"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_rezept_roland-trettl-flusskrebssuppe_4d44dd27-9809-4e6b-81a4-14a73a4196aa.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#fdc300",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_fHNjz6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .video-wrapper {\n    position: relative;\n    width: 100%;\n    /* The padding-top percentage is calculated as (height / width) * 100% for a 9:16 ratio */\n    padding-top: 177.77%; /* (16/9) * 100 */\n  }\n\n  .video-wrapper iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"video-wrapper\">\n  <iframe src=\"https://www.youtube.com/embed/Et_xEncx6T0\" title=\"Olivia Dean - felt like a fluffy dream !!! #shorts\" frameborder=\"0\" \n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n  referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "featured_collection_haYwfD": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_gdBmXx": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_GacUGa": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_BTq3zE": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_gdBmXx",
+        "title_GacUGa",
+        "quick_buy_BTq3zE"
+      ],
+      "settings": {
+        "heading": "CREMESUPPEN PERFEKT GEWÜRZT",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "cremesuppen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_slider_RQ7qPA": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_Td8hLa": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_rezept_knoblauch-vanille-suppe.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "Knoblauch-Vanille-Suppe mit knusprigem Garnelenstangerl",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Vanille in der Suppe und Garnelen in Stangenform - das gibt´s nur bei uns! Und auch bald bei dir zu Hause! Zaubere eine köstlich-wärmende Suppe, die das ganze Jahr über der Bringer ist! Natürlich nur mit der S! Gemüsesuppe!</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "zum Rezept",
+            "button_01_url": "https://stayspiced.com/blogs/fisch/knoblauchvanillesuppe-mit-knusprigem-garnelenstangerl?_pos=4&_psq=knoblauch&_ss=e&_v=1.0",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_kfH74M": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_rezeptbild-cutout_tom-ka-gai.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "Tom Ka Gai – Hühnersuppe mit Kokos & Garnelen",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Die traditionell thailändische Suppe wird durch die Zugabe von S! Hühnersuppe auf natürliche Art geschmacklich intensiviert. Diese Suppenkreation liefert Energie und vor Allem ganz viel Genuss! Suppenzeit ist immer!</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "zum Rezept",
+            "button_01_url": "https://stayspiced.com/blogs/s-rezepte/tom-ka-gai-huhnersuppe-mit-kokos-garnelen?_pos=1&_psq=tom+ka&_ss=e&_v=1.0",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Td8hLa",
+        "content_kfH74M"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_tegpCL": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_eiPL9d": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_idJ9RD": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_MeYgqk": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_eiPL9d",
+        "title_idJ9RD",
+        "quick_buy_MeYgqk"
+      ],
+      "settings": {
+        "heading": "SUPPEN & BRÜHEN SELBER MACHEN",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "suppen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "image_QPHp8r",
+    "main",
+    "featured_collection_qUQHP3",
+    "text_columns_icons_7mBGmc",
+    "rich_text_slider_knmMpM",
+    "rich_text_cw3icz",
+    "custom_liquid_fHNjz6",
+    "featured_collection_haYwfD",
+    "rich_text_slider_RQ7qPA",
+    "featured_collection_tegpCL"
+  ]
+}

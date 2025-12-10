@@ -1,0 +1,499 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "media_with_text_overlay_TwxTM6": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_biYMMk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_boss_roland-trettl_4x3_01.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "Roland Trettl ",
+            "title": "Ein Koch, der für Qualität und Geschmack lebt",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "image_biYMMk"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-center align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_CezAkU": {
+      "type": "rich-text",
+      "blocks": {
+        "title_irHE7e": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Ein echter Typ – Charismatisch, authentisch, kompromisslos</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_tTxAt6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Roland Trettl</strong> ist eine Persönlichkeit, die heraussticht. Charismatisch, authentisch und ein Perfektionist, wenn es um <strong>Qualität und Geschmack</strong> geht. Viele kennen ihn als <strong>TV-Star aus verschiedenen Koch- und Unterhaltungsformaten</strong>, dabei gibt es wohl kaum jemanden, derüber ein so tiefgehendes Wissen über die <strong>Küchenkulturen der Welt</strong> verfügt. Der gebürtige Südtiroler reifte unter der Anleitung seines Mentors, <strong>Jahrhundertkoch Eckart Witzigmann</strong>, zu einem der bekanntesten Köche und kulinarischen Visionäre.</p><p>Seit <strong>2018</strong> ist Roland Trettl <strong>Markenbotschafter</strong> und ein echter <strong>Qualitätsgarant für STAY SPICED!</strong> Gemeinsam wurden einzigartige <strong>Gewürzmischungen</strong> entwickelt – von seinen <strong>Lieblings-Reingewürzen</strong> bis hin zu liebevoll zusammengestellten <strong>Geschenkboxen für echte Genussmenschen</strong>.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_irHE7e",
+        "text_tTxAt6"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_CbhDLb": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_qCLEjE": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Die Anfänge",
+            "title_size": "h2"
+          }
+        },
+        "title_46nghM": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Vom Lehrling zum Visionär</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_F7kKzw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Roland Trettl wurde am <strong>3. Juli 1971 in Bozen, Italien</strong>, geboren. Als ihm seine Eltern die Wahl ließen, ob er Tischler oder Koch werden wolle, entschied er sich für die <strong>Kochlehre</strong> – nicht zuletzt auf Anraten seines Großvaters, der meinte, als Tischler könne man schnell mal einen Finger verlieren.</p><p>1987 begann er seine Ausbildung im <strong>„Parkhotel Holzner“ in Oberbozen</strong> und sammelte drei Jahre lang erste Erfahrungen. Nach einem Jahr im <strong>„Restaurant Amadé“ in Bozen</strong> zog es ihn nach <strong>München</strong>, wo er zwei Jahre lang im <strong>„Restaurant Aubergine“</strong> unter der Leitung von <strong>Eckart Witzigmann</strong> arbeitete – eine Begegnung, die seinen weiteren Weg entscheidend prägen sollte.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_qCLEjE",
+        "title_46nghM",
+        "text_F7kKzw"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_roland-trettl_kocht.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_EB9zVX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_rQDdAb": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Die Liebe zum Beruf</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_t3fKzD": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Qualität als Lebensphilosophie",
+            "title_size": "h2"
+          }
+        },
+        "text_nJbqmw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Liebe zur Kulinarik und der <strong>Respekt vor hochwertigen Zutaten</strong> trieben Roland Trettl an. Nach zwei Jahren im Münchner <strong>„Restaurant Tantris“</strong> kehrte er für kurze Zeit ins <strong>„Restaurant Amadé“</strong> zurück – bevor ihn <strong>Eckart Witzigmann</strong> erneut ins Team holte.</p><p>Als <strong>Küchenchef des „Ca’s Puers“ auf Mallorca</strong> stellte er vier Jahre lang sein Können unter Beweis, bevor ihn internationale Engagements in der <strong>Event-Gastronomie</strong> und ein einjähriger Aufenthalt als <strong>F&B Trainer im „Marine Terrace“ in Tokio</strong> folgten.</p><p>Doch <strong>2003</strong> änderte sich alles: <strong>Red-Bull-Gründer Dietrich Mateschitz</strong> lud Trettl und Witzigmann ein, ein völlig neues Restaurant-Konzept zu entwickeln. Das Ergebnis: Das legendäre <strong>„Restaurant Ikarus“ im Hangar-7 in Salzburg</strong>, das Roland Trettl als <strong>Executive Chef zehn Jahre lang leitete</strong>. Jeden Monat kochte dort ein anderer internationaler Spitzenkoch – ein Konzept, das die gehobene Gastronomie revolutionierte.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_rQDdAb",
+        "subtitle_t3fKzD",
+        "text_nJbqmw"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_roland-trettl_kocht_2.png",
+        "image_position": "top",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_slider_7c6NPY": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_VacwxV": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_iwAYT7": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_VacwxV",
+        "title_iwAYT7"
+      ],
+      "settings": {
+        "title": "REZEPTE ZUM NACHKOCHEN",
+        "subheading": "",
+        "post_limit": 10,
+        "section_heading_layout": "section-heading--center",
+        "blog": "roland-trettl",
+        "article_list": "",
+        "layout": "grid-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_y39bBf": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_dgb34L": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_8XHhXa": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_i7UiME": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_dgb34L",
+        "title_8XHhXa",
+        "quick_buy_i7UiME"
+      ],
+      "settings": {
+        "heading": "ROLANDS MUST-HAVES",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "roland-trettl",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_slider_L7qMjW": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_dKPLjK": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_roland-trettl_gewuerze_1.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "<strong>Qualität, Glaubwürdigkeit, Nachhaltigkeit</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "Die Trettl-DNA",
+            "sub_title_size": "h2",
+            "text": "<p><em>„Natürlich bin ich ein absoluter Qualitäts-Fetischist. Darum sind es für mich die kleinen Würz-Details, die bei jedem Gericht die besten Nuancen herauskitzeln können.“</em></p><p>Für Roland Trettl sind es die <strong>kleinen Würz-Details</strong>, die ein Gericht von gut zu <strong>außergewöhnlich</strong> machen. Seine Lieblingsgewürze? <strong>Die, die es bei STAY SPICED! in Top-Qualität gibt</strong>.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_H3JmzW": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/20241022062923-stay-spiced_rezept_roland-trettl_free-veggie.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-left",
+            "title": "Rolands Philosophie",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "<strong>Klar, ehrlich, kompromisslos</strong>",
+            "sub_title_size": "h2",
+            "text": "<p><em>\"Wer mich kennt, weiß: Ich nehme kein Blatt vor den Mund. In der Küche, in meinen Büchern und in meinem Leben bin ich ehrlich und direkt – und genau das erwarte ich auch von den Partnern, mit denen ich arbeite.\"</em></p><p><strong>Vielfalt ist die Würze des Lebens</strong></p><p>Kochen ist für Roland Trettl <strong>kein striktes Regelwerk, sondern Handwerk – ohne Grenzen</strong>. Er liebt es, mit <strong>ungewöhnlichen Geschmäckern zu experimentieren</strong> und neue Kombinationen zu kreieren.</p><p><em>\"Ohne Vielfalt wäre Kulinarik einfach langweilig.\"</em></p><p>Genau diese Einstellung spiegelt sich in seiner Zusammenarbeit mit <strong>STAY SPICED!</strong> wider – eine Marke, die für <strong>Qualität, Kreativität und kompromisslose Geschmackserlebnisse</strong>steht.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_dKPLjK",
+        "content_H3JmzW"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "media_with_text_overlay_B9imT6": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_R8hJfB": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/stay-spiced_video_roland-trettl_quinoa_6971d576-5f5d-4a46-996c-e8dea4a6d4d5.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_R8hJfB"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_xCPhBV": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_YnDHTg": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_tPa9Vz": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_YHLDRx": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_YnDHTg",
+        "title_tPa9Vz",
+        "quick_buy_YHLDRx"
+      ],
+      "settings": {
+        "heading": "ROLAND TRETTL GESCHENKBOXEN",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 4,
+        "product-info-width-limit": 500,
+        "collection": "roland-trettls-gewurzboxen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_RznWtE": {
+      "type": "rich-text",
+      "blocks": {
+        "title_8GGB9w": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Die perfekte Geschenkidee für Feinschmecker</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_CKiaPx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du suchst ein <strong>einzigartiges Geschenk für echte Genießer</strong>? Dann sind die <strong>Roland Trettl Geschenkboxen</strong> genau das Richtige! Zusammen mit <strong>STAY SPICED!</strong> hat der bekannte Kochund TV-Star eine exklusive Auswahl an <strong>hochwertigen Gewürzen und Gewürzmischungen</strong>zusammengestellt. Perfekt für alle, die Wert auf Qualität, Geschmack und kulinarische Inspiration legen!</p><p><strong>Warum die Roland Trettl Geschenkboxen so besonders sind?</strong></p><p>✔ <strong>Von Roland Trettl persönlich ausgesucht</strong> – exklusive Gewürze für höchste Ansprüche<br/>✔ <strong>Höchste Qualität</strong> – nur die besten Gewürze, 100 % naturbelassen, ohne künstliche Zusätze<br/>✔ <strong>Vielfältige Auswahl</strong> – perfekt für Fleisch, Fisch, Gemüse oder kreative Rezeptideen<br/>✔ <strong>Stylisches Geschenkset</strong> – edles Design, ideal für Geburtstage, Weihnachten oder als besonderes Mitbringsel</p><p><strong>Gewürzboxen für wahre Genussmomente</strong></p><p>Egal ob für Hobbyköche, Grillfans oder Feinschmecker – in den <strong>Roland Trettl Geschenkboxen</strong> steckt pure Leidenschaft für gutes Essen. Verleihe Gerichten den letzten Schliff und entdecke neue Geschmackshorizonte mit <strong>handverlesenen Gewürzmischungen</strong>von einem der besten Köche der Welt!</p><p>Jetzt entdecken und <strong>einzigartigen Genuss verschenken</strong>!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_8GGB9w",
+        "text_CKiaPx"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_TwxTM6",
+    "rich_text_CezAkU",
+    "rich_text_CbhDLb",
+    "rich_text_EB9zVX",
+    "blog_slider_7c6NPY",
+    "featured_collection_y39bBf",
+    "rich_text_slider_L7qMjW",
+    "media_with_text_overlay_B9imT6",
+    "featured_collection_xCPhBV",
+    "rich_text_RznWtE"
+  ]
+}

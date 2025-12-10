@@ -1,0 +1,561 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_Kj4g6k": {
+      "type": "rich-text",
+      "blocks": {
+        "title_XY8J38": {
+          "type": "title",
+          "settings": {
+            "title": "RUB. SMOKE. EAT. REPEAT.",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_t3H8cd": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Die Gewürze, auf die BBQ-Fans schwören! 🔥",
+            "title_size": "h2"
+          }
+        },
+        "text_HF6WCd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>100 % NATUR, voller Geschmack und <strong>OHNE BULLSH*T!</strong> Mit den BBQ-Gewürzen von <strong>STAY SPICED !</strong> holst du dir ehrliche Würze auf den Grill: keine Zusätze, keine Kompromisse, nur pure Qualität für Fleisch, Fisch, Gemüse & mehr.<br/><br/>Mach dein BBQ zum echten Geschmackserlebnis – mit den Premium-Gewürzen von <strong>STAY SPICED !</strong> Jetzt beim <strong>Grillshop in deiner Nähe</strong> entdecken! 🔥</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_XY8J38",
+        "subtitle_t3H8cd",
+        "text_HF6WCd"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Grill_Kampagne_Landing_Page_1.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#f39323",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "marquee_h76Nwf": {
+      "type": "marquee",
+      "blocks": {
+        "text_g7ipXU": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "JETZT BEIM GRILLSHOP IN DEINER NÄHE!"
+          }
+        }
+      },
+      "block_order": [
+        "text_g7ipXU"
+      ],
+      "name": "t:sections.local-extra-words.sections.marquee.name",
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#e74019",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_6wPcYk": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_iUYzDT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20241014085043-mississippi_bbq_21.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "BBQ OHNE BULLSH*T",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#000000",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_8R3Vit": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/Grill_Teaser.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "SPICE IT LIKE HEINZLE!",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#1d1d1d",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_iUYzDT",
+        "image_8R3Vit"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-center align-content--vertical-middle",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h2",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_kig7wz": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_HxyzwA": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_W4jHnJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_PiV3Yn": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_HxyzwA",
+        "title_W4jHnJ",
+        "quick_buy_PiV3Yn"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Diese Gewürze und mehr findest du in ausgewählten Grillshops!",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Mehr Gewürze anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 12,
+        "product-info-width-limit": 500,
+        "collection": "grillen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_XeHLHL": {
+      "type": "rich-text",
+      "blocks": {
+        "title_REfARb": {
+          "type": "title",
+          "settings": {
+            "title": "JETZT GRILLSHOPS FINDEN:",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_jnbgyr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Erlebe die Vielfalt von STAY SPICED ! beim Grillshop deines Vertrauens – einfach Standort suchen 👇</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_REfARb",
+        "text_jnbgyr"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_Ljprqf": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1iigPxg93QR52WPMsuiwtVjIqaelBI0E&ehbc=2E312F&noprof=1\" width=\"100%\" height=\"450\"></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "slideshow_GBV46T": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wjaAkk": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/stay-spiced_header_desktop_tom-heinzle.jpg",
+            "mobile_image": "shopify://shop_images/stay-spiced_header_mobile_tom-heinzle.jpg",
+            "caption": "Grillneuheiten by Tom Heinzle",
+            "title": "BBQ LIKE A BOSS",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Jetzt neu",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_wjaAkk"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "50vh",
+        "mobile_height": "80vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "testimonial_element_ABkV6W": {
+      "type": "testimonial-element",
+      "blocks": {
+        "element_UzAKkQ": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.chefs.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.avatar.value }}",
+            "reviewer": "{{ block.repeater.reviewer.value }}",
+            "content": "{{ block.repeater.content | metafield_tag }}",
+            "review": 5,
+            "date": "{{ block.repeater.date | metafield_text }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_UzAKkQ"
+      ],
+      "name": "Testimonial-Element",
+      "settings": {
+        "title": "GENIESSE AUCH DU UNSERE EXZELLENTEN GEWÜRZE",
+        "trust_element_type": "test--01",
+        "padding_value": 0,
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_w6CNwT": {
+      "type": "rich-text",
+      "blocks": {
+        "title_txB8rF": {
+          "type": "title",
+          "settings": {
+            "title": "Welche Gewürze braucht man?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_W9rCM3": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns findest du eine vielfältige Auswahl an Gewürzen und Gewürzmischungen, die dein tägliches Kochen zum Kinderspiel machen. ",
+            "title_size": "h2"
+          }
+        },
+        "text_Lcpxq9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Von <em><strong>Grillgewürzen </strong></em>über Backgewürze, von Barbecue-Gewürzen bis hin zu Curry-Gewürzen – wir haben alles für dich zusammengefasst. Unsere mediterranen Gewürze, indischen Gewürze, <em><strong>Gewürze für Fisch</strong></em>, Gemüse und Fleisch sowie<em><strong> salzfreie Gewürzmischungen</strong></em> bieten dir grenzenlose Inspiration und <em><strong>köstliche Rezepte</strong></em>. <br/></p><p>Vertraue dabei auf die Empfehlungen unserer Testimonials wie <em><strong>Roland Trettl</strong></em>, <em><strong>Haya Molcho, Tom Heinzle</strong></em> und <em><strong>Ben Perry</strong></em> sowie auf die leidenschaftliche Community.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_YECad9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Entdecke alle Gewürze",
+            "link": "shopify://collections/gewurz",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_txB8rF",
+        "subtitle_W9rCM3",
+        "text_Lcpxq9",
+        "button_YECad9"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Welche_Gewuerze_braucht_man_STAYSPICED.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_AzkbmB": {
+      "type": "rich-text",
+      "blocks": {
+        "title_L93bdp": {
+          "type": "title",
+          "settings": {
+            "title": "Selbstverständlich nachhaltig",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_La6TJC": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns stehen Nachhaltigkeit und Qualität an erster Stelle.",
+            "title_size": "h2"
+          }
+        },
+        "text_Tbth6P": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Unsere Gewürze und Kräuter werden mit<em><strong> viel Leidenschaft und in bester Qualität</strong></em> von unserem 35-köpfigen Team mit viel Handarbeit im Herzen von Salzburg verarbeitet, verpackt und versendet. <br/></p><p>Wir setzen auf <em><strong>umweltfreundliche, 100% recycelbare Weißblechdosen</strong></em> und achten auf faire Arbeitsbedingungen in unserer nachhaltigen Produktionsstätte in Österreich. <br/></p><p>Wir versenden unsere Produkte CO2-neutral in umweltfreundlicher, plastikfreier Verpackung und legen großen Wert darauf, deinen Einkauf so einfach und angenehm wie möglich zu gestalten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_L93bdp",
+        "subtitle_La6TJC",
+        "text_Tbth6P"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/STAYSPICED_Nachhaltig.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_posts_hWbTVX": {
+      "type": "blog-posts",
+      "blocks": {
+        "info_b7RG3w": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_9CmYVi": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_b7RG3w",
+        "title_9CmYVi"
+      ],
+      "name": "t:sections.blog-posts.presets.name",
+      "settings": {
+        "title": "Deine heißen Lieblingsrezepte",
+        "subheading": "Lass dich von unseren Grill-Rezept-Ideen inspirieren! 😋",
+        "show_view_all": true,
+        "post_limit": 6,
+        "section_heading_layout": "section-heading--center",
+        "blog": "tom-heinzle",
+        "article_list": "",
+        "blog_tag": "",
+        "style": "grid",
+        "layout": "grid-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": false,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_RPYbeg": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Rxkim3": {
+          "type": "title",
+          "settings": {
+            "title": "KONTAKT",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_Fmc3hH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dein <strong>Grillshop</strong> hat noch keine STAY SPICED ! Gewürze im Sortiment?<br/>Dann melde dich gerne bei unserem Vertriebsteam – wir beraten dich persönlich und unterstützen dich dabei, unsere Premium-Gewürze in dein Sortiment aufzunehmen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_FYCwD7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Händler werden",
+            "link": "https://reseller.stayspiced.com/pages/haendler-werden",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Rxkim3",
+        "text_Fmc3hH",
+        "button_FYCwD7"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Erik_Teamfoto_Website.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Kj4g6k",
+    "marquee_h76Nwf",
+    "media_with_text_overlay_6wPcYk",
+    "featured_collection_kig7wz",
+    "rich_text_XeHLHL",
+    "custom_liquid_Ljprqf",
+    "slideshow_GBV46T",
+    "testimonial_element_ABkV6W",
+    "rich_text_w6CNwT",
+    "rich_text_AzkbmB",
+    "blog_posts_hWbTVX",
+    "rich_text_RPYbeg"
+  ]
+}

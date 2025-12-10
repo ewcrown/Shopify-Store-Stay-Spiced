@@ -1,0 +1,548 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_YkVrya": {
+      "type": "rich-text",
+      "blocks": {
+        "title_BWA3kn": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>UNSERE GESCHICHTE</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "subtitle_C97DCt": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Faszination für Gewürze, die man schmeckt",
+            "title_size": "h2"
+          }
+        },
+        "text_tjnbyg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seit der Gründung im Jahr 2005 hat sich die SPICEWORLD GmbH von einer kleinen Gewürzmanufaktur zu einer internationalen Marke entwickelt, die für höchste Qualität, Herzblut und Innovation steht. Unsere Reise<br/>begann mit einer klaren Vision für beste Gewürze und nachhaltigen Anbau. Schon damals wussten wir: Gewürze sind mehr als nur Zutaten – sie sind ein Erlebnis für alle Sinne.<br/></p><p>Nach einer kurzen Zwischenstation in der Salzburger Innenstadt zogen wir 2012 in unseren aktuellen Unternehmenssitz nach Salzburg Gnigl. Nur wenige Jahre später, im Jahr 2018, übernahmen Helmut Gstöhl und Lukas M. Walchhofer als Gesellschafter das Unternehmen. Lukas, gelernter Koch und erster Mitarbeiter des Unternehmens, ist seither als geschäftsführender Gesellschafter mit Herz und Seele dabei.</p><p>Der große Durchbruch kam 2019 mit der Gründung von STAY SPICED ! als eigene Marke der SPICEWORLD GmbH. Seitdem haben wir nicht nur unsere Produktpalette kontinuierlich erweitert, sondern auch unsere eigenen Verpackungen entwickelt, unsere gesamte Corporate Identity neu definiert, Werte, Philosophie und Vision geschärft und unsere Marke durch die Zusammenarbeit mit Testimonials wie Roland Trettl, Haya Molcho, Tom Heinzle und Ben Perry weiter gestärkt.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_BWA3kn",
+        "subtitle_C97DCt",
+        "text_tjnbyg"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Mischung_Ausschnitt.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "media_with_text_overlay_GKy9gX": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_fFbijg": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/20220609_140042137_iOS.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_fFbijg"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h2",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "marquee_jhdyEb": {
+      "type": "marquee",
+      "blocks": {
+        "text_WLExne": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "ZURÜCK BIS ZUM HANDSCHLAG!"
+          }
+        }
+      },
+      "block_order": [
+        "text_WLExne"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": false,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#f39323",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_MhQxzX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Ahrrmc": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>UNSERE WERTE</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_CWrAkn": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Nachhaltigkeit, Qualität und Innovation",
+            "title_size": "h2"
+          }
+        },
+        "text_gqMNEU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bei STAY SPICED ! steht alles im Zeichen von Qualität, Nachhaltigkeit und Persönlichkeit. Wir glauben daran, dass Gewürze mehr sind als nur ein Geschmack – sie sind der Schlüssel zu authentischen und unverfälschten Genusserlebnissen. Denn wir kochen nicht mit, sondern für unsere Gewürze und für unser aller kulinarische Erfüllung. Deshalb reisen wir in die besten Anbaugebiete der Welt, um nur die feinsten und reinsten Gewürze zu beziehen. Dabei legen wir größten Wert auf direkte Beziehungen zu unseren Lieferanten, die auf Vertrauen und Fairness beruhen. </p><p><strong>Zurück bis zum Handschlag.</strong></p><p>Unsere CO2-neutrale Lieferung sorgt dafür, dass jeder Schritt vom Anbau bis zu Dir nach Hause so umweltfreundlich wie möglich ist. Wir setzen auf den nachhaltigen Versand durch Partner wie die Österreichische Post und DHL, die ebenfalls CO2-neutrale Lösungen anbieten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_Ahrrmc",
+        "subtitle_CWrAkn",
+        "text_gqMNEU"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Verand_Ausschnitt.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#f39323",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_YyHnLr": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zDKpxc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>„Die perfekten Gewürze wachsen an den am besten geeigneten Orten. Deshalb arbeiten wir eng mit unseren Bauern zusammen, um immer jene Gewürzqualität zu ernten, die keine keine Wünsche offen lässt.“</em></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "subtitle_ay9TyH": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Martin Reich-Reiter",
+            "title_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "text_zDKpxc",
+        "subtitle_ay9TyH"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Martin_v2_04c1c9e4-a465-4c50-9ad3-4574b2a6979d.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_PpB3Kf": {
+      "type": "rich-text",
+      "blocks": {
+        "title_z7zPN4": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>UNSER WEG ZUR PERFEKTION</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_qqAjtm": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Vom Anbau bis zur Lieferung",
+            "title_size": "h2"
+          }
+        },
+        "text_jraq8Q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unsere Gewürze entstehen nicht im Dunkeln und Verborgenen – wir pflegen direkte Beziehungen zu unseren Lieferanten und garantieren so höchste Qualität. Von der Ernte bis zum fertigen Gewürz baut alles auf Transparenz und Fairness auf; und uns sind die Herausforderungen des Anbaus absolut bewusst.</p><p>2021 haben wir mit dem „Maiergut“ im Innviertel (Oberösterreich) unser Projekt für den Eigenanbau ins Leben gerufen. Auf dem 17 Hektar großen Areal werden neben Koriander und Kümmel auch Ölsaaten wie Mohn und Kürbiskerne in bester Qualität angebaut. Mit dem Eigenanbau schaffen wir das Bewusstsein für regionalen Gewürzanbau in höchster Qualität und gehen noch einen Schritt weiter in Sachen Nachhaltigkeit.</p><p>Unsere CO2-neutrale Lieferung sorgt dafür, dass Deine Bestellung nicht nur mit Liebe und Sorgfalt verpackt, sondern auch umweltfreundlich zu Dir geliefert wird. Wir setzen auf die Zusammenarbeit mit Partnern, die sich ebenfalls für den Umweltschutz engagieren. Damit haben wir alle ein gutes Gewissen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_z7zPN4",
+        "subtitle_qqAjtm",
+        "text_jraq8Q"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#d2da4d",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_fUTmeA": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_XKBLAb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ir6LDy": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ggfjB8": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_XKBLAb",
+        "title_ir6LDy",
+        "quick_buy_ggfjB8"
+      ],
+      "settings": {
+        "heading": "Reingewürze & Kräuter",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "reingewurz",
+        "section_background_color": "#d2da4d",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_AXBXDh": {
+      "type": "rich-text",
+      "blocks": {
+        "text_d3H6nt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>„Es ist uns wichtig, mit unseren Lieferanten in direktem Kontakt zu stehen und den gesamten Weg von der Auswahl des Saatguts über den Anbau bis zur Ernte und weiteren Verarbeitung bis hin zum fertigen Gewürz transparent und nachhaltig zu gestalten.“</em></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "subtitle_tHCgnD": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Lukas M. Walchhofer",
+            "title_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "text_d3H6nt",
+        "subtitle_tHCgnD"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Lukas_Teamfoto_Website-tinified_3_1_f9d5c73a-04ae-4c1b-9eef-ae66e8243fa5.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_pR9pAp": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Crwy9M": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>UNSERE VISION</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_fiw8MD": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Der Weg in die Zukunft",
+            "title_size": "h2"
+          }
+        },
+        "text_dFxYNa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unsere Arbeit endet nicht mit dem „perfekten Gewürz“ - wir sind stets auf der Suche nach neuen Wegen, um unsere Marke weiter zu stärken und unser Sortiment zu erweitern. Eines unserer größten Ziele ist es, die Geschmacks- und Genussmomente für immer mehr Menschen durch unsere Gewürze zu intensivieren.</p><p>Im Herbst 2021 durften wir nach intensiver Konzeption und harter Arbeit unseren ersten Concept Store im Europark Salzburg eröffnen. Damit haben wir einen Ort geschaffen, an dem Du die Welt von STAY SPICED ! hautnah erleben kannst. Und das war erst der Anfang, denn im März 2025 eröffneten wir einen weiteren Store in der Westfield Shopping City Süd (SCS) bei Wien.</p><p>Zusätzlich arbeiten wir eng mit unseren Resellern zusammen und sind immer auf der Suche nach Partnern, die mit uns in die Zukunft gehen. Gemeinsam möchten wir das Bewusstsein für die Wertigkeit von Gewürzen und Nachhaltigkeit weiter stärken.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_Crwy9M",
+        "subtitle_fiw8MD",
+        "text_dFxYNa"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/SCS-Eroeffung_Ausschnitt.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_hcAUzt": {
+      "type": "rich-text",
+      "blocks": {
+        "title_DHKKyc": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Unsere Fans sind unsere besten Botschafter </strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_BaY8eY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir sind stolz auf das Vertrauen, das unsere Kunden in uns setzen. Die Bewertungen sprechen für sich – auf Trusted Shops haben wir eine sensationelle <strong>4,9 Sterne</strong> Bewertung!<br/></p><p>Unsere Markenbotschafter wie <strong>Roland Trettl, Ben Perry, Haya Molcho und Tom Heinzle</strong> stärken das Vertrauen in unsere Marke und unsere Philosophie. <br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_DHKKyc",
+        "text_BaY8eY"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "testimonial_element_KWJzzf": {
+      "type": "testimonial-element",
+      "blocks": {
+        "element_wQ3twH": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.chefs.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.avatar.value }}",
+            "reviewer": "{{ block.repeater.reviewer.value }}",
+            "content": "{{ block.repeater.content | metafield_tag }}",
+            "review": 5,
+            "date": "{{ block.repeater.date | metafield_text }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_wQ3twH"
+      ],
+      "settings": {
+        "title": "",
+        "trust_element_type": "test--01",
+        "padding_value": 0,
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 3,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_gCWTYn": {
+      "type": "rich-text",
+      "blocks": {
+        "title_qWxNQx": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Gemeinsam für mehr Geschmack im Leben!</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_CwXjLG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bei STAY SPICED ! stehen unsere Türen immer offen für Menschen wie Dich. Menschen, die das Besondere im Geschmack und Genuss suchen. Wir laden Dich ein, Deine kulinarischen Träume gemeinsam mit uns zu verwirklichen - ob in der Küche, bei einem unserer Workshops, in unseren Concept Stores oder als neues Mitglied unserer STAY SPICED ! Family. Unsere Mission ist es, mit Dir eine Welt voller Geschmack zu entdecken, die Deinen Alltag bereichert und Dir wahre Genussmomente schenkt.</p><p><strong>#stayspiced<br/>Dein Team von STAY SPICED !<br/></strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_qWxNQx",
+        "text_CwXjLG"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_team-foto_ab3cf881-4278-4d10-8956-6b62d43bd056.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_YkVrya",
+    "media_with_text_overlay_GKy9gX",
+    "main",
+    "marquee_jhdyEb",
+    "rich_text_MhQxzX",
+    "rich_text_YyHnLr",
+    "rich_text_PpB3Kf",
+    "featured_collection_fUTmeA",
+    "rich_text_AXBXDh",
+    "rich_text_pR9pAp",
+    "rich_text_hcAUzt",
+    "testimonial_element_KWJzzf",
+    "rich_text_gCWTYn"
+  ]
+}

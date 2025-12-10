@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_mk6dqT": {
+      "type": "rich-text",
+      "blocks": {
+        "title_D7eXT6": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Hochzeitsgeschenke & Gastgeschenke für den schönsten Tag im Leben</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_Abb6VR": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Die Hochzeit ist ein unvergesslicher Moment voller Liebe, Freude und einzigartiger Erinnerungen.</strong><br/><br/>Du bist auf der Suche nach dem perfekten Geschenk für ein Brautpaar? Oder plant ihr gerade eure eigene Hochzeit und möchtet eure Gäste mit stilvollen und kreativen Gastgeschenken überraschen?</p><p><strong>Bei STAY SPICED ! haben wir die passenden Gewürzideen für diesen besonderen Anlass – originell, geschmackvoll und garantiert unvergesslich.</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "subtitle_JqPPzt": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Hochzeitsgeschenk",
+            "title_size": "h2"
+          }
+        },
+        "button_EHaDW9": {
+          "type": "button",
+          "settings": {
+            "button_label": "für das Brautpaar",
+            "link": "shopify://pages/hochzeit-brautpaar",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "solid"
+          }
+        },
+        "button_zgXJDM": {
+          "type": "button",
+          "settings": {
+            "button_label": "für die Gäste",
+            "link": "shopify://pages/hochzeit-gast",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_D7eXT6",
+        "text_Abb6VR",
+        "subtitle_JqPPzt",
+        "button_EHaDW9",
+        "button_zgXJDM"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Allgemein_Header_1x1_86ff9270-82f6-4d71-86c6-48049d92bdd7.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ede1c6",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_V3mp7R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_CgrWLi": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_FeECPe": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_JJCFcb": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_CgrWLi",
+        "title_FeECPe",
+        "quick_buy_JJCFcb"
+      ],
+      "settings": {
+        "heading": "Geschenke für das Brautpaar",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "s-wedding-edition",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_column_metaobject_ihMgFc": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_MjM6bk": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Du möchtest dem Brautpaar ein einzigartiges Geschenk machen, das in Erinnerung bleibt? Unsere hochwertigen Gewürze und edlen Geschenksets sind genau das Richtige! Ob als Teil einer kulinarischen Reise, als Inspiration für gemeinsame Kochabende oder als liebevolles Detail für ihre neue Küche – mit STAY SPICED! verschenkst du mehr als nur Gewürze: Du schenkst Freude, Geschmack und Genuss. Entdecke unsere besonderen Hochzeitsgeschenkideen, im passenden Design oder so bunt wie das Brautpaar selbst!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MjM6bk"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Hochzeitsgeschenke für das Brautpaar – Gewürzsets & Geschenkboxen mit Geschmack",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_xEQrAQ": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_cw6zKR": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Verleihe deiner Hochzeit eine ganz persönliche Note mit unseren kreativen Gastgeschenken. Unsere kleinen Gewürzüberraschungen sind nicht nur ein Dankeschön, sondern auch ein Erinnerungsstück, das deine Gäste bei jedem Gericht an euren großen Tag erinnern wird. Gestalte ganz individuell deine kleinen Gewürzdosen mit eurem Hochzeitsdatum und Namen.<br/></p><p>Unsere Gastgeschenke sind nicht nur hochwertig und stilvoll, sondern auch nachhaltig – ganz im Sinne einer bewussten Feier.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cw6zKR"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Gastgeschenke für die Hochzeit – Personalisierte Gewürzdosen mit Stil",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_8JKBaP": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_kdTyVf": {
+          "type": "text",
+          "settings": {
+            "content": "<p>STAY SPICED ! steht für Qualität, Regionalität und echte Handwerkskunst. Als österreichisches Unternehmen legen wir besonderen Wert auf Nachhaltigkeit und außergewöhnlichen Geschmack. Mit unserer Expertise im Gewürzbereich machen wir deinen großen Tag noch ein bisschen besonderer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_kdTyVf"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Warum STAY SPICED ! für deine Hochzeit?",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_wwAXH8": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_HzJki3": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Ob Vegetarier, Flexitarier, Pescetarier, Veganer oder Liebhaber internationaler Küchen – <strong>Gewürze sind für alle da. </strong>Sie sind kalorienfrei, nachhaltig und bringen Geschmack und Freude in jede Küche. Anders als Alkohol oder Schokolade, die nicht jedem zusagen, sind Gewürze ein Geschenk, das wirklich jeden begeistert.</p><p>Mit einer Vielfalt, die zu jedem Lebensstil und Anlass passt, sind Gewürze das ideale Präsent – ob als liebevolle Aufmerksamkeit für Hochzeitsgäste oder als stilvolles Geschenk für das Brautpaar. <strong>Denn eins ist sicher: Gewürze verwendet jeder.</strong></p><p>Überrasche deine Liebsten mit Geschmack, der verbindet, und schenke etwas, das lange in Erinnerung bleibt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HzJki3"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Gewürze – das Geschenk, das immer passt",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_atrAMP": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_DjxkzJ": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Ob für das Brautpaar oder die Gäste – bei STAY SPICED ! findest du alles, um deine Hochzeit kulinarisch und stilvoll abzurunden. Lass dich inspirieren und entdecke die Vielfalt unserer Gewürze und Geschenkideen.</p><p>👉 <strong>Jetzt entdecken:</strong><br/>Klicke dich durch unser Sortiment und finde das ideale Geschenk für Hochzeiten. Ob als Gast oder Brautpaar – mit STAY SPICED ! bleibt dieser besondere Tag unvergesslich.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_DjxkzJ"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Finde das perfekte Geschenk für deine Hochzeit",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_tPYyNY": {
+      "type": "rich-text",
+      "blocks": {
+        "title_GxQTjY": {
+          "type": "title",
+          "settings": {
+            "title": "Get in Touch!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_Xxx7pc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du hast Fragen oder besondere Wünsche? <br/>Oder ihr plant eure Hochzeit und möchtet euer Gastgeschenk individuell gestalten?<br/>Dann meldet euch gerne direkt bei uns – Airen & Lena stehen euch mit Rat und Herz zur Seite.</p><p><strong>KONTAKT:</strong></p><p><strong>+43 662 890 919<br/>bestellung@stayspiced.com</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_GxQTjY",
+        "text_Xxx7pc"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Kontakt_Airen-Lena.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ede1c6",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_mk6dqT",
+    "featured_collection_V3mp7R",
+    "text_column_metaobject_ihMgFc",
+    "text_column_metaobject_xEQrAQ",
+    "text_column_metaobject_8JKBaP",
+    "text_column_metaobject_wwAXH8",
+    "text_column_metaobject_atrAMP",
+    "rich_text_tPYyNY"
+  ]
+}

@@ -1,0 +1,305 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_mbwphQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_nNFxqP": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Dominik's Tipp: SPICETOWER</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_6TMBXk": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>24 Tage, 24 Gewürze – ready für deinen würzigen Advent? 🎄</strong><br/></p><p>Der STAY SPICED ! Spicetower Adventskalender ist ein Gamechanger – super stylisch zum Aufhängen und randvoll mit Gewürzen, die deine Küche auf das nächste Level bringen! 👨‍🍳✨<br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "product_j4J7bT": {
+          "type": "product",
+          "settings": {
+            "product": "adventskalender-stay-spiced-spicetower-edition-2024"
+          }
+        }
+      },
+      "block_order": [
+        "title_nNFxqP",
+        "text_6TMBXk",
+        "product_j4J7bT"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Spicetower_Sweet-Dominik_web-Header-1x1_d833d2b1-6af9-419a-bc38-c448fb33732c.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#d7007f",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_yp3zde": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_kQTjtQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-73.jpg",
+            "title": "24 hochwertige Gewürze",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_HLWcJx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web.jpg",
+            "title": "Regional Hergestellt",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_cUXfJQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-132.jpg",
+            "title": "Ideal als Geschenk",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_7KG98W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-33.jpg",
+            "title": "Praktische Probiergrößen",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_kQTjtQ",
+        "image_HLWcJx",
+        "image_cUXfJQ",
+        "image_7KG98W"
+      ],
+      "settings": {
+        "heading": "Was dich erwartet:",
+        "subheading": "Unser Tower Adventskalender im Detail",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "feedback_bcUe3y": {
+      "type": "feedback",
+      "blocks": {
+        "feedback_CbbaE7": {
+          "type": "feedback",
+          "settings": {
+            "author": "Karin",
+            "date": "02.11.24",
+            "rating": 5,
+            "quote": "<p>24 kleine Döschen zum probieren und kennen lernen. So kann man leicht entscheiden welche Gewürze unbedingt in „groß“ her müssen</p>"
+          }
+        },
+        "feedback_BLCYXD": {
+          "type": "feedback",
+          "settings": {
+            "author": "Sabine",
+            "date": "15.11.2024",
+            "rating": 5,
+            "quote": "<p>Schöne Produkte, leckere Gewürze, der Kalender hat sich gelohnt</p>"
+          }
+        },
+        "feedback_PAYCA9": {
+          "type": "feedback",
+          "settings": {
+            "author": "Martin",
+            "date": "19.11.2024",
+            "rating": 5,
+            "quote": "<p>Der Kalender war ein voller Erfolg, die beschenkte hat sich extrem darüber gefreut</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feedback_CbbaE7",
+        "feedback_BLCYXD",
+        "feedback_PAYCA9"
+      ],
+      "settings": {
+        "quote_font": "serif",
+        "quote_font_size": 32,
+        "quote_line_height": 1.1,
+        "content_alignment": "center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    },
+    "media_with_text_overlay_UB7XrJ": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_HtUJMR": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/stay-spiced_spicetower_video.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_TXHNhw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/050924_STAY-SPICED-__BIUNIQUE_web-51_dee14608-6fb7-4960-8ce5-712b8db31689.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_HtUJMR",
+        "image_TXHNhw"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_CdJPPD": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_tP3CUN": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_mkDJ9i": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_K4nnzY": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_tP3CUN",
+        "title_mkDJ9i",
+        "quick_buy_K4nnzY"
+      ],
+      "settings": {
+        "heading": "Empfehlungen für dich - Unsere XMAS Editions!",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "sondereditions",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_mbwphQ",
+    "text_columns_images_yp3zde",
+    "feedback_bcUe3y",
+    "media_with_text_overlay_UB7XrJ",
+    "featured_collection_CdJPPD"
+  ]
+}

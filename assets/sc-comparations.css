@@ -1,0 +1,158 @@
+.stars-liked {
+  display: flex;
+}
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+  font-size: 16px;
+}
+
+.th-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.th-close {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.th-block-image {
+  max-width: 100%;
+  width: clamp(150px, 37vw, 360px);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.th-block-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.td-flex {
+  text-align: center;
+  align-items: center;
+}
+.th-padding_s {
+  padding: 15px;
+}
+.th-auto-flex {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0px;
+  padding: 8px;
+  font-weight: 800;
+  font-size: 21px;
+}
+.table-wrapper th {
+  position: relative;
+}
+
+.td-button {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  max-width: 60% !important;
+}
+
+.table-wrapper .button.add-to-cart {
+  padding: 8px 16px;
+  line-height: 1;
+}
+
+.swym-wishlist-collections-v2-container {
+  display: none;
+}
+
+.td-center {
+  text-align: center;
+  width: clamp(150px, 37vw, 360px);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.table-wrapper td:first-child,
+.table-wrapper th:first-child {
+  position: sticky;
+  left: 0;
+  background: #fff;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .td-button .button__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .th-block .h5 {
+    font-size: 14px;
+  }
+
+  .td-button {
+    max-width: 100% !important;
+  }
+  .rating-stars {
+    font-size: 12px;
+  }
+  .th-auto-flex {
+    margin-bottom: 0px;
+  }
+  .th-sticky {
+    position: sticky;
+    left: 0;
+    background: #fff;
+    z-index: 2;
+    min-width: 100px;
+  }
+
+  .table-wrapper td:first-child,
+  .table-wrapper th:first-child {
+    max-width: 80px;
+  }
+
+  .table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .table-wrapper thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .table-wrapper tbody {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .table-wrapper .button.add-to-cart {
+    padding: 8px;
+    line-height: 1;
+  }
+  .table-wrapper td,
+  .table-wrapper th {
+    padding: 8px;
+    text-align: center;
+    width: 150px;
+  }
+  .table-wrapper td.th-sticky {
+    text-align: start;
+  }
+
+  .th-auto-flex {
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+}

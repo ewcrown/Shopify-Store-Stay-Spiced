@@ -1,0 +1,110 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_N6V8HH": {
+      "type": "image",
+      "settings": {
+        "image": "{{ metaobject.featured_image.value }}",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "large"
+      }
+    },
+    "rich_text_G44TGN": {
+      "type": "rich-text",
+      "blocks": {
+        "title_mDiCNW": {
+          "type": "title",
+          "settings": {
+            "title": "{{ metaobject.title.value }}",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_hD8C6V": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.description | metafield_tag }}",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_mDiCNW",
+        "text_hD8C6V"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_JpFhYC": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_FjkWA6": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_yWqgmf": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_APcWQY": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_FjkWA6",
+        "title_yWqgmf",
+        "quick_buy_APcWQY"
+      ],
+      "settings": {
+        "heading": "{{ section.settings.collection.title }}",
+        "header-width-limit": 500,
+        "subheading": "{{ section.settings.collection.metafields.custom.InfoHeadline2.value }}",
+        "show_view_all": true,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "{{ metaobject.related_collection_1.value }}",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "image_N6V8HH",
+    "rich_text_G44TGN",
+    "featured_collection_JpFhYC"
+  ]
+}

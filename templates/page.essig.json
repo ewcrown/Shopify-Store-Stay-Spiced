@@ -1,0 +1,353 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "slideshow_3JM8EY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_HqgRKW": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/Header-Startseite_Desktop_Essig.jpg",
+            "mobile_image": "shopify://shop_images/Header-Startseite_Desktop_Essig.jpg",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_HqgRKW"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "50vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "text_columns_icons_8fYyiY": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_4ygPAg": {
+          "type": "image",
+          "settings": {
+            "icon": "tree",
+            "title": "Natur pur",
+            "caption": "Alle Essige werden ohne künstliche Zusätze, Farbstoffe oder Aromen hergestellt – 100 % natürlich & authentisch.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_an9Y6B": {
+          "type": "image",
+          "settings": {
+            "icon": "apple",
+            "title": "Echte Frucht – echter Geschmack",
+            "caption": "Verarbeitet werden hochwertige Fruchtsaftkonzentrate oder ganze Früchte – für intensive, sortentypische Aromen.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_QUkf9d": {
+          "type": "image",
+          "settings": {
+            "icon": "like-hand",
+            "title": "Vielseitig einsetzbar",
+            "caption": "Ob für Dressings, Marinaden, Saucen, Käse, Drinks oder Desserts – jeder Essig ist ein Genuss-Allrounder mit individuellem Charakter.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_WiXQfQ": {
+          "type": "image",
+          "settings": {
+            "icon": "security-shield",
+            "title": "Schonende Herstellung",
+            "caption": "Traditionelle Verarbeitung, natürliche Reifung & sorgsame Auswahl der Zutaten sorgen für Tiefe und Balance im Geschmack.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_4ygPAg",
+        "image_an9Y6B",
+        "image_QUkf9d",
+        "image_WiXQfQ"
+      ],
+      "name": "t:sections.text-columns-with-icons.name",
+      "settings": {
+        "heading": "ESSIG-SORTIMENT VON STAY SPICED !",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "custom_css": [
+        "{margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "essig-by-stay-spiced",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "trust_element_with_text_QNKVVC": {
+      "type": "trust-element-with-text",
+      "blocks": {
+        "element_QHtAfM": {
+          "type": "element",
+          "name": "BIO APFEL-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747087-83302xF05.png",
+            "element_title": "BIO APFEL-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Fruchtig, mild, fein ausbalanciert</p><p><strong>Säure: 5 %</strong></p><p><strong>Verwendung: </strong>Salate, Marinaden, Chutneys, Limonaden, Getränke</p><p><strong>Besonderheiten: </strong>Bio, naturtrüb & ungefiltert, aus ganzen Äpfeln, Alleskönner</p>"
+          }
+        },
+        "element_qTjFng": {
+          "type": "element",
+          "name": "MANDARINEN-KALAMANSI-ESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747088-83304xF05.png",
+            "element_title": "MANDARINEN-KALAMANSI-ESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Spritzig, süß-herb, exotisch</p><p><strong>Säure: 5 %</strong></p><p><strong>Verwendung: </strong>Fisch, Avocado, Obstsalat, Cocktails, Sorbets</p><p><strong>Besonderheiten: </strong>Exotische Zitrusfrucht, fruchtig-frisch, Dessert & Cocktail-tauglich</p>"
+          }
+        },
+        "element_wBwjNH": {
+          "type": "element",
+          "name": "PASSIONSFRUCHT-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747089-83305xF05.png",
+            "element_title": "PASSIONSFRUCHT-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Tropisch, lebendig, fruchtig-frisch</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Sommerliche Salate, Salsas, Meeresfrüchte, Desserts</p><p><strong>Besonderheiten: </strong>Tropen-Charakter, intensiver Fruchtgeschmack, kreative Küche</p>"
+          }
+        },
+        "element_9Pxizi": {
+          "type": "element",
+          "name": "TOMATEN-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747091-83307xF05.png",
+            "element_title": "TOMATEN-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Kräftig, fruchtig, fein ausgewogen</p><p><strong>Säure</strong>: 5 %</p><p><strong>Verwendung: </strong>Caprese, Bruschetta, Tomatensaucen, Dressings</p><p><strong>Besonderheiten: </strong>Mediterran, fruchtig-herzhaft, perfekt für italienische Gerichte</p>"
+          }
+        },
+        "element_tWrci4": {
+          "type": "element",
+          "name": "BIRNE-ROSMARIN-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747092-83308xF05.png",
+            "element_title": "BIRNE-ROSMARIN-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Mild-süß & kräuterwürzig, mit feiner Honignote</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Ziegenkäse, Wild, Salat, Nüsse, Drinks</p><p><strong>Besonderheiten: </strong>Spannender Frucht-Kräuter-Mix, ideale Herbstkombination</p>"
+          }
+        },
+        "element_kHXwTb": {
+          "type": "element",
+          "name": "HIMBEER-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747093-83309xF05.png",
+            "element_title": "HIMBEER-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Frisch, beerig, klar, elegant</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Salate, Käse, Eis, Wildgerichte, dunkle Schokolade</p><p><strong>Besonderheiten: </strong>Leuchtend rot, fruchtiger Klassiker für Salat & Dessert</p>"
+          }
+        },
+        "element_iJFpcr": {
+          "type": "element",
+          "name": "VANILLE-BALSAMESSIG",
+          "settings": {
+            "element_title": "VANILLE-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Süß, cremig, rund, elegant</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Käse, Schokolade, Rinderfilet, Desserts, Panna Cotta</p><p><strong>Besonderheiten: </strong>Mit echter Bourbon-Vanille, ideal für Süßes & dunkles Fleisch</p>"
+          }
+        },
+        "element_mEyTA8": {
+          "type": "element",
+          "name": "SAFRAN-BALSAMESSIG",
+          "settings": {
+            "element_title": "SAFRAN-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Zart süß, würzig, leicht erdig, exklusiv</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Fisch, orientalische Gerichte, Dressings, cremige Saucen</p><p><strong>Besonderheiten: </strong>Mit echtem Safran, besonders edel, goldschimmerndes Highlight</p>"
+          }
+        }
+      },
+      "block_order": [
+        "element_QHtAfM",
+        "element_qTjFng",
+        "element_wBwjNH",
+        "element_9Pxizi",
+        "element_tWrci4",
+        "element_kHXwTb",
+        "element_iJFpcr",
+        "element_mEyTA8"
+      ],
+      "name": "Trust Element",
+      "settings": {
+        "title": "UNSER ESSIG-SORTIMENT IM VERGLEICH",
+        "section_heading_layout": "section-heading--center",
+        "section_content_column": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_cJxFCp": {
+      "type": "rich-text",
+      "blocks": {
+        "title_9XWAED": {
+          "type": "title",
+          "settings": {
+            "title": "Entdecke unsere feinen Öle",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_DzmRAj": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "regional & voller Geschmack!",
+            "title_size": "h2"
+          }
+        },
+        "text_Qde7Ln": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ob <strong>Kürbiskern-, Walnuss-, Haselnuss-, Hanfsamen-, Traubenkern- oder Olivenöl</strong> – bei uns findest du eine sorgfältig zusammengestellte Auswahl an hochwertigen, kaltgepressten Ölen. Perfekt zum Verfeinern, Kochen oder pur Genießen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_DtLRck": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sortiment entdecken",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_9XWAED",
+        "subtitle_DzmRAj",
+        "text_Qde7Ln",
+        "button_DtLRck"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Kuerbiskernoel_Maiergut.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_3JM8EY",
+    "text_columns_icons_8fYyiY",
+    "featured_collection_wpmJ6R",
+    "trust_element_with_text_QNKVVC",
+    "rich_text_cJxFCp"
+  ]
+}

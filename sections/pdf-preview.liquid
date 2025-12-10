@@ -1,0 +1,49 @@
+{{ 'section-pdf-preview.css' | asset_url | stylesheet_tag }}
+{% comment %}
+  <div
+    class="{% unless section.settings.is_fullwidth %} container--large {% else %} container--fullwidth {% endunless %} {% unless section.settings.remove_margin %} container--vertical-space {% endunless %} {% if section.settings.section_background_color != "rgba(0,0,0,0)" %} container--has-background {% endif %}"
+  >
+{% endcomment %}
+<div class="container--large container--vertical-space ">
+  <div class="pdf-preview-section">
+    {% if section.settings.pdf_file_url %}
+      <div
+        id="pdf-preview-container"
+        data-pdf-url="{{ section.settings.pdf_file_url }}"
+      ></div>
+
+      <div class="pdf-controls">
+        <button id="prev-page" class="button button--regular button--squared">Back</button>
+        <button
+          id="open-pdf"
+          class="button button--regular button--squared"
+          onclick="window.open('{{ section.settings.pdf_file_url }}', '_blank')"
+        >
+          Open PDF
+        </button>
+        <button id="next-page" class="button button--regular button--squared">Forward</button>
+      </div>
+
+    {% else %}
+      <p>Please add a PDF file URL to preview.</p>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "PDF Preview",
+  "settings": [
+    {
+      "type": "url",
+      "id": "pdf_file_url",
+      "label": "PDF File URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDF Preview"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,586 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_BLM7EE": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/S-goes-SCS_desktop-Header.png",
+        "mobile_image": "shopify://shop_images/S-goes-SCS_mobile-Header.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "rich_text_bJAwKx": {
+      "type": "rich-text",
+      "blocks": {
+        "title_FMCpbY": {
+          "type": "title",
+          "settings": {
+            "title": "JETZT NEU IN DER SCS !",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_FMCpbY"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_gTJb3F": {
+      "type": "rich-text",
+      "blocks": {
+        "title_rAxL6N": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>✅  100% NATÜRLICHE GEWÜRZE </strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_PqjzLX": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>✅  OHNE ZUSATZSTOFFE </strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_UgnadQ": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>✅  INTENSIVER GESCHMACK</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_rAxL6N",
+        "title_PqjzLX",
+        "title_UgnadQ"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/SCS-Dosen-1x1.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "media_with_text_overlay_i9Tdpz": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_Gp3mYF": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/WhatsApp Video 2025-03-26 at 14.51.03.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_Gp3mYF"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_rLQRmV": {
+      "type": "rich-text",
+      "blocks": {
+        "title_RxQ97P": {
+          "type": "title",
+          "settings": {
+            "title": "KOMM VORBEI!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_pKr8m7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Es ist soweit – der <strong>STAY SPICED ! Concept Store</strong> hat in der <strong>SCS Vösendorf bei Wien</strong> eröffnet! 🎉 Wenn du Gewürze liebst, ist das dein neuer Hotspot für Geschmacksexplosionen.</p><p>Warum du unbedingt vorbeischauen solltest? 👇</p><p>✅ <strong>Über 500 Gewürze</strong> – für BBQ-Liebhaber, Hobbyköche & Feinschmecker<br/>✅ <strong>Persönliche Beratung</strong> – wir helfen dir, das perfekte Gewürz zu finden<br/>✅ <strong>Mega Verkostungen</strong> – lass dich überraschen & probiere dich durch!</p><p>Jetzt S! in der SCS entdecken! <strong>Level 0, Eingang 6</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_6GVDzV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Auf der Karte finden",
+            "link": "https://www.westfield.com/de/austria/scs/geschafte/stay-spiced/82175",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_RxQ97P",
+        "text_pKr8m7",
+        "button_6GVDzV"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Map.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "testimonial_element_kbY7JW": {
+      "type": "testimonial-element",
+      "blocks": {
+        "element_fKp86G": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.chefs.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.avatar.value }}",
+            "reviewer": "{{ block.repeater.reviewer.value }}",
+            "content": "{{ block.repeater.content | metafield_tag }}",
+            "review": 5,
+            "date": "{{ block.repeater.date | metafield_text }}"
+          }
+        },
+        "element_rRTNdg": {
+          "type": "element",
+          "settings": {
+            "reviewer": "",
+            "content": "",
+            "review": 5,
+            "date": ""
+          }
+        }
+      },
+      "block_order": [
+        "element_fKp86G",
+        "element_rRTNdg"
+      ],
+      "settings": {
+        "title": "WARUM SPITZENKÖCHE AUF STAY SPICED SETZEN",
+        "trust_element_type": "test--01",
+        "padding_value": 0,
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_m7tJpw": {
+      "type": "rich-text",
+      "blocks": {
+        "title_mEmJHU": {
+          "type": "title",
+          "settings": {
+            "title": "WIR L(I)EBEN  GEWÜRZE",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_CjLhyQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STAY SPICED ! - die perfekte Symbiose aus Qualität, Geschmack und Nachhaltigkeit – abgerundet durch ein innovatives Packaging und Genuss-Kreationen, die ihresgleichen suchen. Ohne künstliche Aromen, zugesetzte Glutamate, Farbstoffe oder Rieselhilfen – dafür unkonventionell und mit einer Extraportion Liebe. Nachhaltige und regionale Verarbeitung, ein Gespür für die optimale Veredelung und die Passion für die besten Gewürze der Welt– das macht uns aus!<br/></p><p><strong>100 % natürliche Inhaltsstoffe<br/>Ohne Geschmacksverstärker<br/>MUST-HAVE für jede Küche</strong></p><p></p><p><strong>Wir beraten dich gerne:<br/></strong>T <a href=\"tel:+43662890919\">+43 662 890919</a><br/>T <a href=\"tel:+4986544093911\">+49 8654 4093911</a><br/>Mo - Do: 08:00 - 17:00 <br/>Fr: 08:00 - 14:00 </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_mt7rHL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr über uns!",
+            "link": "shopify://pages/unternehmensgeschichte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_mEmJHU",
+        "text_CjLhyQ",
+        "button_mt7rHL"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_team-foto_ab3cf881-4278-4d10-8956-6b62d43bd056.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "trust_element_logo_MRmjnE": {
+      "type": "trust-element-logo",
+      "blocks": {
+        "element_4f7dFj": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.trust_elements.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.image.value }}",
+            "link": "{{ block.repeater.link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_4f7dFj"
+      ],
+      "settings": {
+        "title": "Du kennst uns vielleicht aus",
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_zz8eNQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_LaUzdC": {
+          "type": "title",
+          "settings": {
+            "title": "Außergewöhnliche Geschenke",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_eRNgA4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Verschenke einzigartigen Genuss mit unseren exquisiten <em><strong>Gewürzen</strong></em>! Unsere hochwertigen Gewürzmischungen sind das perfekte Geschenk für alle Feinschmecker - das ganze Jahr über. <br/><br/></p><p>Stelle aus unserer Vielfalt eine <em><strong>Geschenkbox </strong></em>zusammen, die genau auf den Geschmack des Beschenkten abgestimmt ist. Egal ob für besondere Anlässe oder als kleine Überraschung - unsere attraktiven Banderolen und variierenden Boxengrößen machen jedes Geschenk zu einem echten Hingucker. <br/></p><p><br/>Du bist noch unentschlossen? Mit unseren <em><strong>Gutscheinen </strong></em>schenkst du Freude und Flexibilität zugleich. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_6TYHLM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt Geschenke entdecken",
+            "link": "shopify://collections/alle-geschenke",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_LaUzdC",
+        "text_eRNgA4",
+        "button_6TYHLM"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Geschenke_STAYSPICED_8360e4f2-eeb9-431f-8b4c-74660bb7eb5a.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_9p987a": {
+      "type": "rich-text",
+      "blocks": {
+        "title_L7tzTq": {
+          "type": "title",
+          "settings": {
+            "title": "Welche Gewürze braucht man?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_Nqn3tt": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns findest du eine vielfältige Auswahl an Gewürzen und Gewürzmischungen, die dein tägliches Kochen zum Kinderspiel machen. ",
+            "title_size": "h2"
+          }
+        },
+        "text_yqGahF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Von <em><strong>Grillgewürzen </strong></em>über Backgewürze, von Barbecue-Gewürzen bis hin zu Curry-Gewürzen – wir haben alles für dich zusammengefasst. Unsere mediterranen Gewürze, indischen Gewürze, <em><strong>Gewürze für Fisch</strong></em>, Gemüse und Fleisch sowie<em><strong> salzfreie Gewürzmischungen</strong></em> bieten dir grenzenlose Inspiration und <em><strong>köstliche Rezepte</strong></em>. <br/><br/></p><p>Vertraue dabei auf die Empfehlungen unserer Testimonials wie <em><strong>Roland Trettl</strong></em>, <em><strong>Haya Molcho, Tom Heinzle</strong></em> und <em><strong>Ben Perry</strong></em> sowie auf die leidenschaftliche Community.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_76tdEK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Entdecke alle Gewürze",
+            "link": "shopify://collections/gewurz",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_L7tzTq",
+        "subtitle_Nqn3tt",
+        "text_yqGahF",
+        "button_76tdEK"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Welche_Gewuerze_braucht_man_STAYSPICED.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_E78mEh": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Wz6yJp": {
+          "type": "title",
+          "settings": {
+            "title": "Selbstverständlich nachhaltig",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_an4JEM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Unsere Gewürze und Kräuter werden mit<em><strong> viel Leidenschaft und in bester Qualität</strong></em> von unserem 35-köpfigen Team mit viel Handarbeit im Herzen von Salzburg verarbeitet, verpackt und versendet. <br/><br/></p><p>Wir setzen auf <em><strong>umweltfreundliche, 100% recycelbare Weißblechdosen</strong></em> und achten auf faire Arbeitsbedingungen in unserer nachhaltigen Produktionsstätte in Österreich. <br/><br/></p><p>Wir versenden unsere Produkte CO2-neutral in umweltfreundlicher, plastikfreier Verpackung und legen großen Wert darauf, deinen Einkauf so einfach und angenehm wie möglich zu gestalten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_6Bk3Ya": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr erfahren",
+            "link": "shopify://pages/mission-werte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Wz6yJp",
+        "text_an4JEM",
+        "button_6Bk3Ya"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/STAYSPICED_Nachhaltig.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_TFxVHg": {
+      "type": "rich-text",
+      "blocks": {
+        "title_xn87eh": {
+          "type": "title",
+          "settings": {
+            "title": "Die besten Gewürze Online",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_KMKEKf": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Wir wählen sorgfältig die besten Rohgewürze",
+            "title_size": "h2"
+          }
+        },
+        "text_EgrtUC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unsere Experten wählen sorgfältig die besten Rohgewürze wie <em><strong>edle Salze</strong></em>, <em><strong>handsortierte Pfeffer</strong></em>, Safran, <em><strong>Vanille</strong></em>, Chili, <em><strong>Kurkuma</strong></em>, Fleur de Sel, <em><strong>handgerollten Zimt</strong></em> und <em><strong>Curry </strong></em>aus den renommiertesten Anbaugebieten weltweit aus. Wir garantieren dir ein Geschmackserlebnis, das seinesgleichen sucht.<br/><br/></p><p>Bei STAY SPICED! vereinen wir <em><strong>höchste Qualität</strong></em>, unverfälschten Geschmack und Nachhaltigkeit. Unsere Gewürze sind frei von künstlichen Aromen, zugesetzten Glutamaten, Farbstoffen oder Rieselhilfen. Stattdessen setzen wir auf unkonventionelle Genusskreationen, die mit einer Extraportion Liebe und Leidenschaft hergestellt werden.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_yj94FU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt die besten Gewürze bestellen",
+            "link": "shopify://collections/topseller",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_xn87eh",
+        "subtitle_KMKEKf",
+        "text_EgrtUC",
+        "button_yj94FU"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/die_Besten_Gewuerze_bei_STAYSPICED.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_BLM7EE",
+    "rich_text_bJAwKx",
+    "rich_text_gTJb3F",
+    "media_with_text_overlay_i9Tdpz",
+    "rich_text_rLQRmV",
+    "testimonial_element_kbY7JW",
+    "rich_text_m7tJpw",
+    "trust_element_logo_MRmjnE",
+    "rich_text_zz8eNQ",
+    "rich_text_9p987a",
+    "rich_text_E78mEh",
+    "rich_text_TFxVHg"
+  ]
+}

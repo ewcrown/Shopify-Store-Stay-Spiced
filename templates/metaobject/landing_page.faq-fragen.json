@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "content_toggles_Trym8r": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_8PVrRr": {
+          "type": "text",
+          "repeater": "{{ metaobject.faqs.value }}",
+          "settings": {
+            "title": "{{ block.repeater.title.value }}",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8PVrRr"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "FAQs rund um STAY SPICED !",
+        "subheading": "Hier beantworten wir dir alle Fragen",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h1"
+      }
+    },
+    "featured_product_XjhG8h": {
+      "type": "featured-product",
+      "blocks": {
+        "title_RhkFiY": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_Lb6Hr8": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_MwTgwp": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_DghKUT": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_xePehF": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_PjQmbj": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_PMJzBm": {
+          "type": "description",
+          "settings": {}
+        },
+        "bullet_7MaUtM": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_RhkFiY",
+        "price_Lb6Hr8",
+        "variant_picker_MwTgwp",
+        "space_DghKUT",
+        "buy_buttons_xePehF",
+        "space_PjQmbj",
+        "description_PMJzBm",
+        "bullet_7MaUtM"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "Product Title",
+        "section_heading_layout": "section-heading--center",
+        "product": "balagan-by-neni-haya-molcho-kochbuch",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    }
+  },
+  "order": [
+    "content_toggles_Trym8r",
+    "featured_product_XjhG8h"
+  ]
+}

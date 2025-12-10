@@ -1,0 +1,472 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "media_with_text_overlay_GKy9gX": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_fFbijg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/firmengeschenke-composing-desktop_1.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_fFbijg"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h2",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_LnxGgE": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_RLktHx": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/Merch-Dose-2.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_dgBR6y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/background_white.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "Die würzigsten Firmengeschenke",
+            "subtitle": "Unsere Marke STAY SPICED ! transportiert Geschmack und Geschmack bedeutet Emotion. Unsere Gewürze überzeugen nicht nur durch 100% Qualität, sondern auch durch eine einzigartige Verpackung, die ihresgleichen sucht. STATE OF THE ART: Unsere Gewürzdose ist zu 100% aus Weißblech und somit 100% recyclebar. Damit sie in der Küche leichter Platz findet, ist sie zudem stapelbar und kann optional mit einem wiederverwendbaren Streueinsatz ausgestattet werden.",
+            "link": "shopify://collections/gewurzmischung",
+            "open_in_new_window": false,
+            "button_label": "Alle Gewürzmischungen",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "image_RLktHx",
+        "image_dgBR6y"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-top",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_8nNEFr": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_qVdLwT": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_hJ3EUx": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_kaEHK4": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_qVdLwT",
+        "title_hJ3EUx",
+        "quick_buy_kaEHK4"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "gewurzmischung",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_KU4YMQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_YcNAad": {
+          "type": "title",
+          "settings": {
+            "title": "Get in Touch!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_yTBFcq": {
+          "type": "text",
+          "settings": {
+            "text": "<h3></h3><h4></h4><p> </p><p>Airen ist bei uns im Haus deine persönliche Ansprechperson und kümmert sich gemeinsam mit ihrem Team um alle Anliegen rund um personalisierte Geschenke.</p><p> </p><p><strong>KONTAKT:<br/>T +43 662 890 919<br/>E office@stayspiced.com</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_YcNAad",
+        "text_yTBFcq"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/airen_3.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "media_with_text_overlay_FrYiy8": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_R4YmQn": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/Merch-Box.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_PacM7A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/background_white.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "Geschenkboxen",
+            "subtitle": "Ist das Gewürz erst gewählt, kommt es nun auf die richtige, nachhaltige Verpackung an. Egal, ob innen oder außen personalisiert, 2er, 3er, 4er oder 6er Set – wir haben den passenden Karton für dich. Hergestellt in Österreich und CO2- neutral mit der österreichischen Post oder mit DHL zu dir geliefert.",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_R4YmQn",
+        "image_PacM7A"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-top",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_4WmCE6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_Gaf8zV": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_dGrBPW": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_CYNBrY": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_Gaf8zV",
+        "title_dGrBPW",
+        "quick_buy_CYNBrY"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "boxen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_rCCj3a": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_QYCYV6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/background_white.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "Holzkisten",
+            "subtitle": "Wir machens möglich! Gemeinsam mit einer kleinen, österreichischen Holzmanufaktur schaffen wir eine edle Holzverpackung eigens für dich und die S! Gewürzdosen.  Ebenfalls in 2er, 3er oder 4er Sets erhältlich und individuell bestückbar. Außerdem möglich: 4C Druck, Lasergravur oder Brandstempel, optional Inlay, 100% handgefertigt, Schwebend durch Hängesteg.",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_KezWYY": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/Merch-Holzkiste-2.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_QYCYV6",
+        "image_KezWYY"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-top",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_dELfLy": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_mnPyzW": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/Merch-Set.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_dGqiCt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/background_white.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "Geschenksets",
+            "subtitle": "Wie wärs mit einer Bestückung mit Mikro & 170ml Dosen - personalisierbar ab 250 Stück!",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_mnPyzW",
+        "image_dGqiCt"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-top",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "pdf_preview_8VF9Yg": {
+      "type": "pdf-preview",
+      "settings": {
+        "pdf_file_url": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/Merchfolder_-_2sprachig_2023.pdf?v=1730724557"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_GKy9gX",
+    "media_with_text_overlay_LnxGgE",
+    "featured_collection_8nNEFr",
+    "rich_text_KU4YMQ",
+    "media_with_text_overlay_FrYiy8",
+    "featured_collection_4WmCE6",
+    "media_with_text_overlay_rCCj3a",
+    "media_with_text_overlay_dELfLy",
+    "pdf_preview_8VF9Yg"
+  ]
+}

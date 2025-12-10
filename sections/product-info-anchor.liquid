@@ -1,0 +1,38 @@
+{%- if section.settings.title != blank -%}
+  <a id="{{ section.settings.title }}">ANKER</a>
+  <style>
+    .product-anchor a {
+      display: block;
+      height: 0;
+      visibility: hidden;
+    }
+  </style>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Product Info Anchor",
+  "class": "product-anchor",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Product Info Anchor"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Anchor",
+      "info": "Enter anchor for scroll navigation with #"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Info Anchor"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["product"],
+    "groups": ["aside"]
+  }
+}
+{% endschema %}

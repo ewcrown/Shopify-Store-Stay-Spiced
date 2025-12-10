@@ -1,0 +1,532 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "media_with_text_overlay_rTKetw": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_MteXpH": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/Video_Shooting_Roland_Animation_Valentinstag_9zu16.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_MteXpH"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_zWeYVF": {
+      "type": "rich-text",
+      "blocks": {
+        "title_ezphPA": {
+          "type": "title",
+          "settings": {
+            "title": "VERWÖHNE DEINE LIEBSTEN MIT STAY SPICED !",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_UEPGKE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Liebe geht bekanntlich durch den Magen – und was könnte schöner sein, als den Valentinstag mit einem kulinarischen Highlight zu feiern? Ob ein romantisches Dinner zu zweit, eine süße Überraschung oder ein gemeinsames Kocherlebnis: Mit unseren hochwertigen Gewürzen bringst du das gewisse Etwas in deine Gerichte. Lass deiner Kreativität freien Lauf und zeige deine Liebe – denn mit STAY SPICED! wird jeder Bissen zum Genussmoment.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "product_Qhrn37": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "love-gewurze-set-4-gewurze-im-jutebeutel"
+          }
+        }
+      },
+      "block_order": [
+        "title_ezphPA",
+        "text_UEPGKE",
+        "product_Qhrn37"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_valentinstag_header.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": true,
+        "color_background_main": "#d83153",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_slider_wFBCje": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_iiGrEq": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_3kcpR3": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_iiGrEq",
+        "title_3kcpR3"
+      ],
+      "settings": {
+        "title": "Rezepte zum Verlieben",
+        "subheading": "",
+        "post_limit": 4,
+        "section_heading_layout": "section-heading--left",
+        "blog": "barbecue",
+        "article_list": "curry/herzhaft-erotisches-linsencurry-mit-blumenkohl,fisch/garnelenspiesse-mit-amore,fisch/lachs-mit-amore,s-rezepte/cheddar-churros-mit-salsa-verde-und-grunen-tomaten",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_QXMCqj": {
+      "type": "featured-product",
+      "blocks": {
+        "title_gQCmeH": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_VgKMUY": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons_YdX4ct": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "text_UmcPEW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ganz viel Liebe verschenken ist mit unserem Love-Set angesagt. Vier würzige Kreationen in einem nachhaltigen Stoffsäckchen zusammengestellt. Was da drin ist? </p><p>- S! Lollipop für eine Vielzahl an sweeten Köstlichkeiten auch vom Grill</p><p>- S! Amore, welches liebevolle Würze in vielerlei mediterrane Gerichte zaubert</p><p>- Mikrodose S! Chilisalz für heiße Nächte</p><p>- Mikrodose S! Liebescurry für Genussmomente</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#000000",
+            "text_transform": false
+          }
+        }
+      },
+      "block_order": [
+        "title_gQCmeH",
+        "variant_picker_VgKMUY",
+        "buy_buttons_YdX4ct",
+        "text_UmcPEW"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "love-gewurze-set-4-gewurze-im-jutebeutel",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_ptfxfx": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_jARDXL": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_mk9DQq": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_4Kw3Ej": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_jARDXL",
+        "title_mk9DQq",
+        "quick_buy_4Kw3Ej"
+      ],
+      "settings": {
+        "heading": "Würzige Liebeserklärung",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "gewurze-valentinstag",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_dX9Q36": {
+      "type": "rich-text",
+      "blocks": {
+        "title_XQyhGN": {
+          "type": "title",
+          "settings": {
+            "title": "WÜRZE MIT LIEBE VERPACKEN",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_3At3qP": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "title_size": "h2"
+          }
+        },
+        "text_ykUFBj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Show some LOVE! Und bereite deinen Lieblingsmenschen eine würzige Freude. Denn Freude schenken kann so schön sein! Verpacke deine Gewürzboxen aller Art mit einem Liebesgruß. Für das perfekte Geschenk mit viel Genuss und ganz viel Liebe! Passend zum Valentinstag gibt´s die LOVE Banderole gratis zu jeder 3er, 4er oder 6er Geschenkbox dazu und wird automatisch in deinem Warenkorb hinzugefügt.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_XQyhGN",
+        "subtitle_3At3qP",
+        "text_ykUFBj"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_valentinstag-box.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 610,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle Geschenkboxen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "boxen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_wYtmNA": {
+      "type": "rich-text",
+      "blocks": {
+        "title_mJ4jxH": {
+          "type": "title",
+          "settings": {
+            "title": "GEWÜRZBOXEN SELBST BESTÜCKEN",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_3VJDeH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schritt 1: Box wählen</p><p>Schritt 2: Gewürze wählen</p><p><strong>Gratis Banderole erhalten!</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_mJ4jxH",
+        "text_3VJDeH"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_valentinstag_selbst-bestuecken.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#d83153",
+        "remove_margin": false,
+        "color_background_main": "#dbb6d7",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_9iFnrz": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_UCWGN9": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_jnVpkp": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_CRUqRU": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_UCWGN9",
+        "title_jnVpkp",
+        "quick_buy_CRUqRU"
+      ],
+      "settings": {
+        "heading": "1. Wähle deine Box",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "selbst-bestucken",
+        "section_background_color": "#d83153",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_gVBLwG": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_7nHjFN": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_wiahNr": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_DxDdH8": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_7nHjFN",
+        "title_wiahNr",
+        "quick_buy_DxDdH8"
+      ],
+      "settings": {
+        "heading": "2. Wähle deine Gewürze",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "topseller",
+        "section_background_color": "#d83153",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_R4zqE8": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_NefWxY": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_YAfjmg": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_YpeyRM": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_NefWxY",
+        "title_YAfjmg",
+        "quick_buy_YpeyRM"
+      ],
+      "settings": {
+        "heading": "SCHARF & FEURIG",
+        "header-width-limit": 1000,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "chili",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_rTKetw",
+    "rich_text_zWeYVF",
+    "blog_slider_wFBCje",
+    "featured_product_QXMCqj",
+    "featured_collection_ptfxfx",
+    "rich_text_dX9Q36",
+    "featured_collection_wpmJ6R",
+    "rich_text_wYtmNA",
+    "featured_collection_9iFnrz",
+    "featured_collection_gVBLwG",
+    "featured_collection_R4zqE8"
+  ]
+}

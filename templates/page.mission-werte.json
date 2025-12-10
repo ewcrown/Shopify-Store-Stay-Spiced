@@ -1,0 +1,450 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_YkVrya": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_C97DCt": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Unsere Mission",
+            "title_size": "h2"
+          }
+        },
+        "title_BWA3kn": {
+          "type": "title",
+          "settings": {
+            "title": "Entdecke den wahren Geschmack der Welt",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_tjnbyg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>„Mit STAY SPICED ! wirst du auf eine kulinarische Reise geführt – eine Reise zu den entlegensten und exotischsten Regionen der Erde. Wir bringen dir die Vielfalt der Welt direkt nach Hause und verpacken die pure Essenz von frischen, hochwertigen Gewürzen, die für unvergessliche Geschmackserlebnisse sorgen.</em>“ </p><p><em><strong>Lukas M. Walchhofer, CEO</strong></em></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_C97DCt",
+        "title_BWA3kn",
+        "text_tjnbyg"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Lukas_Walchhofer238.jpg",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_mLnbkL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Qa6xRT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bei S! glauben wir, dass Gewürze mehr sind als nur Zutaten – sie sind der Schlüssel zu einem intensiven Geschmackserlebnis. Unsere Gewürze entführen dich in die entferntesten Regionen der Welt: nach Westafrika, wo unser Pfeffer wächst, nach Madagaskar, wo unsere Vanille erblüht, nach Kalifornien, wo unser Knoblauch unter der Sonne gedeiht und viele weitere faszinierende Orte. Jedes Gewürz erzählt eine Geschichte von Qualität, Herkunft und Leidenschaft.</p><p>Unsere Gewürze verbinden die Kraft der Natur mit einer einzigartigen Handwerkskunst. Mit jedem Löffel kannst du die Geschmäcker dieser besonderen Regionen erleben. Sie wecken Erinnerungen an deine Reisen oder an Omas Küche – und machen jedes Gericht zu einem unvergesslichen Erlebnis.</p><p>Kochen ist für uns nicht nur eine Notwendigkeit, sondern eine Auszeit vom hektischen Alltag, ein Moment der Leidenschaft und des Genusses. Mit unseren Gewürzen möchten wir dich inspirieren und das Kochen zu einem Erlebnis machen.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qa6xRT"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Design_172.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_YyHnLr": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_jVQyDF": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Unsere Werte",
+            "title_size": "h2"
+          }
+        },
+        "title_f9VaKn": {
+          "type": "title",
+          "settings": {
+            "title": "Qualität, Leidenschaft und Nachhaltigkeit",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_zDKpxc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>S! steht für Qualität ohne Kompromisse – in jedem Detail. Unsere Werte sind das Fundament, auf dem wir jedes Gewürz und jede Mischung aufbauen. Sie prägen unser Handeln und unsere Philosophie. Wir stellen sicher, dass jedes Gewürz nicht nur ein Hochgenuss für deine Sinne, sondern auch nachhaltig und mit größtem Respekt vor der Natur hergestellt wird.<br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_jVQyDF",
+        "title_f9VaKn",
+        "text_zDKpxc"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/mischvorgang_003_1.png",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_slider_gDxzcT": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_GCbCaQ": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/oliven.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": true,
+            "text_alignment": "horizontal-center",
+            "title": "<strong>Authentizität</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Wir kennen unsere Gewürzbauern persönlich, weil wir wissen, dass der Ursprung entscheidend für die Qualität ist. Unsere Gewürze stammen aus den besten Anbauregionen der Welt, wo sie unter den optimalen Bedingungen gedeihen und ihr volles Aroma entwickeln. Diese Authentizität schmeckt man in jeder Prise. Jeder Löffel erzählt die Geschichte dieser einzigartigen Region und der Menschen, die mit Liebe und Hingabe für diese Gewürze sorgen.<br/></p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_aEExm3": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/qualitaet.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "<strong>Leidenschaft</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Unsere Liebe zu Gewürzen ist in jeder Mischung spürbar. Wir verbringen Monate damit, die perfekte Kombination von Geschmack, Schärfe und exotischen Nuancen zu kreieren. Das Ergebnis? Gewürzmischungen, die mit Liebe und Hingabe entwickelt wurden – ohne künstliche Zusatzstoffe und Aromen.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_QwgKmB": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/dosen_palette.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "<strong>Nachhaltigkeit</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Wir übernehmen Verantwortung. Nachhaltigkeit ist ein fundamentaler Bestandteil unserer DNA. Wir setzen auf regionale und nachhaltige Produktion, ohne Kompromisse bei der Qualität einzugehen. Unsere Gewürzdosen sind aus 100% recycelbarem Weißblech und unsere Verpackungen sind umweltfreundlich. Auch unser Versand ist CO2-neutral. Mit jedem Produkt von S! trägst du aktiv zum Umweltschutz bei.<br/></p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_r93Lx8": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay_spiced_right_02.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "<strong>Innovation</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Wir hören nie auf zu forschen und zu kreieren. Unsere Gewürzmischungen sind das Ergebnis von ständiger Innovation. Vom Anbau über die Ernte bis hin zur Mischung und Verpackung – bei S! ist jedes Detail durchdacht und trägt zu einem einzigartigen Erlebnis bei.<br/></p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_GCbCaQ",
+        "content_aEExm3",
+        "content_QwgKmB",
+        "content_r93Lx8"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_Bw4Abw": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_RgkxkU": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Unsere Vision",
+            "title_size": "h2"
+          }
+        },
+        "title_3hQdcX": {
+          "type": "title",
+          "settings": {
+            "title": "Geschmack neu erleben",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_phQEGn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>„Wir möchten Geschmack neu definieren und dir das Gefühl geben, dass jedes Gericht mehr ist als nur eine Mahlzeit. Mit S! soll Kochen ein Erlebnis sein, das deine Sinne anregt und dir jeden Tag eine Auszeit vom Alltag verschafft.“<br/><br/>Unsere Vision ist es, die Welt der Gewürze und Geschmäcker zu revolutionieren und dir mit jeder neuen Kreation ein unverwechselbares Geschmackserlebnis zu bieten. Wir wollen, dass du beim Kochen Inspiration findest, deine Kreativität auslebst und das Beste aus jedem Gericht herausholst – mit Gewürzen, die mit Liebe, Respekt und Expertise hergestellt werden.<br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_RgkxkU",
+        "title_3hQdcX",
+        "text_phQEGn"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/20241018054928-stayspiced_roland_trettl__d5a4194_web-20-1.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_yx7x6H": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_UyePJq": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Unser Versprechen",
+            "title_size": "h2"
+          }
+        },
+        "title_V8ednQ": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Unser Versprechen </strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_TJBqxh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>„Für uns endet die Qualität nicht bei den Gewürzen. Wir garantieren dir höchste Standards in allem, was wir tun – von der Auswahl der Rohstoffe über die Verarbeitung bis hin zu unserem Verpackungsdesign.“<br/><br/>Unsere Gewürze kommen nicht nur aus den besten Anbauregionen, sondern werden auch mit höchster Sorgfalt verpackt. Unsere Gewürzdosen sind nicht nur funktional, sondern auch ein wahrer Hingucker – gefertigt in Österreich aus 100% recycelbarem Weißblech, und aus nachhaltigen Materialien, die Mutter Erde gut tun. Zudem haben wir den CO2-neutralen Versand implementiert, um auch hier einen Beitrag zum Umweltschutz zu leisten.<br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_UyePJq",
+        "title_V8ednQ",
+        "text_TJBqxh"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/20230613_StaySpiced_20233230_Web_2040.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_KFtRny": {
+      "type": "rich-text",
+      "blocks": {
+        "title_qRDMEA": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Werde Teil der STAY SPICED ! Familie</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_m3pLCe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>„Lass uns gemeinsam die Welt der Gewürze entdecken und das Kochen zu einem unvergesslichen Erlebnis machen!“</strong><br/></p><p>Mit S! wird jedes Gericht zu einer Entdeckungsreise. Unsere Gewürze bringen dir nicht nur den Geschmack der Welt, sondern auch Inspiration und Kreativität in die Küche. Lass dich inspirieren und begeistern!<br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_qRDMEA",
+        "text_m3pLCe"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/unser_team_1.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "media_with_text_overlay_GKy9gX": {
+      "type": "media-with-text-overlay",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h2",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_YkVrya",
+    "rich_text_mLnbkL",
+    "rich_text_YyHnLr",
+    "rich_text_slider_gDxzcT",
+    "rich_text_Bw4Abw",
+    "rich_text_yx7x6H",
+    "rich_text_KFtRny",
+    "media_with_text_overlay_GKy9gX"
+  ]
+}

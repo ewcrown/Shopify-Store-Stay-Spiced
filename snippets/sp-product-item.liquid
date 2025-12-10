@@ -1,0 +1,128 @@
+{%- assign product_variant = product.selected_or_first_available_variant -%}
+<div
+  id="product-item-{{ product.id }}"
+  class="product-item card"
+  data-js-product-item
+>
+  {%- liquid
+    if settings.product_card_aspect_ratio == 'natural'
+      if product.media.size == 0 or blank_product
+        assign aspect_ratio = 1
+      else
+        unless product.featured_media.aspect_ratio > 0
+          assign aspect_ratio = 1
+        else
+          assign aspect_ratio = product.featured_media.aspect_ratio
+        endunless
+      endif
+    else
+      assign aspect_ratio = settings.product_card_aspect_ratio
+    endif
+
+    if settings.within_filter_enabled and product_collection
+      assign product_url = product.url | within: product_collection
+    else
+      assign product_url = product.url
+    endif
+
+    for variant in product.variants
+      assign skus = skus | append: variant.sku | append: ','
+    endfor
+  -%}
+  <a
+    href="{{ product_url }}"
+    class="
+      card__image product-item__image
+      {% if section_blocks.size == 0 %} product-item__image--no-text {% endif %}
+      {% if settings.product_card_show_secondary_image and product.media.size >= 2 %} product-item__image--has-secondary {% endif %}
+    "
+    style="background-color: #ffffff70; "
+  >
+    {%- liquid
+      unless layout == 'shop'
+        if layout contains 'grid-4'
+          assign sizes = '(max-width: 1023px) calc((100vw - 100px) / 3), (max-width: 1280px) calc((100vw - 120px) / 4), 300px"'
+        else
+          assign sizes = '(max-width: 1280px) calc((100vw - 120px) / 3), 420px"'
+        endif
+        assign sizes = sizes | prepend: 'sizes="(max-width: 359px) calc(100vw - 30px), (max-width: 767px) calc((100vw - 50px) / 2),'
+      else
+        assign sizes = 'sizes="(max-width: 474px) calc((100vw - 100px) / 2), (max-width: 767px) calc((100vw - 50px) / 2), (max-width: 1023px) calc((100vw - 100px) / 3), (max-width: 1280px) calc((100vw - 150px) / 4), 285px"'
+      endunless
+
+      if product.media.size == 0 or blank_product
+        echo 'image' | placeholder_svg_tag
+      else
+        render 'lazy-image', image: product.featured_media, alt: product.title, ratio: aspect_ratio, fit: settings.product_card_aspect_ratio_fit, type: 'background', class: 'product-item__image-figure product-item__image-figure--primary lazy-image--animation', sizes: sizes, preload: preload
+      endif
+
+      if settings.product_card_show_secondary_image and product.media.size >= 2
+        render 'lazy-image', image: product.media[1], ratio: aspect_ratio, fit: settings.product_card_aspect_ratio_fit, type: 'background', class: 'product-item__image-figure product-item__image-figure--secondary lazy-image--animation', sizes: sizes
+      endif
+    -%}
+
+    {%- liquid
+      unless blank_product
+        render 'product-sp-badges', product: product, text_class: 'text-size--xsmall'
+      endunless
+    -%}
+  </a>
+  
+  <div class="card__text product-item product-item__text">
+    <div class="product-item__info-grid">
+      <div class="product-item__rating text-size--xsmall">
+        <etrusted-widget
+          data-etrusted-widget-id="wdg-0e4207ec-95fc-45e4-a0f9-12a97026ff74"
+          data-sku="{{ skus | remove_last: ',' }}"
+        ></etrusted-widget>
+      </div>
+      <div class="product-item__info">
+        <div class="d_flex gap_20 justify-center">
+          <div
+            class="flex flex-col md:flex-row justify-between gap-4 w-100"
+            style="max-width: {{ maxWidth }}px; text-align: center; margin: auto"
+          >
+            <div class="flex flex-1 flex-col font-bold">
+              <a
+                class="product-item__title text-sm text-center "
+                href="{{ product_url }}"
+                title="{{ product.title | escape }}"
+                {{ block.shopify_attributes }}
+              >
+                <h3 class="text-animation--underline text-size--regular font-bold text-animation--underline">
+                  {%- liquid
+                    unless blank_product
+                      echo product.title
+                    else
+                      echo 'general.onboarding.product_title' | t
+                    endunless
+                  -%}
+                </h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- render 'sp-product-price',
+        target: product.selected_or_first_available_variant,
+        variant: product.selected_or_first_available_variant,
+        product_price_varies: product.price_varies,
+        hide_unit_price: true
+      -%}
+    </div>
+    {%- unless customer == blank and settings.b2b_prevent_purchase == true -%}
+      <div class="product-item__quick-buy-wrap">
+        <div
+          class="product-item__quick-buy {% unless product.available -%} product-item__quick-buy--sold-out {%- endunless -%}"
+          {{ block.shopify_attributes }}
+        >
+          {%- render 'quick-buy',
+            product: product,
+            button_classes: 'button--regular button--fullwidth button--squared',
+            layout: layout
+          -%}
+        </div>
+      </div>
+    {%- endunless -%}
+  </div>
+</div>

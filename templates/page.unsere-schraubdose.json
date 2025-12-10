@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "media_with_text_overlay_mMf4xc": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_NttGgP": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/230324_Home_Endkunde_Order_16x9.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_NttGgP"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_slider_43YFVh": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_D3BaPF": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/design_225_1.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": true,
+            "text_alignment": "horizontal-center",
+            "title": "Unsere STAY SPICED ! Schraubdose",
+            "title_size": "h2",
+            "seo_h_tag": "h1",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Standard ist uns zu langweilig! Deshalb haben wir uns besonders viele Gedanken zur Beschaffenheit und Herstellung unserer Gewürzdosen gemacht und sind stolz auf das Ergebnis, das wir nach 14 monatiger Arbeit mit unserem Dosenhersteller erreicht haben.</p><p><strong>Zu 100% ehrlich<br/></strong>Unsere Gewürzdosen werden zu 100% in Österreich produziert und sind zu 100% aus deutschem Weißblech. Ein echter Benchmark-Erfolg im Gewürzbereich. Und weil Nachhaltigkeit, Design und Praktikabilität natürlich nahtlos ineinandergreifen müssen, sind die Dosen auch perfekt stapelbar. Das freut nicht nur jeden Gewürz-Junkie, weil er so mehr Gewürze in sein Regal schlichten kann, sondern auch Mutter Erde. Unsere Dosen sind durch einen praktischen Drehverschluss licht- und luftdicht, um vor UV-Strahlung und Feuchtigkeit zu schützen.</p><p><br/>Für uns ist es selbstverständlich, verantwortungsvoll mit der Umwelt umzugehen. Die Verbindung von Nachhaltigkeit und Regionalität macht es möglich.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_D3BaPF"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_kiEJ6y": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_a6WKjz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Streueinsatz_var2.jpg",
+            "title": "Streueinsatz für 170ml Schraubdose",
+            "caption": "Der Streueinsatz für die 170ml Schraubdosen kann mit einem Handgriff einfach eingeklickt werden – und bei Bedarf leicht ausgetauscht und in eine andere Schraubdosen eingesetzt werden.",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_FDLkMa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stapelsicke_70g.jpg",
+            "title": "Perfekt Stapelbar",
+            "caption": "Durch die praktische Form unserer S! Dosen sind diese perfekt stapelbar, sodass dir in deiner Küche nie der Platz ausgehen kann. Durch die optimal angepassten Furchen am Boden jeder Dose ist hier ein guter Halt garantiert.",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_tkemzP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_dose-drehverschluss.jpg",
+            "title": "Easy Drehverschluss",
+            "caption": "Der Schraubverschluss garantiert den luftdichten Verschluss, um den tollen Geschmack der Gewürze zu erhalten und vor Feuchtigkeit zu schützen.",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_a6WKjz",
+        "image_FDLkMa",
+        "image_tkemzP"
+      ],
+      "settings": {
+        "heading": "Was sie alles kann!",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_XYTDAX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_gY9xtA": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>unser ANSatz: </strong>",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_iGwd8R": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>PeRfektion mUss </strong>",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_MKUAiT": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>mögliCH sein.</strong>",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        },
+        "title_AidNc8": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>ANSPRUCH</strong>",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_gY9xtA",
+        "title_iGwd8R",
+        "title_MKUAiT",
+        "title_AidNc8"
+      ],
+      "custom_css": [
+        "h2 {margin: 1rem;}"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "image_cew7d6": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/website_dose-facts_1.jpg",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "featured_collection_9xW4GX": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_neKBkR": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_8itzLC": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_H3TNJm": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_neKBkR",
+        "title_8itzLC",
+        "quick_buy_H3TNJm"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 9,
+        "product-info-width-limit": 500,
+        "collection": "ausstattung",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_with_hotspots_GGmKe8": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "product_84xVm9": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "vertical_offset_desktop": 50,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "text_nA9EDL": {
+          "type": "text",
+          "settings": {
+            "title": "Schraubdose",
+            "description": "<p>Stapelbar</p>",
+            "vertical_offset_desktop": 50,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        }
+      },
+      "block_order": [
+        "product_84xVm9",
+        "text_nA9EDL"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Image with hotspots",
+        "subheading": "Promote your best products",
+        "section_heading_layout": "section-heading--left",
+        "is_fullwidth": false,
+        "color_text": "#000000",
+        "color_background": "#ffffff",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h3"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_mMf4xc",
+    "rich_text_slider_43YFVh",
+    "text_columns_images_kiEJ6y",
+    "rich_text_XYTDAX",
+    "image_cew7d6",
+    "featured_collection_9xW4GX",
+    "image_with_hotspots_GGmKe8"
+  ]
+}

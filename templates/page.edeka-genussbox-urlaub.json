@@ -1,0 +1,681 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_PwWLyi": {
+      "type": "rich-text",
+      "blocks": {
+        "title_TqKJUM": {
+          "type": "title",
+          "settings": {
+            "title": "JETZT GEWÜRZSET SICHERN!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_nBrt3V": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Du hast das Heft – wir haben die Würze für deine Genussreise!",
+            "title_size": "h2"
+          }
+        },
+        "text_3idFXE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit „100 % Urlaubsfreude“ öffnest du die Tür zu einer kulinarischen Entdeckungstour quer durch Europa. Dich erwarten 6 authentische Gewürzmischungen, inspiriert von den typischen Küchen aus Deutschland, Österreich, Schweiz, Italien, Ungarn & Polen. Ob deftige Klassiker, mediterrane Highlights oder würzige Überraschungen – mit jedem Gericht erlebst du ein Stück Urlaubsgefühl. Und das Beste: Einfach probieren und genießen egal ob zu Hause oder unterwegs.</p><p></p><p><strong>Hol dir jetzt dein kostenloses Probierset</strong> – exklusiv für dich!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_TqKJUM",
+        "subtitle_nBrt3V",
+        "text_3idFXE"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Gratis-LAENDERSET_Connex.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#fdc300",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_icons_ACMBnr": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_TffAkt": {
+          "type": "image",
+          "settings": {
+            "icon": "checkout-cart",
+            "title": "PROBIERSET IN DEN WARENKORB",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_LUPLLb": {
+          "type": "image",
+          "settings": {
+            "icon": "label",
+            "title": "GUTSCHEIN-CODE EINGEBEN",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_zbJ4HM": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "BESTELLUNG ABSCHLIESSEN",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_TffAkt",
+        "image_LUPLLb",
+        "image_zbJ4HM"
+      ],
+      "settings": {
+        "heading": "SO FUNKTIONIERT'S",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "#fdc300",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_iyhfNE": {
+      "type": "featured-product",
+      "blocks": {
+        "title_LADnhw": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_CnJJyf": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_Fyh3aW": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_C4PQfg": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_Uzd8he": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_CXwBDP": {
+          "type": "description",
+          "settings": {}
+        },
+        "bullet_8RfCt4": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_LADnhw",
+        "variant_picker_CnJJyf",
+        "space_Fyh3aW",
+        "buy_buttons_C4PQfg",
+        "space_Uzd8he",
+        "description_CXwBDP",
+        "bullet_8RfCt4"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "landerset-gewurze-probier-set-6-mikro-gewurzdosen",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_LBfETD": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_t4wQqU": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_JH4BDj": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_74kUFc": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_t4wQqU",
+        "title_JH4BDj",
+        "quick_buy_74kUFc"
+      ],
+      "settings": {
+        "heading": "Du brauchst Nachschub?",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 12,
+        "product-info-width-limit": 500,
+        "collection": "edeka-genussbox-100-urlaubsfreude",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "all_blog_CWNTia": {
+      "type": "all-blog",
+      "blocks": {
+        "title_78mfxK": {
+          "type": "title",
+          "settings": {}
+        },
+        "summary_tFXYeA": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_78mfxK",
+        "summary_tFXYeA"
+      ],
+      "settings": {
+        "title": "",
+        "blog_handles": "S-Rezepte",
+        "layout": "grid-3 grid-lap-1",
+        "post_limit": 5,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333"
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "Entdecke unsere Probiersets!",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "probierset-grill-gewurze",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonial_element_NCFK8D": {
+      "type": "testimonial-element",
+      "blocks": {
+        "element_MgDUqb": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.chefs.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.avatar.value }}",
+            "reviewer": "{{ block.repeater.reviewer.value }}",
+            "content": "{{ block.repeater.content | metafield_tag }}",
+            "review": 5,
+            "date": "{{ block.repeater.date | metafield_text }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_MgDUqb"
+      ],
+      "settings": {
+        "title": "GENIESSE AUCH DU UNSERE EXZELLENTEN GEWÜRZE",
+        "trust_element_type": "test--01",
+        "padding_value": 20,
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_iUAPPJ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_QQiLhk": {
+          "type": "title",
+          "settings": {
+            "title": "WIR L(I)EBEN  GEWÜRZE",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_C8eeFY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STAY SPICED ! - die perfekte Symbiose aus Qualität, Geschmack und Nachhaltigkeit – abgerundet durch ein innovatives Packaging und Genuss-Kreationen, die ihresgleichen suchen. Ohne künstliche Aromen, zugesetzte Glutamate, Farbstoffe oder Rieselhilfen – dafür unkonventionell und mit einer Extraportion Liebe. Nachhaltige und regionale Verarbeitung, ein Gespür für die optimale Veredelung und die Passion für die besten Gewürze der Welt– das macht uns aus!<br/></p><p><strong>100 % natürliche Inhaltsstoffe<br/>Ohne Geschmacksverstärker<br/>MUST-HAVE für jede Küche</strong></p><p></p><p><strong>Wir beraten dich gerne:<br/></strong>T <a href=\"tel:+43662890919\">+43 662 890919</a><br/>T <a href=\"tel:+4986544093911\">+49 8654 4093911</a><br/>Mo - Do: 08:00 - 17:00 <br/>Fr: 08:00 - 14:00 </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_waG8w7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr über uns!",
+            "link": "shopify://pages/unternehmensgeschichte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_QQiLhk",
+        "text_C8eeFY",
+        "button_waG8w7"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_team-foto_ab3cf881-4278-4d10-8956-6b62d43bd056.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "trust_element_logo_9mEEEz": {
+      "type": "trust-element-logo",
+      "blocks": {
+        "element_QVFJ78": {
+          "type": "element",
+          "repeater": "{{ localization.market.metafields.custom.trust_elements.value }}",
+          "settings": {
+            "element_img": "{{ block.repeater.image.value }}",
+            "link": "{{ block.repeater.link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "element_QVFJ78"
+      ],
+      "settings": {
+        "title": "Du kennst uns vielleicht aus",
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 5,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_4RLyGR": {
+      "type": "rich-text",
+      "blocks": {
+        "title_z3eHkx": {
+          "type": "title",
+          "settings": {
+            "title": "Außergewöhnliche Geschenke",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_JzWyD6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Verschenke einzigartigen Genuss mit unseren exquisiten <em><strong>Gewürzen</strong></em>! Unsere hochwertigen Gewürzmischungen sind das perfekte Geschenk für alle Feinschmecker - das ganze Jahr über. <br/></p><p>Stelle aus unserer Vielfalt eine <em><strong>Geschenkbox </strong></em>zusammen, die genau auf den Geschmack des Beschenkten abgestimmt ist. Egal ob für besondere Anlässe oder als kleine Überraschung - unsere attraktiven Banderolen und variierenden Boxengrößen machen jedes Geschenk zu einem echten Hingucker. <br/><br/>Du bist noch unentschlossen? Mit unseren <em><strong>Gutscheinen </strong></em>schenkst du Freude und Flexibilität zugleich. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_wzTVX4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt Geschenke entdecken",
+            "link": "shopify://collections/alle-geschenke",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_z3eHkx",
+        "text_JzWyD6",
+        "button_wzTVX4"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Geschenke_STAYSPICED_8360e4f2-eeb9-431f-8b4c-74660bb7eb5a.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_FKEX3X": {
+      "type": "rich-text",
+      "blocks": {
+        "title_T7hpbj": {
+          "type": "title",
+          "settings": {
+            "title": "Welche Gewürze braucht man?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_cpUhEN": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns findest du eine vielfältige Auswahl an Gewürzen und Gewürzmischungen, die dein tägliches Kochen zum Kinderspiel machen. ",
+            "title_size": "h2"
+          }
+        },
+        "text_wwcQKf": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Von <em><strong>Grillgewürzen </strong></em>über Backgewürze, von Barbecue-Gewürzen bis hin zu Curry-Gewürzen – wir haben alles für dich zusammengefasst. Unsere mediterranen Gewürze, indischen Gewürze, <em><strong>Gewürze für Fisch</strong></em>, Gemüse und Fleisch sowie<em><strong> salzfreie Gewürzmischungen</strong></em> bieten dir grenzenlose Inspiration und <em><strong>köstliche Rezepte</strong></em>. <br/></p><p>Vertraue dabei auf die Empfehlungen unserer Testimonials wie <em><strong>Roland Trettl</strong></em>, <em><strong>Haya Molcho, Tom Heinzle</strong></em> und <em><strong>Ben Perry</strong></em> sowie auf die leidenschaftliche Community.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_b3EkUE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Entdecke alle Gewürze",
+            "link": "shopify://collections/gewurz",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_T7hpbj",
+        "subtitle_cpUhEN",
+        "text_wwcQKf",
+        "button_b3EkUE"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Geschenke_STAYSPICED_8360e4f2-eeb9-431f-8b4c-74660bb7eb5a.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_WGXQGC": {
+      "type": "rich-text",
+      "blocks": {
+        "title_BXwRec": {
+          "type": "title",
+          "settings": {
+            "title": "Selbstverständlich nachhaltig",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_JF8wa3": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei uns stehen Nachhaltigkeit und Qualität an erster Stelle.",
+            "title_size": "h2"
+          }
+        },
+        "text_9xke6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Unsere Gewürze und Kräuter werden mit<em><strong> viel Leidenschaft und in bester Qualität</strong></em> von unserem 35-köpfigen Team mit viel Handarbeit im Herzen von Salzburg verarbeitet, verpackt und versendet. <br/></p><p>Wir setzen auf <em><strong>umweltfreundliche, 100% recycelbare Weißblechdosen</strong></em> und achten auf faire Arbeitsbedingungen in unserer nachhaltigen Produktionsstätte in Österreich. <br/></p><p>Wir versenden unsere Produkte CO2-neutral in umweltfreundlicher, plastikfreier Verpackung und legen großen Wert darauf, deinen Einkauf so einfach und angenehm wie möglich zu gestalten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_DA3Frd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr erfahren",
+            "link": "shopify://pages/mission-werte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_BXwRec",
+        "subtitle_JF8wa3",
+        "text_9xke6B",
+        "button_DA3Frd"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/STAYSPICED_Nachhaltig.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_XXaUqK": {
+      "type": "rich-text",
+      "blocks": {
+        "title_XEfEPk": {
+          "type": "title",
+          "settings": {
+            "title": "Die besten Gewürze Online",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_gC6TWa": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Wir wählen sorgfältig die besten Rohgewürze",
+            "title_size": "h2"
+          }
+        },
+        "text_yQgx7x": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Unsere Experten wählen sorgfältig die besten Rohgewürze wie <em><strong>edle Salze</strong></em>, <em><strong>handsortierte Pfeffer</strong></em>, Safran, <em><strong>Vanille</strong></em>, Chili, <em><strong>Kurkuma</strong></em>, Fleur de Sel, <em><strong>handgerollten Zimt</strong></em> und <em><strong>Curry </strong></em>aus den renommiertesten Anbaugebieten weltweit aus. Wir garantieren dir ein Geschmackserlebnis, das seinesgleichen sucht.<br/><br/></p><p>Bei STAY SPICED! vereinen wir <em><strong>höchste Qualität</strong></em>, unverfälschten Geschmack und Nachhaltigkeit. Unsere Gewürze sind frei von künstlichen Aromen, zugesetzten Glutamaten, Farbstoffen oder Rieselhilfen. Stattdessen setzen wir auf unkonventionelle Genusskreationen, die mit einer Extraportion Liebe und Leidenschaft hergestellt werden.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_9bDWrc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt die besten Gewürze bestellen",
+            "link": "shopify://collections/topseller",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_XEfEPk",
+        "subtitle_gC6TWa",
+        "text_yQgx7x",
+        "button_9bDWrc"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/die_Besten_Gewuerze_bei_STAYSPICED.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_PwWLyi",
+    "text_columns_icons_ACMBnr",
+    "featured_product_iyhfNE",
+    "featured_collection_LBfETD",
+    "all_blog_CWNTia",
+    "featured_collection_wpmJ6R",
+    "testimonial_element_NCFK8D",
+    "rich_text_iUAPPJ",
+    "trust_element_logo_9mEEEz",
+    "rich_text_4RLyGR",
+    "rich_text_FKEX3X",
+    "rich_text_WGXQGC",
+    "rich_text_XXaUqK"
+  ]
+}

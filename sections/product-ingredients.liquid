@@ -1,0 +1,196 @@
+{{ 'product-ingredients.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  for block in section.blocks
+    if block.type == 'ingredient'
+      assign has_ingredient = true
+    endif
+    if block.type == 'nutrition'
+      assign has_nutrition = true
+    endif
+  endfor
+-%}
+{%- if has_ingredient or has_nutrition -%}
+  <div class="container--large container--vertical-space">
+    <toggle-tab
+      class="toggle toggle--faq"
+      data-togglepack-alternate
+    >
+      <div
+        class="section-heading section-heading gutter-bottom--page ttoggle__title"
+        data-js-title
+        tabindex="0"
+        aria-expanded="false"
+        role="button"
+        aria-controls="toggle--details"
+      >
+        <div class="section-heading__text remove-empty-space">
+          <div class="section-heading__title">
+            <{{ section.settings.seo_h_tag }}
+              class="{{ section.settings.title_size }} rte rich-text__title"
+            >
+              {{ section.settings.title }}
+            </{{ section.settings.seo_h_tag }}>
+          </div>
+        </div>
+      </div>
+      <div
+        id="toggle--details"
+        data-js-content
+        role="region"
+        class="container--vertical-space grid grid--layout grid-2 grid-portable-1 grid-lap-1 grid-tiny-1 "
+      >
+        {%- if has_ingredient -%}
+          <div class="ingredients--wrapper">
+            {%- for block in section.blocks -%}
+              {%- if block.type == 'ingredient' and block.settings.value != blank or block.settings.liquid -%}
+                <div class="ingredients--item">
+                  <span class="key">{{- block.settings.title -}}</span>
+                  <div class="ingredients-item__values">
+                    <span class="break-words">{{- block.settings.value -}}</span>
+                    <span class="break-words">{{- block.settings.liquid -}}</span>
+                  </div>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+        {%- if has_nutrition -%}
+          <div class="nutrition--wrapper">
+            {%- for block in section.blocks -%}
+              {%- if block.type == 'nutrition' -%}
+                <div class="nutrition--item">
+                  <span>{{- block.settings.title -}}</span>
+                  <span class="whitespace-nowrap">
+                    {{- block.settings.value | default: 0 }}
+                    {{ block.settings.unit -}}
+                  </span>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </toggle-tab>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Ingredients & Nutrition",
+  "class": "product-ingredients",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "title",
+      "default": "Details"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "t:sections.rich-text.blocks.heading.settings.heading_size.label",
+      "options": [
+        {
+          "value": "h3",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading_size.options__1.label"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading_size.options__2.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading_size.options__3.label"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "seo_h_tag",
+      "label": "t:sections.refactor_words.seo.label",
+      "info": "t:sections.refactor_words.seo.info",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "span",
+          "label": "span"
+        }
+      ],
+      "default": "h2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ingredient",
+      "name": "Ingredient",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Label",
+          "default": "Zutaten"
+        },
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Value"
+        },
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "Value alternative",
+          "info": "You can use Liquid here"
+        }
+      ]
+    },
+    {
+      "type": "nutrition",
+      "name": "Nutrition",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Label",
+          "default": "Durchschnittliche Nährwerte pro"
+        },
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Value"
+        },
+        {
+          "type": "text",
+          "id": "unit",
+          "label": "Unit",
+          "default": "g"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredients & Nutrition"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["product"],
+    "groups": ["aside"]
+  }
+}
+{% endschema %}

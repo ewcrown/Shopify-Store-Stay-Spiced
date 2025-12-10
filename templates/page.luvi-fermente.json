@@ -1,0 +1,193 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "slideshow_gcNHpG": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tQgc88": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/Header-LUVI_a822e017-41ae-4136-8410-2ae36ffb11a9.png",
+            "mobile_image": "shopify://shop_images/Header-LUVI_mobile_2d5693a3-4966-407f-be68-416a50d2da83.png",
+            "caption": "Regionale Interpretationen fernöstlicher Fermente",
+            "title": "LUVI Fermente",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_tQgc88"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "40vh",
+        "mobile_height": "50vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-center align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h3",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "luvi-fermente",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_FeFjcc": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Cpnqef": {
+          "type": "title",
+          "settings": {
+            "title": "Wir pflegen einen wertschätzenden Umgang miteinander, mit unseren Lebensmitteln und der Natur",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_Cpnqef"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Team-LUVI.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#86a64c",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_PteiC9": {
+      "type": "text-columns",
+      "blocks": {
+        "text_YfGn9a": {
+          "type": "text",
+          "settings": {
+            "title": "Wir denken regional",
+            "caption": "<p>Dazu beziehen wir Salz von den Salinen im Salzkammergut, Getreide, Bohnen und Nüsse von ausgewählten Bauern in der Region, Mohn aus dem Waldviertel und Fischabschnitte aus dem Traunsee. Kurze Lieferwege und die Qualität zwischenmenschlicher Kommunikation sind unser Kredo.</p>",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_BD3Ryr": {
+          "type": "text",
+          "settings": {
+            "title": "Nachhaltiges Wirtschaften und Handeln",
+            "caption": "<p>Bei der Verarbeitung von Fisch ist LUVI Fermente die Verwertung des ganzen Tieres wichtig. Für die Fischsauce werden keine Fische gefangen – fermentiert werden frische Abschnitte aus der umliegenden Gastronomie. Die alten Römer nannten diese Sauce Garum bzw. Liquamen – einst so allgegenwärtig wie heute das Salz am Esstisch.</p>",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_JRbwAE": {
+          "type": "text",
+          "settings": {
+            "title": "Wir forschen nach neuen Geschmäckern",
+            "caption": "<p>Wir verarbeiten regionale und anfallende Lebensmittel und veredeln diese mithilfe ausgewählter Mikroorganismen zu Saucen, Misopasten und anderen Fermenten.</p>",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "text_YfGn9a",
+        "text_BD3Ryr",
+        "text_JRbwAE"
+      ],
+      "name": "t:sections.words_210.text_columns.name",
+      "settings": {
+        "heading": "Über LUVI Fermente",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "block_text_alignment": "text-align--center",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_gcNHpG",
+    "featured_collection_wpmJ6R",
+    "rich_text_FeFjcc",
+    "text_columns_PteiC9"
+  ]
+}

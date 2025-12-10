@@ -1,0 +1,180 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "marquee_iYdFzc": {
+      "type": "marquee",
+      "blocks": {
+        "text_DmRftD": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "JETZT GEWINNEN!"
+          }
+        }
+      },
+      "block_order": [
+        "text_DmRftD"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "{{ shop.brand.colors.secondary[0].background }}",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "content_toggles_YUGjxw": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_tCNzae": {
+          "type": "text",
+          "settings": {
+            "title": "Teilnahmebedingungen",
+            "subtitle": "Die Teilnahme am Gewinnspiel setzt die Zustimmung zu diesen Teilnahmebedingungen voraus. ",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Mit der Teilnahme am Gewinnspiel von SPICEWORLD akzeptieren die Teilnehmerinnen und Teilnehmer diese Teilnahmebedingungen.</p><p>Die Teilnahme am Gewinnspiel ist bis zum 20.08.2025 um 23:59 Uhr möglich.</p><p>Wir behalten uns das Recht vor, Teilnehmerinnen und Teilnehmer bei Verstoß gegen diese Teilnahmebedingungen vom Gewinnspiel auszuschließen.</p><p>Teilnahmeberechtigt sind alle Personen, die über 18 Jahre alt sind und ihren Wohnsitz in Österreich oder Deutschland haben.</p><p>Es kann pro Person nur einmal an diesem Gewinnspiel teilgenommen werden.</p><p>Um an diesem Gewinnspiel teilnehmen zu können, müssen alle Bedingungen erfüllt sein (siehe oben).</p><p>Die Teilnahme erfolgt automatisch mit dem Erfüllen der Bedingungen.</p><p>Das Gewinnspiel steht in keiner Verbindung zu Facebook/Meta und wird in keiner Weise von Facebook gesponsert, unterstützt oder organisiert.</p><p>Der Gewinner oder die Gewinnerin wird per Zufallsgenerator ermittelt und über Instagram Direct Message kontaktiert.</p><p>Sollte bei Sachpreisen binnen einer Woche keine Kontaktaufnahme erfolgen, wird der jeweilige Preis anderweitig vergeben.</p><p>Die Teilnehmerinnen und Teilnehmer sind damit einverstanden, dass personenbezogene Daten (Facebook-Name/Instagram-Name) erhoben und elektronisch gespeichert werden.</p><p>Bei Problemen behalten wir uns das Recht vor, das Gewinnspiel zu ändern oder zu beenden.</p><p>Der Rechtsweg ist ausgeschlossen.</p><p>Eine Barablöse von Preisen sowie ein Umtausch sind nicht möglich.</p><p>Sollten einzelne Bestimmungen der Teilnahmebedingungen ungültig sein oder werden, bleibt die Gültigkeit der übrigen Teilnahmebedingungen unberührt.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_tCNzae"
+      ],
+      "settings": {
+        "heading": "Gewinnspiel Teilnahmebedingungen",
+        "subheading": "Mach mit und gewinne tolle Preise  🎉",
+        "section_heading_layout": "section-heading--left",
+        "open_first": true,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_nLiYjb": {
+      "type": "rich-text",
+      "blocks": {
+        "title_b7YY4p": {
+          "type": "title",
+          "settings": {
+            "title": "Teilnahmebedingungen",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_nJQUT6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Die Teilnahme am Gewinnspiel setzt die Zustimmung zu diesen Teilnahmebedingungen voraus. </strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "text_FfzUKc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit der Teilnahme am Gewinnspiel von SPICEWORLD akzeptieren die Teilnehmerinnen und Teilnehmer diese Teilnahmebedingungen.</p><p>Die Teilnahme am Gewinnspiel ist bis zum 20.08.2025 um 23:59 Uhr möglich.</p><p>Wir behalten uns das Recht vor, Teilnehmerinnen und Teilnehmer bei Verstoß gegen diese Teilnahmebedingungen vom Gewinnspiel auszuschließen.</p><p>Teilnahmeberechtigt sind alle Personen, die über 18 Jahre alt sind und ihren Wohnsitz in Österreich oder Deutschland haben.</p><p>Es kann pro Person nur einmal an diesem Gewinnspiel teilgenommen werden.</p><p>Um an diesem Gewinnspiel teilnehmen zu können, müssen alle Bedingungen erfüllt sein (siehe oben).</p><p>Die Teilnahme erfolgt automatisch mit dem Erfüllen der Bedingungen.</p><p>Das Gewinnspiel steht in keiner Verbindung zu Facebook/Meta und wird in keiner Weise von Facebook gesponsert, unterstützt oder organisiert.</p><p>Der Gewinner oder die Gewinnerin wird per Zufallsgenerator ermittelt und über Instagram Direct Message kontaktiert.</p><p>Sollte bei Sachpreisen binnen einer Woche keine Kontaktaufnahme erfolgen, wird der jeweilige Preis anderweitig vergeben.</p><p>Die Teilnehmerinnen und Teilnehmer sind damit einverstanden, dass personenbezogene Daten (Facebook-Name/Instagram-Name) erhoben und elektronisch gespeichert werden.</p><p>Bei Problemen behalten wir uns das Recht vor, das Gewinnspiel zu ändern oder zu beenden.</p><p>Der Rechtsweg ist ausgeschlossen.</p><p>Eine Barablöse von Preisen sowie ein Umtausch sind nicht möglich.</p><p>Sollten einzelne Bestimmungen der Teilnahmebedingungen ungültig sein oder werden, bleibt die Gültigkeit der übrigen Teilnahmebedingungen unberührt.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_b7YY4p",
+        "text_nJQUT6",
+        "text_FfzUKc"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "collection_list_3T4DbQ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_YdN9fT": {
+          "type": "collection",
+          "settings": {
+            "collection": "vorteilsset"
+          }
+        },
+        "collection_xrkJkX": {
+          "type": "collection",
+          "settings": {
+            "collection": "boxen"
+          }
+        },
+        "collection_HAXAQB": {
+          "type": "collection",
+          "settings": {
+            "collection": "vorteilsangebote"
+          }
+        },
+        "collection_R4fQe3": {
+          "type": "collection",
+          "settings": {
+            "collection": "selbst-bestucken"
+          }
+        }
+      },
+      "block_order": [
+        "collection_YdN9fT",
+        "collection_xrkJkX",
+        "collection_HAXAQB",
+        "collection_R4fQe3"
+      ],
+      "settings": {
+        "heading": "IMMER EIN GEWINN!",
+        "subheading": "",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-lap-3 grid-palm-2",
+        "image_aspect_ratio": "1",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "marquee_iYdFzc",
+    "content_toggles_YUGjxw",
+    "rich_text_nLiYjb",
+    "collection_list_3T4DbQ"
+  ]
+}

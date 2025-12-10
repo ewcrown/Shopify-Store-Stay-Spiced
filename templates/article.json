@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17278236878428056e": {
+      "type": "apps",
+      "blocks": {
+        "recipe_kit_recipebar_YMtNA7": {
+          "type": "shopify://apps/recipe-kit/blocks/recipebar/0afa374e-81c7-4989-96de-e1ac84640954",
+          "settings": {
+            "custom_css": ""
+          }
+        },
+        "recipe_kit_app_block_B9iaFR": {
+          "type": "shopify://apps/recipe-kit/blocks/app-block/0afa374e-81c7-4989-96de-e1ac84640954",
+          "settings": {
+            "custom_js": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "recipe_kit_recipebar_YMtNA7",
+        "recipe_kit_app_block_B9iaFR"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "main-article": {
+      "type": "main-article",
+      "settings": {
+      }
+    },
+    "main-article-navigation": {
+      "type": "main-article-navigation",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "info": {
+          "type": "info",
+          "settings": {
+            "show_date": false,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "info"
+      ],
+      "settings": {
+        "title": "Weitere inspirierende Rezepte",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "blog_previous": "",
+        "blog_next": ""
+      }
+    },
+    "recipe_products_9aj4x6": {
+      "type": "recipe-products",
+      "blocks": {
+        "price_FiBVjf": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title_j94RpG": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "quick_buy_P9jFcY": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price_FiBVjf",
+        "title_j94RpG",
+        "quick_buy_P9jFcY"
+      ],
+      "settings": {
+        "heading": "Gewürze im Rezept",
+        "header-width-limit": 500,
+        "subheading": "Hier findest du die Produkte aus dem Rezept",
+        "show_view_all": false,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "products_number": 12,
+        "product-info-width-limit": 500,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "main-article-comments": {
+      "type": "main-article-comments",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "17278236878428056e",
+    "main-article",
+    "main-article-navigation",
+    "recipe_products_9aj4x6",
+    "main-article-comments"
+  ]
+}

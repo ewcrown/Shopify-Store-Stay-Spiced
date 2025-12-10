@@ -1,0 +1,177 @@
+<div
+  style="padding: 100px 40px;"
+  class="container--large {% unless section.settings.remove_margin %} container--vertical-space {% endunless %} {% if section.settings.section_background_color != "rgba(0,0,0,0)" %} container--has-background {% endif %}"
+>
+  {%- if section.settings.title != blank -%}
+    {%- render 'section-heading',
+      heading: section.settings.title,
+      heading_tag: section.settings.seo_h_tag,
+      layout: section.settings.section_heading_layout
+    -%}
+  {%- endif -%}
+
+  {% assign element_count = section.blocks.size %}
+
+  {%- if element_count > 0 -%}
+    <div class="grid grid-{{ element_count }} grid-portable-3 grid-lap-2 grid-tiny-1 grid--layout">
+      {%- for block in section.blocks -%}
+        <a href="{{ block.settings.element_url }}">
+          <div
+            class="card__image border-radius-top"
+            style="padding-top:{{ 100 | divided_by: 1 }}%"
+          >
+            {%- liquid
+              unless block.settings.element_img == blank
+                assign sizes = 'sizes="(max-width: 767px) calc(100vw - 20px), (max-width: 1360px) 33vw, 420px"'
+                if section.index == 1 and forloop.index <= 2
+                  assign preload = true
+                else
+                  assign preload = false
+                endif
+                render 'lazy-image', image: block.settings.element_img, sizes: sizes, ratio: '1', type: 'background', alt: block.settings.title, preload: preload
+              else
+                echo 'image' | placeholder_svg_tag
+              endunless
+            -%}
+          </div>
+          <h5 class="section-heading__title text-align--center h5 element__name">{{ block.settings.element_name }}</h5>
+        </a>
+      {%- endfor -%}
+    </div>
+  {% endif %}
+</div>
+
+{%- if section.settings.section_background_color != 'rgba(0,0,0,0)' -%}
+  {% style %}
+    #shopify-section-{{ section.id }} .container--has-background {
+      --color-background-section: {{ section.settings.section_background_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{%- if section.settings.section_heading_color != 'rgba(0,0,0,0)' -%}
+  {% style %}
+    #shopify-section-{{ section.id }}, .element__name {
+      --color-text-main: {{ section.settings.section_heading_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Category Element",
+  "blocks": [
+    {
+      "type": "element",
+      "name": "element block",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "element_img",
+          "label": "Select Image"
+        },
+        {
+          "type": "text",
+          "id": "element_name",
+          "label": "Input the element name"
+        },
+        {
+          "type": "url",
+          "id": "element_url",
+          "label": "Input the element link"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:local-march-update.labels.heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.blog-posts.settings.title.label",
+      "default": "Category Element"
+    },
+    {
+      "type": "select",
+      "id": "section_heading_layout",
+      "label": "t:sections.rich-text.settings.text_alignment.label",
+      "options": [
+        {
+          "value": "section-heading--left",
+          "label": "t:sections.rich-text.settings.text_alignment.options__1.label"
+        },
+        {
+          "value": "section-heading--center",
+          "label": "t:sections.rich-text.settings.text_alignment.options__2.label"
+        }
+      ],
+      "default": "section-heading--left"
+    },
+    {
+      "type": "header",
+      "content": "t:local-march-update.labels.section_design"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "section_heading_color",
+      "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.text_color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_margin",
+      "label": "t:sections.local-extra-words.sections.rich-text.settings.remove_margin.label",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "t:sections.refactor_words.seo.name"
+    },
+    {
+      "type": "select",
+      "id": "seo_h_tag",
+      "label": "t:sections.refactor_words.seo.label",
+      "info": "t:sections.refactor_words.seo.info",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "span",
+          "label": "span"
+        }
+      ],
+      "default": "h2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Categroy Element",
+      "blocks": [{ "type": "element" }]
+    }
+  ]
+}
+{% endschema %}

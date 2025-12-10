@@ -1,0 +1,681 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "media_with_text_overlay_AaykfE": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_4arGYz": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/stay-spiced_video_olivenoel_griechenland_23.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "GRIECHISCHE LEBENSFREUDE AUF DEINEM TELLER!",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "#ffffff",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_4arGYz"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "regular",
+        "alignment": "horizontal-center align-content--vertical-middle",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h2",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_LtzcVt": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mCtCei": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Eine gesellige Runde mit Freunden, lebhafte Gespräche und köstliches Essen – das ist echtes <strong>Griechenland-Feeling</strong>!<br/>Mit unserem <strong>hochwertigen Koroneiki Olivenöl</strong> bringst du den authentischen<br/>Geschmack Griechenlands direkt in deine Küche.</p><p>Du bist ein <strong>Feinschmecker</strong>? Dann wird<br/>dich dieses Olivenöl begeistern – probiere es aus!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "text_BKqtgW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>\"STAY SPICED ! steht bekanntlich für höchste Qualität ohne Kompromisse. Und dieses Versprechen endet nicht bei unseren Gewürzen, es gilt selbstverständlich auch für unser außergewöhnliches Extra Natives Olivenöl.\"</strong></em></p><p>Lukas M. Walchhofer, CEO</p><p></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_mCtCei",
+        "text_BKqtgW"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Olivenoel_Lukas_1x1_82a72906-8e2b-46df-b42c-cca8121b09bf.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#009ee3",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "image_MVWdWV": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/OeL_Vorteile_Animation_1.gif",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "large"
+      }
+    },
+    "rich_text_G6kfDk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_FyALW7": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>100 % Koroneiki</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "subtitle_tVtGPX": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Der König der Oliven",
+            "title_size": "h2"
+          }
+        },
+        "text_3a7fkd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser Olivenöl besteht zu <strong>100 % aus Koroneiki Oliven</strong>, die zu Recht den Beinamen <strong>„Königin der Oliven“ </strong>tragen. Diese edle Olivensorte gehört zu den <strong>hochwertigsten der Welt</strong> und ist zugleich die am häufigsten kultivierte Olive Griechenlands – ein echtes Qualitätsmerkmal!</p><p><strong>Normalernte & Frühernte – Zwei Sorten, ein unvergleichlicher Geschmack</strong></p><p>Beide Sorten stehen für höchste Qualität – je nach Geschmacksvorliebe kannst du das passende Olivenöl für deine Küche wählen!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_FyALW7",
+        "subtitle_tVtGPX",
+        "text_3a7fkd"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/oliven.jpg",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_T8bnr6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_HgD7ft": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_A4w9mC": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_DcXgpM": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_HgD7ft",
+        "title_A4w9mC",
+        "quick_buy_DcXgpM"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 700,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": false,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "landingpage-olivenol",
+        "section_background_color": "#009ee3",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_8ChNB8": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_KWcEbD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Olivenoel-Fruehernte.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "Normalernte",
+            "subtitle": "Die Oliven werden bei voller Reife geerntet, was für einen milden, fruchtigen Geschmack und eine hohe Ölausbeute sorgt.",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_8fXcQG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Olivenoel-Normalernte.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "Frühernte",
+            "subtitle": "Hier werden die Oliven früh geerntet, wenn sie noch grün sind. Das Ergebnis ist ein intensiv-aromatisches Olivenöl mit besonders vielen Antioxidantienund wertvollen Polyphenolen.",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_KWcEbD",
+        "image_8fXcQG"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-2 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "small",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_nyR3dj": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Olivenoel_aus_Griechenland_-_Erntevorgang_1.png",
+        "mobile_image": "shopify://shop_images/Olivenoel_aus_Griechenland_-_Erntevorgang_1080_x_1080_px_1080_x_1200_px_1.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "feedback_DaXE9e": {
+      "type": "feedback",
+      "blocks": {
+        "feedback_8ap3Db": {
+          "type": "feedback",
+          "settings": {
+            "author": "Sepp Schnellhorn",
+            "date": "18.02.2025",
+            "rating": 5,
+            "quote": "<p>Aktuell mein absolutes Lieblings Olivenöl!</p>"
+          }
+        },
+        "feedback_c68fmH": {
+          "type": "feedback",
+          "settings": {
+            "author": "D.K.",
+            "date": "15.01.2025",
+            "rating": 5,
+            "quote": "<p>Das Öl ist sehr schmackhaft und übertrifft meine Erwartungen! Sehr zu empfehlen</p>"
+          }
+        },
+        "feedback_WwA6BL": {
+          "type": "feedback",
+          "settings": {
+            "author": "Anke",
+            "date": "06.09.2023",
+            "rating": 5,
+            "quote": "<p>Das STAY SPICED! Olivenöl \"Koroneiki Olives\" hat sich zu einem echten Schatz in meiner Küche entwickelt. Mit seinem intensiven Geschmack und seiner Qualität hat es die Art und Weise, wie ich koche, nachhaltig beeinflusst.</p>"
+          }
+        },
+        "feedback_MWcdBi": {
+          "type": "feedback",
+          "settings": {
+            "author": "Benjamin",
+            "date": "26.08.2023",
+            "rating": 5,
+            "quote": "<p>Geliefert wird das Olivenöl in einer sehr ansprechenden, eleganten Glasflasche, welche auf der Küchenanrichte wirklich ansprechend aussieht. Öffnet man den Drehverschluss, strömt einem ein angenehmer, herber Geruch in die Nase, der sofort Lust auf Salat oder Buscetta macht.</p>"
+          }
+        },
+        "feedback_jqa4Bt": {
+          "type": "feedback",
+          "settings": {
+            "author": "Arthur",
+            "date": "13.10.2024",
+            "rating": 5,
+            "quote": "<p>Dieses Olivenöl kommt in einer sehr stylischen Verpackung. Diese schöne Flasche könnte man auch sehr gut zum Geburtstag schenken. Ich finde es schmeckt sehr intensiv und leicht scharf, so wie gutes Olivenöl schmecken sollte.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feedback_8ap3Db",
+        "feedback_c68fmH",
+        "feedback_WwA6BL",
+        "feedback_MWcdBi",
+        "feedback_jqa4Bt"
+      ],
+      "settings": {
+        "quote_font": "neue_haas_unica_i5",
+        "quote_font_size": 32,
+        "quote_line_height": 1.1,
+        "content_alignment": "center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    },
+    "rich_text_YBxaBX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_n4GFEp": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Anbau & Ertrag der Koroneiki Olive</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_WrwUdz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die <strong>Koroneiki Olive</strong> benötigt vor allem<br/>eines: <strong>Zeit, Geduld und intensive Pflege</strong>. Ein <strong>kalkhaltiger Boden </strong>ist entscheidend, damit der Olivenbaum optimal gedeihen kann. Für einen erfolgreichen Reifeprozess braucht der Baum <strong>viel Sonnenlicht</strong> und – je nach Olivengarten – eine zusätzliche <strong>Bewässerung</strong>. Diese Faktoren beeinflussen maßgeblich die <strong>Menge und Qualität der Olivenernte</strong>.</p><p>Der <strong>Ölertrag der Koroneiki Olive</strong> liegt bei  eeindruckenden <strong>20 bis 25 %</strong>, was deutlich mehr ist als bei vielen anderen Olivensorten. Dieser hohe Ertrag ist vor allem auf die <strong>optimale Reife</strong> der Früchte sowie eine <strong>schonende Verarbeitung</strong> zurückzuführen.</p><p><strong>Gesund & hochwertig:</strong> Die Koroneiki Olive ist reich an <strong>ungesättigten Fettsäuren</strong> und enthält besonders viel <strong>Ölsäure</strong> – ein zentrales <strong>Qualitätsmerkmal von erstklassigem Olivenöl</strong>. In diesem Punkt übertrifft sie viele andere Olivensorten. Wer einmal unser <strong>Olivenöl aus Koroneiki Oliven</strong> probiert hat, wird den Unterschied sofort schmecken.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_n4GFEp",
+        "text_WrwUdz"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Olivenoel_Olivenernte_1x1_ad648f93-ee44-45b0-ae2b-c2031f97db24.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_DxDPqV": {
+      "type": "rich-text",
+      "blocks": {
+        "title_MLWAA6": {
+          "type": "title",
+          "settings": {
+            "title": "Verarbeitung & Geschmack",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_xEFEGd": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Schonendgewonnen, intensiv im Aroma",
+            "title_size": "h2"
+          }
+        },
+        "text_3MeQAw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser <strong>Koroneiki Olivenöl</strong> wird durch <strong>schonende Kaltextraktion</strong> gewonnen – eine Methode, die höchste Qualität garantiert. Dabei werden die Oliven zunächst gründlich gereinigt und anschließend zerkleinert, um eine feine Paste zu erzeugen. Diese Paste wird unter kontrolliertem Druck gepresst, um das wertvolle Öl zu extrahieren.</p><p><strong>Kaltextraktion – Für höchste Qualität</strong></p><p>Bei der Pressung achten wir auf optimale<br/>Bedingungen:<br/><br/>✔ <strong>Keine Hitze & keine chemischen Zusätze</strong> – Die Extraktion erfolgt ausschließlich bei niedrigen Temperaturen (unter <strong>27 °C</strong>), sodass alle <strong>wertvollen Nährstoffe, Antioxidantien und Aromen</strong> erhalten bleiben.<br/><br/>✔ <strong>Maximale Reinheit & Frische</strong> – Durch die sorgfältige Verarbeitung bleibt der volle <strong>Geschmack der Koroneiki Olive</strong> im Öl erhalten.</p><p>Wenn eine Olivensorte diese besondere Behandlung verdient, dann unsere <strong>Koroneiki Olive</strong> – denn nur so entsteht ein <strong>hochwertiges Olivenöl</strong> mit intensivem, fruchtigem Aroma und erstklassigen gesundheitlichen Vorteilen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_MLWAA6",
+        "subtitle_xEFEGd",
+        "text_3MeQAw"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Olivenoel_Olivenhain_1x1_1375080c-8dda-416a-ad47-01d3dce3f394.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_PqtapG": {
+      "type": "rich-text",
+      "blocks": {
+        "title_KCh9DT": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Mehrfacher Gewinner</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_EM6RBe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✔ Berlin Global Olive Oil Award 2022 - Gold</p><p>✔ London International Olive Oil Competitions - Platinum</p><p>✔ International Olive Oil Competition ATHEN - Double Gold</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_KCh9DT",
+        "text_EM6RBe"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Olivenoel_Mehrfacher_Gewinner_v3.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_posts_HQ8MTB": {
+      "type": "blog-posts",
+      "blocks": {
+        "info_yDkLB3": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_RrXr6E": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_yDkLB3",
+        "title_RrXr6E"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "show_view_all": true,
+        "post_limit": 3,
+        "section_heading_layout": "section-heading--left",
+        "blog": "s-rezepte",
+        "article_list": "s-rezepte/pestos-a-la-stay-spiced,blogger-vips/hummus-mit-gerosteten-tomaten-und-granatapfelkernen,haya-molcho/orientalischer-sommersalat-mit-feta-und-s-zaatar",
+        "blog_tag": "",
+        "style": "grid",
+        "layout": "grid-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": false,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_accordion_MzyQcY": {
+      "type": "image-accordion",
+      "blocks": {
+        "title_9zMjJG": {
+          "type": "title",
+          "settings": {
+            "title": "Wichtige Informationen für dich",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_p4GFiJ": {
+          "type": "text",
+          "settings": {
+            "title": "Stay true - echte Olivenöl-Qualität",
+            "subtitle": "",
+            "body": "<p><strong>STAY SPICED!</strong> steht für höchste Qualität ohne Kompromisse – und dieses Versprechen gilt nicht nur für unsere Gewürze, sondern auch für unser außergewöhnliches <strong>Extra Natives STAY SPICED! Olivenöl</strong>.</p><p>Es besteht zu <strong>100 % aus Koroneiki Oliven</strong>, die zu Recht den Beinamen <strong>„Königin der Oliven“</strong> tragen. Diese hochwertige Olivensorte gehört zu den besten der Welt und zeichnet sich durch ihre <strong>kleinen Früchte mit hohem Ölgehalt</strong> sowie ihren <strong>intensiven, fruchtigen Geschmack </strong>aus. </p>"
+          }
+        },
+        "text_KcpQJx": {
+          "type": "text",
+          "settings": {
+            "title": "Perfekt für vielseitigen Genuss:",
+            "subtitle": "",
+            "body": "<p>Unser <strong>Koroneiki Olivenöl</strong> eignet sich hervorragend zum <strong>Zubereiten, Verfeinern und Finalisieren</strong> verschiedenster Gerichte und kann bis 210°C erhitzt werden.<br/><br/>✔ <strong>Antipasti & Salate</strong> – Ideal für frische Dressings und mediterrane Köstlichkeiten.<br/><br/>✔ <strong>Pasta & warme Speisen</strong> – Als aromatisches Finish für selbstgemachte Pasta oder Gemüsegerichte.<br/><br/>✔ <strong>Grillen & Braten</strong> – Perfekt für Fleisch, Fisch und Meeresfrüchte.<br/><br/>✔ <strong>Backen & Brot-Dip</strong> – Genieße es mit knusprigem Baguette, etwas Zitronensaft und einer Prise Salz – ein echter Genuss! </p>"
+          }
+        },
+        "text_iXXMQx": {
+          "type": "text",
+          "settings": {
+            "title": "Woher kommt das STAY SPICED! Olivenöl?",
+            "subtitle": "",
+            "body": "<p>Die <strong>Peloponnes</strong> ist die Heimat der Koroneiki Olive, genauer gesagt die kleine Stadt <strong>Koroni in der Region Messenien</strong>. Unser <strong>Extra Natives STAY SPICED! Olivenöl</strong> stammt von der 2004 gegründeten <strong>Kooperative Eleonas</strong>, die für <strong>nachhaltige Erzeugung und strenge Zertifizierungsstandards</strong> bekannt ist.</p><p>Da uns die enge Zusammenarbeit mit unseren Produzenten besonders am Herzen liegt, besucht CEO <strong>Lukas Walchhofer </strong>regelmäßig die Olivenplantagen in der Nähe von <strong>Gargaliani</strong>, um sich selbst von der Qualität zu überzeugen und den Herstellungsprozess hautnah<br/>mitzuerleben.</p><p>💡 <strong>Schon gewusst?</strong> Ein Olivenbaum muss mindestens <strong>30 Jahre alt</strong> sein, bevor er seinen ersten Ertrag bringt!</p>"
+          }
+        },
+        "text_nUtcPi": {
+          "type": "text",
+          "settings": {
+            "title": "Wie lange ist Olivenöl halbar?",
+            "subtitle": "",
+            "body": "<p>Dank der hohen Qualität und Reinheit unseres Olivenöls ist es <strong>natürlich lange haltbar</strong> – ohne Zusatzstoffe oder Konservierungsmittel!</p><p>🕒 <strong>Haltbarkeit: </strong>Bei richtiger Lagerung bleibt das Olivenöl <strong>circa 24 Monate frisch</strong> – also etwa <strong>12 Monate länger</strong>, als auf der Flasche angegeben.</p>"
+          }
+        },
+        "text_qe8Bx4": {
+          "type": "text",
+          "settings": {
+            "title": "Wann wird \"Olivenöl\" geerntet?",
+            "subtitle": "",
+            "body": "<p>Die Erntezeit der <strong>Koroneiki-Olive</strong> liegt je nach Klima und Standort zwischen <strong>November und Januar</strong>. Eine <strong>Frühernte </strong>kann bereits ab <strong>September oder Oktober</strong> beginnen, wenn die Oliven noch grün und unreif sind. Der Erntezeitpunkt bestimmt den <strong>Geschmack und Ölertrag</strong>:</p><p>📅 <strong>Ernte & Geschmack:</strong><br/><br/>✔ <strong>Oktober – November:</strong> <strong>15–18 % Ölertrag</strong> | Geschmack: <strong>grasig, scharfer Abgang, sehr frisch & grün</strong><br/><br/>✔ <strong>Dezember: 18–20 % Ölertrag</strong> | Geschmack: <strong>leicht grasig, frisch & fruchtig</strong><br/><br/>✔ <strong>Januar:</strong> <strong>20–25 % Ölertrag</strong> | Geschmack: <strong>fruchtig, mild, lieblich</strong></p><p>Je dunkler die Oliven, desto höher ihr Ölgehalt. Zudem beeinflusst die Verarbeitung den Ertrag – je länger die Oliven vermahlen oder gepresst werden, desto mehr Öl wird gewonnen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_9zMjJG",
+        "text_p4GFiJ",
+        "text_KcpQJx",
+        "text_iXXMQx",
+        "text_nUtcPi",
+        "text_qe8Bx4"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "heading": "FAQ’s",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": true
+      }
+    },
+    "content_toggles_KLnKnd": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_j8Eggg": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping details",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Write some useful information about your shipping details</p><p>Link to your <a href=\"#\">shipping policy</a>.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_MP8CNg": {
+          "type": "text",
+          "settings": {
+            "title": "Delivery details",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Let your customers know if you offer free delivery for certain types of orders</p><p>Link to your <a href='#'>offers page</a>.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_QJiGx3": {
+          "type": "text",
+          "settings": {
+            "title": "Returns details",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Show customers how much time they have for testing your products</p><p>Link to your <a href='#'>returns policy</a>.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_j8Eggg",
+        "text_MP8CNg",
+        "text_QJiGx3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": true,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_AaykfE",
+    "rich_text_LtzcVt",
+    "image_MVWdWV",
+    "rich_text_G6kfDk",
+    "featured_collection_T8bnr6",
+    "media_with_text_overlay_8ChNB8",
+    "image_nyR3dj",
+    "feedback_DaXE9e",
+    "rich_text_YBxaBX",
+    "rich_text_DxDPqV",
+    "rich_text_PqtapG",
+    "blog_posts_HQ8MTB",
+    "image_accordion_MzyQcY",
+    "content_toggles_KLnKnd"
+  ]
+}

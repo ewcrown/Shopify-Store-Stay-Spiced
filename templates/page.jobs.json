@@ -1,0 +1,479 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "media_with_text_overlay_K7zyhR": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_bajd4n": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/STAY_SPICED_!_Mitarbeiter.mp4",
+            "external_video_link": "",
+            "caption": "STAY SPICED !",
+            "title": "WERDE TEIL UNS!ERES TEAMS!",
+            "subtitle": "STAY SPICED ! steht für beste Gewürze aus aller Welt. Wir überzeugen als Gewürzmanufaktur mit Sitz in Salzburg seit vielen Jahren durch eine perfekte Symbiose aus Qualität, Geschmack und Nachhaltigkeit - und das ohne Kompromisse!",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_bajd4n"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_9V8Jj7": {
+      "type": "rich-text",
+      "blocks": {
+        "title_efVBhB": {
+          "type": "title",
+          "settings": {
+            "title": "Willkommen bei STAY SPICED !",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_jRHQhd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du liebst es, mit Gewürzen zu arbeiten? Bist Qualitätsjunkie und offen für abwechslungsreiche Tätigkeiten? Perfekt, bei uns bist du genau richtig!</p><p>Wir brennen für das, was wir tun und trauen uns, Dinge anders anzugehen. Das macht uns von STAY SPICED ! aus. Werde Teil unseres Teams und schreib mit uns gemeinsam die Erfolgsgeschichte weiter!</p><p>Bei uns gibt es kein Abteilungsdenken - wir sind ein gemeinsames Teams - so bunt und vielfältig zusammengewürfelt wie unsere Dosen. </p><p>Jedes Teammitglied sorgt bei uns für die richtige Würze, unabhängig von Alter, Geschlecht, Herkunft, Religion und sexueller Orientierung. </p><p>Sei dabei!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_twFNhQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Du willst mehr über uns erfahren?",
+            "link": "shopify://pages/unternehmensgeschichte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_efVBhB",
+        "text_jRHQhd",
+        "button_twFNhQ"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced-roland-trettl-mit-dose-min.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_rxmfK6": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_LcLyYz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/versand_036_1.png",
+            "title": "Weihnachtsaushilfe Versand",
+            "caption": "M/W/D in den Weihnachtsferien 24/25",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung_weihnachtsaushilfe-versand.pdf?v=1732779042",
+            "open_in_new_window": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_6qpjhA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/versand_078.png",
+            "title": "Versandmitarbeiter",
+            "caption": "M/W/D - Vollzeit",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung_versand.pdf?v=1732780130",
+            "open_in_new_window": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_4P7yp3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stayspiced_europark_store_001_2.png",
+            "title": "Weihnachtsaushilfe Verkauf",
+            "caption": "M/W/D - Teilzeit oder Samstags",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung_weihnachtsaushilfe-verkauf.pdf?v=1732779042",
+            "open_in_new_window": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_LxXT7n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stayspiced_europark_store_105_1.png",
+            "title": "Mitarbeiter:in Verkauf",
+            "caption": "M/W/D - Teilzeit 25-30 h / Woche",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung_shop-mitarbeiter.pdf?v=1730300247",
+            "open_in_new_window": true,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_LcLyYz",
+        "image_6qpjhA",
+        "image_4P7yp3",
+        "image_LxXT7n"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "WIR SUCHEN DICH!",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_nMnmif": {
+      "type": "rich-text",
+      "blocks": {
+        "title_qX4wtW": {
+          "type": "title",
+          "settings": {
+            "title": "WIR SUCHEN DICH!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_GhTJkq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Wir suchen Verstärkung für unseren neuen S! Store in der Westfield Shopping City Süd, Vösendorf.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_XVpTyn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Fachberater:in für Gewürze im S! Store Europark (m/w/d)",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung_shop-mitarbeiter.pdf?v=1732780555",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_jc8EfB": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Versandmitarbeiter:in Kommissionierung (m/w/d)",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung-lagermitarbeiterin.pdf?v=1739196135",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_GgyVrR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Sales-Profi im Gewürzverkauf (m/w/d)",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung_sales-profi.pdf?v=1737470122",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_aeTtKi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Lagermitarbeiter:in (m/w/d)",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung-lagermitarbeiterin.pdf?v=1739196135",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_gCHgKx": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Junior E-Commerce Manager:in (m/w/d)",
+            "link": "https://cdn.shopify.com/s/files/1/0853/5877/2566/files/stellenausschreibung_e-commerce.pdf?v=1739780768",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_qX4wtW",
+        "text_GhTJkq",
+        "button_XVpTyn",
+        "button_jc8EfB",
+        "button_GgyVrR",
+        "button_aeTtKi",
+        "button_gCHgKx"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_image_scs.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_r3mDDN": {
+      "type": "rich-text",
+      "blocks": {
+        "title_FUPGD7": {
+          "type": "title",
+          "settings": {
+            "title": "Sandro",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_nwQccr": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Shipping Management</h4><p>\"Hier wird Wertschätzung großgeschrieben und nach gezeigtem Einsatz und Erfolgserlebnissen gemeinsam gefeiert. Der Umgang miteinander ist locker und das gegenseitige Vertrauen ist einfach da. Die Arbeitszeiten sind tolerant und familienfreundlich. Wir unterstützen uns gegenseitig und ganz wichtig ist natürlich auch immer: Humor!\"</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_FUPGD7",
+        "text_nwQccr"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/sandro.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_rzjYUE": {
+      "type": "rich-text",
+      "blocks": {
+        "title_zQfJi4": {
+          "type": "title",
+          "settings": {
+            "title": "Felix",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_jkwTVw": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Quality Management/Project Management<br/></h4><p>\"Ich schätze sehr, dass ich Verantwortung übernehmen und selbständig arbeiten kann. Wertschätzung, Anerkennung, Respekt und Feedback sind nur einige der Aspekte, die für mich für ein tolles Betriebsklima wichtig sind.\"</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_zQfJi4",
+        "text_jkwTVw"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/felix.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_p9Axqi": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Yx99GF": {
+          "type": "title",
+          "settings": {
+            "title": "Keine passende Stelle dabei?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_898EKk": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Want to join our spicy team? <br/></h4><p>Martina ist bei uns nicht nur Project Managerin und Head of Corporate Communication, sondern übernimmt auch die Human Resources. </p><p>Schick ihr doch gerne deine initiative Bewerbung an <a href=\"mailto:bewerbung@spiceworld.at\"><strong>bewerbung@stayspiced.com</strong></a></p><p>Wir alle freuen uns auf dich!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_Yx99GF",
+        "text_898EKk"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_martina_bauer.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_4fxVxR": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_TY6BeK": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_Mtj9h8": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_y74Gxd": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_TY6BeK",
+        "title_Mtj9h8",
+        "quick_buy_y74Gxd"
+      ],
+      "settings": {
+        "heading": "Unsere Topseller",
+        "header-width-limit": 500,
+        "subheading": "Gleich mal reinschnuppern",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 12,
+        "product-info-width-limit": 500,
+        "collection": "topseller",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_K7zyhR",
+    "rich_text_9V8Jj7",
+    "text_columns_images_rxmfK6",
+    "rich_text_nMnmif",
+    "rich_text_r3mDDN",
+    "rich_text_rzjYUE",
+    "rich_text_p9Axqi",
+    "featured_collection_4fxVxR"
+  ]
+}

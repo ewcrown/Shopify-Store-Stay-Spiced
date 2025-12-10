@@ -1,0 +1,482 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "slideshow_H6a8jU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AKhQxk": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/Hochzeit-Brautpaar_Header_desktop_a4c54501-ec25-4fd2-8031-ac3d8c4655a7.png",
+            "mobile_image": "shopify://shop_images/Hochzeit-Brautpaar_Header_mobile_e388fb2a-2eb3-4a01-92e3-b1f9fe339fe2.png",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_AKhQxk"
+      ],
+      "settings": {
+        "desktop_height": "50vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "rich_text_9giQQe": {
+      "type": "rich-text",
+      "blocks": {
+        "title_yXKMcN": {
+          "type": "title",
+          "settings": {
+            "title": "Hochzeitsgeschenke für Brautpaare – Individuelle Gewürzboxen & Geldgeschenke",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_HHBaFk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du möchtest dem Brautpaar ein einzigartiges Geschenk machen, das in Erinnerung bleibt? Unsere hochwertigen Gewürze und edlen Geschenksets sind genau das Richtige! Ob als Teil einer kulinarischen Reise, als Inspiration für gemeinsame Kochabende oder als liebevolles Detail für ihre neue Küche – mit STAY SPICED ! verschenkst du mehr als nur Gewürze: Du schenkst Freude, Geschmack und Genuss.</p><p></p><p><strong>Besonders praktisch:</strong> Unsere Sets sind bereits mit einer integrierten Öffnung für Geldgeschenke ausgestattet und enthalten eine Karte, die du individuell beschriften kannst – so wird dein Geschenk noch persönlicher.  </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_yXKMcN",
+        "text_HHBaFk"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Brautpaar_Bride-Groom-Box_1x1_53e50b08-30e0-441c-b1c6-8bda52642f21.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_74q9wV": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_adGzpr": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_aj6Twr": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_mQU6AC": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_adGzpr",
+        "title_aj6Twr",
+        "quick_buy_mQU6AC"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "hochzeits-gastgeschenke",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_WWa9zA": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_mjczcy": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_g9Gn4b": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_f6rf9h": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_mjczcy",
+        "title_g9Gn4b",
+        "quick_buy_f6rf9h"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "stay-spiced-wedding-editions",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_3iXeab": {
+      "type": "rich-text",
+      "blocks": {
+        "title_EcrXqb": {
+          "type": "title",
+          "settings": {
+            "title": "Time to be a PRIDE BRIDE! ...",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "product_yFH3Nq": {
+          "type": "product",
+          "settings": {
+            "product": "just-married-together-geschenke-set-2-gewurze"
+          }
+        }
+      },
+      "block_order": [
+        "title_EcrXqb",
+        "product_yFH3Nq"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Brautpaar_Together_1x1_0f2c9129-c094-4f47-bf3f-21132bdd4e22.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_VHy7U4": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Jyk9EJ": {
+          "type": "title",
+          "settings": {
+            "title": "... or a BLOOMING GROOM!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "product_6gt4Hd": {
+          "type": "product",
+          "settings": {
+            "product": "s-wedding-edition-together"
+          }
+        }
+      },
+      "block_order": [
+        "title_Jyk9EJ",
+        "product_6gt4Hd"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Brautpaar_Together-Dosen_1x1_d7eff644-5c49-422e-8ba5-ed64613bed6f.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_DJmL7W": {
+      "type": "rich-text",
+      "blocks": {
+        "title_R9dfky": {
+          "type": "title",
+          "settings": {
+            "title": "Bei euch läuten die Glocken?",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_eYtX9A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dann findet ihr bei uns euer würziges Gastgeschenk, dass noch lange Zeit an euren perfekten Tag erinnert.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_fbLEiy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt entdecken!",
+            "link": "shopify://pages/hochzeit-gast",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_R9dfky",
+        "text_eYtX9A",
+        "button_fbLEiy"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Gast_Mikrodose-Mockup_a6f44b0e-59ab-4b10-88a2-0f0cbea2d578.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ede2c8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "before_after_7mFTNG": {
+      "type": "before-after",
+      "blocks": {
+        "image_JULVpc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hochzeit-Inspiration_1.2.png",
+            "label": "BRIDE"
+          }
+        },
+        "image_Qpk8kV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hochzeit-Inspiration_1.1.png",
+            "label": "GROOM"
+          }
+        }
+      },
+      "block_order": [
+        "image_JULVpc",
+        "image_Qpk8kV"
+      ],
+      "settings": {
+        "heading": "Lass dich inspirieren!",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "horizontal",
+        "invert_layout": false,
+        "desktop_height": "before-after--desktop-medium",
+        "mobile_height": "before-after--mobile-medium",
+        "color_style": "dark",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_column_metaobject_Yez4tJ": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_eceFtU": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Unsere speziell gestalteten Gewürzdosen sind die perfekte Wahl für alle, die Individualität und Design lieben. Wähle aus verschiedenen Stilen und Farben, die ideal zu jedem Brautpaar passen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_eceFtU"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Individuelle Gewürzdosen – für jeden Stil das Richtige",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_FbYfeg": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_yCVcdQ": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Für alle, die ein durchdachtes und sofort einsatzbereites Geschenk suchen, sind unsere fertigen Geschenkboxen die perfekte Lösung. Jede Box enthält ein Fach für Geldgeschenke und eine schöne Karte, die du persönlich beschriften kannst – so wird dein Geschenk noch individueller.</p><p>Unsere Geschenkboxen sind in verschiedenen Kombinationen erhältlich, um wirklich jedes Brautpaar anzusprechen. Egal ob klassisch und elegant, liebevoll und stilvoll oder für alle, die Vielfalt feiern.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_yCVcdQ"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Fertige Geschenkboxen – persönlich und praktisch",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_VjLJQY": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_eVccnx": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Mit unseren Gewürzen schenkst du mehr als nur Geschmack – du schenkst Erlebnisse, Inspiration und hochwertige Qualität. Als österreichisches Unternehmen stehen wir für Regionalität, Nachhaltigkeit und Leidenschaft. Unsere Geschenke sind so einzigartig wie die Liebe selbst und ein echtes Highlight auf jeder Hochzeit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_eVccnx"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Warum STAY SPICED ! Hochzeitsgeschenke?",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_JJ33rR": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_8BdkeU": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Ob Vegetarier, Flexitarier, Pescetarier, Veganer oder Liebhaber internationaler Küchen – <strong>Gewürze sind für alle da. </strong>Sie sind kalorienfrei, nachhaltig und bringen Geschmack und Freude in jede Küche. Anders als Alkohol oder Schokolade, die nicht jedem zusagen, sind Gewürze ein Geschenk, das wirklich jeden begeistert.</p><p>Mit einer Vielfalt, die zu jedem Lebensstil und Anlass passt, sind Gewürze das ideale Präsent – ob als liebevolle Aufmerksamkeit für Hochzeitsgäste oder als stilvolles Geschenk für das Brautpaar. <strong>Denn eins ist sicher: Gewürze verwendet jeder.</strong></p><p>Überrasche deine Liebsten mit Geschmack, der verbindet, und schenke etwas, das lange in Erinnerung bleibt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8BdkeU"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Gewürze – das Geschenk, das immer passt",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_XMdc87": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_PGqMtX": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Ob klassisch, modern oder farbenfroh – bei STAY SPICED ! findest du das ideale Geschenk, das perfekt zu jedem Brautpaar passt. Lass dich inspirieren und entdecke die Vielfalt unserer stilvollen Gewürzdosen und Geschenkboxen.</p><p>👉 <strong>Jetzt entdecken:</strong><br/><br/>Schau vorbei und finde das perfekte Hochzeitsgeschenk, das Freude und Geschmack in die gemeinsame Zukunft des Brautpaares bringt. Mit STAY SPICED ! bleibt dein Geschenk garantiert in Erinnerung!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PGqMtX"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Finde das perfekte Geschenk für das Brautpaar",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_H6a8jU",
+    "rich_text_9giQQe",
+    "featured_collection_74q9wV",
+    "featured_collection_WWa9zA",
+    "rich_text_3iXeab",
+    "rich_text_VHy7U4",
+    "rich_text_DJmL7W",
+    "before_after_7mFTNG",
+    "text_column_metaobject_Yez4tJ",
+    "text_column_metaobject_FbYfeg",
+    "text_column_metaobject_VjLJQY",
+    "text_column_metaobject_JJ33rR",
+    "text_column_metaobject_XMdc87"
+  ]
+}

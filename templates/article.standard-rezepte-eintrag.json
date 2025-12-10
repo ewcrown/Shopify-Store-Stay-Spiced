@@ -1,0 +1,167 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "172782157481cf238d": {
+      "type": "apps",
+      "blocks": {
+        "recipe_kit_recipebar_7rCmAy": {
+          "type": "shopify://apps/recipe-kit/blocks/recipebar/0afa374e-81c7-4989-96de-e1ac84640954",
+          "settings": {
+            "custom_css": ""
+          }
+        },
+        "recipe_kit_app_block_qR8rgW": {
+          "type": "shopify://apps/recipe-kit/blocks/app-block/0afa374e-81c7-4989-96de-e1ac84640954",
+          "settings": {
+            "custom_js": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "recipe_kit_recipebar_7rCmAy",
+        "recipe_kit_app_block_qR8rgW"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "main-article": {
+      "type": "main-article",
+      "blocks": {
+        "featured-image": {
+          "type": "featured_image",
+          "settings": {
+            "aspect_ratio": "natural",
+            "is_fullwidth": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_show_comments": false
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+            "has_social_buttons": true,
+            "has_tags": true,
+            "enhance_product_links": true
+          }
+        }
+      },
+      "block_order": [
+        "featured-image",
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "main-article-navigation": {
+      "type": "main-article-navigation",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "summary_EJ8P8P": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 40
+          }
+        },
+        "info": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "summary_EJ8P8P",
+        "info"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Weitere Rezepte",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "blog_previous": "",
+        "blog_next": ""
+      }
+    },
+    "main-article-comments": {
+      "type": "main-article-comments",
+      "disabled": true,
+      "settings": {}
+    },
+    "blog_slider_3zANeA": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_KDWBti": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_h6cTLr": {
+          "type": "title",
+          "settings": {}
+        },
+        "summary_MbmM43": {
+          "type": "summary",
+          "settings": {
+            "excerpt_limit": 15
+          }
+        }
+      },
+      "block_order": [
+        "info_KDWBti",
+        "title_h6cTLr",
+        "summary_MbmM43"
+      ],
+      "settings": {
+        "title": "Weitere Rezepte",
+        "subheading": "Entdecke noch viele Rezepte!",
+        "post_limit": 8,
+        "section_heading_layout": "section-heading--left",
+        "blog": "rezepte",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "172782157481cf238d",
+    "main-article",
+    "main-article-navigation",
+    "main-article-comments",
+    "blog_slider_3zANeA"
+  ]
+}

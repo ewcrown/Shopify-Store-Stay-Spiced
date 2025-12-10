@@ -1,0 +1,223 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_pE9iNg": {
+      "type": "rich-text",
+      "blocks": {
+        "title_GTeUaW": {
+          "type": "title",
+          "settings": {
+            "title": "schenken tut GUT – SCHEINE mit glänzendem geschmack!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_tC6JjT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der STAY SPICED! Genuss Gutschein ist perfekt für alle, die wissen was – aber nicht wissen, was genau!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_t666db": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt schenken",
+            "link": "",
+            "target_id": "shopify-section-template--24614100009302__featured_product_mU4hFE",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_GTeUaW",
+        "text_tC6JjT",
+        "button_t666db"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/RT_Gutschein-LP_1.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#d2da4d",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_mU4hFE": {
+      "type": "featured-product",
+      "blocks": {
+        "title_pYam3K": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_P6AAC6": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_jxMxEg": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_hEnCNk": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_dMDrQV": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_yMaq8h": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_xtq3LW": {
+          "type": "description",
+          "settings": {}
+        },
+        "bullet_TCAyAT": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_pYam3K",
+        "price_P6AAC6",
+        "variant_picker_jxMxEg",
+        "space_hEnCNk",
+        "buy_buttons_dMDrQV",
+        "space_yMaq8h",
+        "description_xtq3LW",
+        "bullet_TCAyAT"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "stay-spiced-gutschein",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "rich_text_slider_YqUGF8": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_FxR7LQ": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/RT_Gutschein-LP_2_450f5db5-5e65-4701-ae06-a128e0b64254.png",
+            "set_video_background": false,
+            "image_position": "left",
+            "image_crop": true,
+            "text_alignment": "horizontal-center",
+            "title": "Quick & Easy: GENUSS-GUTSCHEIN",
+            "title_size": "h1",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Das perfekte Geschenk für alle Individualisten – sofort per E-Mail erhalten!</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_FxR7LQ"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": false,
+        "section_background_color": "#f39323",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_column_metaobject_pLFrgD": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_J9wCGW": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Du suchst das perfekte Geschenk für einen echten Genussmenschen? Mit einem STAY SPICED! Genuss Gutschein liegst du immer richtig! Egal ob für Hobbyköche, Grillfans oder Gewürzliebhaber – bei über 160 Reingewürzen und über 365 kreativen Mischungen ist für jeden Geschmack etwas dabei.</p><p><strong>Warum ein STAY SPICED! Genuss Gutschein die beste Wahl ist:</strong></p><p><strong>Maximale Freiheit</strong> – Der Beschenkte kann sich seine Lieblingsgewürze selbst aussuchen.<br/><strong>Schnell & unkompliziert</strong> – Gutschein online bestellen, per E-Mail erhalten & sofort einlösbar.<br/><strong>Perfekt für jeden Anlass</strong> – Geburtstag, Weihnachten oder einfach als kleine Überraschung.</p><p><strong>So einfach geht’s:</strong></p><p><strong>Wunschbetrag wählen</strong> – Du bestimmst, wie viel Genuss du verschenken möchtest.<br/><strong>Bestellen & bezahlen</strong> – Sicher und bequem online.<br/><strong>Gutschein per E-Mail erhalten</strong> – Direkt weiterleiten oder ausdrucken.<br/><strong>Genuss erleben</strong> – Der Beschenkte kann seine Lieblingsgewürze nach Lust und Laune shoppen!</p><p>Hol dir jetzt einen STAY SPICED! Gutschein!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_J9wCGW"
+      ],
+      "settings": {
+        "title": "S! Genuss Gutschein",
+        "subheading": "Das perfekte Geschenk für Feinschmecker 🎁",
+        "col_count": 2,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_pE9iNg",
+    "featured_product_mU4hFE",
+    "rich_text_slider_YqUGF8",
+    "text_column_metaobject_pLFrgD"
+  ]
+}

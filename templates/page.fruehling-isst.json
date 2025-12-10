@@ -1,0 +1,555 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "slideshow_ydDhPN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_edaYpV": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/stay-spiced_header_fruehling_desktop.jpg",
+            "mobile_image": "shopify://shop_images/stay-spiced_header_mobile-fruehling.jpg",
+            "caption": "",
+            "title": "FRÜHLING ISST...",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_edaYpV"
+      ],
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "50vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-center align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "rich_text_zT7m4k": {
+      "type": "rich-text",
+      "blocks": {
+        "title_tQhyyC": {
+          "type": "title",
+          "settings": {
+            "title": "LEVANTE | Gewürze Set |6er Geschenkbox + Gratis Tahina",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_npVffj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sechs Spezialitäten versammelt in einer Genussbox. Erlebe die Geschmäcker der Levante mit den exklusiven Gewürzmischungen von STAY SPICED!, entwickelt in Zusammenarbeit mit Haya Molcho und NENI. Entdecke die perfekte Würze für deine Lieblingsgerichte und verwandle alltägliche Mahlzeiten in außergewöhnliche Geschmackserlebnisse.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_hYgppm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt sichern!",
+            "link": "shopify://products/levante-gewurze-set-6er-geschenkbox",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_tQhyyC",
+        "text_npVffj",
+        "button_hYgppm"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_produktbild_levante-box_tahina.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_KfkxdJ": {
+      "type": "featured-product",
+      "blocks": {
+        "title_zdgRdN": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_YRRVyH": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_xEAKAC": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_cfzMNy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_cn9eY8": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_Ld9np4": {
+          "type": "description",
+          "settings": {}
+        },
+        "bullet_WYmV9t": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_zdgRdN",
+        "variant_picker_YRRVyH",
+        "space_xEAKAC",
+        "buy_buttons_cfzMNy",
+        "space_cn9eY8",
+        "description_Ld9np4",
+        "bullet_WYmV9t"
+      ],
+      "settings": {
+        "title": "LEVANT - Die Weltküche für zuhause!",
+        "section_heading_layout": "section-heading--center",
+        "product": "levante-box-inkl-gratis-tahina-von-neni",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "thumbnails",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "blog_slider_biNCxq": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_33qhma": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_pLJ88w": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_33qhma",
+        "title_pLJ88w"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Rezepte von Haya Molcho",
+        "subheading": "",
+        "post_limit": 19,
+        "section_heading_layout": "section-heading--center",
+        "blog": "haya-molcho",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_pJUVbH": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_EKGLat": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_K88X8U": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_4DDpPi": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_EKGLat",
+        "title_K88X8U",
+        "quick_buy_4DDpPi"
+      ],
+      "settings": {
+        "heading": "HOT – Die feurige Handschrift von Tom Heinzle.",
+        "header-width-limit": 730,
+        "subheading": "Grillgewürze mit Charakter und purer Leidenschaft.",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "fruhling-isst-hot",
+        "section_background_color": "#f39323",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_KjUn9J": {
+      "type": "rich-text",
+      "blocks": {
+        "title_VRGDJE": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Feuerkoch, Buchautor & Grillprofi</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_BxyYMx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der gute Geschmacks- und Geruchssinn wurde dem gebürtigen Vorarlberger Tom Heinzle schon in die Wiege gelegt: Das Spiel mit den Aromen und hochwertigen Lebensmittel ist genau sein Ding. Der Grill-Profi und Buch-Autor interpretiert das Grillen neu – und kreiert mit seinem eigenen Grill-Stil außergewöhnliche Grill-Menüs. Gemeinsam mit STAY SPICED ! hat Tom an einer Gewürzlinie getüftelt, die deine Grillmenüs zu einem Erlebnis machen!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_UQLMhb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_VRGDJE",
+        "text_BxyYMx",
+        "button_UQLMhb"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_tom-heinzle-portrait-cutout_1.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#f39323",
+        "remove_margin": false,
+        "color_background_main": "#f39323",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_slider_FdD88h": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_LyYYAi": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_dcCWfY": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_LyYYAi",
+        "title_dcCWfY"
+      ],
+      "settings": {
+        "title": "Rezepte von Tom Heinzle",
+        "subheading": "",
+        "post_limit": 18,
+        "section_heading_layout": "section-heading--center",
+        "blog": "tom-heinzle",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "#f39323",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_pHwrxB": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_TfxyR8": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_eDYAp9": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_xYVhMH": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_TfxyR8",
+        "title_eDYAp9",
+        "quick_buy_xYVhMH"
+      ],
+      "settings": {
+        "heading": "SUNNY – Urlaub auf deinem Teller.",
+        "header-width-limit": 730,
+        "subheading": "Würzig, sonnig, einfach gut drauf.",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "fruhling-isst-sunny",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_T8gPUG": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_8m8Pi8": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_ALkwXV": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_8m8Pi8",
+        "title_ALkwXV"
+      ],
+      "custom_css": [
+        ".blog-item {margin-bottom: 5%;}"
+      ],
+      "settings": {
+        "title": "Rezepte von Roland Trettl",
+        "subheading": "",
+        "post_limit": 3,
+        "section_heading_layout": "section-heading--center",
+        "blog": "",
+        "article_list": "roland-trettl/schwarzebohnen-tempeh-im-tempurateig-mit-auberginen-kohlrabi-und-bohnen-misocreme,roland-trettl/entenfussmuscheln-mit-tomatencous-cous-portulak-und-eingelegten-vogelbeeren,roland-trettl/purple-haze-karotten-mit-bohnen-vogelsalat-und-pistazien,",
+        "layout": "grid-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "FRESH – Der Frühling in deiner Küche.",
+        "header-width-limit": 730,
+        "subheading": "Leicht, aromatisch, einfach purer Genuss.",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "fruhling-ist-fresh",
+        "section_background_color": "#009fe3",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_EpemhM": {
+      "type": "rich-text",
+      "blocks": {
+        "title_BNYwQw": {
+          "type": "title",
+          "settings": {
+            "title": "Gegrillte Avocado mit Gurkensalsa auf Feldsalat, Joghurt Dressing",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_gJ86Mk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grillen kann man immer! In dem Fall wird die Avocado gegrillt und auf Salat serviert - und zwar von unserem Vip Manuel von Schlossturm Barbecue. Probiere diese vegetarische Genialität selbst aus und genieße!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_AjzFC8": {
+          "type": "button",
+          "settings": {
+            "button_label": "zum Rezept",
+            "link": "https://stayspiced.com/blogs/blogger-vips/gegrillte-avocado-mit-gurkensalsa-auf-feldsalat-joghurt-dressing",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_BNYwQw",
+        "text_gJ86Mk",
+        "button_AjzFC8"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_rezeptbild-cutout-gegrille-avocado.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#009fe3",
+        "remove_margin": false,
+        "color_background_main": "#f39323",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_ydDhPN",
+    "rich_text_zT7m4k",
+    "featured_product_KfkxdJ",
+    "blog_slider_biNCxq",
+    "featured_collection_pJUVbH",
+    "rich_text_KjUn9J",
+    "blog_slider_FdD88h",
+    "featured_collection_pHwrxB",
+    "blog_slider_T8gPUG",
+    "featured_collection_wpmJ6R",
+    "rich_text_EpemhM"
+  ]
+}

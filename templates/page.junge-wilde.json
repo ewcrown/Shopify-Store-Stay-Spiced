@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_ihB6jg": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Kopie_von_Landingpage_Ostern.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "THINK DIFFERENT",
+        "header-width-limit": 700,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 14,
+        "product-info-width-limit": 500,
+        "collection": "junge-wilde",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_pwWix6": {
+      "type": "rich-text",
+      "blocks": {
+        "title_ytJXLt": {
+          "type": "title",
+          "settings": {
+            "title": "JUNGE WILDE 2025 goes STAY SPICED !",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_xqDBDk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>STAY SPICED ! ist als Gewürzpartner bei \"Junge Wilde 2025\" involviert, mit einem starken Engagement für die Förderung des Nachwuchses und der Kreativität im Umgang mit Gewürzen. Wir legen großen Wert darauf, jungen Talenten die Möglichkeit zu geben, ihre kulinarischen Fähigkeiten durch innovative Gewürzverwendungen zu erweitern und zu experimentieren, was ihre Kreationen einzigartig macht. Unsere Unterstützung unterstreicht die Bedeutung von hochwertigen, kreativen Gewürzlösungen in der modernen Gastronomie.</p>",
+            "content_source": "custom",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "title_ytJXLt",
+        "text_xqDBDk"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_ihB6jg",
+    "featured_collection_wpmJ6R",
+    "rich_text_pwWix6"
+  ]
+}

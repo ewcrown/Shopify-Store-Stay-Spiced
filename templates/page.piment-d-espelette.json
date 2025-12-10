@@ -1,0 +1,339 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_ijByMX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_4Vq3Y8": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Piment d’Espelette – Ein Liebling der Spitzenküche!</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_n9kwCy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Piment d’Espelette ist nicht nur bei Spitzenköchen beliebt, sondern auch eine echte Rarität! Der französische Chilipfeffer, wie er oft genannt wird, hat eine leicht süßliche, fruchtig-würzige Note und ist eine unverzichtbare Zutat der französischen Küche. Sein Anbau ist geografisch geschützt – er darf ausschließlich rund um das Dorf Espelette im Süden Frankreichs kultiviert werden.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_4Vq3Y8",
+        "text_n9kwCy"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Piment-d-espelette_Header-1x1.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "#e3d1aa",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_8M4GDt": {
+      "type": "featured-product",
+      "blocks": {
+        "title_pFGJCy": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_GTwHxt": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_ccwPBQ": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "bullet_UF9bT3": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "space_Wb6kYq": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_GVUEhJ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_TtPGMD": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_wjXkfT": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "text_xQMcGX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Verwendung:</strong><br/>Piment d'Espelette verleiht Fleisch-, Fisch- und Gemüsegerichten eine feine, warme Würze. Es wird oft in Saucen, Marinaden und sogar in Schokolade oder Desserts verwendet. In der französischen Küche ist es eine Hauptzutat für das berühmte \"Poulet Basquaise\" – ein traditionelles Hähnchengericht, das in einer aromatischen Sauce aus Tomaten, Paprika, Zwiebeln, Knoblauch und natürlich Piment d'Espelette geschmort wird.</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false
+          }
+        }
+      },
+      "block_order": [
+        "title_pFGJCy",
+        "price_GTwHxt",
+        "variant_picker_ccwPBQ",
+        "bullet_UF9bT3",
+        "space_Wb6kYq",
+        "buy_buttons_GVUEhJ",
+        "space_TtPGMD",
+        "description_wjXkfT",
+        "text_xQMcGX"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "piment-d-espelette-der-franzosische-pfeffer",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "rich_text_3CQkg4": {
+      "type": "rich-text",
+      "blocks": {
+        "title_k4ek9F": {
+          "type": "title",
+          "settings": {
+            "title": "Parlez-vous français?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_GYr7P8": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Herkunft",
+            "title_size": "h2"
+          }
+        },
+        "text_kdFYC6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Schoten stammen aus dem französischen Baskenland, genauer aus der Region rund um Espelette, wo sie bereits seit dem 17. Jahrhundert angebaut werden. Mit ihrem fruchtig-würzigen Aroma und einer milden Schärfe von etwa 4.000 Scoville ersetzt sie in der baskischen Küche oft schwarzen Pfeffer und gilt als edles Gewürz. Meist kommt sie als Pulver oder Paste in französischen und baskischen Gerichten zum Einsatz.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_k4ek9F",
+        "subtitle_GYr7P8",
+        "text_kdFYC6"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Piment-Herkunft_68cf0d93-ef88-4861-aafe-af2e34b1836f.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_VgmgCC": {
+      "type": "rich-text",
+      "blocks": {
+        "title_tPJaQc": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Good to know</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_UeJLLd": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Herstellung",
+            "title_size": "h2"
+          }
+        },
+        "text_phPLtY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Chilis werden von Hand geerntet, sonnengetrocknet und anschließend in speziellen Öfen schonend weiterverarbeitet. Danach werden sie sorgfältig sortiert und zu einem feinen Pulver vermahlen. Diese traditionelle Verarbeitung sorgt für die charakteristische leuchtend rote Farbe und das intensive Aroma.<br/></p><p>Aus alter Tradition gibt es auch <strong>ganze Chili-Zöpfe aus Piment d’Espelette</strong>, die nach der Ernte an Hausfassaden zum Trocknen aufgehängt und später auf Märkten verkauft werden.<br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_tPJaQc",
+        "subtitle_UeJLLd",
+        "text_phPLtY"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Espelette_Haus.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "image_TLh9Dg": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/piment_produktionszyklus_desktop_1_938fa8aa-1f80-4439-bdcc-985ec7512469.png",
+        "mobile_image": "shopify://shop_images/piment-d-espelette_produktionszyklus_mobile_1891c78a-9ee9-42a0-8468-5f47dbccac18.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "image_mzzhfU": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Piment_Philosophie.png",
+        "mobile_image": "shopify://shop_images/Piment_Philosophie_mobile.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "rich_text_PzaUgc": {
+      "type": "rich-text",
+      "blocks": {
+        "title_kRzdHW": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>S! goes France – Unsere Partnerschaft mit Michel</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_PaqdQr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser Partner Michel baut mit seiner Familie bereits in fünfter Generation diese außergewöhnliche Chili-Rarität an. Der Anbau ist eine Wissenschaft für sich und dauert ein ganzes Jahr. </p><p>Im Frühjahr beginnt alles mit der Aufzucht der Pflanzen im Gewächshaus, bevor die empfindlichen Jungpflanzen ins Freiland gesetzt werden. Die Pflege erfordert viel Erfahrung, denn die Schoten reagieren sensibel auf Sonne, Regen und andere Witterungseinflüsse.</p><p>Michel und seine Familie garantieren höchste Qualität, da sämtliche Prozesse – von der Aussaat bis zur Verpackung – direkt auf dem Hof stattfinden. Sie haben uns genau erklärt, welche Herausforderungen der Anbau mit sich bringt und wie streng die Kontrollen des „Syndikats“ sind, das die Piment-Schoten bewertet und freigibt. Nur die tatsächlich auf den Feldern gewachsene Menge darf verkauft werden, weshalb jedes Glas Piment d'Espelette eine nummerierte und zertifizierte Banderole trägt.</p><p>Ein Highlight unseres Besuchs war der Rundgang durch das <strong>lokale Museum</strong>, in dem der gesamte Herstellungsprozess anschaulich erklärt wird – ein echtes Erlebnis!</p><p>Seit <strong>2020</strong> arbeiten wir mit Michel zusammen und sind stolz darauf, ihn als Partner zu haben</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_PfrKtt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "shopify://pages/unternehmensgeschichte",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_kRzdHW",
+        "text_PaqdQr",
+        "button_PfrKtt"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/piment-d-espelette_foto_cbf48276-5a08-43d8-a373-1c9acc9d9128.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "#e3d1aa",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_ijByMX",
+    "featured_product_8M4GDt",
+    "rich_text_3CQkg4",
+    "rich_text_VgmgCC",
+    "image_TLh9Dg",
+    "image_mzzhfU",
+    "rich_text_PzaUgc"
+  ]
+}

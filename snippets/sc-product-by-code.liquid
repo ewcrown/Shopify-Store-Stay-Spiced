@@ -1,0 +1,80 @@
+ {% comment %}
+  SC
+  Snippet Product By Code
+{% endcomment %}
+
+
+<sc-product-code class="sc-product-by-code spacing--large">
+    <div class="sc-product-by-code-input">
+        <input type="text" name="code" value="" autocomplete="sku" placeholder="SKU/EAN">
+    </div>
+    <product-form
+        id="add-to-cart-{{ section_id }}"
+        class="product-form"
+        {% if settings.cart_action == 'overlay' %}
+        data-ajax-cart data-js-product-form
+        {% endif %}
+    >
+        <form method="post" action="/cart/add" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form" >
+        <input type="hidden" name="form_type" value="product">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="id" value="" >
+
+        <div class="product__cart-functions spacing--large">
+            <product-quantity
+                class="product-quantity"
+                
+                data-js-product-quantity
+            >
+                <button
+                class="product-quantity__minus qty-minus no-js-hidden"
+                aria-label="{{ 'general.accessibility_labels.decrease_quantity' | t }}"
+                role="button"
+                controls="qty-{{ id }}"
+                >
+                {%- render 'theme-symbols', icon: 'minus' -%}
+                </button>
+
+                <label for="qty-{{ id }}" class="visually-hidden">{{ 'general.accessibility_labels.quantity' | t }}</label>
+                <input
+                type="number"
+                name="quantity"
+                value="1"
+                min="1"
+                max="999"
+                class="product-quantity__selector qty-selector text-size--xlarge"
+                id="qty-{{ id }}"
+                >
+
+                <button
+                class="product-quantity__plus qty-plus no-js-hidden"
+                aria-label="{{ 'general.accessibility_labels.increase_quantity' | t }}"
+                role="button"
+                controls="qty-{{ id }}"
+                >
+                {%- render 'theme-symbols', icon: 'plus' -%}
+                </button>
+            </product-quantity>
+            <div class="">
+
+            <button
+                type="submit"
+                name="add"
+                class="add-to-cart add-to-cart-wrapper button button--solid button--product button--loader sc-product-by-code-bybutton "
+                data-js-product-add-to-cart
+            >
+                <span class="button__text" data-js-product-add-to-cart-text>
+                    {{'products.page.add_to_cart_button' | t}}
+                </span>
+                <span class="button__preloader">
+                <svg class="button__preloader-element" viewBox="25 25 50 50">
+                    <circle cx="50" cy="50" r="20" fill="none" stroke-width="4"/>
+                </svg>
+                </span>
+            </button>
+
+            </div>
+        </div>
+        </form>
+    </product-form>
+</sc-product-code>

@@ -1,0 +1,394 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "media_with_text_overlay_BmfrUT": {
+      "type": "media-with-text-overlay",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-1",
+        "height": "small",
+        "alignment": "horizontal-center align-content--vertical-top",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "#000000",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_yeGftq": {
+      "type": "rich-text",
+      "blocks": {
+        "title_JThTFy": {
+          "type": "title",
+          "settings": {
+            "title": "Liebe Partner & Friends",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_9wN3Ne": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Willkommen in der S! Family",
+            "title_size": "h2"
+          }
+        },
+        "text_6MC7cK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Wer uns kennt, weiß:</strong> Bei uns dreht sich alles um eines: Gewürze, die das Leben schmackhafter machen. Wir suchen nach kreativen Partnern, die unsere Leidenschaft teilen und die Welt mit ihrem Content ein Stück würziger gestalten möchten.<br/></p><p><strong>Wen wir suchen:</strong> Ob Food-, Grill-, BBQ- oder Lifestyle-Blogger, Influencer, Grill- und Kochschulen oder Grill-Teams – wir sind offen für spannende Kooperationen. Egal, ob du bereits etabliert bist oder gerade ein neues Projekt startest: Wenn du den perfekten Geschmack liebst und deine Community inspirieren willst, freuen wir uns darauf, mehr von dir zu erfahren.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_PGpAEK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Hier kannst du dich für unser Programm anmelden",
+            "link": "https://forms.monday.com/forms/958a85651f1b0e0bcde98b9169ce60ea?r=use1",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "text_LLxXwF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BITTE BEACHTE: Wir prüfen und bewerten alle neuen Anmeldungen mindestens 1x im Quartal!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_JThTFy",
+        "subtitle_9wN3Ne",
+        "text_6MC7cK",
+        "button_PGpAEK",
+        "text_LLxXwF"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Stay-Spiced-SPICEVIPTreffen_2022_1.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "contact_form_pLDJg8": {
+      "type": "contact-form",
+      "blocks": {
+        "input_TGAPEE": {
+          "type": "input",
+          "settings": {
+            "name": "Vorname",
+            "input_type": "text",
+            "placeholder": "Vorname",
+            "require": true
+          }
+        },
+        "input_gkbKTz": {
+          "type": "input",
+          "settings": {
+            "name": "Nachname",
+            "input_type": "text",
+            "placeholder": "Nachname",
+            "require": true
+          }
+        },
+        "input_ycbbUD": {
+          "type": "input",
+          "settings": {
+            "name": "email",
+            "input_type": "email",
+            "placeholder": "E-Mail Adresse",
+            "require": true
+          }
+        },
+        "input_FkMMab": {
+          "type": "input",
+          "settings": {
+            "name": "Website",
+            "input_type": "text",
+            "placeholder": "Website",
+            "require": true
+          }
+        },
+        "input_k3Vy7F": {
+          "type": "input",
+          "settings": {
+            "name": "Telefonnummer",
+            "input_type": "text",
+            "placeholder": "Telefonnummer",
+            "require": true
+          }
+        },
+        "input_n846bV": {
+          "type": "input",
+          "settings": {
+            "name": "Unternehmen",
+            "input_type": "email",
+            "placeholder": "Unternehmen",
+            "require": true
+          }
+        },
+        "input_prriCY": {
+          "type": "input",
+          "settings": {
+            "name": "UID-Nummer",
+            "input_type": "text",
+            "placeholder": "UID-Nummer",
+            "require": true
+          }
+        },
+        "input_dQwbe7": {
+          "type": "input",
+          "settings": {
+            "name": "Straße",
+            "input_type": "text",
+            "placeholder": "Straße",
+            "require": true
+          }
+        },
+        "input_hQ37rk": {
+          "type": "input",
+          "settings": {
+            "name": "Postleitzahl",
+            "input_type": "text",
+            "placeholder": "Postleitzahl",
+            "require": true
+          }
+        },
+        "input_h4WpAP": {
+          "type": "input",
+          "settings": {
+            "name": "Ort",
+            "input_type": "text",
+            "placeholder": "Ort",
+            "require": true
+          }
+        },
+        "further_question_yUUdGC": {
+          "type": "further_question",
+          "settings": {
+            "fq_title": "",
+            "fq_placeholder": "Warum möchtest du S! verkaufen?"
+          }
+        },
+        "confirm_YWM7mQ": {
+          "type": "confirm",
+          "settings": {
+            "confirm_title": "Datenschutz",
+            "confirm_subtitle": "Datenschutzrichtlinien gelesen und akzeptiert!",
+            "confirm_desc": "Ja, mit der Anmeldung erkläre ich mich mit den STAY SPICED! <span style=\"text-decoration:underline\">Nutzungsbedingungen und Datenschutz</span> einverstanden.",
+            "confirm_link": "shopify://policies/privacy-policy"
+          }
+        },
+        "input_mqTW8F": {
+          "type": "input",
+          "settings": {
+            "name": "Land",
+            "input_type": "text",
+            "placeholder": "Land",
+            "require": true
+          }
+        },
+        "input_eADKDV": {
+          "type": "input",
+          "settings": {
+            "name": "Anzahl Standorte",
+            "input_type": "text",
+            "placeholder": "Anzahl Standorte",
+            "require": true
+          }
+        },
+        "input_tchgGF": {
+          "type": "input",
+          "settings": {
+            "name": "Mitarbeiter Gesamt",
+            "input_type": "text",
+            "placeholder": "Mitarbeiter Gesamt",
+            "require": false
+          }
+        },
+        "input_yUdGRr": {
+          "type": "input",
+          "settings": {
+            "name": "Aktuelle Gewürzauswahl (Marken)",
+            "input_type": "text",
+            "placeholder": "Aktuelle Gewürzauswahl (Marken)",
+            "require": false
+          }
+        },
+        "input_T6DMKp": {
+          "type": "input",
+          "settings": {
+            "name": "Frequenz pro Tag (Anzahl Kunden)",
+            "input_type": "text",
+            "placeholder": "Frequenz pro Tag (Anzahl Kunden)",
+            "require": false
+          }
+        },
+        "dropdown_E8KQpG": {
+          "type": "dropdown",
+          "settings": {
+            "name": "Wie bist du auf uns gekommen",
+            "label": "Wie bist du auf uns gekommen",
+            "dropdown_options": "Empfehlung Geschäftspartner; Social Media; Kunde; Google",
+            "require": true
+          }
+        }
+      },
+      "block_order": [
+        "input_TGAPEE",
+        "input_gkbKTz",
+        "input_ycbbUD",
+        "input_FkMMab",
+        "input_k3Vy7F",
+        "input_n846bV",
+        "input_prriCY",
+        "input_dQwbe7",
+        "input_hQ37rk",
+        "input_h4WpAP",
+        "further_question_yUUdGC",
+        "confirm_YWM7mQ",
+        "input_mqTW8F",
+        "input_eADKDV",
+        "input_tchgGF",
+        "input_yUdGRr",
+        "input_T6DMKp",
+        "dropdown_E8KQpG"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Reseller Anmeldung",
+        "master_data_title": "Stammdaten",
+        "master_data": true,
+        "further_question_title": "Nachricht",
+        "further_question": true,
+        "data_protection_title": "Datenschutz",
+        "confirm": true,
+        "button_label": "Weiter",
+        "seo_h_tag": "h2",
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_columns_icons_MK3Wj4": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_JMpWaD": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "Gastro Lieferung ab € 99,- kostenlos",
+            "caption": "Egal ob in DE oder AT, ab € 99,- Netto Bestellwert versandkostenfrei",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_wUG3EX": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "Frei von Geschmacksverstärkern",
+            "caption": "Natürliche Gewürzmischungen ohne künstliche Zusatzstoffe",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_xxLgkz": {
+          "type": "image",
+          "settings": {
+            "icon": "map-marker",
+            "title": "Regional hergestellt",
+            "caption": "Nachhaltig und mit viel Liebe produziert und verpackt",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_Y6E3CG": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "title": "Profittaugliche Einheiten",
+            "caption": "870ml Gastro Schraubdosen mit 100 % Wiederverschluss. Perfekt für jede Gastroküche.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_JMpWaD",
+        "image_wUG3EX",
+        "image_xxLgkz",
+        "image_Y6E3CG"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Deine Vorteile mit STAY SPICED !",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_BmfrUT",
+    "rich_text_yeGftq",
+    "contact_form_pLDJg8",
+    "text_columns_icons_MK3Wj4"
+  ]
+}

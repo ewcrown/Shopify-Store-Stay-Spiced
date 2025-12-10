@@ -1,0 +1,748 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_MgmtpX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_LFNKYK": {
+          "type": "title",
+          "settings": {
+            "title": "Personalisierte Gastgeschenke – genau nach euren Wünschen",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_kGahj9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ihr möchtet euer Gastgeschenk noch individueller gestalten? Kein Problem!</strong><br/><br/>Ihr habt die Möglichkeit, euer Lieblingsgewürz auszuwählen, ein passendes Booklet mit Informationen rund um eure Hochzeit beizulegen und die Dosen mit personalisierten Etiketten zu gestalten.</p><p><strong>Tipp:</strong> Gebt zum Beispiel die Namen eurer Gäste auf die Etiketten – so dienen sie gleichzeitig als liebevoll gestaltete Platzkarten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_LFNKYK",
+        "text_kGahj9"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Gast_Header.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ede2c8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_jkAqd6": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_FexdUG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gastgeschenk_Schritt-1_bb2a3c73-5187-44ec-8ad9-20bf2588a5f1.png",
+            "title": "Schritt 1: Design & Gewürz wählen",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_xFNAzD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gastgeschenk_Schritt-2_485b1bfc-d715-4500-8805-e2880cee219a.png",
+            "title": "Schritt 2: Get in Touch!",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_APQyXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gastgeschenk_Mockup.png",
+            "title": "Schritt 3: Einzigartige Geschenke",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_FexdUG",
+        "image_xFNAzD",
+        "image_APQyXm"
+      ],
+      "settings": {
+        "heading": "Ganz einfach individuell gestalten!",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "#ede2c8",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "trust_element_with_text_4nXrLM": {
+      "type": "trust-element-with-text",
+      "blocks": {
+        "element_xVnFmR": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/v1.png",
+            "element_title": "Design 1",
+            "element_desc": ""
+          }
+        },
+        "element_bLJDzt": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/v5.png",
+            "element_title": "Design 2",
+            "element_desc": ""
+          }
+        },
+        "element_iQ7LbW": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/v2.png",
+            "element_title": "Design 3",
+            "element_desc": ""
+          }
+        },
+        "element_KGHceJ": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/v3.png",
+            "element_title": "Design 4",
+            "element_desc": ""
+          }
+        },
+        "element_aNtxhR": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/v4.png",
+            "element_title": "Design 5",
+            "element_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "element_xVnFmR",
+        "element_bLJDzt",
+        "element_iQ7LbW",
+        "element_KGHceJ",
+        "element_aNtxhR"
+      ],
+      "settings": {
+        "title": "Wählt euer Design",
+        "section_heading_layout": "section-heading--center",
+        "section_content_column": 3,
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_images_8E8WLF": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_D9BeJJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/63003x-10.png",
+            "title": "Amore",
+            "caption": "Klassisch italienische Zutaten wie Rosmarin, Salbei, Majoran, Oregano und Basilikum machen die Gewürzmischung zum perfekten Begleiter für mediterrane Gerichte, Fisch, Geflügel und Kalb.",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_NyVPeD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/52301x-10.png",
+            "title": "Schwarzes Gold",
+            "caption": "Die Pfeffer-Trilogie aus Tellicherry-, Cubeben und bengalischem Langschwanz-Pfeffer veredelt alle pikanten Gerichte mit einer angenehm-eleganten Schärfe und warm-süßlichen Geschmacksnoten. Für alle Speisen vom Frühstücksei bis zum Steak.",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_ffHDrj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/54402x-10.png",
+            "title": "Alpenkräuter Gewürzsalz",
+            "caption": "Ein hervorragendes Gewürzsalz, zur Verfeinerung von Saucen, Suppen und Eintöpfen. Auch perfekt zum Würzen von Gemüse und Eierspeisen geeignet.",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_NDgDFV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/50551x-10.png",
+            "title": "Chili-Salz, mittel scharf",
+            "caption": "Fleisch, Geflügel, Fisch, Meeresfrüchte oder Gemüse vom Grill oder aus der Pfanne erhalten einen kleinen Schärfe-Kick und auch in Salsas, Saucen, Dips und Suppen kommt die mittlere Schärfe optimal zur Geltung.",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_D9BeJJ",
+        "image_NyVPeD",
+        "image_ffHDrj",
+        "image_NDgDFV"
+      ],
+      "settings": {
+        "heading": "Wählt euer Gewürz",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_DYgNcL": {
+      "type": "rich-text",
+      "blocks": {
+        "title_gp6Dwa": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Personalisierte Geschenke für eure Gäste</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_VKiYnE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit Namen, Datum und einer persönlichen Botschaft ganz nach euren Wünschen wird jedes Gewürz zu einem liebevollen Erinnerungsstück für eure Gäste. 🎁</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "title_HLyBkC": {
+          "type": "title",
+          "settings": {
+            "title": "ab € 3,50 / Dose",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_jYNwc6": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "bei einer bestellung von 100 Stück",
+            "title_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_gp6Dwa",
+        "text_VKiYnE",
+        "title_HLyBkC",
+        "subtitle_jYNwc6"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Microdosen-Mockup_Design_4-5.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ede2c8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_hFd8ee": {
+      "type": "rich-text",
+      "blocks": {
+        "title_T6m9zz": {
+          "type": "title",
+          "settings": {
+            "title": "Size-Upgrade?",
+            "title_size": "h3",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_wJPdpL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ob ihr euch für unsere Mikrodose oder die 170ml Schraubdose entscheidet – <strong>wir haben die passende Lösung für ein unvergessliches Geschenk</strong> an eure Hochzeitsgäste.<br/><br/>Personalisierungen sind bereits ab 50 Stück möglich!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_T6m9zz",
+        "text_wJPdpL"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Gast_Upgrade_730411da-b0d0-4f38-ba11-3aa9e2fd2749.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ede2c8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_tPPrXT": {
+      "type": "rich-text",
+      "blocks": {
+        "title_XGgQcM": {
+          "type": "title",
+          "settings": {
+            "title": "Gastgeschenke für die Hochzeit – Dankesagen mit Geschmack",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_YCqRjH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Macht eure Hochzeit unvergesslich – nicht nur für euch, sondern auch für eure Gäste.</strong><br/><br/>Unsere personalisierten Gewürzdosen sind das perfekte Gastgeschenk, um eure Liebe und Wertschätzung auf geschmackvolle Weise auszudrücken.</p><p>Jede Dose wird individuell für euch gestaltet und trägt eure Namen sowie das Hochzeitsdatum – ein einzigartiges Andenken an euren großen Tag.</p><p>Im Inneren jeder Dose habt <strong>ihr</strong> die Wahl für eure Gäste: <strong>Amore, Schwarzes Gold, Alpenkräuter-Gewürzsalz</strong> oder <strong>Chilisalz</strong>.</p><p>Ob als liebevolles Dankeschön oder kleine Überraschung am Tisch – die stilvollen Gewürzdosen bringen Freude und Geschmack in die Küchen eurer Liebsten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_XGgQcM",
+        "text_YCqRjH"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_wedding-gastgeschenk-xm.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_eEggni": {
+      "type": "rich-text",
+      "blocks": {
+        "title_NzEywJ": {
+          "type": "title",
+          "settings": {
+            "title": "KONTAKT",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_g8tfrg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ihr habt besondere Wünsche oder individuelle Ideen?<br/>Airen & Lena beraten euch gerne persönlich und gestalten euer Gastgeschenk ganz nach euren Vorstellungen.<br/>Meldet euch jederzeit – wir freuen uns darauf, euch kennenzulernen und euren großen Tag mitzugestalten.</p><p><strong>KONTAKT:</strong></p><p><strong>+43 662 890 919 oder +49 8654 4093911<br/>bestellung@stayspiced.com</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_NzEywJ",
+        "text_g8tfrg"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Kontakt_Airen-Lena.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "contact_form_Nkw6YD": {
+      "type": "contact-form",
+      "blocks": {
+        "input_rTiDQp": {
+          "type": "input",
+          "settings": {
+            "name": "Firstname",
+            "input_type": "text",
+            "placeholder": "Vorname*",
+            "require": false
+          }
+        },
+        "input_UjcMpC": {
+          "type": "input",
+          "settings": {
+            "name": "lastname",
+            "input_type": "text",
+            "placeholder": "Nachname*",
+            "require": false
+          }
+        },
+        "input_XCCULk": {
+          "type": "input",
+          "settings": {
+            "name": "email",
+            "input_type": "email",
+            "placeholder": "Email",
+            "require": true
+          }
+        },
+        "dropdown_cgEtMW": {
+          "type": "dropdown",
+          "settings": {
+            "name": "Design",
+            "label": "Für welches Design interessiert du dich.",
+            "dropdown_options": "Design1;Design2;Design3;Design4;Design5;Ich hab ein eigenes Design",
+            "require": false
+          }
+        },
+        "dropdown_rWEm6A": {
+          "type": "dropdown",
+          "settings": {
+            "name": "Gewürz",
+            "label": "Welches Gewürz möchtest Du",
+            "dropdown_options": "Amore;Schwarzes Gold;Alpenkaeuter Salz;Cilli Salz;Anders Gewürz - Anfrage",
+            "require": false
+          }
+        },
+        "further_question_tVUk4T": {
+          "type": "further_question",
+          "settings": {
+            "fq_title": "Deine Anregung oder Frage?",
+            "fq_placeholder": "Dein Text"
+          }
+        },
+        "confirm_BU34id": {
+          "type": "confirm",
+          "settings": {
+            "confirm_title": "Datenschutz",
+            "confirm_subtitle": "Datenschutzrichtlinien gelesen und akzeptiert!",
+            "confirm_desc": "<a href=\"https://stayspiced.com/policies/privacy-policy\">Ja, mit der Anmeldung erkläre ich mich mit den STAY SPICED! <span style=\"text-decoration:underline\">Nutzungsbedingungen und Datenschutz</span> einverstanden.</a>",
+            "confirm_link": "shopify://policies/privacy-policy"
+          }
+        }
+      },
+      "block_order": [
+        "input_rTiDQp",
+        "input_UjcMpC",
+        "input_XCCULk",
+        "dropdown_cgEtMW",
+        "dropdown_rWEm6A",
+        "further_question_tVUk4T",
+        "confirm_BU34id"
+      ],
+      "settings": {
+        "heading": "Anfrage Angebot Hochzeitsgeschenke",
+        "master_data_title": "Deine Daten",
+        "master_data": true,
+        "further_question_title": "Deine Anfrage",
+        "further_question": true,
+        "data_protection_title": "Datenschutz",
+        "confirm": true,
+        "button_label": "Weiter",
+        "seo_h_tag": "h2",
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_accordion_r4pdy3": {
+      "type": "image-accordion",
+      "blocks": {
+        "text_FXX4hG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping Information",
+            "subtitle": "Question Subtitle",
+            "body": "<p>Provide shipping details here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_FXX4hG"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false
+      }
+    },
+    "rich_text_6kabV9": {
+      "type": "rich-text",
+      "blocks": {
+        "title_YCfAGi": {
+          "type": "title",
+          "settings": {
+            "title": "Brautpaar beschenken!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_DUMMyr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du suchst das perfekte Hochzeitsgeschenk? Die Liebe ist wie ein Gewürz – sie macht alles ein bisschen süßer und auf jeden Fall unvergesslich.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_NYPdB3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt entdecken!",
+            "link": "shopify://pages/hochzeit-brautpaar",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_YCfAGi",
+        "text_DUMMyr",
+        "button_NYPdB3"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Hochzeit-Brautpaar_1x1_ab8c7795-ac32-486d-81c1-59c5f4d9bf07.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ede2c8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_column_metaobject_MbPUGX": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_8Nkp4d": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Mit unseren Gewürzen schenkst du mehr als nur Geschmack – du schenkst Erlebnisse, Inspiration und hochwertige Qualität. Als österreichisches Unternehmen stehen wir für Regionalität, Nachhaltigkeit und Leidenschaft. Unsere Geschenke sind so einzigartig wie die Liebe selbst und ein echtes Highlight auf jeder Hochzeit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8Nkp4d"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Warum STAY SPICED! Gastgeschenke?",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_R7mMAF": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_fH9fdK": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Ob Vegetarier, Flexitarier, Pescetarier, Veganer oder Liebhaber internationaler Küchen – <strong>Gewürze sind für alle da. </strong>Sie sind kalorienfrei, nachhaltig und bringen Geschmack und Freude in jede Küche. Anders als Alkohol oder Schokolade, die nicht jedem zusagen, sind Gewürze ein Geschenk, das wirklich jeden begeistert.</p><p>Mit einer Vielfalt, die zu jedem Lebensstil und Anlass passt, sind Gewürze das ideale Präsent – ob als liebevolle Aufmerksamkeit für Hochzeitsgäste oder als stilvolles Geschenk für das Brautpaar. <strong>Denn eins ist sicher: Gewürze verwendet jeder.</strong></p><p>Überrasche deine Liebsten mit Geschmack, der verbindet, und schenke etwas, das lange in Erinnerung bleibt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_fH9fdK"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Gewürze – das Geschenk, das immer passt",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_metaobject_RyjmJ3": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_rL4MA6": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Du möchtest das Gastgeschenk noch individueller gestalten? Kein Problem! Wir bieten dir die Möglichkeit, andere Gewürzsorten auszuwählen, ein passendes Booklet mit Informationen rund um eure Hochzeit beizulegen oder die Dosen mit personalisierten Etiketten zu versehen.<br/></p><p><strong>Tipp</strong>: Gib zum Beispiel den Namen eurer Gäste auf das Etikett, damit sie gleichzeitig als liebevoller Platzhalter dienen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_rL4MA6"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "Personalisierte Gastgeschenke – genau nach deinen Wünschen",
+        "col_count": 1,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_accordion_bT8PjB": {
+      "type": "image-accordion",
+      "blocks": {
+        "title_QnJbNn": {
+          "type": "title",
+          "settings": {
+            "title": "Wichtige Informationen für dich",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_dbUCEH": {
+          "type": "text",
+          "settings": {
+            "title": "Wie lange beträgt die Lieferzeit?",
+            "subtitle": "",
+            "body": "<p>Lieferzeit je nach Auftragsmenge zwischen 4-6 Wochen ab Druck- und Auftragsfreigabe</p>"
+          }
+        },
+        "text_g9bcWa": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist die Mindeststückanzahl?",
+            "subtitle": "",
+            "body": "<p>Die Mindeststückanzahl beträgt 100 Stück pro Sorte</p>"
+          }
+        },
+        "text_U7i9cq": {
+          "type": "text",
+          "settings": {
+            "title": "Kann man das Design selbst gestalten?",
+            "subtitle": "",
+            "body": "<p>Hier sind wir ganz flexibel und setzen natürlich auch deine Ideen ganz nach deinen Wünschen um. Designs müssen bei uns nur in einer Druckfähigen Qualität angeliefert werden. Natürlich helfen wir dir gerne dabei :)</p>"
+          }
+        },
+        "text_HGhH4h": {
+          "type": "text",
+          "settings": {
+            "title": "Du brauchst Unterstützung?",
+            "subtitle": "",
+            "body": "<p>Airen & Lena stehen dir gerne zur Seite, um dein Gastgeschenk ganz nach deinen Vorstellungen zu gestalten. Kontaktiere uns einfach – wir freuen uns darauf, dir zu helfen, deine Hochzeit noch unvergesslicher zu machen! </p><p><strong>KONTAKT:</strong></p><p><strong>+43 662 890 919<br/>bestellung@stayspiced.com</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_QnJbNn",
+        "text_dbUCEH",
+        "text_g9bcWa",
+        "text_U7i9cq",
+        "text_HGhH4h"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "heading": "Frequently Asked Questions",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_MgmtpX",
+    "text_columns_images_jkAqd6",
+    "trust_element_with_text_4nXrLM",
+    "text_columns_images_8E8WLF",
+    "rich_text_DYgNcL",
+    "rich_text_hFd8ee",
+    "rich_text_tPPrXT",
+    "rich_text_eEggni",
+    "contact_form_Nkw6YD",
+    "image_accordion_r4pdy3",
+    "rich_text_6kabV9",
+    "text_column_metaobject_MbPUGX",
+    "text_column_metaobject_R7mMAF",
+    "text_column_metaobject_RyjmJ3",
+    "image_accordion_bT8PjB"
+  ]
+}

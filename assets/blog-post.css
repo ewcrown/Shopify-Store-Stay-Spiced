@@ -1,0 +1,10 @@
+.blog-item__title-holder {
+  max-height: 30px;
+}
+
+.blog-item_title-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}

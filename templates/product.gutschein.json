@@ -1,0 +1,597 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "trusted_shops_easy_integration_mini_stars_yHcqDE": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "type": ""
+          }
+        },
+        "product_benefits_NkBc8L": {
+          "type": "product_benefits",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "label": "Wähle deinen Geschenkbetrag"
+          }
+        },
+        "price_Xx3gHx": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_stock_info": false,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "buy_button_background_color": "#ffff00",
+            "buy_button_border_color": "#1d1d1d",
+            "buy_button_color": "#1d1d1d"
+          }
+        },
+        "payment_rrinff": {
+          "type": "payment",
+          "settings": {
+            "override_payments": "visa,master,american_express,paypal"
+          }
+        },
+        "icons_XFxmNa": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify://shop_images/icons-regional.png",
+            "icon_1_label": "Regional hergestellt",
+            "icon_2_image": "shopify://shop_images/icon-versand.png",
+            "icon_2_label": "CO2 neutraler Versand",
+            "icon_3_image": "shopify://shop_images/icon-frei.png",
+            "icon_3_label": "Nachhaltige Verpackung",
+            "icon_4_image": "shopify://shop_images/icons-frei.png",
+            "icon_4_label": "Frei von Zusatzstoffen",
+            "icon_5_label": "",
+            "icon_6_label": "",
+            "hide_block_if": false
+          }
+        },
+        "description_czmgp4": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_easy_integration_mini_stars_yHcqDE",
+        "title",
+        "product_benefits_NkBc8L",
+        "variant_picker",
+        "price_Xx3gHx",
+        "buy_buttons",
+        "payment_rrinff",
+        "icons_XFxmNa",
+        "description_czmgp4"
+      ],
+      "custom_css": [
+        ".main-product {max-width: 1360px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "gallery_style": "slider",
+        "gallery_ratio": "natural",
+        "gallery_fit": true,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_block_padding": 0,
+        "gallery_inline_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "main_background": "#ffffff"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "quick_buy"
+      ],
+      "settings": {
+        "heading": "Das könnte dir auch gefallen",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    },
+    "anchor_navigation_p4CpLb": {
+      "type": "anchor-navigation",
+      "blocks": {
+        "navigation_item_YVy6HR": {
+          "type": "navigation_item",
+          "disabled": true,
+          "settings": {
+            "title": "Beschreibung",
+            "anchor": "#description"
+          }
+        },
+        "navigation_item_DB9zq6": {
+          "type": "navigation_item",
+          "disabled": true,
+          "settings": {
+            "title": "Details",
+            "anchor": "#details"
+          }
+        },
+        "navigation_item_CwFchn": {
+          "type": "navigation_item",
+          "disabled": true,
+          "settings": {
+            "title": "Nachhaltigkeit",
+            "anchor": "#sustainability"
+          }
+        },
+        "navigation_item_7draKt": {
+          "type": "navigation_item",
+          "disabled": true,
+          "settings": {
+            "title": "Herkunft",
+            "anchor": "#origin"
+          }
+        },
+        "navigation_item_DXBRLK": {
+          "type": "navigation_item",
+          "disabled": true,
+          "settings": {
+            "title": "Bewertungen",
+            "anchor": "#ratings"
+          }
+        }
+      },
+      "block_order": [
+        "navigation_item_YVy6HR",
+        "navigation_item_DB9zq6",
+        "navigation_item_CwFchn",
+        "navigation_item_7draKt",
+        "navigation_item_DXBRLK"
+      ],
+      "settings": {}
+    },
+    "product_info_anchor_bpQWBc": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#description"
+      }
+    },
+    "rich_text_D6GD48": {
+      "type": "rich-text",
+      "blocks": {
+        "title_gnArqN": {
+          "type": "title",
+          "settings": {
+            "title": "{{ product.title }}",
+            "title_size": "h3",
+            "seo_h_tag": "h3"
+          }
+        },
+        "subtitle_UeqPGq": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "{{ product.metafields.custom.txt_newshortdescription.value }}",
+            "title_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_gnArqN",
+        "subtitle_UeqPGq"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image": "{{ product.featured_image }}",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "related_recipes_A3gwKf": {
+      "type": "related-recipes",
+      "blocks": {
+        "title_pTEyCT": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_pTEyCT"
+      ],
+      "settings": {
+        "title": "Passende Rezepte zu {{ product.title }}",
+        "subheading": "",
+        "show_view_all": false,
+        "section_heading_layout": "section-heading--center",
+        "blog": "rezepte",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": false,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "product_info_anchor_FwAQeJ": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#details"
+      }
+    },
+    "product_ingredients_nyW8et": {
+      "type": "product-ingredients",
+      "blocks": {
+        "ingredient_Ktxt8f": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Weitere Attribute",
+            "value": "Sources?",
+            "liquid": ""
+          }
+        },
+        "nutrition_9cJgmg": {
+          "type": "nutrition",
+          "settings": {
+            "title": "Durchschnittliche Nährwerte pro",
+            "value": "100",
+            "unit": "g"
+          }
+        }
+      },
+      "block_order": [
+        "ingredient_Ktxt8f",
+        "nutrition_9cJgmg"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Details",
+        "title_size": "h2",
+        "seo_h_tag": "h2"
+      }
+    },
+    "product_info_anchor_wxAddB": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#sustainability"
+      }
+    },
+    "rich_text_A9TtLT": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Etpf3J": {
+          "type": "title",
+          "settings": {
+            "title": "WIR L(I)EBEN GEWÜRZE",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_TRqAEB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_6Fr8ei": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Etpf3J",
+        "text_TRqAEB",
+        "button_6Fr8ei"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/20241018060138-dsc01034.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "product_info_anchor_hTFKA3": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#origin"
+      }
+    },
+    "rich_text_zdy6NH": {
+      "type": "rich-text",
+      "blocks": {
+        "title_nK7NbJ": {
+          "type": "title",
+          "settings": {
+            "title": "Herkunft",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_a4NwhQ": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Unsere Dosen bestehen....",
+            "title_size": "h2"
+          }
+        },
+        "text_BEnTeE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_MH9Cdy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_nK7NbJ",
+        "subtitle_a4NwhQ",
+        "text_BEnTeE",
+        "button_MH9Cdy"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Bildschirmfoto_2024-10-18_um_08.13.58.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "product_info_anchor_Je4mPa": {
+      "type": "product-info-anchor",
+      "settings": {
+        "title": "#ratings"
+      }
+    },
+    "172949930252a92eb1": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_easy_integration_product_review_list_qDt388": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/product-review-list/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_easy_integration_product_review_list_qDt388"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "image_accordion_MpheP6": {
+      "type": "image-accordion",
+      "blocks": {
+        "title_Ftc7im": {
+          "type": "title",
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_bzwzn9": {
+          "type": "text",
+          "repeater": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.title.value }}",
+            "subtitle": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        },
+        "text_9b7jPN": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping Information",
+            "subtitle": "Question Subtitle",
+            "body": "<p>Provide shipping details here.</p>"
+          }
+        },
+        "text_nEQV7p": {
+          "type": "text",
+          "settings": {
+            "title": "Delivery Information",
+            "subtitle": "Question Subtitle",
+            "body": "<p>Provide delivery information here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_Ftc7im",
+        "text_bzwzn9",
+        "text_9b7jPN",
+        "text_nEQV7p"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "heading": "Frequently Asked Questions",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false
+      }
+    },
+    "content_toggles_MYTCxT": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_f4dNd4": {
+          "type": "text",
+          "repeater": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.title.value }}",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}",
+            "hide_block_if": false
+          }
+        },
+        "text_tejDEM": {
+          "type": "text",
+          "settings": {
+            "title": "Delivery details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Let your customers know if you offer free delivery for certain types of orders</p><p>Link to your <a href='#'>offers page</a>.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_9tXNrw": {
+          "type": "text",
+          "settings": {
+            "title": "Returns details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Show customers how much time they have for testing your products</p><p>Link to your <a href='#'>returns policy</a>.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_f4dNd4",
+        "text_tejDEM",
+        "text_9tXNrw"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Frequently asked question",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "anchor_navigation_p4CpLb",
+    "product_info_anchor_bpQWBc",
+    "rich_text_D6GD48",
+    "related_recipes_A3gwKf",
+    "product_info_anchor_FwAQeJ",
+    "product_ingredients_nyW8et",
+    "product_info_anchor_wxAddB",
+    "rich_text_A9TtLT",
+    "product_info_anchor_hTFKA3",
+    "rich_text_zdy6NH",
+    "product_info_anchor_Je4mPa",
+    "172949930252a92eb1",
+    "image_accordion_MpheP6",
+    "content_toggles_MYTCxT"
+  ]
+}

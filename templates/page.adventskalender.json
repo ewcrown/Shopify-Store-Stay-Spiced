@@ -1,0 +1,97 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_WhCGNi": {
+      "type": "rich-text",
+      "blocks": {
+        "title_3wkFAH": {
+          "type": "title",
+          "settings": {
+            "title": "Anleitung",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_iExHwn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. POST LIKEN 👍</strong></p><p><strong>2. STAY SPICED ! & DEM JEWEILIGEM PARTNER FOLGEN 🚶</strong></p><p><strong>3. POST KOMMENTIEREN ✍️</strong></p><p><strong>4. DAUMEN DRÜCKEN ✊</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_3wkFAH",
+        "text_iExHwn"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_roland-trettl_gewinnsujet_60f8d50e-d412-4ec7-b580-a0a5247c3042.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#ffffff",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "content_toggles_mA8Lp6": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_FGhTTW": {
+          "type": "text",
+          "settings": {
+            "title": "DIE TEILNAHME AM GEWINNSPIEL SETZT DIE ZUSTIMMUNG ZU DIESEN TEILNAHMEBEDINGUNGEN VORAUS. ",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<ol><li>Mit der Teilnahme an Gewinnspielen von SPICEWORLD und seinen Partnern akzeptiert der/die TeilnehmerIn diese Teilnahmebedingungen.</li><li>Die Teilnahme an Gewinnspielen ist im Zeitraum möglich, der beim jeweiligen Gewinnspiel-Beitrag angegeben wurde.</li><li>Wir behalten uns das Recht vor, bei Verstoß gegen diese Teilnahmebedingungen, TeilnehmerInnen vom Gewinnspiel auszuschließen.</li><li>Teilnahmeberechtigt sind alle Facebook/Meta User über 18 Jahre. </li><li>Eine Teilnahme ist pro Person nur einmal möglich.</li><li>Um bei diesen Gewinnspiel teilnehmen zu können, muss der Beitrag geliked werden, Stay Spiced ! sowie dem jeweilligen markierten Partner gefolgt & ein Kommentar hinterlassen werden. </li><li>Das Gewinnspiel steht in keiner Verbindung zu Facebook/Meta und wird in keiner Weise von Facebook gesponsert, unterstützt oder organisiert.</li><li>Die TeilnehmerInnen erklären, dass ihre Inhalte nicht gegen die Rechte Dritter, insbesondere Urheberrechte und Persönlichkeitsrechte, verstößt. Falls andere Personen an der Erstellung oder Entwicklung des Teilnahmebeitrags beteiligt waren, so müssen sie sich mit dessen Einreichung und späterer Veröffentlichung im Rahmen des Gewinnspiels einverstanden erklären. Das gleiche gilt, wenn Dritten ein exklusives Recht an den eingereichten Beiträgen eingeräumt wurde. Auch wenn andere Personen auf eingereichten Bildern oder Fotografien erkennbar sind, ist deren Einverständnis mit der Einreichung und späterer Veröffentlichung einzuholen. Es haftet der/dieTeilnehmerIn.</li><li>Wir behalten uns vor, unangebrachte oder anstößige Beiträge vom Gewinnspiel auszuschließen.</li><li>Die Gewinner/innen werden mithilfe einer fairen Losung ermittelt.</li><li>Die Benachrichtigung der GewinnerInnen erfolgt namentlich bis eine Woche nach Ende des Gewinnspiels mittels Direktnachricht (Private Message). Der/Die GewinnerInnen werden dabei aufgefordert sich per Meta-Nachricht bei uns zu melden und ihre Adressdaten zur Gewinnübermittlung bekannt zu geben.  </li><li>Sollte bei Sachpreisen binnen einer Woche keine Kontaktaufnahme erfolgen wird der jeweilige Preis anderweitig vergeben.</li><li>Die TeilnehmerInnen sind damit einverstanden, dass eingereichte Beiträge bis auf Widerruf auf den SPICEWORLD Social Channels verwendet werden dürfen. </li><li>Die TeilnehmerInnen sind damit einverstanden, dass personenbezogenen Daten (Facebook-Name/Instagram Name) erhoben und elektronisch gespeichert werden.</li><li>Bei Problemen behalten wir es uns vor, das Gewinnspiel zu verändern oder zu beenden.</li><li>Der Rechtsweg ist ausgeschlossen.</li><li>Eine Barablöse von Preisen, sowie der Umtausch sind nicht möglich.</li></ol><p>Sollten einzelne Bestimmungen der Teilnahmebedingungen ungültig sein oder werden, bleibt die Gültigkeit der übrigen Teilnahmebedingungen unberührt.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_FGhTTW"
+      ],
+      "settings": {
+        "heading": "TEILNAHMEBEDINGUNGEN",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": true,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WhCGNi",
+    "content_toggles_mA8Lp6"
+  ]
+}

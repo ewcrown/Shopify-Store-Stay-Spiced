@@ -1,0 +1,322 @@
+{{ 'testimonial.css' | asset_url | stylesheet_tag }}
+
+<div
+  style="padding: 100px 40px;"
+  class="container--large {% unless section.settings.remove_margin %} container--vertical-space {% endunless %} "
+>
+  {%- render 'section-heading',
+    heading: section.settings.title,
+    heading_tag: section.settings.seo_h_tag,
+    layout: section.settings.section_heading_layout
+  -%}
+
+  <div class="testimonial-container {%  if section.settings.trust_element_type == "test--02" %} limit-width {% endif %} {% if section.settings.section_background_color != "rgba(0,0,0,0)" %} container--has-background {% endif %}">
+    <css-slider
+      data-options='
+        {
+          "selector": ".slider-item",
+          "indexNav": true,
+          "groupCells": true,
+          "navigationDOM": "<span class=\"css-slider-button css-slider-prev\" style=\"display:none\"><svg fill=\"none\" height=\"13\" viewBox=\"0 0 8 13\" width=\"8\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#000\" ><path d=\"m7.91419 1.41431-6.48529 6.48528-1.4142102-1.41422 6.4852802-6.48527702z\"/><path d=\"m6.48528 12.9849-6.48528027-6.48532 1.41421027-1.41421 6.48528 6.48523z\"/></g></svg></span><span class=\"css-slider-button css-slider-next\" style=\"display:none\"><svg width=\"9\" height=\"13\" viewBox=\"0 0 9 13\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0.914169 11.5857L7.39945 5.10041L8.81367 6.51463L2.32838 12.9999L0.914169 11.5857Z\" fill=\"black\"/><path d=\"M2.34307 0.0151367L8.82835 6.50042L7.41414 7.91463L0.928857 1.42935L2.34307 0.0151367Z\" fill=\"black\"/></svg></span>"
+        }
+      '
+      class="css-slider css-slider--bottom-navigation"
+      id="css-slider-{{ section.id }}"
+    >
+      {%- render 'custom-shadow', section_id: section.id -%}
+      {% assign column_count = section.settings.section_content_layout %}
+
+      <div
+        class="grid grid--slider grid-{{ column_count }} grid-portable-3 grid-lap-1 grid-tiny-1 grid--layout"
+        style="padding-top: 20px; {% if section.settings.trust_element_type == "test--01" %} padding-bottom: 20px; margin-bottom: 20px; {% endif %}"
+      >
+        {%- for block in section.blocks -%}
+          <div
+            class="slider-item"
+            style="{% if section.settings.trust_element_type == "test--01" %} padding: {{ section.settings.padding_value }}px; {% endif %}"
+          >
+            <div
+              class="card__image border-radius-top testimonial-img {% if section.settings.trust_element_type == "test--02" %} testimonial-hidden {% endif %}"
+              style="padding-top:{{ 100 | divided_by: 1 }}%;"
+            >
+              {%- liquid
+                unless block.settings.element_img == blank
+                  assign sizes = 'sizes="(max-width: 767px) calc(100vw - 20px), (max-width: 1360px) 33vw, 420px"'
+                  if section.index == 1 and forloop.index <= 2
+                    assign preload = true
+                  else
+                    assign preload = false
+                  endif
+                  render 'lazy-image', image: block.settings.element_img, sizes: sizes, ratio: '1', type: 'background', alt: block.settings.title, preload: preload
+                else
+                  echo 'image' | placeholder_svg_tag
+                endunless
+              -%}
+            </div>
+            <div class="reviewer-info {% if section.settings.trust_element_type == "test--02" %} testimonial-hidden {% endif %}">
+              {%- unless block.settings.reviewer == blank -%}
+                <h5 class="section-heading__title text-align--center h5 element__name">
+                  {{ block.settings.reviewer | escape }}
+                </h5>
+              {% endunless %}
+              {%- unless block.settings.content == blank -%}
+                <div class="text-align--center">{{ block.settings.content }}</div>
+              {% endunless %}
+              <div class="star-rating" data-review="{{ block.settings.review }}">
+                <div class="stars-outer">
+                  <div class="stars-inner stars-inner-{{ block.settings.review | escape }}"></div>
+                </div>
+              </div>
+            </div>
+            <div class="{% if section.settings.trust_element_type == "test--01" %} testimonial-hidden {% endif %}">
+              <div class="date_author_container">
+                {%- unless block.settings.date == blank -%}
+                  <span class="text-size--small">
+                    {{- block.settings.date | date: '%d-%m-%Y' | escape }}&nbsp;von&nbsp;</span
+                  >
+                {%- endunless -%}
+
+                {%- unless block.settings.reviewer == blank -%}
+                  <span class="text-size--small text-weight--bold" style="font-weight: 900;">
+                    {{- block.settings.reviewer | date: '%d-%m-%Y' | escape -}}
+                  </span>
+                {%- endunless -%}
+              </div>
+              <div class="star-rating" data-review="{{ block.settings.review }}">
+                <div class="stars-outer">
+                  <div class="stars-inner stars-inner-{{ block.settings.review | escape }}"></div>
+                </div>
+              </div>
+              {%- unless block.settings.content == blank -%}
+                <div class="text-align--center test-02-content text-weight--bold">{{ block.settings.content }}</div>
+              {% endunless %}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </css-slider>
+  </div>
+</div>
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+    const ratings = document.querySelectorAll('.star-rating');
+
+    ratings.forEach((rating) => {
+      const value = parseFloat(rating.getAttribute('data-review'));
+      setRating(rating, value);
+    });
+
+    function setRating(element, value) {
+      const starTotal = 5; // Total number of stars
+      const starPercentage = (value / starTotal) * 100;
+      const starInner = element.querySelector('.stars-inner');
+
+      // Create a new style element
+      //   const styleElement = document.createElement('style');
+      //   styleElement.type = 'text/css';
+      //   document.head.appendChild(styleElement);
+
+      let sheet = document.styleSheets[0];
+
+      // Insert the CSS rule dynamically
+      sheet.insertRule(`.stars-inner-${value}::before { width: ${starPercentage}%; }`, sheet.cssRules.length);
+    }
+  });
+</script>
+
+{%- if section.settings.section_background_color != 'rgba(0,0,0,0)'
+  and section.settings.trust_element_type == 'test--01'
+-%}
+  {% style %}
+    #shopify-section-{{ section.id }} .container--has-background {
+      --color-background-section: {{ section.settings.section_background_color }};
+    }
+  {% endstyle %}
+{%- elsif section.settings.section_background_color != 'rgba(0,0,0,0)'
+  and section.settings.trust_element_type == 'test--02'
+-%}
+  {% style %}
+    #shopify-section-{{ section.id }} .container--has-background {
+      background-color: {{ section.settings.section_background_color }};
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{%- if section.settings.section_heading_color != 'rgba(0,0,0,0)' -%}
+  {% style %}
+    #shopify-section-{{ section.id }}, .element__name {
+      --color-text-main: {{ section.settings.section_heading_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Testimonial Element",
+  "blocks": [
+    {
+      "type": "element",
+      "name": "element block",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "element_img",
+          "label": "Avatar"
+        },
+        {
+          "type": "text",
+          "id": "reviewer",
+          "label": "Reviewr"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "range",
+          "id": "review",
+          "label": "Rating",
+          "min": 0,
+          "max": 5,
+          "step": 0.1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:local-march-update.labels.heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.blog-posts.settings.title.label",
+      "default": "Testimonial"
+    },
+    {
+      "type": "select",
+      "id": "trust_element_type",
+      "label": "Testimonial Element Type",
+      "options": [
+        {
+          "value": "test--01",
+          "label": "Testimonial 01"
+        },
+        {
+          "value": "test--02",
+          "label": "Testimonial 02"
+        }
+      ],
+      "default": "test--01"
+    },
+    {
+      "type": "range",
+      "id": "padding_value",
+      "label": "Padding Value",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "default": 0,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "section_heading_layout",
+      "label": "t:sections.rich-text.settings.text_alignment.label",
+      "options": [
+        {
+          "value": "section-heading--left",
+          "label": "t:sections.rich-text.settings.text_alignment.options__1.label"
+        },
+        {
+          "value": "section-heading--center",
+          "label": "t:sections.rich-text.settings.text_alignment.options__2.label"
+        }
+      ],
+      "default": "section-heading--left"
+    },
+    {
+      "type": "range",
+      "id": "section_content_layout",
+      "label": "column count",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "t:local-march-update.labels.section_design"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "section_heading_color",
+      "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.text_color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_margin",
+      "label": "t:sections.local-extra-words.sections.rich-text.settings.remove_margin.label",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "t:sections.refactor_words.seo.name"
+    },
+    {
+      "type": "select",
+      "id": "seo_h_tag",
+      "label": "t:sections.refactor_words.seo.label",
+      "info": "t:sections.refactor_words.seo.info",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "span",
+          "label": "span"
+        }
+      ],
+      "default": "h2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial-Element",
+      "blocks": [{ "type": "element" }]
+    }
+  ]
+}
+{% endschema %}

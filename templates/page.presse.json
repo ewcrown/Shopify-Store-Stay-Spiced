@@ -1,0 +1,619 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_PMzWBk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_C97dU9": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>STAYSPICED ! Pressebereich</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "subtitle_Lmw4xd": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bereit für 100 % Geschmack – auch im Journalismus.",
+            "title_size": "h2"
+          }
+        },
+        "text_U8Hmyd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du möchtest über STAY SPICED ! berichten? Hier findest du alle relevanten Infos für deine redaktionelle Arbeit – von allgemeinen Unternehmensfakten bis zu Bildanfragen. Und wenn du etwas nicht findest: Schreib uns einfach. Wir helfen dir gerne persönlich weiter.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_C97dU9",
+        "subtitle_Lmw4xd",
+        "text_U8Hmyd"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Logo_Profilbild-orange_1214196a-aa87-4110-9ff6-5874982595e0.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#fdc300",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_cVtQAp": {
+      "type": "rich-text",
+      "blocks": {
+        "title_LWFWHk": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Was macht S! besonders?</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_qCeK34": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir sind mehr als nur ein Gewürzhersteller. STAY SPICED ! ist eine Marke für alle, die mehr wollen: mehr Geschmack, mehr Qualität, mehr Verantwortung. Unser Ziel ist es, das Kochen zu einem Erlebnis zu machen – mit hochwertigen Zutaten, die mit Sorgfalt, Wissen und viel Leidenschaft verarbeitet werden.</p><p><br/>Wir reisen in die besten Anbaugebiete der Welt, kaufen direkt ein – mit Respekt vor Natur und Mensch – und entwickeln alle unsere außergewöhnliche Mischungen im Haus, um die Emotion und Inspiration auf deinen Teller zu bringen.<br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_LWFWHk",
+        "text_qCeK34"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/STAYSPICED_Nachhaltig.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "marquee_aFYJdX": {
+      "type": "marquee",
+      "blocks": {
+        "text_9PdfwU": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "IN ARBEIT"
+          }
+        },
+        "text_cdEX4f": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<strong>Alles, was du über STAY SPICED! wissen musst findest du in Kürze hier</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9PdfwU",
+        "text_cdEX4f"
+      ],
+      "disabled": true,
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#e9e9e9",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "content_toggles_aUa8Vm": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_4LTxUG": {
+          "type": "text",
+          "settings": {
+            "title": "Wer ist STAY SPICED ! ?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>STAY SPICED !</strong> ist die Premium-Gewürzmarke der <strong>SPICEWORLD GmbH</strong>, die 2005 in einer Garage in Salzburg gegründet wurde. Was als mutige Idee begann, ist heute ein erfolgreiches Unternehmen – bekannt für kompromisslose Qualität, Innovation und echtes Geschmackserlebnis.</p><p>Die Marke <strong>STAY SPICED !</strong> wurde 2019 gelauncht und steht für moderne Gewürzkultur, mutiges Design und ein Sortiment, das Profiköch:innen ebenso begeistert wie ambitionierte Hobbyköch:innen. Die über 400 Reingewürze und Mischungen sind zu 100 % natürlich, nahezu vollständig vegan und voller Leidenschaft entwickelt – für alle, die das Kochen als Genuss feiern.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_qf4DdY": {
+          "type": "text",
+          "settings": {
+            "title": "Wo hat STAY SPICED ! seinen Sitz?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Unser Hauptsitz befindet sich in Salzburg, Österreich – unsere Gewürzmanufaktur im angrenzenden Oberösterreich.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_BHz9xU": {
+          "type": "text",
+          "settings": {
+            "title": "Seit wann gibt es STAY SPICED ! ?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Die <strong>SPICEWORLD GmbH</strong> wurde 2005 in einer Garage in Salzburg gegründet – mit der Vision, den Gewürzmarkt durch kompromisslose Qualität und Leidenschaft neu zu definieren.</p><p>Im Jahr 2019 wurde die<strong> Marke STAY SPICED !</strong> offiziell gelauncht. Seither steht sie für moderne Gewürzkultur, innovative Produktentwicklung und echtes Geschmackserlebnis.</p><p>Heute ist STAY SPICED ! national wie international als Qualitätsführer im Premium-Gewürzsegment etabliert – mit Wurzeln in Österreich und einer wachsenden Community an Genussmenschen weit über die Landesgrenzen hinaus.<br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_wXXxYj": {
+          "type": "text",
+          "settings": {
+            "title": "Was zeichnet die Produkte von STAY SPICED ! aus?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Unsere Gewürze sind zu 100 % natürlich, ohne Zusatzstoffe, vorwiegend vegan, und werden mit größter Sorgfalt in unserer hauseigenen Produktion entwickelt und abgefüllt.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_4LTxUG",
+        "text_qf4DdY",
+        "text_BHz9xU",
+        "text_wXXxYj"
+      ],
+      "name": "Häufig gestellte Fragen ",
+      "settings": {
+        "heading": "Häufig gestellte Fragen zur Marke STAY SPICED !",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h1"
+      }
+    },
+    "content_toggles_TfRRbz": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_MfLrKk": {
+          "type": "text",
+          "settings": {
+            "title": "Wie groß ist euer Sortiment?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Aktuell bieten wir über <strong>160 Reingewürze und 365 Gewürzmischungen</strong> an – von Klassikern bis zu exklusiven Eigenkreationen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_7dNgVQ": {
+          "type": "text",
+          "settings": {
+            "title": "Woher stammen eure Gewürze?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Wir beziehen unsere Rohwaren aus den besten Anbaugebieten weltweit – so direkt wie möglich, mit wenigen <strong>bis keinen Zwischenhändlern.</strong></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_Pp8jxb": {
+          "type": "text",
+          "settings": {
+            "title": "Baut ihr auch selbst Gewürze an?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ja! Seit 2021 bauen wir auf dem „Maiergut“ in Oberösterreich unsere eigenen Gewürze an, darunter Koriander, Kümmel und Kürbiskerne für unser hauseigenes Kürbiskernöl.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_M7PL6T": {
+          "type": "text",
+          "settings": {
+            "title": "Achtet ihr auf Nachhaltigkeit?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Absolut. Unsere Verpackungen sind umweltfreundlich und stammen aus Österreich, unser Einkauf ist verantwortungsvoll, und wir arbeiten mit langjährigen, nachhaltigen Partnern in den Ursprungsländern zusammen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_hxTGGf": {
+          "type": "text",
+          "settings": {
+            "title": "Wo kann ich eure Produkte kaufen?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Im österreichischen Lebensmitteleinzelhandel, bei ausgewählten Fachhändlern, 24/7 online über unseren <a href=\"https://stayspiced.com/\" target=\"_blank\" title=\"https://stayspiced.com/\">Webshop</a> sowie in unseren Stores in der SCS (Vösendorf/Wien) und im Europark Salzburg.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_MfLrKk",
+        "text_7dNgVQ",
+        "text_Pp8jxb",
+        "text_M7PL6T",
+        "text_hxTGGf"
+      ],
+      "name": "Sortiment & Herkunft",
+      "settings": {
+        "heading": "Sortiment & Herkunft",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_3DHcNy": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_bh8Dmr": {
+          "type": "text",
+          "settings": {
+            "title": "Arbeitet ihr mit Köchen oder Marken zusammen?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ja, wir entwickeln regelmäßig kreative Kooperationen mit Köch:innen, Restaurants und spannenden Marken. Unsere Partner begleiten uns seit langer Zeit – unter anderem Spitzenkoch Roland Trettl, Top-Gastronomin und NENI Gründerin Haya Molcho, Grillprofi und Kochbuchautor Tom Heinzle sowie Supertramp & Freigeist Ben Perry.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_6GAeyJ": {
+          "type": "text",
+          "settings": {
+            "title": "Gibt es exklusive Gewürzmischungen in Kooperationen?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Sehr gerne! Wir bieten auch Gewürzmischungen im sogenannten Private Label an. Zu 100% in deinem Design – mit einer Standardmischung aus unserem Sortiment oder auch gerne mit deiner eigenen Mischung. Melde dich dazu bitte unter: office@stayspiced.com</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_bh8Dmr",
+        "text_6GAeyJ"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Kooperationen & Partnerschaften",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_N6hMG8": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_hxbrYT": {
+          "type": "text",
+          "settings": {
+            "title": "Wo finde ich Pressemitteilungen und Bildmaterial?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Aktuelle Pressemitteilungen, Produktbilder und Logos senden wir dir gerne zu. Schick uns einfach eine Mail – wir kümmern uns darum.<br/><strong>presse@danberg-danberg.com</strong><br/><strong>Fotocredit bei Nutzung:</strong> ©STAY_SPICED_!<br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_i7NzYw": {
+          "type": "text",
+          "settings": {
+            "title": "Kann ich Produktproben für Beiträge erhalten?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ja, sehr gerne. Für redaktionelle Anfragen oder Sample-Wünsche kontaktiere bitte unsere PR-Agentur danberg&danberg unter<br/><strong>presse@danberg-danberg.com</strong></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_4kkLz8": {
+          "type": "text",
+          "settings": {
+            "title": "Gibt es Ansprechpartner:innen für Interviews?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Klar – wir vermitteln dir Interviews mit Expert:innen, unserem Team oder der Geschäftsleitung. Anfrage bitte ebenfalls via<br/><strong>presse@danberg-danberg.com</strong><br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_j9Vqab": {
+          "type": "text",
+          "settings": {
+            "title": "Wichtige Hinweise für Journalist:innen",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Wir stehen dir jederzeit für spannende Geschichten rund um STAY SPICED ! zur Verfügung – egal ob du über unsere Philosophie, unsere Nachhaltigkeitsziele oder die Reise unserer Gewürze berichten möchtest.</p><p><br/>Wenn du einen exklusiven Beitrag über STAY SPICED ! planst, unterstützen wir dich gerne mit Infos, Hintergründen oder Bildmaterial.<br/></p><p>Bitte beachte:<br/><strong>Anfragen für Interviews oder Kooperationen mit unseren Testimonials (z. B. Markenbotschafter:innen oder Partnerköch:innen) können wir leider nicht koordinieren oder weiterleiten.</strong><br/></p><p>Für alles rund um STAY SPICED ! und unsere Produkte sind wir aber jederzeit für dich da!<br/></p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_hxbrYT",
+        "text_i7NzYw",
+        "text_4kkLz8",
+        "text_j9Vqab"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Presse & Medieninfos",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_XThwef": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_Rc8TWJ": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Themen können Journalist:innen über STAY SPICED ! behandeln?  ",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>STAY SPICED ! bietet eine breite Vielfalt an Themen für deine journalistische Arbeit – unter anderem:</p><ul><li>Die Bedeutung von Premium-Gewürzen in der modernen Küche</li><li>Nachhaltigkeit im Gewürzhandel</li><li>Tipps & Tricks für das perfekte Würzen</li><li>Innovative Produktentwicklungen & saisonale Trends</li><li>Rezepte und Anwendungsideen</li><li>Behind the Scenes: Einblick in unsere Produktion</li><li>Regionalität & Eigenanbau<br/></li></ul>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_Rc8TWJ"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Themen für redaktionelle Beiträge",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_RCeiPE": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_ce6qnA": {
+          "type": "text",
+          "settings": {
+            "title": "Dein direkter Kontakt",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>PR & Kommunikationsagentur danberg&danberg</strong><br/>presse@danberg-danberg.com<br/>+43 2231 21647<br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_GbXibh": {
+          "type": "text",
+          "settings": {
+            "title": "Presse-Events & Produktions-Einblicke",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Aus Gründen der Lebensmittelsicherheit können wir leider keine persönlichen Einblicke in unsere Produktion ermöglichen.<br/>Damit du dir dennoch ein gutes Bild machen kannst, stellen wir dir gerne hochwertiges Bildmaterial zur Verfügung – von unserer Manufaktur bis hin zu Produkten, Team & Stimmung.</p><p><strong>presse@danberg-danberg.com</strong><br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_zdpUfM": {
+          "type": "text",
+          "settings": {
+            "title": "Du möchtest künftig über STAY SPICED ! informiert bleiben oder bei zukünftigen Events dabei sein?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Dann melde dich gerne für unseren Presseverteiler an – ebenfalls via<br/><strong>presse@danberg-danberg.com</strong><br/></p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ce6qnA",
+        "text_GbXibh",
+        "text_zdpUfM"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Kontakt für Medien & Journalist:innen",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_79ekC3": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_EL33ci": {
+          "type": "text",
+          "settings": {
+            "title": "Alle Infos im Überblick",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<ul><li><strong>Gründung des Unternehmens:</strong> 2005 als SPICEWORLD GmbH</li><li><strong>Launch der Marke:</strong> 2019</li><li><strong>Standorte:</strong> Salzburg & Oberösterreich</li><li><strong>Produktion:</strong> alles Inhouse – keine externe Abfüllung</li><li><strong>Sortiment:</strong> über 160 Reingewürze & 365 Mischungen</li><li><strong>Vertrieb:</strong> Online, stationär & im Handel</li><li><strong>Kooperationen: </strong>Mit Spitzenköchen, Restaurants & Marken</li><li><strong>USP: </strong>100 % Qualität, nachhaltige Herkunft, mutiges Design<br/></li></ul>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_EL33ci"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "STAY SPICED ! auf einen Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_column_metaobject_kYzCGr": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_zVC8Qh": {
+          "type": "text",
+          "settings": {
+            "content": "<p><strong>Mediathek – Pressematerial<br/>Aktuelle Pressemitteilungen und Ansprechpartner</strong></p><p>In unserer Mediathek findest du demnächst hochauflösendes<br/>Bildmaterial, Logos, Produktfotos und Videos für deine Berichterstattung. Alles ist einfach herunterzuladen und zur freien Verwendung in Medien, Artikeln und Beiträgen.<br/>Des weiteren stellen wir dir hier unsere Ansprechpartner für Presseanfragen vor.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zVC8Qh"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Was dich erwartet:",
+        "subheading": "",
+        "col_count": 2,
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_tBWKD8": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XyzQbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>„Gewürze sind Emotion – sie erzählen Geschichten, wecken Erinnerungen und schaffen Momente voller Geschmack. Genau das wollen wir mit STAY SPICED ! erreichen: Dass ein Duft, ein Geschmack dich an Omas frisch gebackenen Kuchen erinnert oder an ein perfektes Dinner mit Freund:innen. Unsere Gewürze sollen nicht nur schmecken – sie sollen berühren.“</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "subtitle_6tFe4U": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "– Lukas M. Walchhofer",
+            "title_size": "h2"
+          }
+        },
+        "text_fwdAzm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>erster Mitarbeiter & geschäftsführender Gesellschafter von STAY SPICED !</em></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_XyzQbU",
+        "subtitle_6tFe4U",
+        "text_fwdAzm"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Lukas-Walchhofer.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_PMzWBk",
+    "rich_text_cVtQAp",
+    "marquee_aFYJdX",
+    "content_toggles_aUa8Vm",
+    "content_toggles_TfRRbz",
+    "content_toggles_3DHcNy",
+    "content_toggles_N6hMG8",
+    "content_toggles_XThwef",
+    "content_toggles_RCeiPE",
+    "content_toggles_79ekC3",
+    "text_column_metaobject_kYzCGr",
+    "rich_text_tBWKD8"
+  ]
+}

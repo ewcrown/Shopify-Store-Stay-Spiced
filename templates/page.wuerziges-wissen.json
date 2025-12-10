@@ -1,0 +1,537 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_QPHp8r": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Landingpage_S_TAY_WILD.png",
+        "mobile_image": "shopify://shop_images/Kopie_von_Header_Startseite_-_Mobile_1.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "featured_collection_qUQHP3": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_KpVVLb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_qHdFtj": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_43rAmX": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_KpVVLb",
+        "title_qHdFtj",
+        "quick_buy_43rAmX"
+      ],
+      "settings": {
+        "heading": "TURBO MEGA GIGA BOOSTER",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 16,
+        "product-info-width-limit": 1000,
+        "collection": "wurziges-wissen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "slideshow_dU7ida": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8GtYWy": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/Kein_Titel_2000_x_1125_px.png",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_8GtYWy"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "featured_product_DErhEX": {
+      "type": "featured-product",
+      "blocks": {
+        "title_maHfPh": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_fKUCgR": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_emnzbz": {
+          "type": "space",
+          "settings": {}
+        },
+        "price_QamALg": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_8tFefc": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_nA6kEr": {
+          "type": "space",
+          "settings": {}
+        },
+        "bullet_x6CVDb": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "🌿 100 % regional: Gewürzmischungen aus österreichischem Eigenanbau",
+            "bullet_02": "🎁 Nachhaltiges Geschenkset: Ideal für bewusste Genießer und Feinschmecker",
+            "bullet_03": "🧂 4 aromatische Gewürze: Für vielfältige kulinarische Anwendungen"
+          }
+        }
+      },
+      "block_order": [
+        "title_maHfPh",
+        "variant_picker_fKUCgR",
+        "space_emnzbz",
+        "price_QamALg",
+        "buy_buttons_8tFefc",
+        "space_nA6kEr",
+        "bullet_x6CVDb"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "maiergut-koriander-und-kummel-gewurze-set-2er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "text_columns_icons_7mBGmc": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_6fMdef": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "100% Gewürz",
+            "caption": "Unsere Suppengewürze bestehen zu 100 % aus natürlichen & hochwertigen Zutaten!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_GgzVcW": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "image": "shopify://shop_images/delivery-256.png",
+            "title": "Super schnelle Lieferung",
+            "caption": "Und ab 39,99 sogar Versandkostenfrei zu dir nach hause",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_cPTxqN": {
+          "type": "image",
+          "settings": {
+            "icon": "tree",
+            "image": "shopify://shop_images/heart-256.png",
+            "title": "Ohne künstliche Zusatzstoffe",
+            "caption": "Unsere Suppengewürze sind ganz ohne künstliche Zusatzstoffe – für den puren, natürlichen Geschmack!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_6fMdef",
+        "image_GgzVcW",
+        "image_cPTxqN"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_cw3icz": {
+      "type": "rich-text",
+      "blocks": {
+        "title_yCheJA": {
+          "type": "title",
+          "settings": {
+            "title": "Für das besondere Ostergeschenk",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_KVBQGc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beim Kauf einer STAY SPICED ! Geschenkbox packen wir dir eine gratis \"HOP HOP HOP\" Osterbanderole in deine Bestellung mit rein. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_yCheJA",
+        "text_KVBQGc"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/OSTER-Banderole_9x16_f9774f03-f262-44d8-bd74-f52826ec464a.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#dbb6d7",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_PGAiYT": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "iframe {width: 90%; height: 600px; margin: 0 auto; background-color: #777;"
+      ],
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<iframe width=\"80%\" height=\"500px\" src=\"https://www.youtube.com/embed/rFkEYxDg6AE?si=4iz7VBKK7mhxQ4aR\" title=\"YouTube video player\" frameborder=\"0\" text-align:center; allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "media_with_text_overlay_YjJ7C4": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_fg6Phr": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/STAY-SPICED_teaser_STAY-WILD_gewuerze-Ben_perry.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_fg6Phr"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_cbQCV6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_DiGW4z": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ckYCnq": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_TaG4Uf": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_DiGW4z",
+        "title_ckYCnq",
+        "quick_buy_TaG4Uf"
+      ],
+      "settings": {
+        "heading": "URLAUBSZEIT IST GRILLZEIT",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "oster-boxen-kollektion",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_3NCQLz": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_7TWyq9": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_7TWyq9"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "post_limit": 12,
+        "section_heading_layout": "section-heading--left",
+        "blog": "reingewuerze",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "0.666667",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_pa4xhU": {
+      "type": "rich-text",
+      "blocks": {
+        "title_KTjJKU": {
+          "type": "title",
+          "settings": {
+            "title": "Über Margarete",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_Wx9fna": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Margarete Olesko ist Präsidentin der Salzburger Apothekerkammer, erfahrene Pharmazeutin und leidenschaftliche Verfechterin traditioneller Heilmethoden. </p><p>Ihr beruflicher Weg begann mit einer Lehre als PKA, gefolgt vom Pharmaziestudium an der Universität Innsbruck. Heute leitet sie ihre eigene Apotheke in Salzburg und engagiert sich mit Herzblut für eine moderne, aber naturverbundene Pharmazie.</p><p>In ihrer Arbeit verbindet sie fundiertes Fachwissen mit dem reichen Erfahrungsschatz der Pflanzenheilkunde. Besonders wichtig ist ihr die Weitergabe von Wissen über die natürliche Kraft von Kräutern, Heilpflanzen – und Gewürzen. Mit STAY SPICED ! teilt sie in einer Videoreihe ihr Wissen über Reingewürze und deren positiven Einfluss auf Körper und Wohlbefinden.</p><p>Ob im Apotheken-Kräutergarten oder bei der Entwicklung von Gesundheitsbroschüren: Margarete Olesko steht für eine neue Generation von Apotheker*innen – wissenschaftlich fundiert, naturbewusst und immer am Puls der Zeit.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_KTjJKU",
+        "text_Wx9fna"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_iEn7YJ": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "media_with_text_overlay_UWjCKn": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_qmFR9n": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/Apotheke_Margarete_Chilli_Website.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_qmFR9n"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "Media with text overlay",
+        "subheading": "Promote your best products",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "image_QPHp8r",
+    "main",
+    "featured_collection_qUQHP3",
+    "slideshow_dU7ida",
+    "featured_product_DErhEX",
+    "text_columns_icons_7mBGmc",
+    "rich_text_cw3icz",
+    "custom_liquid_PGAiYT",
+    "media_with_text_overlay_YjJ7C4",
+    "featured_collection_cbQCV6",
+    "blog_slider_3NCQLz",
+    "rich_text_pa4xhU",
+    "custom_liquid_iEn7YJ",
+    "media_with_text_overlay_UWjCKn"
+  ]
+}

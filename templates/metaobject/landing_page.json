@@ -1,0 +1,515 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "sp_rich_text_3Ttm7g": {
+      "type": "sp-rich-text",
+      "blocks": {
+        "title_zizapL": {
+          "type": "title",
+          "settings": {
+            "title": "1"
+          }
+        },
+        "text_A8Xwp4": {
+          "type": "text",
+          "settings": {}
+        },
+        "button_PERyc4": {
+          "type": "button",
+          "source": "{{ metaobject[\"1_text_block\"].value }}",
+          "settings": {
+            "button_label": "{{ metaobject[\"1_text_block\"].value.button_label.value }}",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_zizapL",
+        "text_A8Xwp4",
+        "button_PERyc4"
+      ],
+      "settings": {
+        "text_snippet": 1,
+        "liquid": "",
+        "seo_h_tag": "h2",
+        "title_size": "h3",
+        "text_size": "regular",
+        "image_position": "left",
+        "height": "large",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "{{ metaobject[\"1_text_block\"].value.background_color.value.color.value }}",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "{{ metaobject[\"1_text_block\"].value.text_color.value.color.value }}",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false
+      }
+    },
+    "marquee_Hwq6jL": {
+      "type": "marquee",
+      "blocks": {
+        "text_JWPdP7": {
+          "type": "text",
+          "repeater": "{{ metaobject.running_texts.value }}",
+          "settings": {
+            "marquee_text": "{{ block.repeater.title.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_JWPdP7"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#e9e9e9",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "sp_rich_text_Yny7LM": {
+      "type": "sp-rich-text",
+      "blocks": {
+        "title_Hyp6wX": {
+          "type": "title",
+          "settings": {
+            "title": "2"
+          }
+        },
+        "subtitle_3m6DTn": {
+          "type": "subtitle",
+          "settings": {}
+        },
+        "text_M4qwAd": {
+          "type": "text",
+          "settings": {}
+        },
+        "button_8wKdYN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "product_tATPB9": {
+          "type": "product",
+          "source": "{{ metaobject[\"2_text_block\"].value }}",
+          "settings": {
+            "product": "{{ metaobject[\"2_text_block\"].value.related_product.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "title_Hyp6wX",
+        "subtitle_3m6DTn",
+        "text_M4qwAd",
+        "button_8wKdYN",
+        "product_tATPB9"
+      ],
+      "settings": {
+        "text_snippet": 2,
+        "liquid": "",
+        "seo_h_tag": "h2",
+        "title_size": "h2",
+        "text_size": "regular",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "{{ metaobject[\"2_text_block\"].value.background_color.value.color.value }}",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "{{ metaobject[\"2_text_block\"].value.text_color.value.color.value }}",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false
+      }
+    },
+    "sp_rich_text_hqJpjk": {
+      "type": "sp-rich-text",
+      "blocks": {
+        "title_hjcjRp": {
+          "type": "title",
+          "settings": {
+            "title": "3"
+          }
+        },
+        "subtitle_zL9V7t": {
+          "type": "subtitle",
+          "settings": {}
+        },
+        "text_7pPCqG": {
+          "type": "text",
+          "settings": {}
+        },
+        "button_F3n7Ke": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_hjcjRp",
+        "subtitle_zL9V7t",
+        "text_7pPCqG",
+        "button_F3n7Ke"
+      ],
+      "settings": {
+        "text_snippet": 3,
+        "liquid": "",
+        "seo_h_tag": "h2",
+        "title_size": "h2",
+        "text_size": "regular",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "{{ metaobject[\"3_text_block\"].value.background_color.value.color.value }}",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "{{ metaobject[\"1_text_block\"].value.text_color.value.color.value }}",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_tK3dWh": {
+      "type": "featured-collection",
+      "blocks": {
+        "rating_3FpEEY": {
+          "type": "rating",
+          "settings": {}
+        },
+        "title_xmPDf4": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_BKARyY": {
+          "type": "price",
+          "settings": {}
+        },
+        "quick_buy_YXFWC4": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "rating_3FpEEY",
+        "title_xmPDf4",
+        "price_BKARyY",
+        "quick_buy_YXFWC4"
+      ],
+      "settings": {
+        "heading": "Passendes dazu",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4,
+        "product-info-width-limit": 500,
+        "collection": "{{ metaobject.related_collection_1.value }}",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_8YF8qG": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_TWGRnX": {
+          "type": "card",
+          "settings": {
+            "caption": "",
+            "title": "Chili aus aller Welt",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Alle anzeigen",
+            "color_background_main": "#d14545",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_BYxywM": {
+          "type": "card",
+          "settings": {
+            "caption": "",
+            "title": "Curry aus aller Welt",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Alle anzeigen",
+            "color_background_main": "#ededa2",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_pxnxmk": {
+          "type": "card",
+          "settings": {
+            "caption": "",
+            "title": "Pfeffer aus aller Welt",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Alle anzeigen",
+            "color_background_main": "#c7ada4",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_TWGRnX",
+        "card_BYxywM",
+        "card_pxnxmk"
+      ],
+      "settings": {
+        "heading": "Unsere beliebtesten Kategorien",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "regular",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_VX4Vtd": {
+      "type": "featured-product",
+      "blocks": {
+        "rating_4JwcKb": {
+          "type": "rating",
+          "settings": {}
+        },
+        "title_43YAfY": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_bWCXXh": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons_AUF8kV": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "rating_4JwcKb",
+        "title_43YAfY",
+        "variant_picker_bWCXXh",
+        "buy_buttons_AUF8kV"
+      ],
+      "settings": {
+        "title": "Product Title",
+        "section_heading_layout": "section-heading--center",
+        "product": "{{ metaobject.related_product_1.value }}",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "blog_posts_HQYnWw": {
+      "type": "blog-posts",
+      "blocks": {
+        "info_kdti8J": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_EQdjGy": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_kdti8J",
+        "title_EQdjGy"
+      ],
+      "settings": {
+        "title": "Neuste Rezepte",
+        "subheading": "",
+        "show_view_all": true,
+        "post_limit": 3,
+        "section_heading_layout": "section-heading--center",
+        "blog": "rezepte",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": true,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_with_hotspots_7VyWNB": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "product_b6BtMR": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "vertical_offset_desktop": 50,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        }
+      },
+      "block_order": [
+        "product_b6BtMR"
+      ],
+      "settings": {
+        "heading": "Image with hotspots",
+        "subheading": "Promote your best products",
+        "section_heading_layout": "section-heading--left",
+        "color_text": "#000000",
+        "color_background": "#ffffff",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h3"
+      }
+    },
+    "newsletter_jyDTqh": {
+      "type": "newsletter",
+      "settings": {
+        "show_icon": false,
+        "title": "Melde dich zum Newsletter an und sichere dir -10% Rabatt!",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
+        "color_background_main": "#ffff00",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_Trym8r": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_8PVrRr": {
+          "type": "text",
+          "repeater": "{{ metaobject.faqs.value }}",
+          "settings": {
+            "title": "{{ block.repeater.title.value }}",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "{{ block.repeater.answer | metafield_tag }}",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8PVrRr"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "sp_rich_text_3Ttm7g",
+    "marquee_Hwq6jL",
+    "sp_rich_text_Yny7LM",
+    "sp_rich_text_hqJpjk",
+    "featured_collection_tK3dWh",
+    "promotion_cards_8YF8qG",
+    "featured_product_VX4Vtd",
+    "blog_posts_HQYnWw",
+    "image_with_hotspots_7VyWNB",
+    "newsletter_jyDTqh",
+    "content_toggles_Trym8r"
+  ]
+}

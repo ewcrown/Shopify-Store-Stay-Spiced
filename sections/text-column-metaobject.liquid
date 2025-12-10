@@ -1,0 +1,150 @@
+{{ 'component-blog-item.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="text-meta-container container--large {% if section.settings.section_background_color != "rgba(0,0,0,0)" %} container--has-background {% endif %}"
+  style="--columns: {{ section.settings.col_count }};"
+>
+  <div class="content-columns">
+    {% if section.settings.title %}
+      <h3 class="section-heading__title h3">{{ section.settings.title | escape }}</h3>
+    {% endif %}
+    {% if section.settings.subheading %}
+      <span class="section-heading__subheading text-size--large h5">{{ section.settings.subheading }}</span>
+    {% endif %}
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'text' -%}
+          <div>
+            {{ block.settings.content }}
+          </div>
+        {%- when 'button' -%}
+          {% if block.settings.label != blank %}
+            <div class="text-meta-btn-wrapper">
+              <a href="{{ block.settings.url }}" class="text-meta-btn">
+                {{ block.settings.label }}
+              </a>
+            </div>
+          {% endif %}
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<style>
+  .text-meta-container .content-columns {
+    column-count: var(--columns);
+    column-gap: 200px;
+    column-rule: 1px solid #000;
+  }
+
+  @media screen and (max-width: 767px) {
+    .text-meta-container {
+      padding: var(--gutter-large);
+      --columns: 1 !important;
+    }
+  }
+
+  .text-meta-container .text-meta-btn-wrapper {
+    width: fit-content;
+    margin: 40px auto;
+  }
+
+  .text-meta-container .text-meta-btn-wrapper .text-meta-btn {
+    padding: 10px 40px;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-weight: 600;
+  }
+
+  .section-heading__subheading {
+    margin-bottom: 10px;
+  }
+</style>
+
+{%- if section.settings.section_background_color != 'rgba(0,0,0,0)' -%}
+  {% style %}
+    #shopify-section-{{ section.id }} .container--has-background {
+      --color-background-section: {{ section.settings.section_background_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Meta Text",
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "button_link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "default": "Mehr Erfahren",
+          "label": "Button Label"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "header",
+      "content": "Input the title"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Was dich erwartet"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Weitere Unterüberschrift"
+    },
+    {
+      "type": "header",
+      "content": "Select the column count"
+    },
+    {
+      "type": "range",
+      "id": "col_count",
+      "label": "Column Count",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "Background Color",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Meta Text"
+    }
+  ]
+}
+{% endschema %}

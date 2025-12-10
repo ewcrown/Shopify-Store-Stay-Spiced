@@ -1,0 +1,97 @@
+.latori-tem2-container {
+  padding: 1.5rem 0;
+}
+
+.latori-tem2-container div,
+.latori-tem2-container button,
+.latori-tem2-containere p,
+.latori-tem2-container input,
+#latori-tem2-account-page p {
+  margin: 0.5rem 0;
+  padding: 0 0;
+}
+
+.latori-tem2-hide {
+  display: none !important;
+}
+
+.latori-tem2-message {
+  display: flex;
+  max-width: 100%;
+}
+
+.latori-tem2-message div:nth-child(1) {
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.latori-tem2-message div svg,
+.latori-tem2-message div span {
+  vertical-align: middle;
+}
+
+.latori-tem2-message div:nth-child(2) {
+  padding-left: 0.5rem;
+}
+
+.latori-tem2-disclaimer {
+  font-size: smaller;
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  input[name="latori-tem2-vat-id"],
+  #latori-tem2-account-page-vat-id-input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) {
+  #latori-tem2-account-page {
+    display: block;
+  }
+}
+/* for the spinner */
+
+.latori-tem2-spinner {
+  animation: rotate 2s linear infinite;
+  z-index: 2;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+.latori-tem2-spinner .latori-tem2-path {
+  stroke: #93bfec;
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
+
+/* for the x crossmark */
+
+.latori-tem2-close-x {
+  stroke: red;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-width: 5;
+}

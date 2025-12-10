@@ -1,0 +1,427 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_yqp8zp": {
+      "type": "rich-text",
+      "blocks": {
+        "title_P9k449": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Willkommen bei STAY SPICED! </strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_iF7rte": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Tauche ein in die Welt voller einzigartiger Gewürze!</strong></p><p>Schön, dass du bei uns bist! Du hast nicht nur ein einzigartiges Gewürz in die Hand genommen, sondern unterstützt auch ein österreichisches Unternehmen, das für Qualität, Nachhaltigkeit und Regionalität steht. Auf dieser Seite möchten wir dir mehr über unsere Philosophie, unseren Eigenanbau und unsere Zusammenarbeit mit Spar erzählen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_P9k449",
+        "text_iF7rte"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/august_thumbnail_1.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#c8e970",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_dCUij9": {
+      "type": "rich-text",
+      "blocks": {
+        "title_zPUF64": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Die besten Gewürze – sorgfältig ausgewählt, mit Liebe verarbeitet</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_kgbbAe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>STAY SPICED!</strong> ist stolz darauf, ein Unternehmen aus Österreich zu sein. Unsere Wurzeln liegen tief in der Region, und wir legen großen Wert darauf, den Geschmack von <strong>hochwertigen Gewürzen</strong> in die Küchen der Menschen zu bringen. Wir wissen, dass gute Qualität nicht nur im Lebensmittel selbst steckt, sondern auch in der Herkunft und den Menschen, die dahinterstehen. Deshalb setzen wir auf <strong>direkte Partnerschaften</strong> und arbeiten eng mit Lieferanten zusammen, die unsere Werte teilen. Dafür ist uns kein Weg zu weit. Unsere Gewürze stammen aus den <strong>besten Ursprungsregionen weltweit</strong>, für echten, unverfälschten Genuss.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_zPUF64",
+        "text_kgbbAe"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/DSC03713.jpg",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_E98x6w": {
+      "type": "rich-text",
+      "blocks": {
+        "title_EKnAdP": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Eigenanbau– Gewürze, die aus der Region wachsen</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_y6TU4f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ein ganz besonderes Highlight unserer Arbeit ist unser <strong>Eigenanbau</strong>.</p><p>2021 haben wir das <strong>Maiergut</strong> im oberösterreichischen Innviertel übernommen, ein 17 Hektar großes Areal, auf dem wir neben Koriander und Kümmel auch Ölsaaten wie Mohn und Kürbiskerne anbauen. Mit diesem Schritt wollen wir die Wertigkeit von regionalem Gewürzanbau weiter fördern und so eine noch nachhaltigere Produktion schaffen.</p><p><strong>Ganz nach dem Motto: zurück bis zum Handschlag.</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_EKnAdP",
+        "text_y6TU4f"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/IMG_8760.heic",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#eadbbb",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_WbAyYr": {
+      "type": "rich-text",
+      "blocks": {
+        "title_hFgWcC": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Lukas M. Walchhofer</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_px4tt7": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "unser CEO und Gewürzexperte, sagt dazu:",
+            "title_size": "h2"
+          }
+        },
+        "text_VpYMiU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>„Mit dem Eigenanbau wollen wir das Bewusstsein für regionalen Gewürzanbau höchster Qualität schaffen und noch einen Schritt weiter gehen in Sachen Regionalität.“</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_hFgWcC",
+        "subtitle_px4tt7",
+        "text_VpYMiU"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Lukas_Walchhofer238.jpg",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_drMdJw": {
+      "type": "rich-text",
+      "blocks": {
+        "title_MEpcEy": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Österreichisches Unternehmen</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_9JDbQi": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Deine Wahl für Qualität",
+            "title_size": "h2"
+          }
+        },
+        "text_QtMCVm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>STAY SPICED!</strong> wurde 2005 in Österreich gegründet und hat sich seither zu einer Marke entwickelt, die für Qualität, beste Gewürze und Innovation steht. Unser Fokus liegt nicht nur auf hochwertiger Gewürzqualität, sondern auch auf nachhaltiger Produktion und der Förderung der Regionalität. Wir möchten den Menschen in Österreich und darüber hinaus den echten Geschmack der Natur näherbringen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_MEpcEy",
+        "subtitle_9JDbQi",
+        "text_QtMCVm"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Purer-Geschmack.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#89ccca",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_F4wimg": {
+      "type": "rich-text",
+      "blocks": {
+        "title_3683K8": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Unser Team</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_pcPawU": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Leidenschaft für Gewürze",
+            "title_size": "h2"
+          }
+        },
+        "text_z4mJTa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser Team bei <strong>STAY SPICED!</strong> ist der Schlüssel zu unserem Erfolg. Mit Fachwissen, Hingabe und einer großen Portion Leidenschaft für die Welt der Gewürze arbeiten wir gemeinsam daran, dir immer wieder neue und innovative Geschmackserlebnisse zu bieten. Vom Anbau bis zur Verarbeitung – wir bringen ausschließlich Gewürze aus bester Herkunft und mit größter Sorgfalt auf deinen Tisch.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_3683K8",
+        "subtitle_pcPawU",
+        "text_z4mJTa"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/unser_team_1.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_yXrU6n": {
+      "type": "rich-text",
+      "blocks": {
+        "title_tywGez": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Zusammenarbeit mit SPAR Österreich</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_r4kt3i": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Gemeinsam für bessere Produkte",
+            "title_size": "h2"
+          }
+        },
+        "text_hLf947": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir sind stolz darauf, <strong>SPAR Österreich </strong>als als unseren Partner zu haben. Diese Zusammenarbeit ermöglicht es uns, unsere hochwertigen Gewürze einem breiten Publikum zugänglich zu machen und unsere Vision von regionaler und nachhaltiger Verarbeitung weiter zu verbreiten. Der Vertrieb über SPAR ist ein weiterer Schritt hin zu einem besseren und nachhaltigeren Gewürzhandel. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_tywGez",
+        "subtitle_r4kt3i",
+        "text_hLf947"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Mischung_Ausschnitt.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_wNirc3": {
+      "type": "rich-text",
+      "blocks": {
+        "title_cKtqxn": {
+          "type": "title",
+          "settings": {
+            "title": "Erkunde unser gesamtes Sortiment",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_hmHmhn": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Entdecke die Vielfalt!",
+            "title_size": "h2"
+          }
+        },
+        "text_gjQpyW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir freuen uns, dass du den Weg zu uns gefunden hast! Jetzt, da du mehr über unsere Philosophie und unsere Werte erfahren hast, laden wir dich ein, unser gesamtes Sortiment zu entdecken. Von exklusiven Gewürzmischungen bis hin zu speziellen Kräutern – lass  dich inspirieren und erweitere dein Gewürz-Repertoire. Besuche unseren <strong>Online-Shop </strong>und finde genau das Gewürz, das dein nächstes Gericht verfeinert.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_Jjdy4e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt entdecken",
+            "link": "shopify://collections/gewurz",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_cKtqxn",
+        "subtitle_hmHmhn",
+        "text_gjQpyW",
+        "button_Jjdy4e"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/S_-Hintergrund.jpg",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_yqp8zp",
+    "rich_text_dCUij9",
+    "rich_text_E98x6w",
+    "rich_text_WbAyYr",
+    "rich_text_drMdJw",
+    "rich_text_F4wimg",
+    "rich_text_yXrU6n",
+    "rich_text_wNirc3"
+  ]
+}

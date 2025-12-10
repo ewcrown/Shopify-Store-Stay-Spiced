@@ -1,0 +1,449 @@
+<link rel="stylesheet" href="{{ "section-contact-form.css" |  asset_url }}">
+
+<div class="{% if section.settings.section_background_color != "rgba(0,0,0,0)" %} container--has-background {% endif %}">
+  <div class="container--large container--vertical-space remove-empty-space">
+    <div class="contact-form">
+      <div class="contact-form__the-form">
+        {%- unless section.settings.heading == blank -%}
+          <{{ section.settings.seo_h_tag }} class="h4 gutter-bottom--small" style="display:block">
+            {{- section.settings.heading | escape -}}
+          </{{ section.settings.seo_h_tag }}>
+        {%- endunless -%}
+
+        {%- assign form_id = 'contact-' | append: section.id -%}
+        {%- form 'contact', id: form_id, class: 'isolate' -%}
+          {%- liquid
+            if form.posted_successfully?
+              assign message = 'general.contact_form.success_message' | t
+              render 'form-success', message: message
+            elsif form.errors
+              render 'form-errors', form: form
+            endif
+          -%}
+
+          {%- if section.settings.master_data -%}
+            <div class="form-input-section">
+              <div class="form-section-title">{{ section.settings.master_data_title }}</div>
+              <div class="contact__fields">
+                {%- for block in section.blocks -%}
+                  {%- if block.type == 'input' -%}
+                    <div class="input-group">
+                      <div class="contact-form__row">
+                        {% comment %}
+                          <input
+                            class="field__input"
+                            autocomplete="name"
+                            type="text"
+                            id="{{ form_id }}-name"
+                            name="contact[{{ 'general.contact_form.name_label' | t }}]"
+                            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                            placeholder="{{ 'general.contact_form.name_label' | t }}"
+                          >
+                        {% endcomment %}
+                        <input
+                          class="field__input"
+                          type="{{block.settings.type}}"
+                          id="{{ form_id }}-{{ block.settings.name }}"
+                          name="contact[{{ block.settings.name }}]"
+                          placeholder="{{block.settings.placeholder}} {%- if block.settings.require -%}*{%- endif -%}"
+                          {% if block.settings.require %}
+                            required
+                          {% endif %}
+                        >
+                      </div>
+                    </div>
+                  {%- endif -%}
+                  {%- if block.type == 'dropdown' -%}
+                    {% assign options = block.settings.dropdown_options | split: ';' %}
+                    <select
+                      class="field__select"
+                      name="contact[{{ block.settings.name }}]"
+                      id="{{ form_id }}-{{ block.settings.name }}"
+                      {% if block.settings.require %}
+                        required
+                      {% endif %}
+                    >
+                      {% if block.settings.label %}
+                        <option selected disabled>{{ block.settings.label }}</option>
+                      {% endif %}
+                      {% for option in options %}
+                        <option value="{{ option | strip }}">{{ option | strip }}</option>
+                      {% endfor %}
+                    </select>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+              <div class="form-mendatory">*Required field empty</div>
+            </div>
+          {%- endif -%}
+
+          {%- if section.settings.further_question -%}
+            <div class="form-input-section">
+              <div class="form-section-title">{{ section.settings.further_question_title }}*</div>
+              {%- for block in section.blocks -%}
+                {%- if block.type == 'further_question' -%}
+                  <toggle-tab class="toggle toggle--message opened" data-togglepack-alternate>
+                    <div
+                      class="toggle__title"
+                      data-js-title
+                      tabindex="0"
+                      aria-expanded="false"
+                      role="button"
+                      aria-controls="toggle-form-message"
+                    >
+                      <div class="toggle__heading">
+                        <div class="toggle__subtitle">
+                          <span class="text-size--small">
+                            {{ block.settings.fq_title }}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      id="toggle--form-message"
+                      data-js-content
+                      class="toggle__content rte remove-empty-space"
+                      role="region"
+                    >
+                      <div class="contact-form__row">
+                        <label class="visually-hidden" for="{{ form_id }}-body">
+                          {{- 'general.contact_form.message_label' | t -}}
+                        </label>
+                        <textarea
+                          rows="10"
+                          id="{{ form_id }}-body"
+                          class="text-area field__input"
+                          name="contact[{{ 'general.contact_form.message_label' | t }}]"
+                          placeholder="{{block.settings.fq_placeholder}}*"
+                          required
+                        >{{ form.body }}</textarea>
+                      </div>
+                    </div>
+                  </toggle-tab>
+                {%- endif -%}
+              {%- endfor -%}
+              <div class="form-mendatory">*Required field empty</div>
+            </div>
+          {%- endif -%}
+          {%- if section.settings.confirm -%}
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {% when 'confirm' %}
+                  <div class="more-info">
+                    <div class="more-info-title">{{ block.settings.confirm_title }}</div>
+                    <div class="more-info-subtitle">
+                      <input type="checkbox" id="{{ form_id }}-agree" required>
+                      <label for="{{form_id}}-agree"> {{ block.settings.confirm_subtitle }}</label>
+                    </div>
+                    <a href="{{ block.settings.confirm_link }}" style="text-decoration: underline;">
+                      {{- block.settings.confirm_desc -}}
+                    </a>
+                  </div>
+              {%- endcase -%}
+            {%- endfor -%}
+
+            <div class="contact-form__row">
+              <button type="submit" class="button button--solid button--regular">
+                {{ section.settings.button_label }}
+              </button>
+            </div>
+          {%- endif -%}
+        {%- endform -%}
+      </div>
+
+      {%- if section.blocks.size > 0 -%}
+        {%- for block in section.blocks -%}
+          <div class="contact-form__info">
+            {%- unless block.settings.title == blank -%}
+              <{{ block.settings.seo_h_tag }} class="h4 gutter-bottom--small" style="display:block">
+                {{- block.settings.title | escape -}}
+              </{{ block.settings.seo_h_tag }}>
+            {%- endunless -%}
+            <div class="gutter--regular element--border-radius" style="border: 1px solid var(--color-borders-main)">
+              {{ block.settings.content }}
+            </div>
+          </div>
+        {%- endfor -%}
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{%- if section.settings.section_background_color != 'rgba(0,0,0,0)' -%}
+  {% style %}
+    #shopify-section-{{ section.id }} .container--has-background {
+      --color-background-section: {{ section.settings.section_background_color }};
+    }
+  {% endstyle %}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Contact Form",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Anmeldung - Grillseminar"
+    },
+    {
+      "type": "header",
+      "content": "Form Fields"
+    },
+    {
+      "type": "header",
+      "content": "Master Data"
+    },
+    {
+      "type": "text",
+      "id": "master_data_title",
+      "label": "Title",
+      "default": "Master Data"
+    },
+    {
+      "type": "checkbox",
+      "id": "master_data",
+      "label": "Master Data",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Further Question"
+    },
+    {
+      "type": "text",
+      "id": "further_question_title",
+      "label": "Title",
+      "default": "Further Question"
+    },
+    {
+      "type": "checkbox",
+      "id": "further_question",
+      "label": "Further Question",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Data Protection"
+    },
+    {
+      "type": "text",
+      "id": "data_protection_title",
+      "label": "Title",
+      "default": "Data Protection"
+    },
+    {
+      "type": "checkbox",
+      "id": "confirm",
+      "label": "Data Protection",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    { "type": "text", "id": "button_label", "label": "Button Label", "default": "Continue" },
+    {
+      "type": "select",
+      "id": "seo_h_tag",
+      "label": "t:sections.refactor_words.seo.label",
+      "info": "t:sections.refactor_words.seo.info",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "span",
+          "label": "span"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "t:sections.local-extra-words.settings_schema.product-card.badges.custom_badges.color",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "input",
+      "name": "Custom Input",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Name",
+          "id": "name"
+        },
+        {
+          "type": "select",
+          "id": "input_type",
+          "label": "Type",
+          "options": [
+            {
+              "value": "text",
+              "label": "Text"
+            },
+            {
+              "value": "email",
+              "label": "Email"
+            }
+          ],
+          "default": "text"
+        },
+        {
+          "type": "text",
+          "label": "PlaceHolder",
+          "id": "placeholder"
+        },
+        {
+          "type": "checkbox",
+          "label": "Required",
+          "id": "require",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "Dropdown",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Name",
+          "id": "name"
+        },
+        {
+          "type": "text",
+          "label": "Label",
+          "id": "label"
+        },
+        {
+          "type": "text",
+          "id": "dropdown_options",
+          "label": "Dropdown Options",
+          "default": "Red; Blue; Yellow; Black"
+        },
+        {
+          "type": "checkbox",
+          "label": "Required",
+          "id": "require",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "further_question",
+      "name": "Further Question",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "fq_title",
+          "default": "For which area do you have a suggestion or question?"
+        },
+        {
+          "type": "text",
+          "label": "PlaceHolder",
+          "id": "fq_placeholder",
+          "default": "your message"
+        }
+      ]
+    },
+    {
+      "type": "confirm",
+      "name": "Data Protection",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "confirm_title",
+          "default": "Data Protection"
+        },
+        {
+          "type": "text",
+          "label": "SubTitle",
+          "id": "confirm_subtitle",
+          "default": "Data protection guidelines read and accepted!"
+        },
+        {
+          "type": "inline_richtext",
+          "label": "Description",
+          "id": "confirm_desc",
+          "default": "Yes, by registering I agree to the STAY SPICED! Terms of use and data protection."
+        },
+        {
+          "type": "url",
+          "label": "Link",
+          "id": "confirm_link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact Form",
+      "blocks": [
+        {
+          "type": "input",
+          "settings": {
+            "name": "firstname",
+            "placeholder": "Firstname",
+            "input_type": "text",
+            "require": false
+          }
+        },
+        {
+          "type": "input",
+          "settings": {
+            "name": "lastname",
+            "placeholder": "Lastname",
+            "input_type": "text",
+            "require": false
+          }
+        },
+        {
+          "type": "input",
+          "settings": {
+            "name": "email",
+            "placeholder": "Email",
+            "input_type": "email",
+            "require": true
+          }
+        },
+        {
+          "type": "further_question"
+        },
+        {
+          "type": "confirm"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header"]
+  }
+}
+{% endschema %}

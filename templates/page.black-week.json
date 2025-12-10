@@ -1,0 +1,400 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_UDpaUE": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Oster_Gras_1.png",
+        "mobile_image": "shopify://shop_images/Oster_Handyansicht.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "featured_collection_GXkaxN": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_yfbAtP": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_3xtXAp": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_dNCMjK": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_yfbAtP",
+        "title_3xtXAp",
+        "quick_buy_dNCMjK"
+      ],
+      "settings": {
+        "heading": "Oster Special Deals",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Mehr entdecken",
+        "link_url": "shopify://metaobjects/landing_page/die-stay-spiced-adventskalender",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "adventskalender",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_H9Tfga": {
+      "type": "featured-product",
+      "blocks": {
+        "title_DGgCTC": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_JJekUe": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_NyC4qH": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_7HWzMB": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_FWwgiV": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_RMQkic": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_KqNyPC": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_pBapxJ": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_DGgCTC",
+        "bullet_JJekUe",
+        "price_NyC4qH",
+        "variant_picker_7HWzMB",
+        "space_FWwgiV",
+        "buy_buttons_RMQkic",
+        "space_KqNyPC",
+        "description_pBapxJ"
+      ],
+      "custom_css": [
+        "{background-color: #89ccca;}"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "ostern-gewurze-bundle-4-gewurze-im-vorteilsset",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_product_nXEnW3": {
+      "type": "featured-product",
+      "blocks": {
+        "title_8xmdmY": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_bBDcTG": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_UCFJmf": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_7t79Ey": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_9W9yUJ": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_8MMhrF": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_UJmYxL": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_QfkP6B": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_8xmdmY",
+        "bullet_bBDcTG",
+        "price_UCFJmf",
+        "variant_picker_7t79Ey",
+        "space_9W9yUJ",
+        "buy_buttons_8MMhrF",
+        "space_UJmYxL",
+        "description_QfkP6B"
+      ],
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "ostern-gewurze-bundle-4-gewurze-im-vorteilsset",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_h6UKiA": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_9zF3dr": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_yRjh6j": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_7FLxke": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_9zF3dr",
+        "title_yRjh6j",
+        "quick_buy_7FLxke"
+      ],
+      "settings": {
+        "heading": "Mehr Black Week Angebote",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Mehr entdecken",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "black-week-deals",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_9hCJVm": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_GU3679": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_YtEWED": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_MwGYeJ": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_GU3679",
+        "title_YtEWED",
+        "quick_buy_MwGYeJ"
+      ],
+      "settings": {
+        "heading": "Vorteilssets",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle entdecken",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "vorteilsset",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_hatrX4": {
+      "type": "rich-text",
+      "blocks": {
+        "title_dEb9EW": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Black Week bei STAY SPICED!</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_R6LXUm": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Die heißesten Gewürz-Deals des Jahres",
+            "title_size": "h2"
+          }
+        },
+        "text_H3zNT6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Black Week ist zurück – und bei STAY SPICED! wird es besonders würzig! Sichere dir exklusive Rabatte auf unser vielfältiges Sortiment an <strong>hochwertigen Reingewürzen</strong>, <strong>kreativen Gewürzmischungen</strong> und <strong>einzigartigen Geschenkideen</strong>. Ob für die eigene Küche oder als Inspiration für genussvolle Geschenke: Unsere Angebote machen die Black Week zu einem Fest für alle Genießer.</p><h3>Warum lohnt sich die Black Week bei STAY SPICED?</h3><ul><li><strong>Rabatte auf Bestseller</strong>: Spare bei beliebten Gewürzen wie <em>BBQ-Gewürzen</em>, <em>orientalischen Mischungen</em> und mehr.</li><li><strong>Perfekte Geschenke</strong>: Unsere DIY-Gewürzboxen und Gewürzkoffer sind die ideale Überraschung für Foodies.</li><li><strong>Exklusive Deals</strong>: Entdecke limitierte Angebote und Aktionen, die nur während der Black Week verfügbar sind.</li><li><strong>Premium-Qualität</strong>: Alle unsere Gewürze sind ohne Zusatzstoffe und aus besten Zutaten hergestellt.</li></ul><h3>So holst du das Beste aus der Black Week heraus</h3><p>Verpasse keine unserer unschlagbaren Aktionen! Halte Ausschau nach täglichen Highlights und erweitere dein Gewürzsortiment zu unschlagbaren Preisen. Nutze die Gelegenheit, deine Favoriten aufzustocken oder neue Aromen zu entdecken – von Gewürzen für die Weihnachtsbäckerei bis hin zu exotischen Mischungen für kulinarische Abenteuer.</p><p><strong>Melde dich jetzt für den STAY SPICED! Newsletter an</strong><br/>Verpasse auch nach der Black Week keine unserer spannenden Angebote! Mit der Anmeldung zu unserem Newsletter bleibst du das ganze Jahr über informiert und sicherst dir direkt 10 % Rabatt auf deine nächste Bestellung. Jetzt anmelden und noch mehr würzigen Genuss erleben!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_dEb9EW",
+        "subtitle_R6LXUm",
+        "text_H3zNT6"
+      ],
+      "custom_css": [],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "17434103295b9b5119": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "1743410369a3cde721": {
+      "type": "apps",
+      "blocks": {
+        "pushowl_brevo_email_push_sms_app_block_3gYqQH": {
+          "type": "shopify://apps/pushowl-brevo/blocks/app-block/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
+          "settings": {
+            "formId": "94260"
+          }
+        }
+      },
+      "block_order": [
+        "pushowl_brevo_email_push_sms_app_block_3gYqQH"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_UDpaUE",
+    "featured_collection_GXkaxN",
+    "featured_product_H9Tfga",
+    "featured_product_nXEnW3",
+    "featured_collection_h6UKiA",
+    "featured_collection_9hCJVm",
+    "rich_text_hatrX4",
+    "17434103295b9b5119",
+    "1743410369a3cde721"
+  ]
+}

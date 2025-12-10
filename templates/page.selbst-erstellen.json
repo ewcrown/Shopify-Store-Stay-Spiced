@@ -1,0 +1,376 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "shop_the_look_J3pe7Q": {
+      "type": "shop-the-look",
+      "blocks": {
+        "price_8CrPRM": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_eTDXD3": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ABnHCN": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_8CrPRM",
+        "title_eTDXD3",
+        "quick_buy_ABnHCN"
+      ],
+      "settings": {
+        "heading": "Schritt 1/3: Box wählen",
+        "subheading": "Mit wievielen Gewürzen möchtest du deine Box bestücken?",
+        "section_heading_layout": "section-heading--left",
+        "image": "shopify://shop_images/eigene-box_schritt-1_2.png",
+        "product_list": [
+          "3er-karton-stay-spiced-fur-170ml-schraubdose-zum-selbstbestucken",
+          "6er-karton-stay-spiced-fur-170ml-schraubdose-zum-selbstbestucken",
+          "4er-karton-stay-spiced-fur-170-schraubdose-zum-selbstbestucken"
+        ],
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_K3eLb7": {
+      "type": "rich-text",
+      "blocks": {
+        "title_gDHCCY": {
+          "type": "title",
+          "settings": {
+            "title": "Schritt 2/3: Banderole wählen",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_WPTTxU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welchen Look willst du deiner Geschenkbox verleihen?</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_gDHCCY",
+        "text_WPTTxU"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/eigene-box_schritt-2.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#b6cbd8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_cVgJWM": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_pyk9Qy": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_VgQ3TF": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_6mjHGk": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_pyk9Qy",
+        "title_VgQ3TF",
+        "quick_buy_6mjHGk"
+      ],
+      "settings": {
+        "heading": "Möchtest du deine Box mit 2 bis 4 Gewürze bestücken?",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "2er-3er-4er-banderolen",
+        "section_background_color": "#b6cbd8",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_rP6g9E": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_kzfi99": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_tGwcdr": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_7hPTbt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_kzfi99",
+        "title_tGwcdr",
+        "quick_buy_7hPTbt"
+      ],
+      "settings": {
+        "heading": "Möchtest du deine Box mit 6 Gewürze bestücken?",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "6er-banderolen",
+        "section_background_color": "#b6cbd8",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_rT6KBi": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Xz4HJL": {
+          "type": "title",
+          "settings": {
+            "title": "Schritt 3/3: Gewürze wählen",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_pqVtK3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit welchen Gewürzen möchtest du deine Liebsten beschenken?</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_Xz4HJL",
+        "text_pqVtK3"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/eigene-box_schritt-3.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#d2da4d",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_XFAJFL": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_3JWXwb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_i7TeHL": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_MxyrEK": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_3JWXwb",
+        "title_i7TeHL",
+        "quick_buy_MxyrEK"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 12,
+        "product-info-width-limit": 500,
+        "collection": "gewurz",
+        "section_background_color": "#d2da4d",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_n6UUtR": {
+      "type": "rich-text",
+      "blocks": {
+        "title_wgjT6G": {
+          "type": "title",
+          "settings": {
+            "title": "Alles gepackt?",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_F8GkH7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hast du eine Box, eine Banderole und deine Lieblingsgewürze im Warenkorb? Dann bist du ready!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_wgjT6G",
+        "text_F8GkH7"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/eigene-box_fertg_2e7a8638-b75a-4df3-9b09-96c25e1bb3b8.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#ffffff",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_xKN6Mx": {
+      "type": "rich-text",
+      "blocks": {
+        "title_83faic": {
+          "type": "title",
+          "settings": {
+            "title": "Keine Lust auf DIY?",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_F3YGAR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kein Problem! Wir haben viele würzige Boxen für dich und deine Liebsten bereits fertig zusammengestellt. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_Dwn4km": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gewürzboxen entdecken!",
+            "link": "shopify://collections/boxen",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_83faic",
+        "text_F3YGAR",
+        "button_Dwn4km"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/diy.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#ffffff",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shop_the_look_J3pe7Q",
+    "rich_text_K3eLb7",
+    "featured_collection_cVgJWM",
+    "featured_collection_rP6g9E",
+    "rich_text_rT6KBi",
+    "featured_collection_XFAJFL",
+    "rich_text_n6UUtR",
+    "rich_text_xKN6Mx"
+  ]
+}

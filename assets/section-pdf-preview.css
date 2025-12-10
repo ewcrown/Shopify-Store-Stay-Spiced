@@ -1,0 +1,21 @@
+.pdf-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#pdf-preview-container {
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-info {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: #333;
+}

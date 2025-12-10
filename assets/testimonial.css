@@ -1,0 +1,66 @@
+.limit-width {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+.reviewer-info {
+    margin-top: 30px;
+}
+
+.star-rating {
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+  }
+
+  .stars-outer,
+  .stars-inner {
+    display: inline-block;
+  }
+
+  .stars-outer::before,
+  .stars-inner::before {
+    content: "★★★★★";
+    font-family: "Arial";
+    font-size: 30px;
+  }
+
+  .stars-outer::before {
+    color: transparent; /* color for empty stars */
+  }
+
+  .stars-inner::before {
+    color: black; /* color for filled stars */
+    width: 0; /* default width for inner stars */
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+  }
+
+  .testimonial-hidden {
+    display: none;
+  }
+
+  .date_author_container {
+    text-align: center;
+  }
+
+  .test-02-content {
+    text-align: center;
+    font-size: calc(16px / 60 * var(--base-headings-size) + 0px);
+    margin-top: 50px;
+  }
+
+  @media (max-width: 768px) {
+    .test-02-content {
+      font-size: 1rem; /* Font size for mobile */
+    }
+  }

@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_Vnjhky": {
+      "type": "rich-text",
+      "blocks": {
+        "title_MhXCMx": {
+          "type": "title",
+          "settings": {
+            "title": "Der Fleischsommelier",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_89nPBM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seit fast 30 Jahren steht Ronny Paulusch für echte Fleischkompetenz – vom Dry Aging bis zur DIY-Schinkenreifung. Praxisnah, preisgekrönt und mit Leidenschaft gewürzt.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_MhXCMx",
+        "text_89nPBM"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Ronny-Paulusch_Hero_4f7a228f-641a-4e91-a9f1-1b5f550cb5b9.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#8e907d",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_RNTVhr": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_C9KJQb": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_TwLp3h": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_mATrcW": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_C9KJQb",
+        "title_TwLp3h",
+        "quick_buy_mATrcW"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "S! x Fleischsommelier Gewürzmischungen",
+        "header-width-limit": 500,
+        "subheading": "Von Ronny Paulusch mitentwickelt – entdecke jetzt seine exklusiven Gewürzmischungen.",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "fleischsommelier-ronny-paulusch",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_rqaT37": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6tbdCq": {
+          "type": "title",
+          "settings": {
+            "title": "Handwerk mit Geschmack",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_GhwBc3": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "30 Jahre Erfahrung in der Kunst der Fleischveredelung.",
+            "title_size": "h2"
+          }
+        },
+        "text_PYULpR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Als Dozent an renommierten Institutionen wie der Fleischerschule Augsburg, der Wirtschaftskammer Österreich und der Dry Ager Academy teilt er sein umfassendes Wissen mit Gastronomie, Hotellerie, Züchtern, Direktvermarktern und dem Handel.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_6tbdCq",
+        "subtitle_GhwBc3",
+        "text_PYULpR"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Ronny-Paulusch_Handwerk.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_RBAn8A": {
+      "type": "rich-text",
+      "blocks": {
+        "title_ReTWHE": {
+          "type": "title",
+          "settings": {
+            "title": "Wissen mit der richtigen Würze",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_FNe83q": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Fleisch ist seine Leidenschaft – und das merkt man.",
+            "title_size": "h2"
+          }
+        },
+        "text_G9Wcpn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diplom-Fleischsommelier, Bestsellerautor und Gewürzentwickler: Ronny bringt Theorie und Praxis aufs nächste Level. Mit über 3.000 verkauften DIY-Ratgebern, Fachbeiträgen in der <em>Dry Age Bibel</em> und seiner eigenen Gewürzlinie bleibt kein Stück Fleisch ungewürzt.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_ReTWHE",
+        "subtitle_FNe83q",
+        "text_G9Wcpn"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Ronny-Paulusch_richtige-Wuerze.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_PQiCXk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_VDatKX": {
+          "type": "title",
+          "settings": {
+            "title": "Ausgezeichnet im Geschmack",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_T7jR97": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Preisgekröntes Wissen – weltweit im Einsatz.",
+            "title_size": "h2"
+          }
+        },
+        "text_cEpDyx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ob „Globus-Award“, „Athene“ oder FH-Fleischerhandwerk Award: Ronny steht für Exzellenz. Sein Handwerk führte ihn bis nach Madrid zum „Maestro Cortador Profesional de Jamon“. Weiterbildung, wie sie besser nicht schmecken könnte.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_VDatKX",
+        "subtitle_T7jR97",
+        "text_cEpDyx"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Ronny-Paulusch_Auszeichnung.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_ayqUmt": {
+      "type": "rich-text",
+      "blocks": {
+        "title_hiTJ9r": {
+          "type": "title",
+          "settings": {
+            "title": "Fleisch ist Vertrauenssache – und Verantwortung.",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_z7QyYC": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Fleisch ist seine Leidenschaft – und das merkt man.",
+            "title_size": "h2"
+          }
+        },
+        "text_3zYgt9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit Partnern wie Ludwig Maurer und Nils-Peter Czaja kämpft Ronny für Qualität, Tierwohl und nachhaltigen Genuss. Medien wie der <em>stern</em> schätzen seine klare Haltung: Bewusster Fleischkonsum beginnt mit Respekt – und dem richtigen Wissen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_hiTJ9r",
+        "subtitle_z7QyYC",
+        "text_3zYgt9"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Ronny-Paulusch_Verantwortung.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Vnjhky",
+    "featured_collection_RNTVhr",
+    "rich_text_rqaT37",
+    "rich_text_RBAn8A",
+    "rich_text_PQiCXk",
+    "rich_text_ayqUmt"
+  ]
+}

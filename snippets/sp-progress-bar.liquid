@@ -1,0 +1,206 @@
+{% liquid
+  assign total = cart.items_subtotal_price
+
+  comment
+    exclude product from total price calculation
+  endcomment
+  assign excluded_products = settings.excluded_products
+  for excluded_product in excluded_products
+    for items in cart.items
+      if items.product.id == excluded_product.id
+        assign total = total | minus: items.price
+      endif
+    endfor
+  endfor
+
+  assign goal_amount = 0
+  for goal in shop.metaobjects.cart_goals.values
+    if goal_amount < goal.goal.value
+      assign goal_amount = goal.goal.value
+    endif
+  endfor
+  assign percentage = total | times: 1.0 | divided_by: goal_amount
+  if percentage > 1
+    assign percentage = 1
+  endif
+  assign goal_text = ''
+  assign sorted_goals = shop.metaobjects.cart_goals.values | sort_natural: 'sort'
+
+  for goal in sorted_goals
+    if goal.active
+      if goal.description and goal.goal.value > total and goal_text == empty
+        assign goal_text = goal.description
+        assign goal_rest = goal.goal.value | minus: total
+      endif
+    endif
+  endfor
+%}
+<cart-progress-bar
+  id="{{ section.id }}"
+  class="progress-bar__wrapper {% if cart == empty %}hidden{% endif %}"
+  data-total="{{ total }}"
+>
+  <script src="{{ 'sp-progress-bar.js' | asset_url }}" defer></script>
+
+  <div class="cart-progress-bar flex flex-col gap-4 pb-10 text-tiny">
+    {% if percentage == 1 %}
+      <div class="flex flex-row text-small justify-center items-center gap-4">
+        {% comment %}<div>SUCCESS</div>{% endcomment %}
+        <span>{{ settings.all_goals_label }}</span>
+      </div>
+    {% endif %}
+    <div class="progress-bar__header">
+      {% if goal_rest %}
+        <span
+          >Nur noch <span class="progress-bar__rest-goal">{{ goal_rest | money }}</span> bis zum Ziel.</span
+        >
+      {% endif %}
+    </div>
+    <div class="progress-bar__wrapper relative {% if percentage == 1 %}hidden{% endif %}">
+      <div class="progress-bar__bar"></div>
+      <div class="progress-bar__progress" style="width: {{ percentage | times: 100 }}%"></div>
+      <div class="progress-bar__goal-wrapper w-full relative">
+        {% for goal in sorted_goals %}
+          {% if goal.active %}
+            {% assign position = goal.goal.value | times: 1.0 | divided_by: goal_amount | times: 100 %}
+            {% assign product_id = 'FREESHIPPING' %}
+            {% for variant in goal.gifted_products.value %}
+              {% if variant.available %}
+                {% assign product_id = variant.id %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            <div
+              class="progress-bar__goal absolute {% if goal.goal.value < total %}active{% endif %}"
+              style="right: {{ 100 | minus: position }}%"
+              data-product="{{ product_id }}"
+              data-goal="{{ goal.goal.value }}"
+            >
+              {% if goal.goal.value > total %}
+                {% if goal.icon %}
+                  {{ goal.icon | image_url: height: 24 | image_tag: loading: 'lazy' }}
+                {% else %}
+                  {% comment %} default icon goes here {% endcomment %}
+                {% endif %}
+              {% else %}
+                {% if goal.icon_active %}
+                  {{ goal.icon_active | image_url: height: 24 | image_tag: loading: 'lazy' }}
+                {% else %}
+                  {% comment %} default success icon goes here {% endcomment %}
+                {% endif %}
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% assign goal_rest_money = goal_rest | money %}
+      {% if goal_rest > 0 and settings.show_goal_badge %}
+        {% assign goal_badge_text = settings.goal_badge_text | replace: '%%money%%', goal_rest_money %}
+        <div
+          class="progress-bar__badge"
+          style="left: calc({{ percentage | times: 100 }}% - 50px);"
+        >
+          <span class="text-tiny">{{ goal_badge_text }}</span>
+        </div>
+      {% endif %}
+    </div>
+    <div class="flex flex-row gap-6 {% if percentage == 1 %}hidden{% endif %}">
+      <span>{{ goal_text | metafield_tag | replace: '%%money%%', goal_rest_money }}</span>
+    </div>
+
+    <ul class="sp-progress-bar-show-end flex flex-row gap-2 flex-col">
+      {% for gift in sorted_goals %}
+        {% if gift.goal.value < cart.total_price %}
+          <li>🎁 {{ gift.description }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</cart-progress-bar>
+
+
+<style>
+      #{{ section.id }} .button-tertiary{
+        border-radius: {{ settings.close_button_border_radius }}px;
+        border: solid {{ settings.close_button_border_color }} {{ settings.close_button_border_size }}px;
+        color: {{ settings.close_button_text_color }};
+        background-color: {{ settings.close_button_background_color }};
+      }
+      .cart-progress-bar {
+        background-color:{{ settings.progress_bar_block_background_color }};
+        position: relative;
+        color: {{settings.progress_bar_text_color }}
+      }
+      .progress-bar__header{
+    font-weight: bold;
+
+    }
+    .progress-bar__rest-goal{
+          color: rgb(149, 193, 31)
+  }
+      .progress-bar__bar {
+        width: 100%;
+        height: 8px;
+        background-color: {{ settings.progress_bar_background_color }};
+        border-radius: 100px;
+        display: block !important;
+      }
+      .progress-bar__progress {
+        background-color: {{ settings.progress_bar_foreground_color }};
+        height: 8px;
+        border-radius: 100px;
+        display: block !important;
+        position: absolute;
+        top: 0px;
+      }
+      .progress-bar__badge {
+        background-color: {{ settings.goal_badge_background }};
+        color: {{ settings.goal_badge_text_color }};
+        border-radius: 8px;
+        padding: 4px 8px;
+        display: inline-block;
+        position: absolute;
+        white-space: nowrap;
+        bottom: 24px;
+        box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.1);
+      }
+      .progress-bar__badge::before {
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background-color: {{ settings.goal_badge_background }};
+        left: calc(50% - 4px);
+        bottom: -4px;
+        transform: rotate(-45deg);
+      }
+      .progress-bar__goal::before {
+        content: '';
+        height: 14px;
+        width: 14px;
+        background-color: {{ settings.progress_bar_background_color }};
+        display: block;
+        border-radius: 100%;
+        margin-bottom: 4px;
+        margin-top: -11px;
+      }
+      .progress-bar__goal.active::before {
+        background-color: {{ settings.progress_bar_foreground_color }};
+      }
+      .cart-progress-bar .button-tertiary {
+        font-size: 12px;
+        border-radius: 100px;
+        padding: 0 16px;
+        color: {{ settings.progress_bar_text_color }};
+        background-color: transparent;
+        border: 2px {{ settings.progress_bar_text_color }} solid;
+        white-space: nowrap;
+        max-height: 32px;
+      }
+      @media screen and (max-width: 300px) {
+        .cart-progress-bar .button-tertiary {
+          max-height: 46px;
+          white-space: break-spaces;
+        }
+      }
+</style>

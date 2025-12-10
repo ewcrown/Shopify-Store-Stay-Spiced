@@ -1,0 +1,231 @@
+{{ 'product-variant-picker.css' | asset_url | stylesheet_tag }}
+
+{%- if is_quick_view -%}
+  {%- assign section_id = section.id | append: '-' | append: product.id -%}
+  {%- assign product_form_id = section_id -%}
+{%- else -%}
+  {%- assign product_form_id = section.id -%}
+{%- endif -%}
+
+{%- assign packaging_sizes = shop.metaobjects.gebindegrossen.values -%}
+{% assign show_normal_value = true %}
+<product-variants
+  data-variants="{{ product.options_with_values.size }}"
+  data-type="{{ block.settings.variants_style }}"
+  data-hide-variants="true"
+  data-url="{{ product.url }}"
+  data-id="{{ product_form_id }}"
+  data-style="{{ block.settings.variants_style }}"
+  {% unless product.has_only_default_variant %}
+    data-has-variants
+  {% endunless %}
+  {{ block.shopify_attributes }}
+>
+  {%- if block.settings.variants_style == 'select' -%}
+    <div
+      class="product-variants product-variants--select buttons-holder no-js-hidden"
+      {% if product.has_only_default_variant %}
+        style="display:none"
+      {% endif %}
+    >
+      {%- for option in product.options_with_values -%}
+        <div class="product-variant" data-js-product-variant>
+          <span class="product-variant__name text-size--large">
+            {%- if block.settings.label != blank -%}
+              {{- block.settings.label -}}
+            {%- else -%}
+              {{- option.name -}}
+            {%- endif -%}
+          </span>
+          <label
+            class="product-variant__name text-size--large"
+            for="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}"
+          >
+          </label>
+          <select
+            class="product-variant-container"
+            id="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}"
+            data-js-product-variant-container="select"
+          >
+            {%- for value in option.values -%}
+              {%- for packaging_size in packaging_sizes -%}
+                {%- if value == packaging_size.title -%}
+                  {%- assign mapped_value = packaging_size.bezeichnung -%}
+                  {%- break -%}
+                {%- else -%}
+                  {%- assign mapped_value = value -%}
+                {% endif %}
+              {%- endfor -%}
+              <option
+                class="product-variant-value"
+                value="{{ value | escape }}"
+                {% if option.selected_value == value %}
+                  selected
+                {% endif %}
+              >
+                {{- mapped_value -}}
+              </option>
+            {%- endfor -%}
+          </select>
+        </div>
+      {%- endfor -%}
+    </div>
+
+  {%- elsif block.settings.variants_style == 'radio' -%}
+    <div
+      class="product-variants product-variants--radio no-js-hidden"
+      {% if product.has_only_default_variant %}
+        style="display:none"
+      {% endif %}
+    >
+      {%- for option in product.options_with_values -%}
+        <div
+          class="product-variant"
+          data-name="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}"
+          data-js-product-variant
+        >
+          <span class="product-variant__name text-size--large">
+            {%- if block.settings.label != blank -%}
+              {{- block.settings.label -}}
+            {%- else -%}
+              {{- option.name -}}
+            {%- endif -%}
+          </span>
+
+          <div class="product-variant__container" data-js-product-variant-container="radio">
+            {%- for value in option.values -%}
+              {%- for packaging_size in packaging_sizes -%}
+                {%- if value == packaging_size.title -%}
+                  {%- assign mapped_value = packaging_size.bezeichnung -%}
+                  {%- break -%}
+                {%- else -%}
+                  {%- assign mapped_value = value -%}
+                {% endif %}
+              {%- endfor -%}
+              <div class="product-variant__item">
+                <input
+                  type="radio"
+                  name="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}"
+                  id="{{ product.handle }}-option-{{ option.name | escape | downcase | strip }}-{{ forloop.index }}-{{ section.id }}"
+                  value="{{ value | escape }}"
+                  {% if option.selected_value == value %}
+                    checked
+                  {% endif %}
+                  class="product-variant__input product-variant-value"
+                >
+                <label
+                  for="{{ product.handle }}-option-{{ option.name | escape | downcase | strip }}-{{ forloop.index }}-{{ section.id }}"
+                  class="product-variant__label"
+                >
+                  {{- mapped_value -}}
+                </label>
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- elsif block.settings.variants_style == 'image_blocks' -%}
+    <div
+      class="product-variants product-variants--radio image-blocks no-js-hidden"
+      {% if product.has_only_default_variant %}
+        style="display:none"
+      {% endif %}
+    >
+      {%- for option in product.options_with_values -%}
+        <div
+          class="product-variant"
+          data-name="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}"
+          data-js-product-variant
+        >
+          <span class="product-variant__name text-size--large">
+            {%- if block.settings.label != blank -%}
+              {{- block.settings.label -}}
+            {%- else -%}
+              {{- option.name -}}
+            {%- endif -%}
+          </span>
+
+          <div class="product-variant__container" data-js-product-variant-container="radio">
+            {%- for value in option.values -%}
+              {%- for packaging_size in packaging_sizes -%}
+                {%- if value == packaging_size.title -%}
+                  {%- assign mapped_value = packaging_size.bezeichnung -%}
+                  {%- break -%}
+                {%- else -%}
+                  {%- assign mapped_value = value -%}
+                {% endif %}
+              {%- endfor -%}
+              <div class="product-variant__item" style="max-width: calc(100% / {{ value.size }})">
+                <input
+                  type="radio"
+                  name="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}"
+                  id="{{ product.handle }}-option-{{ option.name | escape | downcase | strip }}-{{ forloop.index }}-{{ section.id }}"
+                  value="{{ value | escape }}"
+                  {% if option.selected_value == value %}
+                    checked
+                  {% endif %}
+                  class="product-variant__input product-variant-value"
+                >
+                <label
+                  for="{{ product.handle }}-option-{{ option.name | escape | downcase | strip }}-{{ forloop.index }}-{{ section.id }}"
+                  class="product-variant__label"
+                >
+                  {%- for variant in product.variants -%}
+                    {%- if variant.title == value -%}
+                      {{ variant.featured_image | image_url: width: 100 | image_tag }}
+                    {%- endif -%}
+                  {%- endfor -%}
+                </label>
+                <div class="product-variant__title text-size--small flex justify-center">
+                  {{- mapped_value -}}
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  <noscript>
+    <label
+      for="Variants-{{ section.id }}"
+      class="text-size--large"
+      style="display:block;margin-bottom:.75rem"
+    >
+      {{- 'products.page.variants' | t -}}
+    </label>
+    <select
+      name="id"
+      id="Variants-{{ section.id }}"
+      class="productSelect"
+      {% if product.has_only_default_variant %}
+        style="display:none!important"
+      {% endif %}
+      form="{{ product_form_id }}"
+    >
+      {%- for variant in product.variants -%}
+        <option
+          {% if variant == current_variant %}
+            selected="selected"
+          {% endif %}
+          {% if variant.available == false %}
+            disabled
+          {% endif %}
+          value="{{ variant.id }}"
+        >
+          {{ variant.title }}
+          {% if variant.available == false %}
+            - {{ 'products.page.inventory.sold_out_variant' | t -}}
+          {%- endif %}
+          - {{ variant.price | money | strip_html }}
+        </option>
+      {%- endfor -%}
+    </select>
+  </noscript>
+
+  <script type="application/json">
+    {{ product.variants | json }}
+  </script>
+</product-variants>

@@ -1,0 +1,1024 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_3x3j4c": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Unser-Team_LP-Header_f3df6172-43c9-452a-9f58-21d55a65e07c.png",
+        "mobile_image": "shopify://shop_images/Unser-Team_LP-Header-mobile.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "media_with_text_overlay_pPxjpX": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_AmeG6N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lukas_Hero-Header-desktop_3_1.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_AmeG6N"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_84j3zB": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_pBzx89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Martin_Teamfoto_Website_2_7f632bb0-cadd-4d13-ae1d-08e444be0837.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_CkqwDQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Martina_Teamfoto_Website_3.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_AR67NK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Erik_Teamfoto_Website_1_-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_pBzx89",
+        "image_CkqwDQ",
+        "image_AR67NK"
+      ],
+      "settings": {
+        "heading": "Teamleiter",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_aMCBcd": {
+      "type": "marquee",
+      "blocks": {
+        "text_zBdA8V": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_zBdA8V"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_qdmha7": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_GwtdV9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Erik_Teamfoto_Website_1_-tinified_1_670c7a27-b925-4678-b8fe-656ba2d9610d.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_QkX484": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Airen_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_dJ88hW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Babett_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_FrLANr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Iris_Teamfoto_Website-tinified_6e2af173-3ee2-465b-81ce-6d7c05d23304.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_UP78ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marlene_Teamfoto_Website-tinified_54ed4bc2-d324-436f-8a48-2c98335f5e71.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_6EkHrX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sandra_Teamfoto_Website_5_-tinified-tinified_98b928c1-45a0-4ac9-ad89-09bd89447a07.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_LHgiXk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Matthias_Teamfoto_Website_2__1.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_rLJkfY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lena_Teamfoto_Website_2.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_LR9w47": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Florian_Teamfoto_Website-tinified_1.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_GwtdV9",
+        "image_QkX484",
+        "image_dJ88hW",
+        "image_FrLANr",
+        "image_UP78ff",
+        "image_6EkHrX",
+        "image_LHgiXk",
+        "image_rLJkfY",
+        "image_LR9w47"
+      ],
+      "settings": {
+        "heading": "Team Vertrieb",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_hkdCW6": {
+      "type": "marquee",
+      "blocks": {
+        "text_BJRfQC": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_BJRfQC"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_6EQFdr": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_8amHrn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Daniel_Teamfoto_Website-tinified_1_91806dc2-60af-4b07-8a51-4abd0f4b3573.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_htTMWU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Felix_Teamfoto_Website-tinified_1.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_QM4XiM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lorenz_Teamfoto_Website_2.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_G89A8C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Volker_Teamfoto_Website-tinified_1.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_hfL9yf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Martina_Teamfoto_Website_3_1.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_EHwVnC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marlies_Teamfoto_Website.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_8amHrn",
+        "image_htTMWU",
+        "image_QM4XiM",
+        "image_G89A8C",
+        "image_hfL9yf",
+        "image_EHwVnC"
+      ],
+      "settings": {
+        "heading": "Team Online",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_eiW94G": {
+      "type": "marquee",
+      "blocks": {
+        "text_dVmQb9": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dVmQb9"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_kRFyTM": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_m4gyzj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Martin_Teamfoto_Website_2_1.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_Byj6eb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sandro_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_JwRQan": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Thomas_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_m4gyzj",
+        "image_Byj6eb",
+        "image_JwRQan"
+      ],
+      "settings": {
+        "heading": "Team Produktion",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_3dKTmf": {
+      "type": "marquee",
+      "blocks": {
+        "text_79b7Qx": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_79b7Qx"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_aVnqNL": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_PCBGEp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tobias_Teamfoto_Website-tinified_f92c5b0c-186b-4c39-88c5-f1e441f26032.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_Fd68wm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marlene_Teamfoto_Website_2_-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_KP7U8w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Martina_Fr_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_PCBGEp",
+        "image_Fd68wm",
+        "image_KP7U8w"
+      ],
+      "settings": {
+        "heading": "Team Concept Store: Europark Salzburg",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "small",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_gXHC9r": {
+      "type": "marquee",
+      "blocks": {
+        "text_4AbrQK": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_4AbrQK"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_E9fGtt": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_Jd9qXy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jonathan_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_WcNC7i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dagmar_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_w9MX4W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Manuela_Teamfoto_Website_1_-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_MBEKPg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Melissa_Teamfoto_Website-tinified.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_Jd9qXy",
+        "image_WcNC7i",
+        "image_w9MX4W",
+        "image_MBEKPg"
+      ],
+      "settings": {
+        "heading": "Team Concept Store: SCS Wien",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "small",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_8Qg8aQ": {
+      "type": "marquee",
+      "blocks": {
+        "text_tAGVUc": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_tAGVUc"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_zqnCCp": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_xCwCFD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Karin_Teamfoto_Website-tinified_97586233-4386-41e0-82da-af578502eac9.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_qmNWWb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Martina_Teamfoto_Website_3_2.png",
+            "is_use_video_link": false,
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_xCwCFD",
+        "image_qmNWWb"
+      ],
+      "settings": {
+        "heading": "HR & Accounting",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "layout": "grid-3 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "newsletter_fYkNqD": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "brevo_form_id": "",
+        "show_icon": true,
+        "title": "Melde dich hier zu unserem Newsletter an, um uns noch besser kennenzulernen",
+        "text": "<p>Werde Teil unserer Community und erhalte alle News zu unseren Gewürzen, spannende Rezepte, Rabattaktionen und einen Willkommensrabatt von -10%! Wir freuen uns auf dich! </p>",
+        "color_background_main": "#e3c8e0",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_3x3j4c",
+    "media_with_text_overlay_pPxjpX",
+    "media_with_text_overlay_84j3zB",
+    "marquee_aMCBcd",
+    "media_with_text_overlay_qdmha7",
+    "marquee_hkdCW6",
+    "media_with_text_overlay_6EQFdr",
+    "marquee_eiW94G",
+    "media_with_text_overlay_kRFyTM",
+    "marquee_3dKTmf",
+    "media_with_text_overlay_aVnqNL",
+    "marquee_gXHC9r",
+    "media_with_text_overlay_E9fGtt",
+    "marquee_8Qg8aQ",
+    "media_with_text_overlay_zqnCCp",
+    "newsletter_fYkNqD"
+  ]
+}

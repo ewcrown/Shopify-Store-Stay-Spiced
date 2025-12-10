@@ -1,0 +1,199 @@
+{{ 'sc-comparations.css' | asset_url | stylesheet_tag }}
+
+<div class="container--large">
+    <div class="compare-table" data-buy-button="{{ 'products.page.add_to_cart_button' | t }}"></div>
+</div>
+
+<script type="module">
+    import compareStorage from "{{ 'sc-compare-storage.js' |  asset_url }}"
+
+    function renderCompareTable(section_id) {
+        const storage = compareStorage()
+        const products = storage.store
+
+        const tableContainer = document.querySelector(`#shopify-section-${section_id}  .compare-table`)
+
+        if (!tableContainer) return;
+
+        if (products.length === 0) {
+            tableContainer.innerHTML =
+                '<p style="padding: 25px;text-align: center;" >{{ 'custom.compare_table.no_products' | t }}</p>'
+            return
+        }
+
+        function createAddToCartButton(productId) {
+            return `
+        
+        <button onClick="window.sc_add_to_cart(${productId})" type="button" name="add" class="td-button add-to-cart button button--solid button--product button--loader" style="--button-background-color: #ffff00; --button-border-color: #1d1d1d; --button-color: #1d1d1d;">
+        <span class="button__text" data-js-product-add-to-cart-text="">{{ 'products.page.add_to_cart_button' | t }}</span>
+        <span class="button__preloader">
+            <svg class="button__preloader-element" viewBox="25 25 50 50">
+            <circle cx="50" cy="50" r="20" fill="none" stroke-width="4"></circle>
+            </svg>
+        </span>
+        </button>
+    `;
+        }
+
+        const closeIcon = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+      viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-x">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>`;
+
+        let html = `
+    <div class="table-wrapper">
+      <table style="border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th></th>
+            ${products
+                .map(
+                    (p) => `
+              <th class="td-flex" style="text-align: center;" data-id="${p.id}">
+                <div class="th-block">
+                  <div class="th-close remove-compare-product" data-id="${p.id}">
+                    ${closeIcon}
+                  </div>
+                  <div class="th-block-image">
+                  <a href="${p.url}" style="display: contents;">
+                  <img class="max-w-td-img" src="${p.image}" alt="${p.name}">
+                  </a>
+                  </div>
+                  
+                  
+                </div>
+              </th>`
+                )
+                .join("")}
+          </tr>
+        </thead>
+        <tbody>`
+
+        const allMetaFields = new Set()
+        const allTranslations = {
+            "salz_neu": "{{ 'custom.metafields.salz_neu' | t  }}",
+            "kalorien": "{{ 'custom.metafields.kalorien' | t  }}",
+            "fett": "{{ 'custom.metafields.fett' | t  }}",
+            "brennwert": "{{ 'custom.metafields.brennwert' | t  }}",
+            "kohlenhydrate": "{{ 'custom.metafields.kohlenhydrate' | t  }}",
+            "davon_zucker": "{{ 'custom.metafields.davon_zucker' | t  }}"
+        }
+
+        products.forEach((p) => {
+            Object.keys(p.metaobjects).forEach((key) => allMetaFields.add(key))
+            // if(p.translate) {
+            //     Object.assign(allTranslations, JSON.parse(p.translate))
+            // }
+        });
+
+
+        html += `<tr><td></td>`
+        products.forEach(p => {
+            html += `<td class="td-center"><a href="${p.url}" style="display: contents;"><h4 class="h5">${p.name}</h4></a></td>`
+        })
+        html += '</tr>'
+
+        html += `<tr><td></td>`
+        products.forEach(p => {
+            console.log(p);
+            html += `<td class="td-center"><div class="th-price h5">
+    <div class="rating-stars">
+      <etrusted-widget data-etrusted-widget-id="wdg-0e4207ec-95fc-45e4-a0f9-12a97026ff74" data-sku="${p.skus}"></etrusted-widget>
+    </div>
+    </div></td>`
+        })
+        html += '</tr>'
+
+        html += `<tr><td style="font-weight: bold;" class="th-sticky th-padding_s h5" > {{ 'custom.compare_table.price' | t }}  </td>`
+        products.forEach(p => {
+            console.log(p);
+            html += `<td class="td-center"><div class="th-price h5">
+        <span class="product-price--original text-size--large">${p.price}</span>
+        ${p.compare_at_price ? `<del class="product-price--compare"><span>${p.compare_at_price}</span></del>` : ``}
+    </div>
+    </td>`
+        })
+        html += '</tr>'
+
+        allMetaFields.forEach((field) => {
+            
+            const displayField = allTranslations[field] ? allTranslations[field] : field
+            html += `<tr><td style="font-weight: bold;" class="th-sticky th-padding_s ">${displayField}</td>`
+
+            products.forEach((p) => {
+                let value = p.metaobjects[field] || "-"
+
+                html += `<td style="text-align:center;" class="th-padding_s">${value}</td>`
+            })
+
+
+        });
+
+        html += "<tr><td></td>"
+
+        products.forEach(p => {
+            html += `<td class="td-center">${createAddToCartButton(p.id)}</td>`
+        })
+
+        html += '</tr>'
+
+        html += `</tbody></table></div>`
+        tableContainer.innerHTML = html
+
+        tableContainer
+            .querySelectorAll(".remove-compare-product")
+            .forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    const id = btn.dataset.id
+                    storage.remove(id)
+                    renderCompareTable("{{ section.id }}")
+                })
+            })
+
+
+        
+
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        renderCompareTable("{{ section.id }}")
+
+        let compareButtons = document.querySelectorAll('[product-add-to-compare]')
+        compareButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                setTimeout(renderCompareTable("{{ section.id }}"), 300)
+            })
+        })
+
+        const storage = compareStorage()
+        const originalAdd = storage.add
+        storage.add = function (obj) {
+            const result = originalAdd.call(this, obj)
+            renderCompareTable("{{ section.id }}")
+            return result
+        }
+
+
+
+    })
+</script>
+
+{% schema %}
+{
+"name": "SC Compare Products",
+"class": "section--compare-products",
+"tag": "section",
+"settings": [
+
+],
+"presets": [
+{
+"name": "SC Compare Products"
+}
+]
+}
+{% endschema %}

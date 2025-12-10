@@ -1,0 +1,627 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_yeGftq": {
+      "type": "rich-text",
+      "blocks": {
+        "title_JThTFy": {
+          "type": "title",
+          "settings": {
+            "title": "Jetzt Gastrokunde werden",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_9wN3Ne": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "und sofort mit unseren attraktiven Gastrokonditionen bestellen - bequem und schnell.",
+            "title_size": "h2"
+          }
+        },
+        "text_6MC7cK": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_8ynGgV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Händler finden",
+            "link": "shopify://pages/grosshaendler_finden",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_JThTFy",
+        "subtitle_9wN3Ne",
+        "text_6MC7cK",
+        "button_8ynGgV"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Roland_Trettl_Fisch-CUTOUT.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#009fe3",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_slider_drgBmk": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_tfFFKb": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/ursprung_2.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "Qualität durch Ursprung",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Das beste Anbaugebiet für ein Gewürz ist jenes mit dem richtigen <strong>Klima </strong>und optimalem <strong>Boden</strong>. Daher beziehen wir beispielsweise Basilikum, Majoran, Thymian, Petersilie, Schnittlauch, Bohnenkraut, Dill und Liebstöckel von einer <strong>Bauerngenossenschaft </strong>in Thüringen. Dort herrscht nicht nur der perfekte Säuregehalt in der Erde, sondern auch ideale Temperaturen zur Ausbildung der herrlichen ätherischen Öle. Diese sorgfältige Auswahl unserer Anbaugebiete kostet viel Zeit, lohnt sich aber mit jeder Prise unserer Reingewürze. </p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_NqFehm": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/eigenanbau_2.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "Qualität durch Leidenschaft",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>2021 wurde das „Maiergut“ im oberösterreichischen Innviertel von uns zu neuem Leben erweckt. Auf dem 14 <strong>Hektar </strong>großen Areal <strong>bauen wi</strong>r aktuell Koriander und <strong>Kümmel an</strong>. Damit setzen wir <br/>einen weiteren Schritt in Sachen <strong>Nachhaltigkeit </strong>und rücken auch die <strong>Förderung </strong>heimischer Landwirtschaft und Produktion in den Vordergrund.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_jwTPzp": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/zeit_3.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "Qualität durch Zeit",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p><strong>Naturprodukte </strong>brauchen Zeit, um einzigartig zu schmecken. Unsere Kräuter aus Thüringen werden daher nicht im Akkord gezüchtet, sondern nur 2x pro Jahr geerntet. Auch unserer <strong>geräucherter </strong>Paprika erfordert <strong>Geduld </strong>& <strong>Präzision </strong>bei der Ernte & Verarbeitung: Im spanischen La Vera Tal werden die Paprikaschoten in <strong>Handarbeit </strong>von kleinen <strong>Familienbetrieben </strong>geerntet und in einem aufwändigen Prozess über spanischem <strong>Eichenholz geräuchert</strong>. Und in ausgezeichnete <strong>Geschmackserlebnisse </strong>wie dieses haben wir uns verliebt. </p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_yQtjD6": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/fazit_3.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "Qualität ohne Kompromisse",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Um die Qualitätsmerkmale der besten Reingewürze zu erkennen, benötigt man entweder umfassendes Fachwissen und Erfahrung oder man kennt den richtigen Gewürzhändler - wie STAY SPICED ! Wir bieten für Gastronomen wie dich ein umfassendes Sortiment mit mehr als 150 Reingewürzen in höchster Qualität und mit unschlagbarem Preis.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_tfFFKb",
+        "content_NqFehm",
+        "content_jwTPzp",
+        "content_yQtjD6"
+      ],
+      "settings": {
+        "height": "small",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "contact_form_pLDJg8": {
+      "type": "contact-form",
+      "blocks": {
+        "input_TGAPEE": {
+          "type": "input",
+          "settings": {
+            "name": "Vorname",
+            "input_type": "text",
+            "placeholder": "Vorname",
+            "require": false
+          }
+        },
+        "input_gkbKTz": {
+          "type": "input",
+          "settings": {
+            "name": "Nachname",
+            "input_type": "text",
+            "placeholder": "Nachname",
+            "require": false
+          }
+        },
+        "input_ycbbUD": {
+          "type": "input",
+          "settings": {
+            "name": "E-Mail Adresse",
+            "input_type": "email",
+            "placeholder": "E-Mail Adresse",
+            "require": true
+          }
+        },
+        "input_k3Vy7F": {
+          "type": "input",
+          "settings": {
+            "name": "Telefonnummer",
+            "input_type": "text",
+            "placeholder": "Telefonnummer",
+            "require": true
+          }
+        },
+        "input_n846bV": {
+          "type": "input",
+          "settings": {
+            "name": "Unternehmen",
+            "input_type": "email",
+            "placeholder": "Unternehmen",
+            "require": true
+          }
+        },
+        "input_prriCY": {
+          "type": "input",
+          "settings": {
+            "name": "UID-Nummer",
+            "input_type": "text",
+            "placeholder": "UID-Nummer",
+            "require": true
+          }
+        },
+        "input_dQwbe7": {
+          "type": "input",
+          "settings": {
+            "name": "Straße",
+            "input_type": "text",
+            "placeholder": "Straße",
+            "require": true
+          }
+        },
+        "input_hQ37rk": {
+          "type": "input",
+          "settings": {
+            "name": "Postleitzahl",
+            "input_type": "text",
+            "placeholder": "Postleitzahl",
+            "require": true
+          }
+        },
+        "input_h4WpAP": {
+          "type": "input",
+          "settings": {
+            "name": "Ort",
+            "input_type": "text",
+            "placeholder": "Ort",
+            "require": true
+          }
+        },
+        "dropdown_d6hxPa": {
+          "type": "dropdown",
+          "settings": {
+            "name": "Weitere Fragen",
+            "label": "Land*",
+            "dropdown_options": "Österreich; Deutschland; Italien;",
+            "require": true
+          }
+        },
+        "dropdown_9VRmHc": {
+          "type": "dropdown",
+          "settings": {
+            "name": "In welchem Bereich bist du Tätig",
+            "label": "In welchem Bereich bist du Tätig*",
+            "dropdown_options": "Einkäufer; F&B Manager; Küchenchef; Souschef; Inhaber; Direktor; Geschäftsführer;",
+            "require": true
+          }
+        },
+        "dropdown_KyUwmN": {
+          "type": "dropdown",
+          "settings": {
+            "name": "Hiermit bestätige ich für das Unternehmen Einkaufsberechtigt zu sein",
+            "label": "Hiermit bestätige ich für das Unternehmen Einkaufsberechtigt zu sein*",
+            "dropdown_options": "Ja; Nein;",
+            "require": true
+          }
+        },
+        "further_question_yUUdGC": {
+          "type": "further_question",
+          "settings": {
+            "fq_title": "",
+            "fq_placeholder": "Nachricht"
+          }
+        },
+        "confirm_YWM7mQ": {
+          "type": "confirm",
+          "settings": {
+            "confirm_title": "Datenschutz",
+            "confirm_subtitle": "Datenschutzrichtlinien gelesen und akzeptiert!",
+            "confirm_desc": "Ja, mit der Anmeldung erkläre ich mich mit den STAY SPICED! <span style=\"text-decoration:underline\">Nutzungsbedingungen und Datenschutz</span> einverstanden.",
+            "confirm_link": "shopify://policies/privacy-policy"
+          }
+        }
+      },
+      "block_order": [
+        "input_TGAPEE",
+        "input_gkbKTz",
+        "input_ycbbUD",
+        "input_k3Vy7F",
+        "input_n846bV",
+        "input_prriCY",
+        "input_dQwbe7",
+        "input_hQ37rk",
+        "input_h4WpAP",
+        "dropdown_d6hxPa",
+        "dropdown_9VRmHc",
+        "dropdown_KyUwmN",
+        "further_question_yUUdGC",
+        "confirm_YWM7mQ"
+      ],
+      "settings": {
+        "heading": "Registrierung als Gastrokunde",
+        "master_data_title": "Stammdaten",
+        "master_data": true,
+        "further_question_title": "Nachricht",
+        "further_question": true,
+        "data_protection_title": "Datenschutz",
+        "confirm": true,
+        "button_label": "Weiter",
+        "seo_h_tag": "h2",
+        "section_background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "media_with_text_overlay_ghxLYj": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_Qy99XF": {
+          "type": "image",
+          "settings": {
+            "video": "shopify://files/videos/Unsere Gastro Dose.mp4",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_LizEyf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/background_white.jpg",
+            "caption": "",
+            "title": "Der richtige Partner für deine Küche",
+            "subtitle": "Wir von STAY SPICED ! kennen die Gastronomie dank unserer jahrelangen Erfahrung genau und wissen, dass es dort vor allem auf zwei Dinge ankommt: Qualität und Praktikabilität! Deshalb setzten wir die Ansprüche an unsere Gewürze auch so hoch an! Von unserer bedingungslosen Qualitätsphilosophie über unser Nachhaltigkeitskonzept bis hin zu unsererem speziell entwickelten Gastro-Gebinde mit Wiedererkennungswert. Wir sind sehr stolz darauf, Gastronomen wie dir eine ganzheitliche Gewürzlösung anbieten zu können - und das zu deutlich reduzierten Preisen!",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_Qy99XF",
+        "image_LizEyf"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_iFekUn": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_WFnRER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/background_white.jpg",
+            "caption": "",
+            "title": "Riesige Auswahl an den besten Reingewürzen",
+            "subtitle": "Unsere Reingewürze bieten 100% Qualität und Geschmack ohne Kompromisse. Im Onlineshop von STAY SPICED! findest du eine riesige Auswahl an Pfeffer- und Salzspezialitäten, Chilis, Kräutern, Gourmet-Gewürzen, Blüten aus nachhaltigem Anbau und delikaten Zuckervarianten. Entdecke außergewöhnliche Aromen und erlebe Gewürze, die anders sind als alles, was du bisher gekostet hast.",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_MUnU9y": {
+          "type": "image",
+          "settings": {
+            "video": "shopify://files/videos/Reingewürze Gastro schnell 169.mp4",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_WFnRER",
+        "image_MUnU9y"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "small",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_jYmKBP": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6TCWtU": {
+          "type": "title",
+          "settings": {
+            "title": "Hast du Fragen?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_j3qCw9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir beraten dich gerne!  </p><p>Melde dich einfach telefonisch bei uns unter der untenstehenden Hotline-Nummer oder schreib uns eine E-Mail an bestellung@stayspiced.com</p><p>Dein Gastro-Team von STAY SPICED !</p>",
+            "content_source": "custom",
+            "text_size": "large"
+          }
+        },
+        "button_ENPFUV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_6TCWtU",
+        "text_j3qCw9",
+        "button_ENPFUV"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Gruppe-Vetrieb_web.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_rXrheB": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/d/embed?mid=19fvf2Ahc55z6gurcJzz95cpfSziGMTo&ehbc=2E312F\" width=\"100%\" height=\"450\"></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "text_columns_icons_MK3Wj4": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_JMpWaD": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "Gastro Lieferung ab € 99,- kostenlos",
+            "caption": "Egal ob in DE oder AT, ab € 99,- Netto Bestellwert versandkostenfrei",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_wUG3EX": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "Frei von Geschmacksverstärkern",
+            "caption": "Natürliche Gewürzmischungen ohne künstliche Zusatzstoffe",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_xxLgkz": {
+          "type": "image",
+          "settings": {
+            "icon": "map-marker",
+            "title": "Regional hergestellt",
+            "caption": "Nachhaltig und mit viel Liebe produziert und verpackt",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_Y6E3CG": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "title": "Profittaugliche Einheiten",
+            "caption": "870ml Gastro Schraubdosen mit 100 % Wiederverschluss. Perfekt für jede Gastroküche.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_JMpWaD",
+        "image_wUG3EX",
+        "image_xxLgkz",
+        "image_Y6E3CG"
+      ],
+      "settings": {
+        "heading": "Deine Vorteile mit STAY SPICED !",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_yeGftq",
+    "rich_text_slider_drgBmk",
+    "contact_form_pLDJg8",
+    "media_with_text_overlay_ghxLYj",
+    "media_with_text_overlay_iFekUn",
+    "rich_text_jYmKBP",
+    "custom_liquid_rXrheB",
+    "text_columns_icons_MK3Wj4"
+  ]
+}
