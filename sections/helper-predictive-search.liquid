@@ -24,7 +24,7 @@
         <span class="search-title">{{ 'search.form.product_results_title' | t }}</span>
 
         <div class="search-block-row"> 
-        {%- for product in predictive_search.resources.products -%}
+        {%- for product in predictive_search.resources.products limit: 3 -%}
           <div class="search-item cart-item" data-js-search-item>
             <a
               tabindex="-1"

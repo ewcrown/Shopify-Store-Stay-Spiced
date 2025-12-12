@@ -44,6 +44,7 @@
                   {%- unless customer == blank and settings.b2b_hide_price == true -%}
                     {%- unless item.gift_card -%}
                       <div class="cart-item__price">
+                        {% unless item.final_line_price < 1 %}
                         {%- if item.final_line_price < item.original_line_price -%}
                           <span class="visually-hidden">{{ 'general.accessibility_labels.price.regular' | t }}</span>
                           <strong>{{ item.final_line_price | money }}</strong>
@@ -62,6 +63,9 @@
                           <span class="visually-hidden">{{ 'general.accessibility_labels.price.regular' | t }}</span>
                           <strong>{{ item.final_line_price | money }}</strong>
                         {%- endif -%}
+                        {% else %}
+                          <span style="font-weight:600">konstenlos</span>
+                        {% endunless %}
                       </div>
                     {%- endunless -%}
 

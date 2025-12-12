@@ -278,7 +278,7 @@ html[dir="ltr"] .search-results-overlay {
 .search-results-container:not(:empty) {
   position: absolute;
   width: 100vw;
-  max-width: 25rem;
+  max-width: 100%;
   background: var(--color-background-main);
   border-radius: var(--border-radius-cards);
   top: 100%;
