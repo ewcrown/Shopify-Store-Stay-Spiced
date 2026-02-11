@@ -205,3 +205,8 @@ a.swym-wishlist.swym-wishlist-mobile {
 .main-collection-banner .container--large {
     padding-top: 0px;
 }
+
+.main-blog-section .container--large {
+    margin-top: 0;
+    padding-top: 20px;
+}
