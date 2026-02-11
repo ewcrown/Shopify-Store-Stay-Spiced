@@ -207,7 +207,7 @@
     "goal_badge_background": "#d7007f",
     "all_goals_label": "<span>Du hast alle Geschenke erhalten.</span><p style=\"font-size: 8px;\">* Solange der Vorrat reicht. Nur gültig für Privatkunden.</p>",
     "excluded_products": [
-      "stay-spiced-gewurz-adventskalender-2025-edition-gewurzregal",
+      "stay-spiced-gewurz-edition-gewurzregal",
       "adventskalender-stay-spiced-cube-edition-2025"
     ],
     "show_gotop": true,
@@ -343,11 +343,6 @@
         "settings": {
           "home": false
         }
-      },
-      "16539996847170303178": {
-        "type": "shopify://apps/cookie-manager-by-usercentrics/blocks/usercentrics/d783c71c-954e-4d69-bffa-7ee251c9a052",
-        "disabled": false,
-        "settings": {}
       },
       "5946647744298494267": {
         "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
