@@ -23,7 +23,8 @@
             "text": "<p>{{ product.metafields.custom.txt_newshortdescription.value }}</p>",
             "text_size": "text-size--regular",
             "text_color": "#6a6a6a",
-            "text_transform": false
+            "text_transform": false,
+            "text_id": ""
           }
         },
         "title": {
@@ -89,7 +90,8 @@
             "text": "<p><em><strong>KURZBESCHREIBUNG<br/></strong></em>{{ product.metafields.custom.txt_newshortdescription.value }}</p>",
             "text_size": "text-size--regular",
             "text_color": "#1d1d1d",
-            "text_transform": false
+            "text_transform": false,
+            "text_id": ""
           }
         },
         "text_dqM7Li": {
@@ -98,7 +100,8 @@
             "text": "<p><em><strong>VERWENDUNG<br/></strong></em>{{ product.metafields.custom._txt_usage.value }}</p>",
             "text_size": "text-size--regular",
             "text_color": "#1d1d1d",
-            "text_transform": false
+            "text_transform": false,
+            "text_id": ""
           }
         },
         "text_RDUhDb": {
@@ -107,7 +110,8 @@
             "text": "<p><em><strong>GUT ZU WISSEN<br/></strong></em>{{ product.metafields.custom.txt_goodtoknow.value }}</p>",
             "text_size": "text-size--regular",
             "text_color": "#1d1d1d",
-            "text_transform": false
+            "text_transform": false,
+            "text_id": ""
           }
         },
         "text_CnJYwU": {
@@ -116,7 +120,8 @@
             "text": "<p><em><strong>GESCHMACK<br/></strong></em>{{ product.metafields.custom.txt_taste.value }}</p>",
             "text_size": "text-size--regular",
             "text_color": "#1d1d1d",
-            "text_transform": false
+            "text_transform": false,
+            "text_id": ""
           }
         },
         "text_HcmqtK": {
@@ -125,7 +130,8 @@
             "text": "<p><em><strong>PRODUKTION<br/></strong></em>{{ product.metafields.custom.att_produktion.value }}</p>",
             "text_size": "text-size--regular",
             "text_color": "#1d1d1d",
-            "text_transform": false
+            "text_transform": false,
+            "text_id": ""
           }
         }
       },
@@ -185,6 +191,7 @@
       ],
       "disabled": true,
       "settings": {
+        "list_products": [],
         "heading": "You may also like",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
@@ -298,6 +305,27 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": true,
         "color_hide_shadow": true
+      }
+    },
+    "text_column_metaobject_xBYGJU": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_VB84h3": {
+          "type": "text",
+          "settings": {
+            "content": "<p>{{ product.metafields.custom.txt_bundle_inhalt.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VB84h3"
+      ],
+      "name": "Meta Text",
+      "settings": {
+        "title": "In der Box enthalten",
+        "subheading": "Produke",
+        "col_count": 2,
+        "section_background_color": "rgba(0,0,0,0)"
       }
     },
     "product_info_anchor_FwAQeJ": {
@@ -518,6 +546,7 @@
         "summary_qDUjWW"
       ],
       "settings": {
+        "anchor": "recipes",
         "title": "Passende Rezepte zu {{ product.title }}",
         "subheading": "",
         "show_view_all": false,
@@ -731,6 +760,7 @@
     "product_recommendations_UBjNCt": {
       "type": "product-recommendations",
       "settings": {
+        "list_products": [],
         "heading": "Diese Gewürze werden dir auch gut schmecken!",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
@@ -1101,6 +1131,7 @@
     "anchor_navigation_p4CpLb",
     "product_info_anchor_bpQWBc",
     "rich_text_D6GD48",
+    "text_column_metaobject_xBYGJU",
     "product_info_anchor_FwAQeJ",
     "product_ingredients_nyW8et",
     "related_recipes_A3gwKf",

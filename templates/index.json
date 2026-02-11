@@ -9,67 +9,109 @@
  */
 {
   "sections": {
-    "media_with_text_overlay_DE8jg9": {
-      "type": "media-with-text-overlay",
+    "blocks_cKeeGF": {
+      "type": "_blocks",
       "blocks": {
-        "image_DjNhw9": {
-          "type": "image",
+        "ai_gen_block_05b1e29_VVJxpW": {
+          "type": "ai_gen_block_05b1e29",
+          "disabled": true,
           "settings": {
-            "is_use_video_link": false,
-            "video": "shopify://files/videos/230824_16x9_Wald_und_Weide_05.mp4",
-            "external_video_link": "",
-            "caption": "",
-            "title": "",
-            "subtitle": "",
-            "link": "",
-            "open_in_new_window": false,
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
-            "color_hide_shadow": false,
-            "seo_h_tag": "h3"
-          }
+            "target_date": "2025-12-19",
+            "target_time": "11:00",
+            "heading": "<p>Countdown zur pünktlichen Weihnachtslieferung:</p>",
+            "completed_message": "<p>Jetzt schnell sein!</p>",
+            "days_label": "Tage",
+            "hours_label": "Stunden",
+            "minutes_label": "Minuten",
+            "seconds_label": "Sekunden",
+            "background_color": "#ffffff",
+            "text_color": "#1d1d1d",
+            "number_color": "#000000",
+            "label_color": "#1d1d1d",
+            "message_color": "#000000",
+            "padding": 10,
+            "border_radius": 0,
+            "heading_size": 32,
+            "number_size": 32,
+            "label_size": 16,
+            "message_size": 20,
+            "timer_gap": 15,
+            "unit_width": 90
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "image_DjNhw9"
+        "ai_gen_block_05b1e29_VVJxpW"
       ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "layout": "grid-1",
-        "height": "full",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "60%",
-        "caption_size": "regular",
-        "title_size": "h3",
-        "subtitle_size": "regular",
-        "button_size": "large",
-        "button_style": "solid",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
+      "settings": {}
     },
     "slideshow_mN3TUP": {
       "type": "slideshow",
       "blocks": {
+        "image_gpdAXH": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/stay-spiced_header-desktop_amore-sonderedition.jpg",
+            "mobile_image": "shopify://shop_images/stay-spiced_header-mobile_amore-sonderedition.jpg",
+            "caption": "",
+            "title": "",
+            "link": "shopify://pages/valentinstag",
+            "open_in_new_window": false,
+            "button_label": "Jetzt shoppen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#1d1d1d",
+            "seo_h_tag": "h1"
+          }
+        },
         "image_YqxYQd": {
           "type": "image",
           "settings": {
             "publish_date": "",
             "unpublish_date": "",
-            "image": "shopify://shop_images/stay-spiced_header_adventskalender_desktop.jpg",
-            "mobile_image": "shopify://shop_images/stay-spiced_header_adventskalender_mobile.jpg",
-            "caption": "STAY SPICED !",
-            "title": "Gewürz Adventskalender",
-            "link": "shopify://pages/adventskalender-2025",
+            "image": "shopify://shop_images/stay-spiced_header-supperpower-desktop.jpg",
+            "mobile_image": "shopify://shop_images/stay-spiced_header-supperpower-mobile.jpg",
+            "caption": "",
+            "title": "UNSERE SUPPEN-KLASSIKER",
+            "link": "shopify://pages/supperpower",
             "open_in_new_window": false,
-            "button_label": "Jetzt sichern",
+            "button_label": "Jetzt shoppen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#1d1d1d",
+            "seo_h_tag": "h1"
+          }
+        },
+        "image_njNa8r": {
+          "type": "image",
+          "settings": {
+            "publish_date": "2025-12-01 00:01",
+            "unpublish_date": "2025-12-26 23:59",
+            "image": "shopify://shop_images/Geschenke_Hero-Header-desktop_83b681aa-2a70-41b4-adde-fc206d1cd064.png",
+            "mobile_image": "shopify://shop_images/Geschenke_Hero-Header-mobile.png",
+            "caption": "",
+            "title": "",
+            "link": "shopify://pages/weihnachten",
+            "open_in_new_window": false,
+            "button_label": "Jetzt sichern!",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_98Vpme": {
+          "type": "image",
+          "settings": {
+            "publish_date": "2025-12-01 00:01",
+            "unpublish_date": "2025-12-26 23:59",
+            "image": "shopify://shop_images/Header_Startseite_-_Desktop_Xmas-Sondereditionen.jpg",
+            "mobile_image": "shopify://shop_images/Header_Startseite_-_Mobile_Xmas-Sondereditionen.jpg",
+            "caption": "",
+            "title": "",
+            "link": "shopify://pages/xmas-edition",
+            "open_in_new_window": false,
+            "button_label": "Jetzt sichern!",
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "rgba(0,0,0,0)",
             "seo_h_tag": "h3"
@@ -83,7 +125,7 @@
             "image": "shopify://shop_images/stay-spiced_header_essig_oel_desktop.jpg",
             "mobile_image": "shopify://shop_images/stay-spiced_header_essig_oel_mobile.jpg",
             "caption": "Neu im Sortiment",
-            "title": "Essig & Öl",
+            "title": "ESSIG & ÖL",
             "link": "shopify://collections/essige-und-ole",
             "open_in_new_window": false,
             "button_label": "Jetzt entdecken",
@@ -92,85 +134,34 @@
             "seo_h_tag": "h3"
           }
         },
-        "image_98Vpme": {
-          "type": "image",
-          "settings": {
-            "publish_date": "2025-08-04 06:00",
-            "unpublish_date": "",
-            "image": "shopify://shop_images/Header-Startseite_Desktop_d3a809a9-d68d-49bc-b5a8-e766d1851f51.jpg",
-            "mobile_image": "shopify://shop_images/Header-Startseite_Mobile_69cea9cb-1f7c-41b1-8802-2ed718e572d9.jpg",
-            "caption": "",
-            "title": "JETZT SCHNEGGEN CHEGGEN",
-            "link": "shopify://pages/schneggen",
-            "open_in_new_window": false,
-            "button_label": "Jetzt Cheggen",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
         "image_zg9ekt": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "publish_date": "",
             "unpublish_date": "",
-            "image": "shopify://shop_images/stay-spiced_header-startseite_staywild-desktop.jpg",
-            "mobile_image": "shopify://shop_images/stay-spiced_header-startseite_staywild-mobile.jpg",
+            "image": "shopify://shop_images/stay-spiced_header_desktop-free.jpg",
+            "mobile_image": "shopify://shop_images/stay-spiced_header_mobile-free.jpg",
             "caption": "",
-            "title": "S!TAY WILD WITH \"BEN PERRY\"",
-            "link": "shopify://pages/stay-wild",
+            "title": "WÜRZEN OHNE BEDENKEN!",
+            "link": "shopify://collections/free",
             "open_in_new_window": false,
-            "button_label": "Jetzt shoppen",
+            "button_label": "Entdecke unsere FREE Gewürze",
             "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_a9wfDC": {
-          "type": "image",
-          "settings": {
-            "publish_date": "",
-            "unpublish_date": "",
-            "image": "shopify://shop_images/stay-spiced_header_desktop_tom-heinzle.jpg",
-            "mobile_image": "shopify://shop_images/stay-spiced_header_mobile_tom-heinzle.jpg",
-            "caption": "Grillneuheiten 2025 by Tom Heinzle",
-            "title": "BBQ LIKE A BOSS!",
-            "link": "shopify://collections/tom-heinzle-grill-neuheiten-2025",
-            "open_in_new_window": false,
-            "button_label": "Jetzt neu",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_gpdAXH": {
-          "type": "image",
-          "settings": {
-            "publish_date": "",
-            "unpublish_date": "",
-            "image": "shopify://shop_images/stay-spiced_header_gewuerze_desktop.jpg",
-            "mobile_image": "shopify://shop_images/stay-spiced_header_gewuerze_mobile.jpg",
-            "caption": "100% Geschmack ohne Kompromisse.",
-            "title": "ERLEBE DIE BESTEN GEWÜRZE!",
-            "link": "shopify://collections/gewurz",
-            "open_in_new_window": false,
-            "button_label": "Jetzt entdecken",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_text_main": "#000000",
             "seo_h_tag": "h1"
           }
         }
       },
       "block_order": [
+        "image_gpdAXH",
         "image_YqxYQd",
-        "image_iPAAw8",
+        "image_njNa8r",
         "image_98Vpme",
-        "image_zg9ekt",
-        "image_a9wfDC",
-        "image_gpdAXH"
+        "image_iPAAw8",
+        "image_zg9ekt"
       ],
       "custom_css": [],
+      "name": "Slider ",
       "settings": {
         "desktop_height": "60vh",
         "mobile_height": "80vh",
@@ -211,6 +202,7 @@
         "title_z4cPfi",
         "quick_buy_abCUgV"
       ],
+      "disabled": true,
       "settings": {
         "heading": "{{ section.settings.collection.title }}",
         "header-width-limit": 500,
@@ -254,6 +246,7 @@
         "title_mrXKKU",
         "quick_buy_LBCxx9"
       ],
+      "name": "Topseller",
       "settings": {
         "heading": "{{ section.settings.collection.title }}",
         "header-width-limit": 500,
@@ -327,6 +320,7 @@
       "custom_css": [
         ".button {margin-bottom: 5%;}"
       ],
+      "name": "Kategorien",
       "settings": {
         "heading": "UNSERE BELIEBTESTEN KATEGORIEN",
         "subheading": "",
@@ -362,12 +356,13 @@
         "title_cTNt6t",
         "quick_buy_t4LNJ4"
       ],
+      "name": "Neuheiten",
       "settings": {
-        "heading": "Unsere Neuheiten",
+        "heading": "ESSIG & ÖL",
         "header-width-limit": 500,
         "subheading": "",
         "show_view_all": false,
-        "link_label": "Produkte anzeigen",
+        "link_label": "",
         "link_url": "",
         "show_product_detail": true,
         "section_heading_layout": "section-heading--center",
@@ -375,119 +370,13 @@
         "layout": "grid-4 grid-portable-3",
         "mobile_layout": "grid-lap-2 grid-tiny-2",
         "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 13,
+        "products_number": 16,
         "product-info-width-limit": 500,
-        "collection": "neuheiten-newcomer",
+        "collection": "essig-ol",
         "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
-      }
-    },
-    "featured_collection_ACd388": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_Ua7fnE": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_4azJaE": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_GCkMdb": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_Ua7fnE",
-        "title_4azJaE",
-        "quick_buy_GCkMdb"
-      ],
-      "settings": {
-        "heading": "{{ section.settings.collection.title }}",
-        "header-width-limit": 500,
-        "subheading": "",
-        "show_view_all": true,
-        "link_label": "Produkte anzeigen",
-        "link_url": "",
-        "show_product_detail": true,
-        "section_heading_layout": "section-heading--left",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3",
-        "mobile_layout": "grid-lap-2 grid-tiny-2",
-        "mobile_add_to_cart_content": "cart-text",
-        "products_number": 9,
-        "product-info-width-limit": 500,
-        "collection": "boxen",
-        "section_background_color": "#ffffff",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "rich_text_afC3zW": {
-      "type": "rich-text",
-      "blocks": {
-        "title_gHm6xh": {
-          "type": "title",
-          "settings": {
-            "title": "STAY SPICED ! x NENI – DES IS LEVANT",
-            "title_size": "h3",
-            "seo_h_tag": "h2"
-          }
-        },
-        "subtitle_jJQWAM": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Life is beautiful with Spices!",
-            "title_size": "h2"
-          }
-        },
-        "text_cDarNi": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Haya Molcho</strong>: Top Gastronomin & Familienmensch.<br/></p><p>Tauch ein in die faszinierende Welt der Levante-Küche mit unseren sieben einzigartigen Gewürzmischungen, kreiert<em><strong> in Zusammenarbeit mit NENI und der sensationellen Köchin Haya Molcho</strong></em>. Sie bringen dir die unverwechselbaren Aromen des östlichen Mittelmeerraums direkt in deine Küche!<br/></p><p><strong>Viel Spaß beim entdecken, probieren und teilen - frei nach dem Motto: sharing is caring!</strong></p>",
-            "content_source": "custom",
-            "text_size": "regular"
-          }
-        },
-        "button_Dq4aXD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Mehr erfahren",
-            "link": "shopify://metaobjects/landing_page/neni-x-stay-spiced",
-            "target_id": "",
-            "open_in_new_window": false,
-            "button_size": "regular",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "title_gHm6xh",
-        "subtitle_jJQWAM",
-        "text_cDarNi",
-        "button_Dq4aXD"
-      ],
-      "settings": {
-        "element_id": "",
-        "image": "shopify://shop_images/stay-spiced_haya-molcho-edition_1e7a88d6-0f4a-4bca-8bf4-45aa3478795f.png",
-        "image_position": "left",
-        "height": "small",
-        "image_crop": false,
-        "text_alignment": "horizontal-left",
-        "is_fullwidth": false,
-        "section_background_color": "#d7007f",
-        "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "#b6fa4b",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false
       }
     },
     "featured_collection_TDLrjQ": {
@@ -534,6 +423,22 @@
         "seo_h_tag": "h2"
       }
     },
+    "1764532846d131c3e2": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_reviews_and_more_review_carousel_JNatYT": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/review-carousel/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_reviews_and_more_review_carousel_JNatYT"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": true
+      }
+    },
     "featured_collection_DTUbKF": {
       "type": "featured-collection",
       "blocks": {
@@ -555,6 +460,7 @@
         "title_wp9Xie",
         "quick_buy_WfMhXh"
       ],
+      "name": "Kochbücher",
       "settings": {
         "heading": "KOCHEN & GRILLEN WIE DIE PROFIS!",
         "header-width-limit": 500,
@@ -563,7 +469,7 @@
         "link_label": "Produkte anzeigen",
         "link_url": "",
         "show_product_detail": false,
-        "section_heading_layout": "section-heading--left",
+        "section_heading_layout": "section-heading--center",
         "style": "slider",
         "layout": "grid-3 grid-lap-1 grid-tiny-1",
         "mobile_layout": "grid-lap-1 grid-tiny-1",
@@ -595,11 +501,12 @@
       "block_order": [
         "element_WTyRFk"
       ],
+      "disabled": true,
       "settings": {
         "title": "GENIESSE AUCH DU UNSERE EXZELLENTEN GEWÜRZE",
         "trust_element_type": "test--01",
         "padding_value": 28,
-        "section_heading_layout": "section-heading--left",
+        "section_heading_layout": "section-heading--center",
         "section_content_layout": 4,
         "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
@@ -607,20 +514,121 @@
         "seo_h_tag": "h2"
       }
     },
-    "17332358681e7cee98": {
-      "type": "apps",
+    "rich_text_slider_RmwHiH": {
+      "type": "rich-text-slider",
       "blocks": {
-        "trusted_shops_easy_integration_review_carousel_hKKaL4": {
-          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/review-carousel/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-          "settings": {}
+        "content_Uy7GGT": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced-testimonial-roland-trettl.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "ROLAND TRETTL",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Seit 2018 ist Roland Trettl Markenbotschafter und ein echter Qualitätsgarant bei <strong>STAY SPICED !</strong>. Gemeinsam wurden einzigartige Gewürzmischungen entwickelt – von seinen Lieblings-Reingewürzen bis zu liebevoll zusammengestellten Sets, die in keinem Gewürzregal fehlen dürfen. Seine Gewürze sind Ausdruck von Leidenschaft für hochwertige Zutaten, höchstem Anspruch an Geschmack und der Freude, Menschen mit gutem Essen zu begeistern. </p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "Mehr erfahren",
+            "button_01_url": "shopify://pages/roland-trettl",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_MbbU3y": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/tom_heinzle_portrait-rauch_a846941a-e34b-4ee5-a7c9-d228f80a748b.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "TOM HEINZLE",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Tom Heinzle ist Grillmeister und Feuerkoch, der Grillen nicht nur beherrscht, sondern lebt. Als Grill-Profi und Buchautor steht er für kompromisslose Qualität, Handwerk und Leidenschaft am offenen Feuer. In Zusammenarbeit mit <strong>STAY SPICED !</strong> entstand eine Gewürzlinie, die Grill- und BBQ-Momente auf ein neues Level hebt – intensiv, vielseitig und perfekt für alle, die Outdoor-Cooking lieben. </p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "Mehr erfahren",
+            "button_01_url": "shopify://pages/tom-heinzle",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_tFgCpy": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced-testimonial-ben-perry.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-center",
+            "title": "BEN PERRY",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Supertramp, Freigeist und Spitzenkoch – kocht überall: im Bus, am Feuer oder über den Dächern Berlins. Gemeinsam mit <strong>STAY SPICED !</strong> hat er eine exklusive Gewürzlinie entwickelt, die perfekt für Reisen, Outdoor-Erlebnisse und kreative Küche ist. Seine Gewürze geben Inspiration für neue Geschmackserlebnisse, fernab vom Gewöhnlichen und nah am Feuer.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "Mehr erfahren",
+            "button_01_url": "shopify://pages/ben-perry",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_EHfWRm": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced-testimonial-haya-molcho.png",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": true,
+            "text_alignment": "horizontal-center",
+            "title": "HAYA MOLCHO",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Haya Molcho prägt wie kaum eine andere Köchin die moderne Levante-Küche und bringt jahrzehntelange kulinarische Leidenschaft in jede Gewürzmischung ein. Gemeinsam mit <strong>STAY SPICED !</strong> entstand eine exklusive Levante-Gewürzlinie – von S! Zaatar über S! Harissa bis S! Tel Aviv – inspiriert von Begegnungen, Märkten und dem Herz der orientalischen Küche. Entdecke Gewürze, die dir die unverwechselbaren Aromen des östlichen Mittelmeerraums direkt in deine Küche bringen. </p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "Mehr erfahren",
+            "button_01_url": "shopify://pages/haya-molcho-neni",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
         }
       },
       "block_order": [
-        "trusted_shops_easy_integration_review_carousel_hKKaL4"
+        "content_Uy7GGT",
+        "content_MbbU3y",
+        "content_tFgCpy",
+        "content_EHfWRm"
       ],
+      "name": "Rich Text Slider",
       "settings": {
-        "full_width": false,
-        "remove_margin": false
+        "height": "regular",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
       }
     },
     "rich_text_JkyXpn": {
@@ -659,13 +667,14 @@
         "text_6xtdrR",
         "button_kRDaRd"
       ],
+      "name": "Über uns",
       "settings": {
         "element_id": "",
         "image": "shopify://shop_images/stay-spiced_team-foto_ab3cf881-4278-4d10-8956-6b62d43bd056.png",
-        "image_position": "right",
+        "image_position": "left",
         "height": "small",
         "image_crop": true,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "is_fullwidth": false,
         "section_background_color": "#dbb6d7",
         "remove_margin": false,
@@ -678,28 +687,147 @@
         "color_hide_shadow": false
       }
     },
+    "featured_collection_ACd388": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_Ua7fnE": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_4azJaE": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_GCkMdb": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_Ua7fnE",
+        "title_4azJaE",
+        "quick_buy_GCkMdb"
+      ],
+      "custom_css": [
+        ".product-item__badge--round {line-height: 0.8rem;}"
+      ],
+      "name": "Boxen",
+      "settings": {
+        "heading": "GESCHENKBOXEN FÜR JEDEN ANLASS",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "boxen",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "trust_element_logo_XnPCDy": {
       "type": "trust-element-logo",
       "blocks": {
-        "element_nAmnfH": {
+        "element_tPagCh": {
           "type": "element",
-          "repeater": "{{ localization.market.metafields.custom.trust_elements.value }}",
           "settings": {
-            "element_img": "{{ block.repeater.image.value }}",
+            "element_img": "shopify://shop_images/gault_millau.png",
+            "link": ""
+          }
+        },
+        "element_LUz7dU": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/derfeinschmecker_0d732ce7-bfd0-4cbd-8286-e0f04fd704dd.png",
+            "link": ""
+          }
+        },
+        "element_hUWFkg": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/falstaffprofi.png",
+            "link": ""
+          }
+        },
+        "element_jk6Lrc": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/rollingpin.png",
+            "link": ""
+          }
+        },
+        "element_eQbLEi": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/alacarte.png",
+            "link": ""
+          }
+        },
+        "element_eCdaL8": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/sn.jpg",
+            "link": ""
+          }
+        },
+        "element_Yym6DC": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/kurier.png",
+            "link": ""
+          }
+        },
+        "element_ykqKR3": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/focus.png",
+            "link": ""
+          }
+        },
+        "element_a3BCn8": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/bunte.png",
+            "link": ""
+          }
+        },
+        "element_6wGrgG": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/orfnachlese.png",
             "link": ""
           }
         }
       },
       "block_order": [
-        "element_nAmnfH"
+        "element_tPagCh",
+        "element_LUz7dU",
+        "element_hUWFkg",
+        "element_jk6Lrc",
+        "element_eQbLEi",
+        "element_eCdaL8",
+        "element_Yym6DC",
+        "element_ykqKR3",
+        "element_a3BCn8",
+        "element_6wGrgG"
       ],
+      "name": "Bekannt aus ",
       "settings": {
-        "title": "Du kennst uns vielleicht aus",
+        "title": "BEKANNT AUS",
         "section_heading_layout": "section-heading--center",
         "section_content_layout": 5,
         "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
+        "remove_margin": true,
         "seo_h_tag": "h2"
       }
     },
@@ -1303,19 +1431,19 @@
     }
   },
   "order": [
-    "media_with_text_overlay_DE8jg9",
+    "blocks_cKeeGF",
     "slideshow_mN3TUP",
     "featured_collection_rpW3qQ",
     "featured_collection_F4GY7R",
     "collection_list_xbMdTz",
     "featured_collection_ncydHj",
-    "featured_collection_ACd388",
-    "rich_text_afC3zW",
     "featured_collection_TDLrjQ",
+    "1764532846d131c3e2",
     "featured_collection_DTUbKF",
     "testimonial_element_rtkx6D",
-    "17332358681e7cee98",
+    "rich_text_slider_RmwHiH",
     "rich_text_JkyXpn",
+    "featured_collection_ACd388",
     "trust_element_logo_XnPCDy",
     "rich_text_Ykneef",
     "rich_text_YeABpe",

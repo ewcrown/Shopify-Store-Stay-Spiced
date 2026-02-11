@@ -1,0 +1,683 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_kiYkVT": {
+      "type": "rich-text",
+      "blocks": {
+        "title_TeWQxP": {
+          "type": "title",
+          "settings": {
+            "title": "Eigenanbau auf dem \"Maiergut\"",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_HTqCmN": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>2021 wurde das Maiergut im oberösterreichischen Innviertel zu neuem Leben erweckt.</strong><br/><br/>Auf dem rund <strong>18 Hektar großen Areal</strong> baut STAY SPICED ! seither ausgewählte Kräuter, Gewürze und Ölsaaten an. Neben <strong>Koriander und Kümmel</strong> entstehen hier nach und nach weitere Kräuter sowie Ölsaaten wie <strong>Leinsamen</strong>.</p><p>Der Eigenanbau ermöglicht kurze Wege, transparente Herkunft und einen bewussten Umgang mit Boden und Ressourcen.<br/><br/><strong>Hier präsentieren wir stolz die ersten STAY SPICED ! Gewürze aus eigenem Anbau – regional und nachhaltig.</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_JArn8M": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_TeWQxP",
+        "text_HTqCmN",
+        "button_JArn8M"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/eigenanbau.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_zjgBHe": {
+      "type": "featured-product",
+      "blocks": {
+        "title_qaNQWt": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_pcdbeA": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_ATNXx6": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_FUnWyx": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_k7b9YR": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_LLMt9X": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_XMtbRT": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_wDMqDW": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_qaNQWt",
+        "price_pcdbeA",
+        "variant_picker_ATNXx6",
+        "space_FUnWyx",
+        "buy_buttons_k7b9YR",
+        "space_LLMt9X",
+        "description_XMtbRT",
+        "product_link_wDMqDW"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "maiergut-koriander-und-kummel-gewurze-set-2er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "Herkunft, die man schmeckt",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "eigenanbau-maiergut",
+        "section_background_color": "#dcc38e",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_KKnmBk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_TgzTez": {
+          "type": "title",
+          "settings": {
+            "title": "Vom Feld bis zur Flasche",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_8mAHLH": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Unser Kürbiskernöl wird in Handarbeit und mit großer Sorgfalt hergestellt</h3><ul><li><strong>Anbau</strong>: Die Kürbisse stammen aus unserem eigenen Anbau und wachsen auf fruchtbarem Innviertler Boden. Die goldgelben Früchte werden im Herbst direkt am Feld entkernt, das Fruchtfleisch bleibt als natürlicher Dünger zurück.</li><li><strong>Trocknung</strong>: Die Kerne werden mit Wasser gereinigt und unter warmer Luft schonend getrocknet.</li><li><strong>Pressung</strong>: Vor dem Pressen werden die Kerne nochmals gereinigt und in einer Steinmühle zu Brei verarbeitet. Dieser wird mit Wasser und Salz vermengt und unter Rühren sanft geröstet – traditionell über Holzfeuer.</li><li><strong>Pressvorgang</strong>: Das geröstete Kürbismehl wird im warmen Zustand in Schichten gepresst. Das dabei gewonnene Öl ruht mehrere Tage in Kannen, um Geschmack und Klarheit zu entfalten – ganz ohne Filtration oder Raffination.</li><li><strong>Verwertung</strong>: Der verbleibende Kürbiskuchen wird als hochwertiges Futtermittel weiterverwendet – für eine ressourcenschonende Produktion.<br/>Für einen Liter Öl werden rund 2,5 kg Kürbiskerne benötigt – das Ergebnis ist ein naturreines Produkt aus 100 % Innviertler Landwirtschaft.<br/></li></ul>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_KAQDR9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_TgzTez",
+        "text_8mAHLH",
+        "button_KAQDR9"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Eigenanbau_Kuerbiskernoel.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_QE6qt3": {
+      "type": "featured-product",
+      "blocks": {
+        "title_qU4yYk": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_XVXKVa": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_pGgAyE": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_XcNkqH": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_N9f4bG": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_b4U7AH": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_97daGi": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_VXKjGY": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_dLqwH6": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_qU4yYk",
+        "bullet_XVXKVa",
+        "price_pGgAyE",
+        "variant_picker_XcNkqH",
+        "space_N9f4bG",
+        "buy_buttons_b4U7AH",
+        "space_97daGi",
+        "description_VXKjGY",
+        "product_link_dLqwH6"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "stay-spiced-kurbiskernol-vom-maiergut",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "rich_text_cyRpDB": {
+      "type": "rich-text",
+      "blocks": {
+        "title_jcadBa": {
+          "type": "title",
+          "settings": {
+            "title": "Anbau nach durchdachter Fruchtfolge",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_HXW8an": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für die fachkundige Betreuung des Gutes und der Feldfrüchte hat man sich Experten ins Boot geholt. Unterstützung kommt daher von Siegfried Zehetner (re.) von der Saatbau Erntegut GmbH mit Sitz in Kefermarkt, die bereits Erfahrung mit Anbauflächen und der Veredelung (trocknen, reinigen und mahlen) haben. Das Gut selbst, wird von Landwirt Markus Harner betreuen. Er ist der Nachbar des Maiergutes und für den fachgerechten Anbau und die Ernte verantwortlich.</p><p></p><h2>Beste Qualität aus der Region!</h2><p>„Mit dem Eigenanbau wollen wir das Bewusstsein für regionalen Gewürzanbau höchster Qualität schaffen und noch einen Schritt weiter gehen in Sachen Regionalität.“</p><p><strong>Lukas M. Walchhofer – CEO & Gewürzexperte von STAY SPICED !</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_4VYEnR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_jcadBa",
+        "text_HXW8an",
+        "button_4VYEnR"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Eigenanbau_Lukas_1x1_b3db3153-8b26-4790-9256-6e80143c4435.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_r7aRKx": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_PBwHcy": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_fHHV78": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_JMpLmA": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_PBwHcy",
+        "title_fHHV78",
+        "quick_buy_JMpLmA"
+      ],
+      "settings": {
+        "heading": "Reingewürze",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "reingewurz",
+        "section_background_color": "#dcc38e",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "custom_liquid_aprWRF": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<video autoplay muted loop playsinline controls>\n  <source src=\"https://cdn.shopify.com/videos/c/o/v/c67a42176d5749cea6677f6998f5caf6.mp4\" type=\"video/mp4\">\n</video>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "sp_rich_text_bDyWE6": {
+      "type": "sp-rich-text",
+      "blocks": {
+        "title_6pXt83": {
+          "type": "title",
+          "settings": {
+            "title": ""
+          }
+        },
+        "subtitle_9ppamR": {
+          "type": "subtitle",
+          "settings": {}
+        },
+        "text_EETdwk": {
+          "type": "text",
+          "settings": {}
+        },
+        "button_wJmqcg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "product_4qmRGB": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "faq_GRPtty": {
+          "type": "faq",
+          "settings": {
+            "title": "test",
+            "answer": "<p>test</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_6pXt83",
+        "subtitle_9ppamR",
+        "text_EETdwk",
+        "button_wJmqcg",
+        "product_4qmRGB",
+        "faq_GRPtty"
+      ],
+      "name": "SP - RICH TEXT",
+      "settings": {
+        "text_snippet": 1,
+        "liquid": "",
+        "seo_h_tag": "h2",
+        "title_size": "h2",
+        "text_size": "regular",
+        "is_use_video": false,
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "related_product_columns": 3,
+        "is_fullwidth": false,
+        "set_video_background": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "content_toggles_YR8H7B": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_D9qQcQ": {
+          "type": "text",
+          "settings": {
+            "title": "Koriander allgemein",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Koriander ist eine beliebte <strong>Kräuterpflanze</strong>, die in vielen Küchen weltweit Verwendung findet. Man unterscheidet dabei zwischen Koriandersaat und den frischen Korianderblättern. </p><p>Beide stammen aus der Korianderpflanze, unterscheiden sich aber klar in Geschmack und Verwendung.</p><p>Korianderblätter werden oft auch als Koriandergrün bezeichnet und haben einen frischen, zitrusartigen Geschmack. Sie werden in vielen Küchen weltweit verwendet, insbesondere in der asiatischen, lateinamerikanischen und indischen Küche, um Gerichte zu würzen und zu aromatisieren. Korianderblätter werden normalerweise frisch verwendet, können aber auch getrocknet werden. Sie eignen sich gut als Garnierung für Suppen, Currys, Salate und Sandwiches.</p><p>Koriandersaat dagegen hat einen warmen, würzigen Geschmack wird normalerweise in der indischen, mexikanischen und nordafrikanischen Küche verwendet und ist ein wichtiger Bestandteil von Gewürzmischungen wie Garam Masala, Currypulver und Harissa. Koriandersaat kann auch als Ganzes verwendet werden und eignet sich gut zum Einlegen von Gemüse oder zum Würzen von Fleisch und Geflügel.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_4z6PaK": {
+          "type": "text",
+          "settings": {
+            "title": "Wie wird Koriander angebaut?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Koriander ist eine einjährige Pflanze, die in gemäßigten Klimazonen angebaut werden kann. Der Anbau erfordert einen sonnigen Standort mit gut durchlässigem Boden und einem passenden pH-Wert. Unsere Felder vereinnen all diese Eigenschaften und daher können wir unserem Koriander die besten Bedigungen für einen gesunden Wachstum bieten. Koriander kann aus Samen oder Sämlingen angebaut werden und kann etwa 45 bis 70 Tage nach dem Pflanzen geerntet werden, indem man die Blätter und Stängel schneidet oder die Samen erntet.</p><p><br/></p><p>Gerechnet wird mit einem Ertrag zwischen 1200 und 2200 Kilogramm pro Hektar. Um dieses Projekt noch weiter zu forcieren, sind wir immer wieder auf der Suche nach möglichen Anbauflächen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_6r4cWY": {
+          "type": "text",
+          "settings": {
+            "title": "Wie wird Koriander verwendet?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Koriandersaat hat eine leicht süßliche, nussige Note die du durch kurzes Anrösten noch verstärken kannst. Die Saat wird in der Regel gemahlen oder im Ganzen verwendet, um Gerichte wie Curry, Suppen und Eintöpfe eine frische Note zu verleihen. Sie harmoniert außerdem hervorragend mit Fisch, Fleisch und Weihnachtsgebäck wie Lebkuchen und Spekulatius, sowie mit selbstgebackenem Brot. Die Samen können auch zum Einlegen von Gemüse verwendet werden. Geschmacklich hat die Koriandersaat mit den frischen Korianderblättern nichts gemeinsam, das überzeugt sogar Koriander-Skeptiker.<br/><br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_KKLEtN": {
+          "type": "text",
+          "settings": {
+            "title": "Kümmel allgemein",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Kümmel ist eine Gewürzpflanze, die aus der Familie der Doldenblütler stammt und botanisch als Carum carvi bezeichnet wird. Die Pflanze ist vor allem in Europa, Asien und Nordafrika beheimatet und wird seit Tausenden von Jahren angebaut und genutzt.</p><p>Die Pflanze hat einen aufrechten Stängel, der bis zu 60 cm hoch werden kann. Die Blätter sind fein gefiedert und die Blüten sind in Dolden angeordnet. Der Kümmel wird vor allem wegen seiner Samen kultiviert, die aromatisch und würzig schmecken und ein markantes Aroma haben.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_WCD4Hz": {
+          "type": "text",
+          "settings": {
+            "title": "Wie wird Kümmel angebaut?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Kümmel kann in verschiedenen Klimazonen angebaut werden, bevorzugt jedoch ein gemäßigtes bis kontinentales Klima mit ausreichender Feuchtigkeit und einer durchschnittlichen mittleren Temperatur zwischen 10 und 25°C. In Österreich ist der Anbau von Kümmel vor allem in den Bundesländern Steiermark, Kärnten und Burgenland verbreitet und mit unserem Maiergut-Kümmel nun auch in Oberösterreich.</p><p><br/></p><p>Die klimatischen Bedingungen in Österreich sind für den Anbau günstig, da wir über ein gemäßigtes Klima mit ausreichend Niederschlag verfügt. Die Bodenbeschaffenheit ist ebenfalls geeignet, da Kümmel am besten in gut durchlässigen Böden mit einem neutralen pH-Wert wächst.</p><p><br/></p><p>Der Maiergut-Kümmel ist besonders aromatisch und hat eine hohe Qualität.</p><p><br/></p><p>Der Anbau von Kümmel erfolgt in der Regel als Fruchtfolge mit anderen Getreide- und Feldfrüchten. Die Aussaat erfolgt im Frühjahr oder Herbst, je nach Klima und Region. Die Samen werden in Reihen mit einem Abstand von etwa 15 bis 20 cm ausgesät und mit einer Tiefe von etwa 1 bis 2 cm in den Boden eingearbeitet.</p><p><br/></p><p>Kümmel benötigt eine gleichmäßige Bewässerung, um gut zu wachsen. Das Unkraut muss regelmäßig entfernt werden, um das Wachstum der Pflanze nicht zu beeinträchtigen. Die Pflanzen können bis zu 60 cm hoch werden und produzieren in der Regel im zweiten Jahr nach der Aussaat Blüten und Samen. Daher auch der Name: Zweijähriger Kümmel</p><p><br/></p><p>Die Ernte erfolgt, wenn die Samen reif sind und eine bräunliche Farbe haben. Die Samen werden entweder von Hand geerntet oder mit speziellen Erntemaschinen. Nach der Ernte Werden die Samen getrocknet und gereinigt, um Schmutz und Verunreinigungen zu entfernen. Anschließend werden sie direkt in die S! Dose gefüllt.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_k66rtn": {
+          "type": "text",
+          "settings": {
+            "title": "Wie wird Kümmel verwendet?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Kümmel ist durch seinen starken Eigengeschmack auch in der Lage, (fette) Fleischgerichte zu würzen, wie Gänse-, Schweine- oder Lammbraten, Gulasch und Schmorgerichte. Zudem eignet er sich hervorragend zum Abschmecken von Saußen, Suppen, Gemüse, Käse und Salaten ebenso wie für Brot, Kuchen und Gebäck. Egal wofür du ihn verwendest, bei uns findest du ihn in ganz oder vermahlender Form um ihn optimal für deine Gerichte einsetzen zu können.<br/><br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_iBTM9c": {
+          "type": "text",
+          "settings": {
+            "title": "Kürbiskernöl allgemein",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Kürbiskernöl ist eine traditionsreiche regionale Spezialität aus der österreichischen und süddeutschen Küche. Seine tiefgrüne Farbe und der charakteristische Geschmack passen zu herzhaften wie auch süßen Gerichten. Besonders überraschend: Vanilleeis mit ein paar Tropfen Kürbiskernöl und gerösteten Kürbiskernen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_r49Nxp": {
+          "type": "text",
+          "settings": {
+            "title": "Wie wird  Kürbiskernöl hergestellt?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Unser Kürbiskernöl entsteht in traditioneller Handarbeit aus Kürbissen aus eigenem Innviertler Anbau. Nach der Ernte werden die Kerne direkt am Feld gewonnen, gewaschen und schonend getrocknet. Anschließend werden sie in einer Steinmühle vermahlen, mit Wasser und Salz vermischt und über Holzfeuer sanft geröstet. Das warme Kürbiskernmehl wird gepresst, das Öl darf mehrere Tage ruhen und entwickelt dabei seine typische Tiefe und Klarheit – ganz ohne Filtration oder Raffination. Die Pressrückstände werden weiterverwertet, sodass ein nachhaltiger, geschlossener Kreislauf entsteht.</p><p>Für einen Liter Öl werden rund 2,5 kg Kürbiskerne verarbeitet – ein naturreines Produkt aus 100 % Innviertler Landwirtschaft. 🌱🟢</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_M6Fp3R": {
+          "type": "text",
+          "settings": {
+            "title": "Wie verwende ich Kürbiskernöl?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Kürbiskernöl wird ausschließlich kalt verwendet, da es nicht hitzestabil ist. Ideal eignet es sich zum Verfeinern von Salaten, Kürbissuppe, Rindercarpaccio oder als Topping auf geröstetem Brot. Auch zu Gemüse, Käse und in Dips bringt es mit seinem nussigen Charakter eine feine geschmackliche Tiefe.<br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_GcGi6T": {
+          "type": "text",
+          "settings": {
+            "title": "Wie ist der Geschmack von Kürbiskernöl?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Das Öl begeistert mit einer kräftigen, leicht süßlichen Nussnote und einer weichen Konsistenz. Es bringt eine warme, runde Tiefe auf den Teller, die sowohl zu herzhaften Klassikern als auch zu kreativen Dessertideen passt. Die typisch dunkelgrüne Farbe ist nicht nur ein optisches Highlight, sondern auch Ausdruck echter Qualität.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_D9qQcQ",
+        "text_4z6PaK",
+        "text_6r4cWY",
+        "text_KKLEtN",
+        "text_WCD4Hz",
+        "text_k66rtn",
+        "text_iBTM9c",
+        "text_r49Nxp",
+        "text_M6Fp3R",
+        "text_GcGi6T"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Alles Wichtige auf einen Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_kiYkVT",
+    "featured_product_zjgBHe",
+    "featured_collection_wpmJ6R",
+    "rich_text_KKnmBk",
+    "featured_product_QE6qt3",
+    "rich_text_cyRpDB",
+    "featured_collection_r7aRKx",
+    "custom_liquid_aprWRF",
+    "sp_rich_text_bDyWE6",
+    "content_toggles_YR8H7B"
+  ]
+}

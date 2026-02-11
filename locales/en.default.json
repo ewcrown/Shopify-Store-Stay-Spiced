@@ -173,8 +173,8 @@
       "preorder_product": "Pre Order",
       "no_products_text": "There are currently no products in this collection.",
       "save_amount_html": "Save {{ amount }}",
-      "save_up_to_amount_html": "Save {{ amount }}",
-      "save_percent": "{{ percent }}",
+      "save_up_to_amount_html": "Save up to {{ amount }}",
+      "save_percent": "Up to {{ percent }}",
       "quick_buy": "Buy now",
       "quick_view": "Quick view"
     },
@@ -542,6 +542,32 @@
           "previous": "Back"
         }
       }
+    },
+    "subscriptions": {
+      "subscription_contracts": {
+        "title": "Use payment method for recurring orders",
+        "subscription_contracts_updated": "{{succeeded}} of {{total}} subscriptions updated",
+        "product_details": "Product details",
+        "load_more": "Load more",
+        "more_items": {
+          "one": "{{count}} other product",
+          "other": "{{count}} more products"
+        },
+        "product_count": {
+          "one": "{{count}} Product",
+          "other": "{{count}} products"
+        }
+      },
+      "contracts_update_failed": "Some subscription contracts could not be updated.",
+      "updating_contracts": {
+        "one": "{{count}} Subscription agreement is being updated…",
+        "other": "{{count}} Subscription agreements are being updated…"
+      },
+      "contracts_updated": {
+        "one": "{{count}} Subscription agreement successfully updated",
+        "other": "{{count}} Subscription contracts successfully updated"
+      },
+      "invalid_wallet_type_error": "Invalid wallet type."
     }
   }
 }

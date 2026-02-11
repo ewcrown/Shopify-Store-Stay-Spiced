@@ -6,21 +6,10 @@
     assign direction = 'rtl'
   endif
 -%}
+{% render 'sc' %}
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
   <head>
-    <script>
-      (function (g, e, o, t, a, r, ge, tl, y, s) {
-        t = g.getElementsByTagName(e)[0];
-        y = g.createElement(e);
-        y.async = true;
-        y.src =
-          'https://g10696554090.co/gr?id=-N1ob9s-z4lZDMb6wglS&refurl=' +
-          g.referrer +
-          '&winurl=' +
-          encodeURIComponent(window.location);
-        t.parentNode.insertBefore(y, t);
-      })(document, 'script');
-    </script>
+    {%  render 'external-scripts' %}
 
     {%- if customer == blank and settings.b2b_prevent_purchase == true -%}
       {%- if request.path == routes.cart_url -%}
@@ -79,8 +68,7 @@
     {{ 'blog-post.css' | asset_url | stylesheet_tag }}
     {{ 'tailwind-build.css' | asset_url | stylesheet_tag }}
     {{ 'notyf.min.css' | asset_url | stylesheet_tag }}
-
-    {{ 'ew-styles.css' | asset_url | stylesheet_tag }}
+     {{ 'ew-styles.css' | asset_url | stylesheet_tag }}
 
     {{ content_for_header }}
 
@@ -263,6 +251,11 @@
       {% unless settings.show_sidebars_scrollbar %} sidebars-has-scrollbars {% endunless %}
     "
   >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJL6QBCN"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <script type="text/javascript">
       if ('ontouchstart' in window || (window.DocumentTouch && document instanceof DocumentTouch)) {
         document.querySelector('body').classList.remove('no-touchevents');
@@ -495,8 +488,7 @@
         }
       </style>
     {%- endif -%}
-    
-    {{ 'ew-custom.js' | asset_url | script_tag }}
 
+    {{ 'ew-custom.js' | asset_url | script_tag }}
   </body>
 </html>

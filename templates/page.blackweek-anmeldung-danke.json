@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_ihB6jg": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Black_Week_Anmeldung_Header_3.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "rich_text_mbwphQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_nNFxqP": {
+          "type": "title",
+          "settings": {
+            "title": "Deine Anmeldung zu täglichen Black Week Boni war erfolgreich!",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_6TMBXk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Juhu! Die erste E-Mail sollte schon in dein Postfach geflattert sein. Sieh auch im Spamordner nach, falls du sie nicht findest.</p><p></p><p><br/>Hier siehst du weitere Spice Deals zur Black Week 2025.  Zusätzlich zu diesen allgemeinen Deals bekommst du nun auch täglich exklusive Codes per E-Mail für Gratisgewürze und weitere Überraschungen. Sei gespannt! 🎁<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_p3Q3fR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Alle Deals ansehen",
+            "link": "https://stayspiced.com/pages/black-week",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_nNFxqP",
+        "text_6TMBXk",
+        "button_p3Q3fR"
+      ],
+      "custom_css": [
+        "div {color: #ffffff;}",
+        ".card .button--solid {background-color: #ff008e;}"
+      ],
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#000000",
+        "remove_margin": false,
+        "color_background_main": "#1d1d1d",
+        "color_text_main": "#ffffff",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "custom_css": [
+        ".card a {color: #ffffff;}",
+        ".product-item__info-grid {color: #ffffff;}",
+        ".lazy-image {background-color: #000000;}",
+        ".product-item__quick-buy {width: 100%; background-color: #ff008e;}",
+        ".product-star-widget .wrapper .grade {color: #ffffff; margin-left: 0.3em;}"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "black-week-deals",
+        "section_background_color": "#000000",
+        "section_heading_color": "#ffffff",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_ihB6jg",
+    "rich_text_mbwphQ",
+    "featured_collection_wpmJ6R"
+  ]
+}

@@ -60,6 +60,601 @@
         "color_hide_shadow": true
       }
     },
+    "rich_text_qgx6k9": {
+      "type": "rich-text",
+      "blocks": {
+        "title_RQGg8G": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Feine Öle für deine Küche von STAY SPICED !</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_XmCfrc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Öl ist nicht gleich Öl – entdecke unsere Auswahl an feinsten Speiseölen für deine kreative Küche!</strong><br/>Von kräftig-nussigem Kürbiskernöl bis hin zu samtig-weichem Walnussöl – STAY SPICED ! bietet dir beste Öle mit Charakter. Ob aus Haselnuss, Traubenkernen oder feinen Oliven: Jedes Öl bringt eine neue Geschmacksdimension auf deinen Teller – für Salate, Bowls, Gemüse, Pasta oder sogar Desserts.</p><p><strong>Naturrein. Vielseitig. Voll im Geschmack.</strong><br/>Unsere Öle werden schonend verarbeitet, nicht raffiniert und kommen ohne Zusatzstoffe aus. Regional, ursprünglich und authentisch – das ist echter STAY SPICED ! Geschmack. Ob warm oder kalt verwendet – jedes Öl bietet dir ein neues Geschmackserlebnis und passt zu modernen, abwechslungsreichen Gerichten.</p><p><strong>Für alle, die das Besondere suchen – am Grill, in der Küche oder als Geschenk.</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_itGCe3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sortiment entdecken",
+            "link": "shopify://collections/ol-by-stay-spiced",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_RQGg8G",
+        "text_XmCfrc",
+        "button_itGCe3"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/SPICEWORLD_Rindersteak_Gemuese_011_Haselnussoel_sRGB02_8e22aa36-ca05-4c22-b2df-4d43b05fb536.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "custom_css": [
+        "{margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "ol-by-stay-spiced",
+        "section_background_color": "#89ccca",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_fq7HNa": {
+      "type": "featured-product",
+      "blocks": {
+        "title_g8Q6gA": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_hTbfdL": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_LKzCrx": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_Xq4jej": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_K7zf4w": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_gQq7kz": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_kbHgiD": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_UawAzg": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_PLiPz9": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_g8Q6gA",
+        "bullet_hTbfdL",
+        "price_LKzCrx",
+        "variant_picker_Xq4jej",
+        "space_K7zf4w",
+        "buy_buttons_gQq7kz",
+        "space_kbHgiD",
+        "description_UawAzg",
+        "product_link_PLiPz9"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "stay-spiced-kurbiskernol-vom-maiergut",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_product_3mKtcy": {
+      "type": "featured-product",
+      "blocks": {
+        "title_pFpJyh": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_wCXPzj": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "buy_buttons_UjRG8t": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description_pTYDHn": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_pFpJyh",
+        "bullet_wCXPzj",
+        "buy_buttons_UjRG8t",
+        "description_pTYDHn"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #538000;}"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "stay-spiced-kurbiskernol-vom-maiergut",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "rich_text_DFxDtz": {
+      "type": "rich-text",
+      "blocks": {
+        "title_peRpDB": {
+          "type": "title",
+          "settings": {
+            "title": "Vom Feld bis zur Flasche",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_Rr68Tc": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Unser Kürbiskernöl wird in Handarbeit und mit großer Sorgfalt hergestellt",
+            "title_size": "h2"
+          }
+        },
+        "text_hKcaXy": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Anbau</strong>: Die Kürbisse stammen aus unserem eigenen Anbau und wachsen auf fruchtbarem Innviertler Boden. Die goldgelben Früchte werden im Herbst direkt am Feld entkernt, das Fruchtfleisch bleibt als natürlicher Dünger zurück.</li><li><strong>Trocknung</strong>: Die Kerne werden mit Wasser gereinigt und unter warmer Luft schonend getrocknet.</li><li><strong>Pressung</strong>: Vor dem Pressen werden die Kerne nochmals gereinigt und in einer Steinmühle zu Brei verarbeitet. Dieser wird mit Wasser und Salz vermengt und unter Rühren sanft geröstet – traditionell über Holzfeuer.</li><li><strong>Pressvorgang</strong>: Das geröstete Kürbismehl wird im warmen Zustand in Schichten gepresst. Das dabei gewonnene Öl ruht mehrere Tage in Kannen, um Geschmack und Klarheit zu entfalten – ganz ohne Filtration oder Raffination.</li><li><strong>Verwertung</strong>: Der verbleibende Kürbiskuchen wird als hochwertiges Futtermittel weiterverwendet – für eine ressourcenschonende Produktion.<br/>Für einen Liter Öl werden rund 2,5 kg Kürbiskerne benötigt – das Ergebnis ist ein naturreines Produkt aus 100 % Innviertler Landwirtschaft.<br/></li></ul>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_RkMHAb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr Eigenanbau",
+            "link": "shopify://pages/eigenanbau",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_peRpDB",
+        "subtitle_Rr68Tc",
+        "text_hKcaXy",
+        "button_RkMHAb"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Eigenanbau_Kuerbiskernoel.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#538000",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_7GmDAr": {
+      "type": "featured-product",
+      "blocks": {
+        "title_QiUUGr": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_aJVYXX": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_abPgpw": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_7Qhgbe": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_9kmPQj": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_VGALgL": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_PdyUgd": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_caPMbb": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_Xnzb6C": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_QiUUGr",
+        "bullet_aJVYXX",
+        "price_abPgpw",
+        "variant_picker_7Qhgbe",
+        "space_9kmPQj",
+        "buy_buttons_VGALgL",
+        "space_PdyUgd",
+        "description_caPMbb",
+        "product_link_Xnzb6C"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "stay-spiced-olivenol-koroneiki-olives-0-5-liter",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_product_M9z6gg": {
+      "type": "featured-product",
+      "blocks": {
+        "title_ARFDrn": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_RWncjB": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "buy_buttons_gX9nfU": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "title_ARFDrn",
+        "bullet_RWncjB",
+        "buy_buttons_gX9nfU"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #009ee3;}"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "stay-spiced-olivenol-koroneiki-olives-0-5-liter",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "rich_text_njnKck": {
+      "type": "rich-text",
+      "blocks": {
+        "title_x8ff8A": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>100 % KORONEIKI </strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_gU7jb8": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Der Königin der Oliven",
+            "title_size": "h2"
+          }
+        },
+        "text_EBfFWQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser Olivenöl besteht zu <strong>100 % aus Koroneiki Oliven</strong>, die zu Recht den Beinamen <strong>„Königin der Oliven“ </strong>tragen. Diese edle Olivensorte gehört zu den <strong>hochwertigsten der Welt</strong> und ist zugleich die am häufigsten kultivierte Olive Griechenlands – ein echtes Qualitätsmerkmal!</p><p><strong>Normalernte & Frühernte – Zwei Sorten, ein unvergleichlicher Geschmack</strong></p><p>Beide Sorten stehen für höchste Qualität – je nach Geschmacksvorliebe kannst du das passende Olivenöl für deine Küche wählen!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_b9nbCW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr Olivenöl",
+            "link": "shopify://collections/landingpage-olivenol",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_x8ff8A",
+        "subtitle_gU7jb8",
+        "text_EBfFWQ",
+        "button_b9nbCW"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Olivenoel_Olivenhain_1x1_1375080c-8dda-416a-ad47-01d3dce3f394.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "#009ee3",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "trust_element_with_text_enW3E8": {
+      "type": "trust-element-with-text",
+      "blocks": {
+        "element_yKDdmY": {
+          "type": "element",
+          "name": "KÜRBISKERNÖL",
+          "settings": {
+            "element_img": "shopify://shop_images/776231-83101xF05.png",
+            "element_title": "KÜRBISKERNÖL",
+            "element_desc": "<p><strong>Herkunft: </strong>Innviertel (AT), Kürbisse aus eigenem Anbau      </p><p><strong>Hitzestabilität: </strong>Nicht erhitzen</p><p><strong>Geschmack / Anwendung: </strong>Kräftig-nussig, ideal für Salate, Suppen, Aufstriche, Desserts      </p><p><strong>Besonderheiten: </strong>Eigenanbau, traditionell gepresst, naturrein, ungefiltert, ohne Zusatzstoffe</p>"
+          }
+        },
+        "element_jFpjJQ": {
+          "type": "element",
+          "name": "WALNUSSÖL",
+          "settings": {
+            "element_img": "shopify://shop_images/747081-83102xF05.png",
+            "element_title": "WALNUSSÖL",
+            "element_desc": "<p><strong>Herkunft:</strong> Oberbayern, ungeröstete Walnüsse</p><p><strong>Hitzestabilität:</strong> Bis ca. 120 °C</p><p><strong>Geschmack/Anwendung:</strong> Mild-nussig, für Blattsalate, Gemüse, Käse, Desserts</p><p><strong>Besonderheiten:</strong> Naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
+          }
+        },
+        "element_t7dYhD": {
+          "type": "element",
+          "name": "HASELNUSSÖL",
+          "settings": {
+            "element_img": "shopify://shop_images/747084-83103xF05.png",
+            "element_title": "HASELNUSSÖL",
+            "element_desc": "<p><strong>Herkunft:</strong> Oberbayern, ungeröstete Haselnüsse</p><p><strong>Hitzestabilität:</strong> Bis ca. 160 °C</p><p><strong>Geschmack/Anwendung:</strong> Intensiv-nussig, ideal für Desserts, Aufstriche, kräftiges Gemüse</p><p><strong>Besonderheiten:</strong> Naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
+          }
+        },
+        "element_y6iyCg": {
+          "type": "element",
+          "name": "TRAUBENKERNÖL",
+          "settings": {
+            "element_img": "shopify://shop_images/747085-83104xF05.png",
+            "element_title": "TRAUBENKERNÖL",
+            "element_desc": "<p><strong>Herkunft:</strong> Süddeutschland, Weintraubenkerne</p><p><strong>Hitzestabilität:</strong> Bis ca. 160–180 °C</p><p><strong>Geschmack/Anwendung:</strong> Fein, leicht, dezente Traubennote – ideal für Salate, Mayos, Fisch, leichte Küche</p><p><strong>Besonderheiten:</strong> Nachhaltig, kaltgepresst, ohne Zusatzstoffe</p>"
+          }
+        },
+        "element_RcPz8j": {
+          "type": "element",
+          "name": "HANFSAMENÖL",
+          "settings": {
+            "element_img": "shopify://shop_images/747086-83105xF05.png",
+            "element_title": "HANFSAMENÖL",
+            "element_desc": "<p><strong>Herkunft:</strong> Niederbayern, Bio-Hanfsamen</p><p><strong>Hitzestabilität:</strong> Nicht erhitzen</p><p><strong>Geschmack/Anwendung:</strong> Frisch, grasig, nussig – für Bowls, Salate, Aufstriche</p><p><strong>Besonderheiten:</strong> Bio-zertifiziert, kaltgepresst, ohne Zusatzstoffe</p>"
+          }
+        },
+        "element_kRxcDc": {
+          "type": "element",
+          "name": "OLIVENÖL FRÜHERNTE",
+          "settings": {
+            "element_img": "shopify://shop_images/691660-stay-spiced_oliveno_25CC_2588l_fruehernte_flasche_82009x_88664b43-9fa6-4c11-9290-2c91214b9aa9.png",
+            "element_title": "OLIVENÖL FRÜHERNTE",
+            "element_desc": "<p><strong>Herkunft:</strong> Griechenland, Koroneiki-Oliven, frühe Handlese</p><p><strong>Hitzestabilität:</strong> Bis ca. 210 °C</p><p><strong>Geschmack/Anwendung:</strong> Sehr intensiv, grün-fruchtig, ideal für Antipasti, Pasta, Brot</p><p><strong>Besonderheiten:</strong> Limitierte Ernte, naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
+          }
+        },
+        "element_NdkxgL": {
+          "type": "element",
+          "name": "OLIVENÖL NORMALERNTE",
+          "settings": {
+            "element_img": "shopify://shop_images/691656-stay-spiced_oliveno_25CC_2588l_flasche_82006x_cc71b8c8-57b6-4bbc-96a7-2ec43f2d9cc9.png",
+            "element_title": "OLIVENÖL NORMALERNTE",
+            "element_desc": "<p><strong>Herkunft:</strong> Griechenland, Koroneiki-Oliven, reguläre Ernte<br/><br/><strong>Hitzestabilität:</strong> Bis ca. 210 °C<br/><br/><strong>Geschmack/Anwendung:</strong> Milder, fruchtiger Allrounder – für kalte und warme Küche<br/><br/><strong>Besonderheiten:</strong> Naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
+          }
+        }
+      },
+      "block_order": [
+        "element_yKDdmY",
+        "element_jFpjJQ",
+        "element_t7dYhD",
+        "element_y6iyCg",
+        "element_RcPz8j",
+        "element_kRxcDc",
+        "element_NdkxgL"
+      ],
+      "name": "Trust Element",
+      "settings": {
+        "title": "UNSERE ÖLE IM VERGLEICH",
+        "section_heading_layout": "section-heading--center",
+        "section_content_column": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "text_columns_icons_8fYyiY": {
       "type": "text-columns-icons",
       "blocks": {
@@ -136,374 +731,6 @@
         "seo_h_tag": "h2"
       }
     },
-    "featured_collection_wpmJ6R": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_frMM3q": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_D7FXkJ": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_ekMiXt": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_frMM3q",
-        "title_D7FXkJ",
-        "quick_buy_ekMiXt"
-      ],
-      "custom_css": [
-        "{margin-bottom: 40px;}"
-      ],
-      "settings": {
-        "heading": "",
-        "header-width-limit": 730,
-        "subheading": "",
-        "show_view_all": false,
-        "link_label": "",
-        "link_url": "",
-        "show_product_detail": true,
-        "section_heading_layout": "section-heading--center",
-        "style": "grid",
-        "layout": "grid-4 grid-portable-3",
-        "mobile_layout": "grid-lap-2 grid-tiny-2",
-        "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 8,
-        "product-info-width-limit": 500,
-        "collection": "ol-by-stay-spiced",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "featured_product_3mKtcy": {
-      "type": "featured-product",
-      "blocks": {
-        "title_pFpJyh": {
-          "type": "title",
-          "settings": {
-            "seo_h_tag": "h2"
-          }
-        },
-        "bullet_wCXPzj": {
-          "type": "bullet",
-          "settings": {
-            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
-            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
-            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
-          }
-        },
-        "buy_buttons_UjRG8t": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_price": true,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "description_pTYDHn": {
-          "type": "description",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_pFpJyh",
-        "bullet_wCXPzj",
-        "buy_buttons_UjRG8t",
-        "description_pTYDHn"
-      ],
-      "custom_css": [
-        "{background-color: #538000;}"
-      ],
-      "name": "t:sections.featured-product.name",
-      "settings": {
-        "title": "",
-        "section_heading_layout": "section-heading--center",
-        "product": "stay-spiced-kurbiskernol-vom-maiergut",
-        "gallery_ratio": "natural",
-        "gallery_fit": false,
-        "show_border": false,
-        "gallery_card_design": false,
-        "gallery_padding": 0,
-        "gallery_pagination": "dots",
-        "enable_zoom": true,
-        "enable_video_looping": false
-      }
-    },
-    "rich_text_DFxDtz": {
-      "type": "rich-text",
-      "blocks": {
-        "title_peRpDB": {
-          "type": "title",
-          "settings": {
-            "title": "Vom Feld bis zur Flasche",
-            "title_size": "h3",
-            "seo_h_tag": "h2"
-          }
-        },
-        "subtitle_Rr68Tc": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Unser Kürbiskernöl wird in Handarbeit und mit großer Sorgfalt hergestellt",
-            "title_size": "h2"
-          }
-        },
-        "text_hKcaXy": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li><strong>Anbau</strong>: Die Kürbisse stammen aus unserem eigenen Anbau und wachsen auf fruchtbarem Innviertler Boden. Die goldgelben Früchte werden im Herbst direkt am Feld entkernt, das Fruchtfleisch bleibt als natürlicher Dünger zurück.</li><li><strong>Trocknung</strong>: Die Kerne werden mit Wasser gereinigt und unter warmer Luft schonend getrocknet.</li><li><strong>Pressung</strong>: Vor dem Pressen werden die Kerne nochmals gereinigt und in einer Steinmühle zu Brei verarbeitet. Dieser wird mit Wasser und Salz vermengt und unter Rühren sanft geröstet – traditionell über Holzfeuer.</li><li><strong>Pressvorgang</strong>: Das geröstete Kürbismehl wird im warmen Zustand in Schichten gepresst. Das dabei gewonnene Öl ruht mehrere Tage in Kannen, um Geschmack und Klarheit zu entfalten – ganz ohne Filtration oder Raffination.</li><li><strong>Verwertung</strong>: Der verbleibende Kürbiskuchen wird als hochwertiges Futtermittel weiterverwendet – für eine ressourcenschonende Produktion.<br/>Für einen Liter Öl werden rund 2,5 kg Kürbiskerne benötigt – das Ergebnis ist ein naturreines Produkt aus 100 % Innviertler Landwirtschaft.<br/></li></ul>",
-            "content_source": "custom",
-            "text_size": "regular"
-          }
-        },
-        "button_RkMHAb": {
-          "type": "button",
-          "settings": {
-            "button_label": "Mehr Eigenanbau",
-            "link": "shopify://metaobjects/landing_page/eigenanbau-maiergut",
-            "target_id": "",
-            "open_in_new_window": false,
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "title_peRpDB",
-        "subtitle_Rr68Tc",
-        "text_hKcaXy",
-        "button_RkMHAb"
-      ],
-      "name": "t:sections.rich-text.name",
-      "settings": {
-        "element_id": "",
-        "image": "shopify://shop_images/Eigenanbau_Kuerbiskernoel.png",
-        "image_position": "right",
-        "height": "regular",
-        "image_crop": true,
-        "text_alignment": "horizontal-left",
-        "is_fullwidth": false,
-        "section_background_color": "#538000",
-        "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false
-      }
-    },
-    "featured_product_M9z6gg": {
-      "type": "featured-product",
-      "blocks": {
-        "title_ARFDrn": {
-          "type": "title",
-          "settings": {
-            "seo_h_tag": "h2"
-          }
-        },
-        "bullet_RWncjB": {
-          "type": "bullet",
-          "settings": {
-            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
-            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
-            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
-          }
-        },
-        "buy_buttons_gX9nfU": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_price": true,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        }
-      },
-      "block_order": [
-        "title_ARFDrn",
-        "bullet_RWncjB",
-        "buy_buttons_gX9nfU"
-      ],
-      "custom_css": [
-        "{background-color: #009ee3;}"
-      ],
-      "name": "t:sections.featured-product.name",
-      "settings": {
-        "title": "",
-        "section_heading_layout": "section-heading--center",
-        "product": "stay-spiced-olivenol-koroneiki-olives-0-5-liter",
-        "gallery_ratio": "natural",
-        "gallery_fit": false,
-        "show_border": false,
-        "gallery_card_design": false,
-        "gallery_padding": 0,
-        "gallery_pagination": "dots",
-        "enable_zoom": true,
-        "enable_video_looping": false
-      }
-    },
-    "rich_text_njnKck": {
-      "type": "rich-text",
-      "blocks": {
-        "title_x8ff8A": {
-          "type": "title",
-          "settings": {
-            "title": "<strong>100 % KORONEIKI </strong>",
-            "title_size": "h3",
-            "seo_h_tag": "h2"
-          }
-        },
-        "subtitle_gU7jb8": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Der Königin der Oliven",
-            "title_size": "h2"
-          }
-        },
-        "text_EBfFWQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Unser Olivenöl besteht zu <strong>100 % aus Koroneiki Oliven</strong>, die zu Recht den Beinamen <strong>„Königin der Oliven“ </strong>tragen. Diese edle Olivensorte gehört zu den <strong>hochwertigsten der Welt</strong> und ist zugleich die am häufigsten kultivierte Olive Griechenlands – ein echtes Qualitätsmerkmal!</p><p><strong>Normalernte & Frühernte – Zwei Sorten, ein unvergleichlicher Geschmack</strong></p><p>Beide Sorten stehen für höchste Qualität – je nach Geschmacksvorliebe kannst du das passende Olivenöl für deine Küche wählen!</p>",
-            "content_source": "custom",
-            "text_size": "regular"
-          }
-        },
-        "button_b9nbCW": {
-          "type": "button",
-          "settings": {
-            "button_label": "Mehr Olivenöl",
-            "link": "",
-            "target_id": "",
-            "open_in_new_window": false,
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "title_x8ff8A",
-        "subtitle_gU7jb8",
-        "text_EBfFWQ",
-        "button_b9nbCW"
-      ],
-      "name": "t:sections.rich-text.name",
-      "settings": {
-        "element_id": "",
-        "image": "shopify://shop_images/Olivenoel_Olivenhain_1x1_1375080c-8dda-416a-ad47-01d3dce3f394.png",
-        "image_position": "right",
-        "height": "regular",
-        "image_crop": true,
-        "text_alignment": "horizontal-left",
-        "is_fullwidth": false,
-        "section_background_color": "#009ee3",
-        "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false
-      }
-    },
-    "trust_element_with_text_enW3E8": {
-      "type": "trust-element-with-text",
-      "blocks": {
-        "element_yKDdmY": {
-          "type": "element",
-          "name": "KÜRBISKERNÖL",
-          "settings": {
-            "element_img": "shopify://shop_images/776231-83101xF05.png",
-            "element_title": "KÜRBISKERNÖL",
-            "element_desc": "<p><strong>Herkunft: </strong>Innviertel (AT), Kürbisse aus eigenem Anbau      </p><p><strong>Hitzestabilität: </strong>Nicht erhitzen</p><p><strong>Geschmack / Anwendung: </strong>Kräftig-nussig, ideal für Salate, Suppen, Aufstriche, Desserts      </p><p><strong>Besonderheiten: </strong>Eigenanbau, traditionell gepresst, naturrein, ungefiltert, ohne Zusatzstoffe</p>"
-          }
-        },
-        "element_jFpjJQ": {
-          "type": "element",
-          "name": "WALNUSSÖL",
-          "settings": {
-            "element_img": "shopify://shop_images/747081-83102xF05.png",
-            "element_title": "WALNUSSÖL",
-            "element_desc": "<p><strong>Herkunft:</strong> Oberbayern, ungeröstete Walnüsse</p><p><strong>Hitzestabilität:</strong> Bis ca. 120 °C</p><p><strong>Geschmack/Anwendung:</strong> Mild-nussig, für Blattsalate, Gemüse, Käse, Desserts</p><p><strong>Besonderheiten:</strong> Naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
-          }
-        },
-        "element_t7dYhD": {
-          "type": "element",
-          "name": "HASELNUSSÖL",
-          "settings": {
-            "element_img": "shopify://shop_images/747084-83103xF05.png",
-            "element_title": "HASELNUSSÖL",
-            "element_desc": "<p><strong>Herkunft:</strong> Oberbayern, ungeröstete Haselnüsse</p><p><strong>Hitzestabilität:</strong> Bis ca. 160 °C</p><p><strong>Geschmack/Anwendung:</strong> Intensiv-nussig, ideal für Desserts, Aufstriche, kräftiges Gemüse</p><p><strong>Besonderheiten:</strong> Naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
-          }
-        },
-        "element_y6iyCg": {
-          "type": "element",
-          "name": "TRAUBENKERNÖL",
-          "settings": {
-            "element_img": "shopify://shop_images/747085-83104xF05.png",
-            "element_title": "TRAUBENKERNÖL",
-            "element_desc": "<p><strong>Herkunft:</strong> Süddeutschland, Weintraubenkerne (Nebenprodukt Weinlese)</p><p><strong>Hitzestabilität:</strong> Bis ca. 160–180 °C</p><p><strong>Geschmack/Anwendung:</strong> Fein, leicht, dezente Traubennote – ideal für Salate, Mayos, Fisch, leichte Küche</p><p><strong>Besonderheiten:</strong> Nachhaltig, kaltgepresst, ohne Zusatzstoffe</p>"
-          }
-        },
-        "element_RcPz8j": {
-          "type": "element",
-          "name": "HANFSAMENÖL",
-          "settings": {
-            "element_img": "shopify://shop_images/747086-83105xF05.png",
-            "element_title": "HANFSAMENÖL",
-            "element_desc": "<p><strong>Herkunft:</strong> Niederbayern, Bio-Hanfsamen</p><p><strong>Hitzestabilität:</strong> Nicht erhitzen</p><p><strong>Geschmack/Anwendung:</strong> Frisch, grasig, nussig – für Bowls, Salate, Aufstriche</p><p><strong>Besonderheiten:</strong> Bio-zertifiziert, kaltgepresst, ohne Zusatzstoffe</p>"
-          }
-        },
-        "element_kRxcDc": {
-          "type": "element",
-          "name": "OLIVENÖL FRÜHERNTE",
-          "settings": {
-            "element_img": "shopify://shop_images/691660-stay-spiced_oliveno_25CC_2588l_fruehernte_flasche_82009x_88664b43-9fa6-4c11-9290-2c91214b9aa9.png",
-            "element_title": "OLIVENÖL FRÜHERNTE",
-            "element_desc": "<p><strong>Herkunft:</strong> Griechenland, Koroneiki-Oliven, frühe Handlese</p><p><strong>Hitzestabilität:</strong> Bis ca. 210 °C</p><p><strong>Geschmack/Anwendung:</strong> Sehr intensiv, grün-fruchtig, ideal für Antipasti, Pasta, Brot</p><p><strong>Besonderheiten:</strong> Limitierte Ernte, naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
-          }
-        },
-        "element_NdkxgL": {
-          "type": "element",
-          "name": "OLIVENÖL NORMALERNTE",
-          "settings": {
-            "element_img": "shopify://shop_images/691656-stay-spiced_oliveno_25CC_2588l_flasche_82006x_cc71b8c8-57b6-4bbc-96a7-2ec43f2d9cc9.png",
-            "element_title": "OLIVENÖL NORMALERNTE",
-            "element_desc": "<p><strong>Herkunft:</strong> Griechenland, Koroneiki-Oliven, reguläre Ernte<br/><br/><strong>Hitzestabilität:</strong> Bis ca. 210 °C<br/><br/><strong>Geschmack/Anwendung:</strong> Milder, fruchtiger Allrounder – für kalte und warme Küche<br/><br/><strong>Besonderheiten:</strong> Naturbelassen, kaltgepresst, ohne Zusatzstoffe</p>"
-          }
-        }
-      },
-      "block_order": [
-        "element_yKDdmY",
-        "element_jFpjJQ",
-        "element_t7dYhD",
-        "element_y6iyCg",
-        "element_RcPz8j",
-        "element_kRxcDc",
-        "element_NdkxgL"
-      ],
-      "name": "Trust Element",
-      "settings": {
-        "title": "UNSERE ÖLE IM VERGLEICH",
-        "section_heading_layout": "section-heading--center",
-        "section_content_column": 4,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
     "rich_text_cJxFCp": {
       "type": "rich-text",
       "blocks": {
@@ -547,7 +774,7 @@
         "image_position": "right",
         "height": "regular",
         "image_crop": true,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "is_fullwidth": false,
         "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
@@ -559,18 +786,124 @@
         "color_hide_borders": false,
         "color_hide_shadow": false
       }
+    },
+    "featured_collection_jpNRem": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_cUrFh8": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_dGqY9c": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_8QE3Qz": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_cUrFh8",
+        "title_dGqY9c",
+        "quick_buy_8QE3Qz"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "essig-by-stay-spiced",
+        "section_background_color": "#d7007f",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_Td66aL": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_8GCNgK": {
+          "type": "text",
+          "settings": {
+            "title": "Öle von Stay Spiced !",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_tz7Rgg": {
+          "type": "text",
+          "settings": {
+            "title": "Herstellung Öle",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_kYVNfG": {
+          "type": "text",
+          "settings": {
+            "title": "Wofür soll man die Öle von Stay Spiced ! verwenden?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8GCNgK",
+        "text_tz7Rgg",
+        "text_kYVNfG"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Alles Wichtige auf einem Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
     }
   },
   "order": [
     "main",
     "slideshow_3JM8EY",
-    "text_columns_icons_8fYyiY",
+    "rich_text_qgx6k9",
     "featured_collection_wpmJ6R",
+    "featured_product_fq7HNa",
     "featured_product_3mKtcy",
     "rich_text_DFxDtz",
+    "featured_product_7GmDAr",
     "featured_product_M9z6gg",
     "rich_text_njnKck",
     "trust_element_with_text_enW3E8",
-    "rich_text_cJxFCp"
+    "text_columns_icons_8fYyiY",
+    "rich_text_cJxFCp",
+    "featured_collection_jpNRem",
+    "content_toggles_Td66aL"
   ]
 }

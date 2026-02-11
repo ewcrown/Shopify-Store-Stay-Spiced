@@ -1,0 +1,167 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_Pb6UL3": {
+      "type": "rich-text",
+      "blocks": {
+        "title_f7NY36": {
+          "type": "title",
+          "settings": {
+            "title": "juniorSkills 2026",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_npDQzi": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "title_size": "h2"
+          }
+        },
+        "text_q7XfnK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du bist Teil der diesjährigen JuniorSkills und stellst dein Können unter Beweis? Großartig! </p><p>Auf dieser Seite findest du <strong>die passenden Gewürze für deinen Wettbewerb</strong>. Ab dem 17. März erwarten dich zusätzlich ausgewählte <strong>Mystery-Warenkorbartikel</strong>. Außerdem haben wir weitere Gewürze für dich zusammengestellt, die für deine Aufgaben in Frage kommen – zum Ergänzen, Ausprobieren und für den letzten Feinschliff.</p><p><strong>Wir wünschen dir viel Erfolg</strong> beim Wettbewerb und freuen uns, dich auf deinem Weg begleiten zu dürfen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_f7NY36",
+        "subtitle_npDQzi",
+        "text_q7XfnK"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/junior_skills_austria-2026_Logo_1x1_b7d789b6-198f-4bb3-b08d-28e2648aef8a.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "Deine Gewürze im Warenkorb",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle Gewürze",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "juniorskills-2026-warenkorb",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "sp_featured_products_z9zbCJ": {
+      "type": "sp-featured-products",
+      "blocks": {
+        "price_hGNzwR": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_KbbgqV": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_3E9q8g": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_hGNzwR",
+        "title_KbbgqV",
+        "quick_buy_3E9q8g"
+      ],
+      "name": "Featured Products",
+      "settings": {
+        "heading": "Sonstige Artikel die du eventuell brauchst",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "show_product_detail": false,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "product_list": [
+          "agar-agar",
+          "isomalt-zuckeraustauschstoff-st-f-fein-0-2-0-7mm-1-kg-beutel",
+          "glukosesirup-45-bonbonsirup-5-kg"
+        ],
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Pb6UL3",
+    "featured_collection_wpmJ6R",
+    "sp_featured_products_z9zbCJ"
+  ]
+}

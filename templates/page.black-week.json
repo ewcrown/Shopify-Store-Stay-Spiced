@@ -16,14 +16,386 @@
         "center": false
       }
     },
-    "image_UDpaUE": {
-      "type": "image",
+    "marquee_cjebNL": {
+      "type": "marquee",
+      "blocks": {
+        "text_Qhxxrf": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "HEUTE GRATIS UMAMI AB 50€"
+          }
+        },
+        "text_MrrQFY": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<a href=\"#element-template--23990973661526__newsletter_nnjU6m\" title=\"#element-template--23990973661526__newsletter_nnjU6m\">JETZT ANMELDEN!</a>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qhxxrf",
+        "text_MrrQFY"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "scrolling-text {font-size: 1.5rem; height: 3rem;}"
+      ],
+      "name": "t:sections.local-extra-words.sections.marquee.name",
       "settings": {
-        "image": "shopify://shop_images/Oster_Gras_1.png",
-        "mobile_image": "shopify://shop_images/Oster_Handyansicht.png",
-        "link": "",
-        "open_in_new_window": false,
-        "image_size": "fullwidth"
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#fcff30",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "slideshow_4KNYXp": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ziEmPX": {
+          "type": "image",
+          "settings": {
+            "publish_date": "2025-11-28 00:00",
+            "unpublish_date": "2025-11-28 23:59",
+            "image": "shopify://shop_images/Header-Startseite_Desktop_Black-Week5.jpg",
+            "mobile_image": "shopify://shop_images/Header-Startseite_Mobile_Black-Week5.jpg",
+            "caption": "",
+            "title": "AB € 49 BESTELLWERT",
+            "link": "#shopify-section-sections--23633908924758__custom_liquid_JwXNed",
+            "open_in_new_window": false,
+            "button_label": "JETZT ANMELDEN!",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#88ccc9",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_QdPA3R": {
+          "type": "image",
+          "settings": {
+            "publish_date": "2025-11-29 00:00",
+            "unpublish_date": "2025-11-29 23:59",
+            "image": "shopify://shop_images/Header-Startseite_Desktop_Black-Week6.jpg",
+            "mobile_image": "shopify://shop_images/Header-Startseite_Mobile_Black-Week6.jpg",
+            "caption": "",
+            "title": "AB € 49 BESTELLWERT",
+            "link": "#shopify-section-sections--23633908924758__custom_liquid_JwXNed",
+            "open_in_new_window": false,
+            "button_label": "JETZT ANMELDEN!",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#88ccc9",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_ynKXPH": {
+          "type": "image",
+          "settings": {
+            "publish_date": "2025-11-30 00:00",
+            "unpublish_date": "2025-11-30 23:59",
+            "image": "shopify://shop_images/Header-Startseite_Desktop_Black-Week7.jpg",
+            "mobile_image": "shopify://shop_images/Header-Startseite_Mobile_Black-Week7.jpg",
+            "caption": "",
+            "title": "AB € 49 BESTELLWERT",
+            "link": "#shopify-section-sections--23633908924758__custom_liquid_JwXNed",
+            "open_in_new_window": false,
+            "button_label": "JETZT ANMELDEN!",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#88ccc9",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_bwhyDy": {
+          "type": "image",
+          "settings": {
+            "publish_date": "2025-12-01 00:00",
+            "unpublish_date": "2025-12-01 23:59",
+            "image": "shopify://shop_images/Header-Startseite_Desktop_Black-Week8.jpg",
+            "mobile_image": "shopify://shop_images/Header-Startseite_Mobile_Black-Week8.jpg",
+            "caption": "",
+            "title": "AB € 99 BESTELLWERT",
+            "link": "#shopify-section-sections--23633908924758__custom_liquid_JwXNed",
+            "open_in_new_window": false,
+            "button_label": "JETZT ANMELDEN!",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#88ccc9",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_ziEmPX",
+        "image_QdPA3R",
+        "image_ynKXPH",
+        "image_bwhyDy"
+      ],
+      "custom_css": [
+        ".container--fullwidth {padding: 0;}"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "60vh",
+        "mobile_height": "80vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "#000000",
+        "section_heading_color": "#000000",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_FeptEF": {
+      "type": "rich-text",
+      "blocks": {
+        "title_DPKVmW": {
+          "type": "title",
+          "settings": {
+            "title": "Unschlagbar würzige Angebote!",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_89AFVU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Deine perfekte Chance, um dich mit viel Geschmack für das ganze Jahr auszustatten. Erhalte mit unserem Newsletter tägliche Überraschungen</strong></em></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "subtitle_xw4TFd": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Deine perfekte Chance, um dich mit viel Geschmack für das ganze Jahr auszustatten:",
+            "title_size": "h2"
+          }
+        },
+        "button_6qfefV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Black Week Angebote",
+            "link": "",
+            "target_id": "featured-collection",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        },
+        "button_XEfryA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Newsletter Anmeldung",
+            "link": "#element-template--23990973661526__newsletter_nnjU6m",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_DPKVmW",
+        "text_89AFVU",
+        "subtitle_xw4TFd",
+        "button_6qfefV",
+        "button_XEfryA"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "div {color: #ffffff;}",
+        ".card .button--solid {background-color: #ff008e;}"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Geschenke_STAYSPICED_8360e4f2-eeb9-431f-8b4c-74660bb7eb5a.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#000000",
+        "remove_margin": false,
+        "color_background_main": "#000000",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_pnPW3Y": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".container {max-width: 100%;}",
+        "h2 {font-family: neue-haas-grotesk-display, sans-serif; font-weight: 700; font-style: italic; color: #d7007f;}",
+        "p {font-family: neue-haas-grotesk-display, sans-serif; font-weight: 500; font-style: normal;}",
+        ".form__label-row {font-family: neue-haas-grotesk-display, sans-serif; font-weight: 600; font-style: normal;}"
+      ],
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<!-- Begin Brevo Form -->\n<!-- START - We recommend to place the below code in head tag of your website html  -->\n<head><link rel=\"stylesheet\" href=\"https://use.typekit.net/ugk7dpm.css\"></head>\n<style>\n  @font-face {\n    font-display: block;\n    font-family: neue-haas-grotesk-display, sans-serif;\nfont-weight: 700;\nfont-style: italic;\n   @import url(\"https://use.typekit.net/ugk7dpm.css\");\n  }\n\n  @font-face {\n    font-family: neue-haas-grotesk-display, sans-serif;\nfont-weight: 700;\nfont-style: italic;}\n\n  #sib-container input:-ms-input-placeholder {\nfont-family: neue-haas-grotesk-display, sans-serif;\nfont-weight: 700;\nfont-style: italic;\n  }\n\n  #sib-container input::placeholder {\nfont-family: neue-haas-grotesk-display, sans-serif;\nfont-weight: 700;\nfont-style: italic;\n  }\n\n  #sib-container textarea::placeholder {\nfont-family: neue-haas-grotesk-display, sans-serif;\nfont-weight: 700;\nfont-style: italic;\n  }\n\n  #sib-container a {\n    text-decoration: underline;\n    color: #2BB2FC;\n  }\n</style>\n<link rel=\"stylesheet\" href=\"https://sibforms.com/forms/end-form/build/sib-styles.css\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Roboto&amp;&amp;display=swap\">\n<!--  END - We recommend to place the above code in head tag of your website html -->\n\n<!-- START - We recommend to place the below code where you want the form in your website html  -->\n<div class=\"sib-form\" style=\"text-align: center;\n         background-color: #000000;                                 \">\n  <div id=\"sib-form-container\" class=\"sib-form-container\">\n    <div id=\"error-message\" class=\"sib-form-message-panel\" style=\"font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;\">\n      <div class=\"sib-form-message-panel__text sib-form-message-panel__text--center\">\n        <svg viewBox=\"0 0 512 512\" class=\"sib-icon sib-notification__icon\">\n          <path d=\"M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z\" />\n        </svg>\n        <span class=\"sib-form-message-panel__inner-text\">\n                          Deine Anmeldung konnte nicht gespeichert werden. Bitte versuche es erneut.\n                      </span>\n      </div>\n    </div>\n    <div></div>\n    <div id=\"success-message\" class=\"sib-form-message-panel\" style=\"font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;max-width:540px;\">\n      <div class=\"sib-form-message-panel__text sib-form-message-panel__text--center\">\n        <svg viewBox=\"0 0 512 512\" class=\"sib-icon sib-notification__icon\">\n          <path d=\"M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z\" />\n        </svg>\n        <span class=\"sib-form-message-panel__inner-text\">\n                          Vielen Dank! Wir haben dir eine Verifizierungs-Mail gesendet. Bitte gehe nun in dein E-Mail Postfach und bestätige deine E-Mail Adresse. (Schau hierzu auch im Spamordner nach) 😊\n                      </span>\n      </div>\n    </div>\n    <div></div>\n    <div id=\"sib-container\" class=\"sib-container--large sib-container--vertical\" style=\"text-align:center; background-color:rgba(0,0,0,0.03); max-width:540px; border-width:0px; border-color:#4599f2; border-style:solid; direction:ltr\">\n      <form id=\"sib-form\" method=\"POST\" action=\"https://5c73b02f.sibforms.com/serve/MUIFAIWeKJUaqv2cYD2Y0xnFsHZkeep-ZWj00GV5fSrsbWe0sRu1wDLEQgZtMpMKHYVE4-CSDMuFK6nTMyk_aGFRZVlibZSb4S6xx0DUWnWWOz94xaG5yt6eo1HNxza5hZ30Hh1oCYJof-sLZE9EJO_8ufLZbecw9IaTMpETsROVBJvMcUptQ2pfY8zAapI5LttzAhRqGbMVsCk5\" data-type=\"subscription\">\n        <div style=\"padding: 8px 0;\">\n          <div class=\"sib-form-block\" style=\"font-size:40px; text-align:center; font-weight:700; font-style:italic; font-family:Roboto, webFonts; color:#89ccca; background-color:transparent; text-align:center\">\n            <h2>Jetzt anmelden &amp; tägliche Überraschungen zur Black Week erhalten!</h2>\n          </div>\n        </div>\n        <div style=\"padding: 8px 0;\">\n          <div class=\"sib-input sib-form-block\">\n            <div class=\"form__entry entry_block\">\n              <div class=\"form__label-row \">\n\n                <div class=\"entry__field\">\n                  <input class=\"input \" type=\"text\" id=\"EMAIL\" name=\"EMAIL\" autocomplete=\"off\" placeholder=\"E-Mail Adresse\" data-required=\"true\" required />\n                </div>\n              </div>\n\n              <label class=\"entry__error entry__error--primary\" style=\"font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;\">\n              </label>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding: 8px 0;\">\n          <div class=\"sib-input sib-form-block\">\n            <div class=\"form__entry entry_block\">\n              <div class=\"form__label-row \">\n\n                <div class=\"entry__field\">\n                  <input class=\"input \" maxlength=\"200\" type=\"text\" id=\"VORNAME\" name=\"VORNAME\" autocomplete=\"off\" placeholder=\"Vorname\" />\n                </div>\n              </div>\n\n              <label class=\"entry__error entry__error--primary\" style=\"font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;\">\n              </label>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding: 8px 0;\">\n          <div class=\"sib-form-block\" style=\"text-align: center\">\n            <button class=\"sib-form-block__button sib-form-block__button-with-loader\" style=\"font-size:16px; text-align:center; font-weight:700; font-family:Roboto, webFonts; color:#000000; background-color:#d7007f; border-width:0px;\" form=\"sib-form\" type=\"submit\">\n              <svg class=\"icon clickable__icon progress-indicator__icon sib-hide-loader-icon\" viewBox=\"0 0 512 512\" style=\"\">\n                <path d=\"M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z\" />\n              </svg>\n              Jetzt anmelden\n            </button>\n          </div>\n        </div>\n        <div style=\"padding: 8px 0;\">\n          <div class=\"sib-form-block\" style=\"font-size:16px; text-align:center; font-style:italic; font-family:Helvetica, sans-serif; color:#d7007f; background-color:transparent; text-align:center\">\n            <div class=\"sib-text-form-block\">\n              <p><strong>Hinweis</strong>: Bitte bestätige deine Anmeldung über die E-Mail, die du gleich erhältst. Danach bekommst du täglich einen neuen, streng limitierten Bonus-Code zur Black Week zugeschickt. Du kannst dich nach der Black Week jederzeit wieder vom Newsletter abmelden.🎁</p>\n            </div>\n          </div>\n        </div>\n\n        <input type=\"text\" name=\"email_address_check\" value=\"\" class=\"input--hidden\">\n        <input type=\"hidden\" name=\"locale\" value=\"de\">\n      </form>\n    </div>\n  </div>\n</div>\n<!-- END - We recommend to place the above code where you want the form in your website html  -->\n\n<!-- START - We recommend to place the below code in footer or bottom of your website html  -->\n<script>\n  window.REQUIRED_CODE_ERROR_MESSAGE = 'Wähle bitte einen Ländervorwahl aus.';\n  window.LOCALE = 'de';\n  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = \"Die eingegebenen Informationen sind nicht gültig. Bitte überprüfe das Feldformat und versuche es erneut.\";\n\n  window.REQUIRED_ERROR_MESSAGE = \"Dieses Feld darf nicht leer sein. \";\n\n  window.GENERIC_INVALID_MESSAGE = \"Die eingegebenen Informationen sind nicht gültig. Bitte überprüfe das Feldformat und versuche es erneut.\";\n\n\n\n\n  window.translation = {\n    common: {\n      selectedList: '{quantity} Liste ausgewählt',\n      selectedLists: '{quantity} Listen ausgewählt',\n      selectedOption: '{quantity} ausgewählt',\n      selectedOptions: '{quantity} ausgewählt',\n    }\n  };\n\n  var AUTOHIDE = Boolean(0);\n</script>\n\n<script defer src=\"https://sibforms.com/forms/end-form/build/main.js\"></script>\n\n\n<!-- END - We recommend to place the above code in footer or bottom of your website html  -->\n<!-- End Brevo Form -->",
+        "full_width": true,
+        "remove_margin": false
+      }
+    },
+    "featured_collection_Fgkwqc": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_TAyLPF": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_xeUATb": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_9ax8gC": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_TAyLPF",
+        "title_xeUATb",
+        "quick_buy_9ax8gC"
+      ],
+      "custom_css": [
+        ".card a {color: #ffffff;}",
+        ".product-item__info-grid {color: #ffffff;}",
+        ".lazy-image {background-color: #000000;}",
+        ".product-item__quick-buy {width: 100%; background-color: #ff008e;}",
+        ".product-star-widget .wrapper .grade {color: #ffffff; margin-left: 0.3em;}"
+      ],
+      "settings": {
+        "heading": "UNSERE TOPSELLER IN DER WEIHNACHTSEDITION",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "shopify://metaobjects/landing_page/die-stay-spiced-adventskalender",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "sondereditions",
+        "section_background_color": "#000000",
+        "section_heading_color": "#ffffff",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_FFPzDP": {
+      "type": "rich-text",
+      "blocks": {
+        "title_cDg363": {
+          "type": "title",
+          "settings": {
+            "title": "Adventskalender Gewürzregal",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_6UfgdH": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>🌿 24x einzigartige Gewürze für kulinarische Vielfalt.</p><p>👅 Hinter jedem Türchen ein passendes Rezept zum Nachkochen!</p><p>🪚Nach dem Weihnachtsfest im Nu zu einem Gewürzregal umgebaut - perfekt für jede Küche!</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "product_nWMNkh": {
+          "type": "product",
+          "settings": {
+            "product": "stay-spiced-gewurz-edition-gewurzregal"
+          }
+        }
+      },
+      "block_order": [
+        "title_cDg363",
+        "text_6UfgdH",
+        "product_nWMNkh"
+      ],
+      "custom_css": [
+        "div {color: #ffffff;}",
+        ".card .button--solid {background-color: #ff008e;}",
+        ".rich-text__container .rich-text__image figure {height: 100% !important;}",
+        "h3 {color: #fff;}",
+        ".lazy-image {background-color: #000000;}"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_bilder-adventskalender2.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#000000",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "#ffffff",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_U6DxY4": {
+      "type": "featured-product",
+      "blocks": {
+        "title_x6EGwk": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "buy_buttons_fRrCdf": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "title_x6EGwk",
+        "buy_buttons_fRrCdf"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "Hol dir deinen Rabattcode abonniere den Newsletter!",
+        "section_heading_layout": "section-heading--center",
+        "product": "roland-trettl-medium-gewurze-set-15er-holzkiste",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
       }
     },
     "featured_collection_GXkaxN": {
@@ -47,263 +419,104 @@
         "title_3xtXAp",
         "quick_buy_dNCMjK"
       ],
+      "custom_css": [
+        ".card a {color: #ffffff;}",
+        ".product-item__info-grid {color: #ffffff;}",
+        ".lazy-image {background-color: #000000;}",
+        ".product-item__quick-buy {width: 100%; background-color: #ff008e;}",
+        ".product-star-widget .wrapper .grade {color: #ffffff; margin-left: 0.3em;}"
+      ],
       "settings": {
-        "heading": "Oster Special Deals",
+        "heading": "PREMIUM GEWÜRZE ZUM SONDERPREIS",
         "header-width-limit": 500,
         "subheading": "",
         "show_view_all": false,
-        "link_label": "Mehr entdecken",
+        "link_label": "",
         "link_url": "shopify://metaobjects/landing_page/die-stay-spiced-adventskalender",
         "show_product_detail": true,
-        "section_heading_layout": "section-heading--left",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "gewurze-black-week",
+        "section_background_color": "#000000",
+        "section_heading_color": "#ffffff",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "newsletter_nnjU6m": {
+      "type": "newsletter",
+      "disabled": true,
+      "custom_css": [
+        ".newsletter input {background-color: #d7007f;}",
+        ".button-content {color: #d7007f;}",
+        ".container--large {padding: 0;}"
+      ],
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "brevo_form_id": "94260",
+        "show_icon": true,
+        "title": "Jetzt anmelden und zusätzliche, tägliche Super Deals zur Black Week erhalten!",
+        "text": "<p><strong>Hinweis</strong>: Bitte bestätige deine Anmeldung über die E-Mail, die du gleich erhältst. Danach bekommst du alle täglichen Bonus-Codes. Du kannst dich nach der Black Week jederzeit wieder vom Newsletter abmelden.🎁</p>",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "#d7007f",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "section_background_color": "#000000",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_dFQjPX": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_eGUDtQ": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_iTYbnp": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_n8W7rB": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_eGUDtQ",
+        "title_iTYbnp",
+        "quick_buy_n8W7rB"
+      ],
+      "custom_css": [
+        ".card a {color: #ffffff;}",
+        ".product-item__info-grid {color: #ffffff;}",
+        ".lazy-image {background-color: #000000;}",
+        ".product-item__quick-buy {width: 100%; background-color: #ff008e;}",
+        ".product-star-widget .wrapper .grade {color: #ffffff; margin-left: 0.3em;}"
+      ],
+      "settings": {
+        "heading": "UNSERE GEWÜRZ- & GESCHENKSETS",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "shopify://metaobjects/landing_page/die-stay-spiced-adventskalender",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
         "style": "slider",
         "layout": "grid-4 grid-portable-3",
         "mobile_layout": "grid-lap-2 grid-tiny-2",
         "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 8,
-        "product-info-width-limit": 500,
-        "collection": "adventskalender",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "featured_product_H9Tfga": {
-      "type": "featured-product",
-      "blocks": {
-        "title_DGgCTC": {
-          "type": "title",
-          "settings": {
-            "seo_h_tag": "h2"
-          }
-        },
-        "bullet_JJekUe": {
-          "type": "bullet",
-          "settings": {
-            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
-            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
-            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
-          }
-        },
-        "price_NyC4qH": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_7HWzMB": {
-          "type": "variant_picker",
-          "settings": {
-            "variants_style": "radio",
-            "show_quantities": "no"
-          }
-        },
-        "space_FWwgiV": {
-          "type": "space",
-          "settings": {}
-        },
-        "buy_buttons_RMQkic": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_price": false,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "space_KqNyPC": {
-          "type": "space",
-          "settings": {}
-        },
-        "description_pBapxJ": {
-          "type": "description",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_DGgCTC",
-        "bullet_JJekUe",
-        "price_NyC4qH",
-        "variant_picker_7HWzMB",
-        "space_FWwgiV",
-        "buy_buttons_RMQkic",
-        "space_KqNyPC",
-        "description_pBapxJ"
-      ],
-      "custom_css": [
-        "{background-color: #89ccca;}"
-      ],
-      "settings": {
-        "title": "",
-        "section_heading_layout": "section-heading--center",
-        "product": "ostern-gewurze-bundle-4-gewurze-im-vorteilsset",
-        "gallery_ratio": "natural",
-        "gallery_fit": false,
-        "show_border": false,
-        "gallery_card_design": false,
-        "gallery_padding": 0,
-        "gallery_pagination": "dots",
-        "enable_zoom": true,
-        "enable_video_looping": false
-      }
-    },
-    "featured_product_nXEnW3": {
-      "type": "featured-product",
-      "blocks": {
-        "title_8xmdmY": {
-          "type": "title",
-          "settings": {
-            "seo_h_tag": "h2"
-          }
-        },
-        "bullet_bBDcTG": {
-          "type": "bullet",
-          "settings": {
-            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
-            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
-            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
-          }
-        },
-        "price_UCFJmf": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_7t79Ey": {
-          "type": "variant_picker",
-          "settings": {
-            "variants_style": "radio",
-            "show_quantities": "no"
-          }
-        },
-        "space_9W9yUJ": {
-          "type": "space",
-          "settings": {}
-        },
-        "buy_buttons_8MMhrF": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_price": false,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "space_UJmYxL": {
-          "type": "space",
-          "settings": {}
-        },
-        "description_QfkP6B": {
-          "type": "description",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_8xmdmY",
-        "bullet_bBDcTG",
-        "price_UCFJmf",
-        "variant_picker_7t79Ey",
-        "space_9W9yUJ",
-        "buy_buttons_8MMhrF",
-        "space_UJmYxL",
-        "description_QfkP6B"
-      ],
-      "settings": {
-        "title": "",
-        "section_heading_layout": "section-heading--center",
-        "product": "ostern-gewurze-bundle-4-gewurze-im-vorteilsset",
-        "gallery_ratio": "natural",
-        "gallery_fit": false,
-        "show_border": false,
-        "gallery_card_design": false,
-        "gallery_padding": 0,
-        "gallery_pagination": "dots",
-        "enable_zoom": true,
-        "enable_video_looping": false
-      }
-    },
-    "featured_collection_h6UKiA": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_9zF3dr": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_yRjh6j": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_7FLxke": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_9zF3dr",
-        "title_yRjh6j",
-        "quick_buy_7FLxke"
-      ],
-      "settings": {
-        "heading": "Mehr Black Week Angebote",
-        "header-width-limit": 500,
-        "subheading": "",
-        "show_view_all": false,
-        "link_label": "Mehr entdecken",
-        "link_url": "",
-        "show_product_detail": true,
-        "section_heading_layout": "section-heading--left",
-        "style": "grid",
-        "layout": "grid-4 grid-portable-3",
-        "mobile_layout": "grid-lap-2 grid-tiny-2",
-        "mobile_add_to_cart_content": "cart-icon",
         "products_number": 16,
         "product-info-width-limit": 500,
-        "collection": "black-week-deals",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "featured_collection_9hCJVm": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_GU3679": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_YtEWED": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_MwGYeJ": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_GU3679",
-        "title_YtEWED",
-        "quick_buy_MwGYeJ"
-      ],
-      "settings": {
-        "heading": "Vorteilssets",
-        "header-width-limit": 500,
-        "subheading": "",
-        "show_view_all": true,
-        "link_label": "Alle entdecken",
-        "link_url": "",
-        "show_product_detail": true,
-        "section_heading_layout": "section-heading--left",
-        "style": "grid",
-        "layout": "grid-4 grid-portable-3",
-        "mobile_layout": "grid-lap-1 grid-tiny-1",
-        "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 16,
-        "product-info-width-limit": 500,
-        "collection": "vorteilsset",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
+        "collection": "boxen-black-week",
+        "section_background_color": "#000000",
+        "section_heading_color": "#ffffff",
         "remove_margin": false,
         "seo_h_tag": "h2"
       }
@@ -314,22 +527,22 @@
         "title_dEb9EW": {
           "type": "title",
           "settings": {
-            "title": "<strong>Black Week bei STAY SPICED!</strong>",
+            "title": "Black Week 2025 bei STAY SPICED!",
             "title_size": "h2",
-            "seo_h_tag": "h2"
+            "seo_h_tag": "h1"
           }
         },
         "subtitle_R6LXUm": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Die heißesten Gewürz-Deals des Jahres",
+            "subtitle": "Black Week Angebote auf Premium-Gewürze & Gewürzmischungen",
             "title_size": "h2"
           }
         },
         "text_H3zNT6": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Black Week ist zurück – und bei STAY SPICED! wird es besonders würzig! Sichere dir exklusive Rabatte auf unser vielfältiges Sortiment an <strong>hochwertigen Reingewürzen</strong>, <strong>kreativen Gewürzmischungen</strong> und <strong>einzigartigen Geschenkideen</strong>. Ob für die eigene Küche oder als Inspiration für genussvolle Geschenke: Unsere Angebote machen die Black Week zu einem Fest für alle Genießer.</p><h3>Warum lohnt sich die Black Week bei STAY SPICED?</h3><ul><li><strong>Rabatte auf Bestseller</strong>: Spare bei beliebten Gewürzen wie <em>BBQ-Gewürzen</em>, <em>orientalischen Mischungen</em> und mehr.</li><li><strong>Perfekte Geschenke</strong>: Unsere DIY-Gewürzboxen und Gewürzkoffer sind die ideale Überraschung für Foodies.</li><li><strong>Exklusive Deals</strong>: Entdecke limitierte Angebote und Aktionen, die nur während der Black Week verfügbar sind.</li><li><strong>Premium-Qualität</strong>: Alle unsere Gewürze sind ohne Zusatzstoffe und aus besten Zutaten hergestellt.</li></ul><h3>So holst du das Beste aus der Black Week heraus</h3><p>Verpasse keine unserer unschlagbaren Aktionen! Halte Ausschau nach täglichen Highlights und erweitere dein Gewürzsortiment zu unschlagbaren Preisen. Nutze die Gelegenheit, deine Favoriten aufzustocken oder neue Aromen zu entdecken – von Gewürzen für die Weihnachtsbäckerei bis hin zu exotischen Mischungen für kulinarische Abenteuer.</p><p><strong>Melde dich jetzt für den STAY SPICED! Newsletter an</strong><br/>Verpasse auch nach der Black Week keine unserer spannenden Angebote! Mit der Anmeldung zu unserem Newsletter bleibst du das ganze Jahr über informiert und sicherst dir direkt 10 % Rabatt auf deine nächste Bestellung. Jetzt anmelden und noch mehr würzigen Genuss erleben!</p>",
+            "text": "<p>Die <strong>Black Week 2025 bei STAY SPICED !</strong> läuft von <strong>Montag, 24.11.2025, bis inklusive Cyber Monday, 01.12.2025</strong>.</p><p>In dieser Zeit erwarten dich <strong>täglich wechselnde Black-Week-Angebote</strong> auf ausgewählte<br/><strong>Gewürze, Gewürzmischungen & Salz-Spezialitäten</strong> – zu <strong>einzigartigen Konditionen</strong>.</p><ul><li>Jeden Tag neue <strong>Black Week Deals</strong></li><li>Exklusive <strong>Rabatte auf Premium-Gewürze</strong></li><li>Nur <strong>streng limitierte Mengen</strong></li><li><strong>Nur solange der Vorrat reicht</strong></li></ul><h3>Black Friday 2025 Highlight: Das STAY SPICED ! Black Friday Salz</h3><p>Am <strong>Black Friday</strong> gibt es wieder unser legendäres<br/><strong>STAY SPICED! Black Friday Salz</strong> – ein echtes Sammlerstück für Gewürzfans.</p><ul><li><strong>Nur am Black Friday 2025</strong> erhältlich</li><li><strong>In unseren STAY SPICED! Stores und im Online-Shop</strong></li><li><strong>Streng limitiert</strong> & schnell ausverkauft</li></ul><p></p>",
             "content_source": "custom",
             "text_size": "regular"
           }
@@ -340,7 +553,9 @@
         "subtitle_R6LXUm",
         "text_H3zNT6"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "div {color: #ffffff;}"
+      ],
       "settings": {
         "element_id": "",
         "image_position": "top no-image",
@@ -348,53 +563,30 @@
         "image_crop": false,
         "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#000000",
         "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
+        "color_background_main": "#1d1d1d",
+        "color_text_main": "#ffffff",
+        "color_accent_main": "#ffffff",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false
       }
-    },
-    "17434103295b9b5119": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "remove_margin": false
-      }
-    },
-    "1743410369a3cde721": {
-      "type": "apps",
-      "blocks": {
-        "pushowl_brevo_email_push_sms_app_block_3gYqQH": {
-          "type": "shopify://apps/pushowl-brevo/blocks/app-block/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
-          "settings": {
-            "formId": "94260"
-          }
-        }
-      },
-      "block_order": [
-        "pushowl_brevo_email_push_sms_app_block_3gYqQH"
-      ],
-      "settings": {
-        "full_width": false,
-        "remove_margin": false
-      }
     }
   },
   "order": [
     "main",
-    "image_UDpaUE",
+    "marquee_cjebNL",
+    "slideshow_4KNYXp",
+    "rich_text_FeptEF",
+    "custom_liquid_pnPW3Y",
+    "featured_collection_Fgkwqc",
+    "rich_text_FFPzDP",
+    "featured_product_U6DxY4",
     "featured_collection_GXkaxN",
-    "featured_product_H9Tfga",
-    "featured_product_nXEnW3",
-    "featured_collection_h6UKiA",
-    "featured_collection_9hCJVm",
-    "rich_text_hatrX4",
-    "17434103295b9b5119",
-    "1743410369a3cde721"
+    "newsletter_nnjU6m",
+    "featured_collection_dFQjPX",
+    "rich_text_hatrX4"
   ]
 }

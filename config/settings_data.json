@@ -70,7 +70,7 @@
       "border_radius_buttons": 30,
       "border_width_forms": 1,
       "border_radius_forms": 6,
-      "shadow_cards_x": 0,
+      "shadow_cards_x": -3,
       "shadow_cards_y": 0,
       "shadow_cards_blur": 0,
       "shadow_buttons_x": 3,
@@ -179,7 +179,7 @@
     "border_width_buttons": 1,
     "border_radius_buttons": 0,
     "border_radius_forms": 0,
-    "shadow_cards_x": -3,
+    "shadow_cards_x": -10,
     "shadow_cards_blur": 0,
     "quick_buy_disable_modal": true,
     "product_card_aspect_ratio": "natural",
@@ -208,7 +208,8 @@
     "all_goals_label": "<span>Du hast alle Geschenke erhalten.</span><p style=\"font-size: 8px;\">* Solange der Vorrat reicht. Nur gültig für Privatkunden.</p>",
     "excluded_products": [
       "stay-spiced-gewurz-edition-gewurzregal",
-      "adventskalender-stay-spiced-cube-edition-2025"
+      "adventskalender-stay-spiced-cube-edition-2025",
+      "stay-spiced-gutschein"
     ],
     "show_gotop": true,
     "within_filter_enabled": false,
@@ -260,6 +261,18 @@
       "store-selector": {
         "type": "store-selector",
         "blocks": {
+          "store_ARMrCU": {
+            "type": "store",
+            "settings": {
+              "store_name": "My Store",
+              "store_pickup_price": "Free",
+              "store_pickup_time": "Usually ready in 24 hrs",
+              "store_address": "<p>123 John Doe Street<br/>Your Town, YT 12345</p><p> </p><p><strong>Store Hours<br/></strong>Sun: Closed<br/>Mon-Fri: 9:00 - 17:00<br/>Sat: 10:00 - 13:00</p><p><strong>What to expect at pickup</strong></p><p> </p>",
+              "store_closing_times": "<p>Closed</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 5pm</p><p>Closing at 1pm</p>",
+              "store_map_latitude": "46.7834818",
+              "store_map_longitude": "23.5464733"
+            }
+          },
           "store-selector-0": {
             "type": "store",
             "disabled": true,
@@ -275,6 +288,7 @@
           }
         },
         "block_order": [
+          "store_ARMrCU",
           "store-selector-0"
         ],
         "settings": {
@@ -293,7 +307,7 @@
       "gift_card-template": {
         "type": "gift_card-template",
         "settings": {
-          "gutscheindesign": "shopify://shop_images/Gutschein-Template.jpg",
+          "gutscheindesign": "shopify://shop_images/Gutschein-Fruehling_feda86db-4667-4883-9e90-534cbb94f825.png",
           "wertcolor": "#000000",
           "wertfont": "instrument_sans_i7",
           "wertsize": "49",
@@ -313,36 +327,10 @@
         "disabled": false,
         "settings": {}
       },
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#d7007f",
-          "secondary_color": "#ffffff",
-          "ternary_color": "#6A6A6A",
-          "button_icon": "question_mark",
-          "button_text": "help",
-          "button_horizontal_position": "bottom_left",
-          "button_vertical_position": "lowest",
-          "greeting_message": ""
-        }
-      },
-      "12196260394306439754": {
-        "type": "shopify://apps/adcell-tracking-remarketing/blocks/theme_extension/578397e0-3e42-4c27-add7-dfc15023b09b",
-        "disabled": false,
-        "settings": {}
-      },
       "17676059084223943535": {
         "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
         "settings": {}
-      },
-      "1530068250781986104": {
-        "type": "shopify://apps/fbp-fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
-        "disabled": false,
-        "settings": {
-          "home": false
-        }
       },
       "5946647744298494267": {
         "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
@@ -389,6 +377,52 @@
       },
       "17368511000352060744": {
         "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "disabled": false,
+        "settings": {}
+      },
+      "599976418744975545": {
+        "type": "shopify://apps/flyweight-ai-chatbot/blocks/chat-button/acee03b0-ec73-4598-adb4-eab25db2b54c",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#d7007f",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#6a6a6a",
+          "button_icon": "question_mark",
+          "button_text": "help",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
+      },
+      "1530068250781986104": {
+        "type": "shopify://apps/fbp-fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
+        "disabled": false,
+        "settings": {
+          "home": false
+        }
+      },
+      "2200952712151285029": {
+        "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      },
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      },
+      "2153490007123654574": {
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {}
+      },
+      "12196260394306439754": {
+        "type": "shopify://apps/adcell-tracking-remarketing/blocks/theme_extension/578397e0-3e42-4c27-add7-dfc15023b09b",
         "disabled": false,
         "settings": {}
       }

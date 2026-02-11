@@ -24,7 +24,7 @@
           "settings": {
             "title": "Handverlesener Paprika aus der Donauregion",
             "title_size": "h3",
-            "seo_h_tag": "h2"
+            "seo_h_tag": "h1"
           }
         },
         "subtitle_THitUi": {
@@ -37,28 +37,40 @@
         "text_n9kwCy": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere neue Ernte überzeugt mit einem Spitzenwert von 220 ASTA – ein Qualitätsmerkmal für außergewöhnliche Farbintensität. Das Resultat: ein strahlend rotes, hocharomatisches Paprikapulver, das deinen Gerichten nicht nur Geschmack, sondern Charakter verleiht.</p>",
+            "text": "<p>Unsere neue Ernte setzt neue Maßstäbe: Mit einem Spitzenwert von <strong>220 ASTA</strong> steht dieses Paprikapulver für außergewöhnliche Farbintensität und höchste Qualität. Der ASTA-Wert ist ein international anerkanntes Maß zur Bestimmung der Farbkraft von Paprika – je höher der Wert, desto kräftiger und leuchtender das Ergebnis im Gericht. 220 ASTA bedeutet: beeindruckende Tiefe, brillante Strahlkraft und maximale Farbstabilität.</p><p>Das Resultat ist ein intensiv rotes Paprikapulver, das Speisen nicht nur optisch veredelt, sondern auch geschmacklich überzeugt. Vollmundig, rund und angenehm ausgewogen bringt es eine natürliche Würze in deine Küche – von herzhaften Eintöpfen über Saucen bis hin zu Grillgerichten und mediterranen Klassikern.</p><p>Durch sorgfältige Auswahl der Rohware und schonende Verarbeitung bleibt die Qualität der neuen Ernte bestmöglich erhalten. So erhältst du ein Paprikapulver, das nicht nur mit seiner leuchtenden Farbe begeistert, sondern deinen Gerichten spürbar mehr Ausdruck verleiht.</p><p>Ein Gewürz, das man sieht – und schmeckt.</p>",
             "content_source": "custom",
             "text_size": "regular"
+          }
+        },
+        "button_9RFAGM": {
+          "type": "button",
+          "settings": {
+            "button_label": "zum Artikel",
+            "link": "shopify://products/handselektierer-paprika-edelsuss-220-asta",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
           }
         }
       },
       "block_order": [
         "title_4Vq3Y8",
         "subtitle_THitUi",
-        "text_n9kwCy"
+        "text_n9kwCy",
+        "button_9RFAGM"
       ],
       "settings": {
         "element_id": "",
         "image": "shopify://shop_images/Paprika_Header-1x1_09962e68-cdc1-4611-b370-da85d7c98ae8.png",
         "image_position": "right",
-        "height": "regular",
+        "height": "small",
         "image_crop": true,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "is_fullwidth": true,
-        "section_background_color": "#d2da4d",
+        "section_background_color": "#d1da4c",
         "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
+        "color_background_main": "#ffffff",
         "color_text_main": "rgba(0,0,0,0)",
         "color_accent_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
@@ -127,6 +139,11 @@
             "text_color": "#1d1d1d",
             "text_transform": false
           }
+        },
+        "product_link_D4kDBY": {
+          "type": "product_link",
+          "disabled": true,
+          "settings": {}
         }
       },
       "block_order": [
@@ -138,7 +155,8 @@
         "buy_buttons_GVUEhJ",
         "space_TtPGMD",
         "description_wjXkfT",
-        "text_xQMcGX"
+        "text_xQMcGX",
+        "product_link_D4kDBY"
       ],
       "settings": {
         "title": "",
@@ -159,16 +177,6 @@
       "settings": {
         "image": "shopify://shop_images/Paprika_220_ASTA_Kreislauf_1.png",
         "mobile_image": "shopify://shop_images/Paprika_220_ASTA_Kreislauf_mobile_1.png",
-        "link": "",
-        "open_in_new_window": false,
-        "image_size": "fullwidth"
-      }
-    },
-    "image_bFVp48": {
-      "type": "image",
-      "settings": {
-        "image": "shopify://shop_images/Paprika_Philosophie_desktop_0f1a6245-e918-4096-b85b-816d797d23cb.png",
-        "mobile_image": "shopify://shop_images/Paprika_Philosophie_mobile_ab3e4fca-175d-42a0-bfc6-aba373bfad0a.png",
         "link": "",
         "open_in_new_window": false,
         "image_size": "fullwidth"
@@ -210,11 +218,11 @@
         "element_id": "",
         "image": "shopify://shop_images/Papryka_Feld.png",
         "image_position": "right",
-        "height": "regular",
+        "height": "small",
         "image_crop": true,
         "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "#d2da4d",
+        "section_background_color": "#ffffff",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
@@ -223,6 +231,16 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false
+      }
+    },
+    "image_bFVp48": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/Paprika_Philosophie_desktop_0f1a6245-e918-4096-b85b-816d797d23cb.png",
+        "mobile_image": "shopify://shop_images/Paprika_Philosophie_mobile_ab3e4fca-175d-42a0-bfc6-aba373bfad0a.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
       }
     },
     "rich_text_RQrnxB": {
@@ -253,7 +271,7 @@
         "element_id": "",
         "image": "shopify://shop_images/Paprika_Hand.png",
         "image_position": "left",
-        "height": "regular",
+        "height": "small",
         "image_crop": true,
         "text_alignment": "horizontal-left",
         "is_fullwidth": false,
@@ -267,15 +285,73 @@
         "color_hide_borders": false,
         "color_hide_shadow": false
       }
+    },
+    "content_toggles_aQdmcF": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_zr3miq": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping details",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Write some useful information about your shipping details</p><p>Link to your <a href='#'>shipping policy</a>.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_weRirc": {
+          "type": "text",
+          "settings": {
+            "title": "Wie verwende ich den handselektierter Paprika?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Perfekt für Gulasch, Pörkölt, Paprikahuhn und andere ungarische Spezialitäten. Auch in Suppen, Saucen, Marinaden oder zum Verfeinern von Gemüse- und Fleischgerichten entfaltet er seine aromatische Tiefe. Ideal für die feine und ausgewogene Würzung.<br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_Wkk9Xn": {
+          "type": "text",
+          "settings": {
+            "title": "Returns details",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Show customers how much time they have for testing your products</p><p>Link to your <a href='#'>returns policy</a>.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_zr3miq",
+        "text_weRirc",
+        "text_Wkk9Xn"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Frequently asked question",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
     }
   },
   "order": [
     "main",
     "rich_text_ijByMX",
     "featured_product_8M4GDt",
-    "rich_text_PzaUgc",
     "image_TLh9Dg",
+    "rich_text_PzaUgc",
     "image_bFVp48",
-    "rich_text_RQrnxB"
+    "rich_text_RQrnxB",
+    "content_toggles_aQdmcF"
   ]
 }

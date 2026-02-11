@@ -91,9 +91,9 @@
         "image_position": "left",
         "height": "small",
         "image_crop": true,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "#009ee3",
+        "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
@@ -106,11 +106,138 @@
     },
     "image_MVWdWV": {
       "type": "image",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/OeL_Vorteile_Animation_1.gif",
         "link": "",
         "open_in_new_window": false,
         "image_size": "large"
+      }
+    },
+    "featured_product_kwzdhU": {
+      "type": "featured-product",
+      "blocks": {
+        "title_UN8aUQ": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_bL3GwQ": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_WnjcwJ": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_KGGd9g": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_xC6dTi": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_TYxg4U": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_JK8izB": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_HreeMb": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_crQjfD": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_UN8aUQ",
+        "bullet_bL3GwQ",
+        "price_WnjcwJ",
+        "variant_picker_KGGd9g",
+        "space_xC6dTi",
+        "buy_buttons_TYxg4U",
+        "space_JK8izB",
+        "description_HreeMb",
+        "product_link_crQjfD"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "stay-spiced-olivenol-koroneiki-olives-3-liter",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_T8bnr6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_HgD7ft": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_A4w9mC": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_DcXgpM": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_HgD7ft",
+        "title_A4w9mC",
+        "quick_buy_DcXgpM"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 700,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": false,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "landingpage-olivenol",
+        "section_background_color": "#009ee3",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
       }
     },
     "rich_text_G6kfDk": {
@@ -148,10 +275,10 @@
       "settings": {
         "element_id": "",
         "image": "shopify://shop_images/oliven.jpg",
-        "image_position": "top no-image",
-        "height": "small",
+        "image_position": "right",
+        "height": "regular",
         "image_crop": false,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "is_fullwidth": false,
         "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
@@ -162,49 +289,6 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false
-      }
-    },
-    "featured_collection_T8bnr6": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_HgD7ft": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_A4w9mC": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_DcXgpM": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_HgD7ft",
-        "title_A4w9mC",
-        "quick_buy_DcXgpM"
-      ],
-      "settings": {
-        "heading": "",
-        "header-width-limit": 700,
-        "subheading": "",
-        "show_view_all": false,
-        "link_label": "",
-        "link_url": "",
-        "show_product_detail": false,
-        "section_heading_layout": "section-heading--center",
-        "style": "grid",
-        "layout": "grid-3",
-        "mobile_layout": "grid-lap-2 grid-tiny-2",
-        "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 8,
-        "product-info-width-limit": 500,
-        "collection": "landingpage-olivenol",
-        "section_background_color": "#009ee3",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
       }
     },
     "media_with_text_overlay_8ChNB8": {
@@ -339,7 +423,7 @@
         "feedback_jqa4Bt"
       ],
       "settings": {
-        "quote_font": "neue_haas_unica_i5",
+        "quote_font": "instrument_sans_i5",
         "quote_font_size": 32,
         "quote_line_height": 1.1,
         "content_alignment": "center",
@@ -418,7 +502,7 @@
         "text_3MeQAw": {
           "type": "text",
           "settings": {
-            "text": "<p>Unser <strong>Koroneiki Olivenöl</strong> wird durch <strong>schonende Kaltextraktion</strong> gewonnen – eine Methode, die höchste Qualität garantiert. Dabei werden die Oliven zunächst gründlich gereinigt und anschließend zerkleinert, um eine feine Paste zu erzeugen. Diese Paste wird unter kontrolliertem Druck gepresst, um das wertvolle Öl zu extrahieren.</p><p><strong>Kaltextraktion – Für höchste Qualität</strong></p><p>Bei der Pressung achten wir auf optimale<br/>Bedingungen:<br/><br/>✔ <strong>Keine Hitze & keine chemischen Zusätze</strong> – Die Extraktion erfolgt ausschließlich bei niedrigen Temperaturen (unter <strong>27 °C</strong>), sodass alle <strong>wertvollen Nährstoffe, Antioxidantien und Aromen</strong> erhalten bleiben.<br/><br/>✔ <strong>Maximale Reinheit & Frische</strong> – Durch die sorgfältige Verarbeitung bleibt der volle <strong>Geschmack der Koroneiki Olive</strong> im Öl erhalten.</p><p>Wenn eine Olivensorte diese besondere Behandlung verdient, dann unsere <strong>Koroneiki Olive</strong> – denn nur so entsteht ein <strong>hochwertiges Olivenöl</strong> mit intensivem, fruchtigem Aroma und erstklassigen gesundheitlichen Vorteilen.</p>",
+            "text": "<p>Unser <strong>Koroneiki Olivenöl nativ extra</strong> wird durch schonende <strong>Kaltextraktion unter 27 °C</strong> gewonnen – eine Methode, die höchste Qualität sichert. Die Oliven werden sorgfältig gereinigt, zerkleinert und zu einer feinen Paste verarbeitet, die anschließend unter kontrolliertem Druck gepresst wird. So entsteht ein hochwertiges, kaltgepresstes Olivenöl mit vollem Charakter.</p><p><strong>Kaltextraktion – Für höchste Qualität</strong><br/><br/>✔ <strong>Ohne Hitze & ohne chemische Zusätze</strong> – natürliche Inhaltsstoffe und Antioxidantien bleiben bestmöglich erhalten.<br/><br/>✔ <strong>Maximale Reinheit & Frische</strong> – der intensiv-fruchtige Geschmack der Koroneiki Olive bleibt vollständig bewahrt.</p><p>Wenn eine Olivensorte diese besondere Verarbeitung verdient, dann die Koroneiki Olive – für ein natives Olivenöl extra mit intensivem, fruchtigem Profil und erstklassiger Qualität.</p>",
             "content_source": "custom",
             "text_size": "regular"
           }
@@ -591,6 +675,7 @@
         "text_nUtcPi",
         "text_qe8Bx4"
       ],
+      "disabled": true,
       "settings": {
         "image_position": "top no-image",
         "height": "small",
@@ -649,11 +734,186 @@
         "text_MP8CNg",
         "text_QJiGx3"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
         "open_first": true,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_9b6UKj": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_AgFARJ": {
+          "type": "text",
+          "settings": {
+            "title": "Was heißt Koroneiki?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>Koroneiki</strong> ist der Name einer Olivensorte. Sie stammt ursprünglich aus Griechenland – vor allem aus der Region rund um Koroni auf der Peloponnes. Daher leitet sich auch der Name ab.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_jh7hMz": {
+          "type": "text",
+          "settings": {
+            "title": "Warum ist Koroneiki bei Olivenöl beliebt?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Olivenöle aus <strong>Koroneiki-Oliven </strong>gelten als sehr<strong> stabil und charaktervoll</strong>. Sie enthalten natürlicherweise viele antioxidative Begleitstoffe und haben oft eine ausgewogene Balance aus Fruchtigkeit, Bitterkeit und leichter Schärfe.</p><p>Wenn Du also „Koroneiki“ auf einer Flasche liest, weißt Du:<br/><strong><br/>Es handelt sich um ein sortenreines oder dominantes Olivenöl aus einer traditionsreichen griechischen Olivensorte.</strong></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_emMpVt": {
+          "type": "text",
+          "settings": {
+            "title": "Was zeichnet Koroneiki-Oliven aus?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<ul><li>kleine, robuste Olivenfrucht<br/></li><li>hoher Ölertrag<br/></li><li>besonders intensiver, frischer Geschmack<br/></li><li>häufig mit leicht pfeffriger Note<br/></li></ul><p>Koroneiki wird fast ausschließlich zur Ölgewinnung verwendet – nicht als Tafelolive.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_rbteLM": {
+          "type": "text",
+          "settings": {
+            "title": "Woher kommt das STAY SPICED! Olivenöl?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Die <strong>Peloponnes</strong> ist die Heimat der Koroneiki Olive, genauer gesagt die kleine Stadt <strong>Koroni in der Region Messenien</strong>. Unser <strong>Extra Natives STAY </strong><a href=\"/products/stay-spiced-olivenol-koroneiki-olives-fruhernte-0-5-liter\" title=\"STAY SPICED! Olivenöl &quot;Koroneiki Olives&quot; - FRÜHERNTE, 0,5 Liter\"><strong>SPICED ! Olivenöl</strong></a> stammt von der 2004 gegründeten <strong>Kooperative Eleonas</strong>, die für <strong>nachhaltige Erzeugung und strenge Zertifizierungsstandards</strong> bekannt ist.</p><p>Da uns die enge Zusammenarbeit mit unseren Produzenten besonders am Herzen liegt, besucht CEO <strong>Lukas Walchhofer </strong>regelmäßig die Olivenplantagen in der Nähe von <strong>Gargaliani</strong>, um sich selbst von der Qualität zu überzeugen und den Herstellungsprozess hautnah<br/>mitzuerleben.</p><p>💡 <strong>Schon gewusst?</strong> Ein Olivenbaum muss mindestens <strong>30 Jahre alt</strong> sein, bevor er seinen ersten Ertrag bringt!</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_33yjB4": {
+          "type": "text",
+          "settings": {
+            "title": "Stay true - echte Olivenöl-Qualität",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>STAY SPICED !</strong> steht für höchste Qualität ohne Kompromisse – und dieses Versprechen gilt nicht nur für unsere Gewürze, sondern auch für unser außergewöhnliches <a href=\"/products/stay-spiced-olivenol-koroneiki-olives-0-5-liter\" title=\"STAY SPICED! Olivenöl Koroneiki Olives 0,5 Liter\"><strong>Extra Natives STAY SPICED ! Olivenöl</strong></a>.</p><p>Es besteht zu <strong>100 % aus Koroneiki Oliven</strong>, die zu Recht den Beinamen <strong>„Königin der Oliven“</strong> tragen. Diese hochwertige Olivensorte gehört zu den besten der Welt und zeichnet sich durch ihre <strong>kleinen Früchte mit hohem Ölgehalt</strong> sowie ihren <strong>intensiven, fruchtigen Geschmack </strong>aus.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_cfcgQ9": {
+          "type": "text",
+          "settings": {
+            "title": "Ist Olivenöl gesund?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Olivenöl gilt als fester Bestandteil der <strong>mediterranen Ernährung.</strong> Es enthält einen hohen Anteil an einfach ungesättigten Fettsäuren, insbesondere Ölsäure. Diese Fettsäuren ersetzen in einer ausgewogenen Ernährung gesättigte Fette.</p><p><strong>Hochwertiges, kaltgepresstes Olivenöl </strong>enthält außerdem natürliche Begleitstoffe wie <strong>Polyphenole</strong>. Sie entstehen aus der Olive selbst und tragen zur Stabilität des Öls bei.</p><p>Wichtig ist: <strong>Olivenöl bleibt ein Fett und sollte bewusst dosiert werden</strong>. In einer ausgewogenen Ernährung kann es jedoch eine sinnvolle Fettquelle sein.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_UHcFEb": {
+          "type": "text",
+          "settings": {
+            "title": "Wann wird \"Olivenöl\" geerntet?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Die Erntezeit der <strong>Koroneiki-Olive</strong> liegt je nach Klima und Standort zwischen <strong>November und Januar</strong>. Eine <strong>Frühernte </strong>kann bereits ab <strong>September oder Oktober</strong> beginnen, wenn die Oliven noch grün und unreif sind. Der Erntezeitpunkt bestimmt den <strong>Geschmack und Ölertrag</strong>:</p><p>📅 <strong>Ernte & Geschmack:</strong><br/><br/>✔ <strong>Oktober – November:</strong> <strong>15–18 % Ölertrag</strong> | Geschmack: <strong>grasig, scharfer Abgang, sehr frisch & grün</strong><br/><br/>✔ <strong>Dezember: 18–20 % Ölertrag</strong> | Geschmack: <strong>leicht grasig, frisch & fruchtig</strong><br/><br/>✔ <strong>Januar:</strong> <strong>20–25 % Ölertrag</strong> | Geschmack: <strong>fruchtig, mild, lieblich</strong></p><p>Je dunkler die Oliven, desto höher ihr Ölgehalt. Zudem beeinflusst die Verarbeitung den Ertrag – je länger die Oliven vermahlen oder gepresst werden, desto mehr Öl wird gewonnen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_6YPbDM": {
+          "type": "text",
+          "settings": {
+            "title": "Olivenöl kaufen - worauf solltest du achten",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Beim Kauf von Olivenöl sind diese Punkte entscheidend:</p><p><strong>1. Qualitätsstufe</strong><br/><br/>Achte auf „nativ extra“ – das steht für höchste Güteklasse.</p><p><strong>2. Herkunft</strong><br/><br/>Transparente Angaben zu Anbaugebiet und Produzent sprechen für Qualität.</p><p><strong>3. Erntejahr</strong><br/><br/>Frisches Olivenöl ist aromatischer. Ein Erntejahr auf dem Etikett ist ein gutes Zeichen.</p><p><strong>4. Verpackung</strong><br/><br/>Dunkle Glasflaschen oder Dosen schützen vor Licht und erhalten die Qualität.</p><p><strong>5. Geschmack</strong><br/><br/>Ein gutes Olivenöl darf leicht bitter oder pfeffrig schmecken – das deutet auf natürliche Inhaltsstoffe hin.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_CFhpVR": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet \"nativ extra\" bei Olivenöl",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>„Nativ extra“ (auch „extra vergine“) ist die höchste Qualitätsstufe bei Olivenöl.</strong></p><p>Das bedeutet:</p><ul><li>mechanisch gewonnen (keine chemische Behandlung)<br/></li><li>kalt extrahiert<br/></li><li>sehr niedriger Säuregehalt (max. 0,8 %)<br/></li><li>sensorisch fehlerfrei<br/></li></ul><p>Ein natives Olivenöl extra wird ausschließlich durch mechanische Verfahren wie <strong>Pressen oder Zentrifugieren</strong> hergestellt. Geschmack, Geruch und Qualität werden geprüft.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_7NVh9D": {
+          "type": "text",
+          "settings": {
+            "title": "Kann man mit Olivenöl braten?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p><strong>Ja, Du kannst mit Olivenöl braten.</strong></p><p>Entscheidend ist die Qualität:<br/><br/>Hochwertiges natives Olivenöl extra eignet sich gut für mittlere Temperaturen. Es hat einen relativ hohen Rauchpunkt und bleibt bei normalem Braten stabil.</p><p>Für sehr starkes, langes Anbraten bei extrem hohen Temperaturen kann ein speziell dafür ausgelegtes Bratöl sinnvoll sein. Für Gemüse, Fisch, Fleisch oder mediterrane Gerichte ist Olivenöl jedoch hervorragend geeignet.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_DetNaD": {
+          "type": "text",
+          "settings": {
+            "title": "Perfekt für vielseitigen Genuss",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Unser <a href=\"/products/stay-spiced-olivenol-koroneiki-olives-0-5-liter\" title=\"STAY SPICED! Olivenöl Koroneiki Olives 0,5 Liter\"><strong>Koroneiki Olivenöl </strong></a>eignet sich hervorragend zum <strong>Zubereiten, Verfeinern und Finalisieren </strong>verschiedenster Gerichte und kann bis 210°C erhitzt werden.<br/><br/>✔<strong>Antipasti & Salate</strong>– Ideal für frische Dressings und mediterrane Köstlichkeiten.<br/><br/>✔<strong>Pasta & warme Speisen</strong>– Als aromatisches Finish für selbstgemachte Pasta oder Gemüsegerichte.<br/><br/>✔<strong>Grillen & Braten</strong>– Perfekt für Fleisch, Fisch und Meeresfrüchte.<br/><br/>✔<strong>Backen & Brot-Dip</strong>– Genieße es mit knusprigem Baguette, etwas Zitronensaft und einer Prise Salz – ein echter Genuss!<br/><br/></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_U8NDPD": {
+          "type": "text",
+          "settings": {
+            "title": "Wie lange ist Olivenöl haltbar?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Dank der hohen Qualität und Reinheit unseres Olivenöls ist es <strong>natürlich lange haltbar</strong> – ohne Zusatzstoffe oder Konservierungsmittel!</p><p>🕒 <strong>Haltbarkeit: </strong>Bei richtiger Lagerung bleibt das Olivenöl <strong>circa 24 Monate frisch</strong> – also etwa <strong>12 Monate länger</strong>, als auf der Flasche angegeben.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_AgFARJ",
+        "text_jh7hMz",
+        "text_emMpVt",
+        "text_rbteLM",
+        "text_33yjB4",
+        "text_cfcgQ9",
+        "text_UHcFEb",
+        "text_6YPbDM",
+        "text_CFhpVR",
+        "text_7NVh9D",
+        "text_DetNaD",
+        "text_U8NDPD"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Alles Wichtige auf einen Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
         "form_enable": false,
         "form_title": "Contact form",
         "section_background_color": "rgba(0,0,0,0)",
@@ -666,8 +926,9 @@
     "media_with_text_overlay_AaykfE",
     "rich_text_LtzcVt",
     "image_MVWdWV",
-    "rich_text_G6kfDk",
+    "featured_product_kwzdhU",
     "featured_collection_T8bnr6",
+    "rich_text_G6kfDk",
     "media_with_text_overlay_8ChNB8",
     "image_nyR3dj",
     "feedback_DaXE9e",
@@ -676,6 +937,7 @@
     "rich_text_PqtapG",
     "blog_posts_HQ8MTB",
     "image_accordion_MzyQcY",
-    "content_toggles_KLnKnd"
+    "content_toggles_KLnKnd",
+    "content_toggles_9b6UKj"
   ]
 }

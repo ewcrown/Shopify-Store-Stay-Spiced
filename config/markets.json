@@ -8,12 +8,5 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "at": {
-      "parent": "@default"
-    },
-    "deutschland": {
-      "parent": "@default"
-    }
-  }
+  "markets": {}
 }

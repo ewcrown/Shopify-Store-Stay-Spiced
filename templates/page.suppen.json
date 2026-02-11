@@ -220,10 +220,23 @@
     },
     "custom_liquid_fHNjz6": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .video-wrapper {\n    position: relative;\n    width: 100%;\n    /* The padding-top percentage is calculated as (height / width) * 100% for a 9:16 ratio */\n    padding-top: 177.77%; /* (16/9) * 100 */\n  }\n\n  .video-wrapper iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"video-wrapper\">\n  <iframe src=\"https://www.youtube.com/embed/Et_xEncx6T0\" title=\"Olivia Dean - felt like a fluffy dream !!! #shorts\" frameborder=\"0\" \n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n  referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "full_width": false,
         "remove_margin": false
+      }
+    },
+    "video_CPNGBy": {
+      "type": "video",
+      "name": "t:sections.local-extra-words.sections.video.name",
+      "settings": {
+        "title": "Der perfekte Lifehack von Oma",
+        "subtitle": "",
+        "section_heading_layout": "section-heading--left",
+        "video": "https://www.youtube.com/watch?v=Et_xEncx6T0",
+        "image": "shopify://shop_images/2024-kostbar_web_029_STAY-SPICED.jpg",
+        "seo_h_tag": "h2"
       }
     },
     "featured_collection_haYwfD": {
@@ -274,18 +287,19 @@
       "blocks": {
         "content_Td8hLa": {
           "type": "content",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/stay-spiced_rezept_knoblauch-vanille-suppe.png",
+            "image": "shopify://shop_images/20241010124757-header_suppe-1.png",
             "set_video_background": false,
             "image_position": "right",
             "image_crop": false,
             "text_alignment": "horizontal-center",
-            "title": "Knoblauch-Vanille-Suppe mit knusprigem Garnelenstangerl",
+            "title": "Markklößchensuppe – klassisch, kräftig, hausgemacht",
             "title_size": "h3",
             "seo_h_tag": "h2",
             "subtitle": "",
             "sub_title_size": "h2",
-            "text": "<p>Vanille in der Suppe und Garnelen in Stangenform - das gibt´s nur bei uns! Und auch bald bei dir zu Hause! Zaubere eine köstlich-wärmende Suppe, die das ganze Jahr über der Bringer ist! Natürlich nur mit der S! Gemüsesuppe!</p>",
+            "text": "<p><br/>Zarte Markklößchen in klarer Rindssuppe – ein klassischer, herzhafter Genuss. Ideal als Vorspeise oder sättigende Mahlzeit und bestens zum Vorbereiten und Einfrieren geeignet.<br/><br/></p>",
             "text_size": "regular",
             "is_show_first_button": true,
             "button_01_label": "zum Rezept",
@@ -389,6 +403,7 @@
     "rich_text_slider_knmMpM",
     "rich_text_cw3icz",
     "custom_liquid_fHNjz6",
+    "video_CPNGBy",
     "featured_collection_haYwfD",
     "rich_text_slider_RQ7qPA",
     "featured_collection_tegpCL"

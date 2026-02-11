@@ -1,0 +1,370 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "image_ihB6jg": {
+      "type": "image",
+      "settings": {
+        "image": "shopify://shop_images/stay-spiced_desktop-header_roland-trettl-holzboxen.jpg",
+        "mobile_image": "shopify://shop_images/stay-spiced_mobile-header_roland-trettl-holzboxen.jpg",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "fullwidth"
+      }
+    },
+    "rich_text_mbwphQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_nNFxqP": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Vielen Dank für deine Anmeldung 🥳",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_6TMBXk": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Juhu! Deine Anmeldung zu unserem Newsletter war erfolgreich und die erste E-Mail sollte schon in dein Postfach geflattert sein. Darin findest du deinen Willkommens-Rabatt. Sieh auch im Spamordner nach, falls du sie nicht findest. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_nNFxqP",
+        "text_6TMBXk"
+      ],
+      "disabled": true,
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Stark reduziert – nur für kurze Zeit!",
+        "header-width-limit": 730,
+        "subheading": "Premium-Gewürze für deine Küche",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "roland-trettls-gewurzboxen",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_mineyQ": {
+      "type": "featured-product",
+      "blocks": {
+        "title_3ceKdU": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_y8wBy6": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_gzyqfh": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_kh8d8U": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_cYULKD": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_RCbKWR": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_yDg9EL": {
+          "type": "description",
+          "settings": {}
+        },
+        "bullet_bxTX3H": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_3ceKdU",
+        "price_y8wBy6",
+        "variant_picker_gzyqfh",
+        "space_kh8d8U",
+        "buy_buttons_cYULKD",
+        "space_RCbKWR",
+        "description_yDg9EL",
+        "bullet_bxTX3H"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "Product Title",
+        "section_heading_layout": "section-heading--center",
+        "product": "roland-trettl-medium-gewurze-set-15er-holzkiste",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "sp_featured_products_eBA4kQ": {
+      "type": "sp-featured-products",
+      "blocks": {
+        "vendor_kMcHdD": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price_nGqTcT": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_6d8AeK": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_K7t7eP": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kMcHdD",
+        "price_nGqTcT",
+        "title_6d8AeK",
+        "quick_buy_K7t7eP"
+      ],
+      "name": "Featured Products",
+      "settings": {
+        "heading": "Stark reduziert – nur für kurze Zeit!",
+        "header-width-limit": 600,
+        "subheading": "Premium-Gewürze für deine Küche",
+        "show_view_all": true,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "product_list": [
+          "roland-trettl-deluxe-gewurze-set-25er-holzkiste",
+          "roland-trettl-medium-gewurze-set-15er-holzkiste",
+          "roland-trettl-starter-gewurze-set-6er-holzkiste",
+          "roland-trettl-grill-gewurze-set-6er-geschenkbox"
+        ],
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_RQdaVR": {
+      "type": "rich-text",
+      "blocks": {
+        "title_896TPc": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "<strong>Von Roland Trettl empfohlen – ausgewählte Premium-Gewürze für deine Küche.</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_C76MPC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Von Roland Trettl empfohlen – ausgewählte Premium-Gewürze für deine Küche.</strong><br/><br/>Diese sorgfältig zusammengestellten Gewürze stehen für Qualität, Leidenschaft und echtes Handwerk. Inspiriert von der Profiküche und gemacht für den Alltag, begleiten sie Dich bei vielseitigen Gerichten und besonderen Kochmomenten.<br/><br/>Ob für kreative Alltagsküche oder besondere Anlässe: Die Auswahl eignet sich ideal für alle, die zu Hause mit Anspruch kochen und ihre Gerichte mit ausgewählten Gewürzen auf ein neues Level heben möchten – unkompliziert, authentisch und mit Freude am Genuss.<br/><br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_r4e9AA": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://pages/roland-trettl",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_896TPc",
+        "text_C76MPC",
+        "button_r4e9AA"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Roland_Trettl_Fisch-CUTOUT.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_ceaM6U": {
+      "type": "featured-collection",
+      "blocks": {
+        "text_LL7qaB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "metafield": "{{ section.settings.collection.title }}",
+            "text_size": "text-size--regular",
+            "text_color": "#6a6a6a",
+            "text_transform": false
+          }
+        },
+        "price_dKLMPi": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_dVNaGU": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_yNWYMt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "text_LL7qaB",
+        "price_dKLMPi",
+        "title_dVNaGU",
+        "quick_buy_yNWYMt"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Weitere Empfehlungen von Roland Trettl",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "zur Kollektion",
+        "link_url": "shopify://collections/roland-trettl",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "roland-trettl",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_ihB6jg",
+    "rich_text_mbwphQ",
+    "featured_collection_wpmJ6R",
+    "featured_product_mineyQ",
+    "sp_featured_products_eBA4kQ",
+    "rich_text_RQdaVR",
+    "featured_collection_ceaM6U"
+  ]
+}

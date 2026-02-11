@@ -1,0 +1,1310 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "slideshow_GD74wN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MYP76j": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/header-testimonial-roland-trettl.jpg",
+            "mobile_image": "shopify://shop_images/header-testimonial-roland-trettl-mobile.jpg",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_MYP76j"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "60vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "rich_text_YDky9r": {
+      "type": "rich-text",
+      "blocks": {
+        "title_dDn7in": {
+          "type": "title",
+          "settings": {
+            "title": "Roland Trettl x Stay Spiced !",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_zchN7t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Ein echter Typ – Charismatisch, authentisch, kompromisslos</strong></h2><p></p><p><strong>Roland Trettl</strong> ist eine Persönlichkeit, die heraussticht. Charismatisch, authentisch und ein Perfektionist, wenn es um <strong>Qualität und Geschmack</strong> geht. Viele kennen ihn als <strong>TV-Star aus verschiedenen Koch- und Unterhaltungsformaten</strong>, dabei gibt es wohl kaum jemanden, derüber ein so tiefgehendes Wissen über die <strong>Küchenkulturen der Welt</strong> verfügt. Der gebürtige Südtiroler reifte unter der Anleitung seines Mentors, <strong>Jahrhundertkoch Eckart Witzigmann</strong>, zu einem der bekanntesten Köche und kulinarischen Visionäre.</p><p>Seit <strong>2018</strong> ist Roland Trettl <strong>Markenbotschafter</strong> und ein echter <strong>Qualitätsgarant für STAY SPICED!</strong> Gemeinsam wurden einzigartige <strong>Gewürzmischungen</strong> entwickelt – von seinen <strong>Lieblings-Reingewürzen</strong> bis hin zu liebevoll zusammengestellten <strong>Geschenkboxen für echte Genussmenschen</strong>.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_rCLTbU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Zur Kollektion",
+            "link": "shopify://collections/tom-heinzle",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_ePXEwP": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/roland-trettl",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_dDn7in",
+        "text_zchN7t",
+        "button_rCLTbU",
+        "button_ePXEwP"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Roland_Trettl_Fisch-CUTOUT.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_3MJBTa": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_NdqhEU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/717840-52301xM-1.png",
+            "title": "Einzelgewürze",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_edNGNB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/871701-71005xM-1.png",
+            "title": "Gewürzmischungen",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_VyW8Ve": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/605252-60047xM-1.png",
+            "title": "Profi-Köche",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_NdqhEU",
+        "image_edNGNB",
+        "image_VyW8Ve"
+      ],
+      "disabled": true,
+      "name": "t:sections.text-columns-with-images.name",
+      "settings": {
+        "heading": "Gewürze",
+        "subheading": "Gewürze sind mehr als Zutaten. Hier findest du ausgewählte Einzelgewürze, kreative Gewürzmischungen, Empfehlungen von Profi-Köchen und Inspirationen aus aller Welt – ergänzt durch Probiersets und aktuelle Neuheiten.",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_images_7NwfTy": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_EjXkMA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/840126-73020xM-1.png",
+            "title": "Weltreise",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_Jf6kJ6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/551732-57012x-1.png",
+            "title": "Afrika",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_4wPcgE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/551736-57015x-1.png",
+            "title": "Neuheiten",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_EjXkMA",
+        "image_Jf6kJ6",
+        "image_4wPcgE"
+      ],
+      "disabled": true,
+      "name": "t:sections.text-columns-with-images.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_LaLe7H": {
+      "type": "featured-product",
+      "blocks": {
+        "title_BYckFX": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_x4JUb6": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_6eC3dX": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_bjHVgP": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_Qz9WDw": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "bullet_w3eaWz": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_BYckFX",
+        "price_x4JUb6",
+        "variant_picker_6eC3dX",
+        "space_bjHVgP",
+        "buy_buttons_Qz9WDw",
+        "bullet_w3eaWz"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "famous-six-top-seller-gewurze-set-6er-geschenkbox",
+        "gallery_ratio": "1",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": false,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_kig7wz": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_HxyzwA": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_W4jHnJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_PiV3Yn": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_HxyzwA",
+        "title_W4jHnJ",
+        "quick_buy_PiV3Yn"
+      ],
+      "custom_css": [],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Roland's Auswahl für die STARTER Box",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "zur Kollektion",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 6,
+        "product-info-width-limit": 100,
+        "collection": "roland-trettl-starter",
+        "section_background_color": "#8accca",
+        "section_heading_color": "#000000",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_7YBV9H": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_6HygAf": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/stay-spiced_video_roland-trettl_quinoa_6971d576-5f5d-4a46-996c-e8dea4a6d4d5.mp4",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_6HygAf"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_iCGBLn": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QBVUed": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Vom Lehrling zum Visionär</strong></h2><p></p><p>Roland Trettl wurde am <strong>3. Juli 1971 in Bozen, Italien</strong>, geboren. Als ihm seine Eltern die Wahl ließen, ob er Tischler oder Koch werden wolle, entschied er sich für die <strong>Kochlehre</strong> – nicht zuletzt auf Anraten seines Großvaters, der meinte, als Tischler könne man schnell mal einen Finger verlieren.</p><p>1987 begann er seine Ausbildung im <strong>„Parkhotel Holzner“ in Oberbozen</strong> und sammelte drei Jahre lang erste Erfahrungen. Nach einem Jahr im <strong>„Restaurant Amadé“ in Bozen</strong> zog es ihn nach <strong>München</strong>, wo er zwei Jahre lang im <strong>„Restaurant Aubergine“</strong> unter der Leitung von <strong>Eckart Witzigmann</strong> arbeitete – eine Begegnung, die seinen weiteren Weg entscheidend prägen sollte.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "title_NRBNgm": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Tom Heinzle",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "button_cDA8LG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zur Kollektion",
+            "link": "shopify://collections/roland-trettl",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_QBVUed",
+        "title_NRBNgm",
+        "button_cDA8LG"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced-roland-trettl-mit-dose-min.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_Wmm7kg": {
+      "type": "featured-product",
+      "blocks": {
+        "title_mXPa3Y": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_praVeV": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_TjT697": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_7KFMit": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_DbgRCm": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_ThfLLX": {
+          "type": "space",
+          "settings": {}
+        },
+        "bullet_G9aLmx": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_mXPa3Y",
+        "price_praVeV",
+        "variant_picker_TjT697",
+        "space_7KFMit",
+        "buy_buttons_DbgRCm",
+        "space_ThfLLX",
+        "bullet_G9aLmx"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "roland-trettl-grill-gewurze-set-6er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_iDCUg6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_mimPdm": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_Pt37tW": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_yDq3k3": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_mimPdm",
+        "title_Pt37tW",
+        "quick_buy_yDq3k3"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Roland's Auswahl für die GRILL Geschenkbox",
+        "header-width-limit": 890,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 6,
+        "product-info-width-limit": 100,
+        "collection": "geniesse-mich-roland-trettl",
+        "section_background_color": "#8accca",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_posts_hWbTVX": {
+      "type": "blog-posts",
+      "blocks": {
+        "info_nxpqxJ": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_9CmYVi": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_nxpqxJ",
+        "title_9CmYVi"
+      ],
+      "name": "t:sections.blog-posts.presets.name",
+      "settings": {
+        "title": "Rezepte von Roland Trettl",
+        "subheading": "",
+        "show_view_all": true,
+        "post_limit": 4,
+        "section_heading_layout": "section-heading--center",
+        "blog": "roland-trettl",
+        "article_list": "",
+        "blog_tag": "",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": false,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_zjV8QX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_zfEEt3": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_RVfTbt": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Qualität als Lebensphilosophie</h3><p></p><p>#Die Liebe zur Kulinarik und der <strong>Respekt vor hochwertigen Zutaten</strong> trieben Roland Trettl an. Nach zwei Jahren im Münchner <strong>„Restaurant Tantris“</strong> kehrte er für kurze Zeit ins <strong>„Restaurant Amadé“</strong> zurück – bevor ihn <strong>Eckart Witzigmann</strong> erneut ins Team holte.</p><p>Als <strong>Küchenchef des „Ca’s Puers“ auf Mallorca</strong> stellte er vier Jahre lang sein Können unter Beweis, bevor ihn internationale Engagements in der <strong>Event-Gastronomie</strong> und ein einjähriger Aufenthalt als <strong>F&B Trainer im „Marine Terrace“ in Tokio</strong> folgten.</p><p>Doch <strong>2003</strong> änderte sich alles: <strong>Red-Bull-Gründer Dietrich Mateschitz</strong> lud Trettl und Witzigmann ein, ein völlig neues Restaurant-Konzept zu entwickeln. Das Ergebnis: Das legendäre <strong>„Restaurant Ikarus“ im Hangar-7 in Salzburg</strong>, das Roland Trettl als <strong>Executive Chef zehn Jahre lang leitete</strong>. Jeden Monat kochte dort ein anderer internationaler Spitzenkoch – ein Konzept, das die gehobene Gastronomie revolutionierte.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "text_nCeW6q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_7nAidh": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/roland-trettl",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_zfEEt3",
+        "text_RVfTbt",
+        "text_nCeW6q",
+        "button_7nAidh"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_roland-trettl-freisteller-messer-und-gabel.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_slider_MUmP6J": {
+      "type": "rich-text-slider",
+      "blocks": {
+        "content_zVx46R": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_roland-trettl_kocht.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": true,
+            "text_alignment": "horizontal-left",
+            "title": "Qualität als Lebensphilosophie",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p>Die Liebe zur Kulinarik und der <strong>Respekt vor hochwertigen Zutaten</strong> trieben Roland Trettl an. Nach zwei Jahren im Münchner <strong>„Restaurant Tantris“</strong> kehrte er für kurze Zeit ins <strong>„Restaurant Amadé“</strong> zurück – bevor ihn <strong>Eckart Witzigmann</strong> erneut ins Team holte.</p><p>Als <strong>Küchenchef des „Ca’s Puers“ auf Mallorca</strong> stellte er vier Jahre lang sein Können unter Beweis, bevor ihn internationale Engagements in der <strong>Event-Gastronomie</strong> und ein einjähriger Aufenthalt als <strong>F&B Trainer im „Marine Terrace“ in Tokio</strong> folgten.</p><p>Doch <strong>2003</strong> änderte sich alles: <strong>Red-Bull-Gründer Dietrich Mateschitz</strong> lud Trettl und Witzigmann ein, ein völlig neues Restaurant-Konzept zu entwickeln. Das Ergebnis: Das legendäre <strong>„Restaurant Ikarus“ im Hangar-7 in Salzburg</strong>, das Roland Trettl als <strong>Executive Chef zehn Jahre lang leitete</strong>. Jeden Monat kochte dort ein anderer internationaler Spitzenkoch – ein Konzept, das die gehobene Gastronomie revolutionierte.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_edHfmM": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_roland-trettl_gewuerze_1.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-left",
+            "title": "<strong>Qualität, Glaubwürdigkeit, Nachhaltigkeit</strong>",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "",
+            "sub_title_size": "h2",
+            "text": "<p><em>„Natürlich bin ich ein absoluter Qualitäts-Fetischist.<br/>Darum sind es für mich die kleinen Würz-Details, die bei jedem Gericht die<br/>besten Nuancen herauskitzeln können.“</em></p><p>Für Roland Trettl sind es die <strong>kleinen Würz-Details</strong>, die ein Gericht von gut zu <strong>außergewöhnlich</strong> machen. Seine<br/>Lieblingsgewürze? </p><p><strong>Die, die es bei STAY SPICED ! in Top-Qualität gibt</strong>.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        },
+        "content_NbhJVc": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_roland-trettl_kocht_2.jpg",
+            "set_video_background": false,
+            "image_position": "right",
+            "image_crop": false,
+            "text_alignment": "horizontal-left",
+            "title": "Klar, ehrlich, kompromisslos",
+            "title_size": "h3",
+            "seo_h_tag": "h2",
+            "subtitle": "SUBTITLE",
+            "sub_title_size": "h2",
+            "text": "<p><em>\"Wer mich kennt, weiß: Ich nehme kein Blatt vor den Mund. In der Küche, in meinen Büchern und in meinem Leben bin ich ehrlich und direkt – und genau das erwarte ich auch von den Partnern, mit denen ich arbeite.\"</em></p><p><strong>Vielfalt ist die Würze des Lebens</strong></p><p>Kochen ist für Roland Trettl <strong>kein striktes Regelwerk, sondern Handwerk – ohne Grenzen</strong>. Er liebt es, mit <strong>ungewöhnlichen Geschmäckern zu experimentieren</strong> und neue Kombinationen zu kreieren.</p><p><em>\"Ohne Vielfalt wäre Kulinarik einfach<br/>langweilig.\"</em></p><p>Genau diese Einstellung spiegelt sich in seiner Zusammenarbeit mit <strong>STAY SPICED !</strong> wider – eine Marke, die<br/>für <strong>Qualität, Kreativität und kompromisslose Geschmackserlebnisse </strong>steht.</p>",
+            "text_size": "regular",
+            "is_show_first_button": true,
+            "button_01_label": "",
+            "button_01_url": "",
+            "is_show_second_button": false,
+            "button_02_label": "",
+            "button_02_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_zVx46R",
+        "content_edHfmM",
+        "content_NbhJVc"
+      ],
+      "name": "Rich Text Slider",
+      "settings": {
+        "height": "regular",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_CKXxRy": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_bMgpBp": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_VC98Bt": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ENCqje": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_bMgpBp",
+        "title_VC98Bt",
+        "quick_buy_ENCqje"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Roland's MUST-HAVES",
+        "header-width-limit": 890,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 6,
+        "product-info-width-limit": 100,
+        "collection": "roland-trettl",
+        "section_background_color": "#8accca",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_yeCbFM": {
+      "type": "rich-text",
+      "blocks": {
+        "title_ri7zKQ": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_aKFpTU": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Die perfekte Geschenkidee für Feinschmecker</strong></h2><p></p><p><br/>Du suchst ein besonderes Geschenk für echte Genießer? Die <a href=\"/collections/roland-trettls-gewurzboxen\" title=\"Roland Trettl's Gewürzboxen\"><strong>Roland Trettl Geschenkboxen</strong></a> vereinen handverlesene Gewürze und Gewürzmischungen, persönlich ausgewählt vom Spitzenkoch in Zusammenarbeit mit <strong>STAY SPICED !</strong><br/><br/>Hochwertig, vielseitig und stilvoll verpackt – ideal für Hobbyköche, Grillfans und Feinschmecker. Ob Fleisch, Fisch, Gemüse oder kreative Rezeptideen: Diese Gewürzboxen sorgen für echte Genussmomente und sind das perfekte Geschenk für jeden Anlass.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_YKia6g": {
+          "type": "button",
+          "settings": {
+            "button_label": "zu den Boxen",
+            "link": "shopify://collections/roland-trettls-gewurzboxen",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_ri7zKQ",
+        "text_aKFpTU",
+        "button_YKia6g"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Geschenke_STAYSPICED_8360e4f2-eeb9-431f-8b4c-74660bb7eb5a.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_pEYHQB": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_W9V94B": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ptmBNR": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_t4PXpp": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_W9V94B",
+        "title_ptmBNR",
+        "quick_buy_t4PXpp"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".card__media {aspect-ratio: 2 / 3 !important;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Grillbücher von Haya Molcho",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 16,
+        "product-info-width-limit": 100,
+        "collection": "haya-molcho-bucher",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_9GzefY": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_YEwf4V": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_RHhEPD": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_98E3Bm": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_YEwf4V",
+        "title_RHhEPD",
+        "quick_buy_98E3Bm"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Roland's Geschenkboxen",
+        "header-width-limit": 890,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 6,
+        "product-info-width-limit": 100,
+        "collection": "roland-trettls-gewurzboxen",
+        "section_background_color": "#8accca",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "collection_list_TWchrn": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Ky47g3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_7WmYmR": {
+          "type": "collection",
+          "settings": {
+            "collection": "haya-molcho-neni",
+            "image": "shopify://shop_images/reviewer-3.png"
+          }
+        },
+        "collection_QqNgJa": {
+          "type": "collection",
+          "settings": {
+            "collection": "tom-heinzle",
+            "image": "shopify://shop_images/Testimonial_Tom-Heinzle_500x500px.png"
+          }
+        },
+        "collection_AJhgQH": {
+          "type": "collection",
+          "settings": {
+            "collection": "ben-perry",
+            "image": "shopify://shop_images/ben-perry.png"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Ky47g3",
+        "collection_7WmYmR",
+        "collection_QqNgJa",
+        "collection_AJhgQH"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "heading": "Dieses Kollektionen könnten dir auch gefallen",
+        "subheading": "",
+        "show_view_all": false,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-3 grid-palm-2",
+        "image_aspect_ratio": "1",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "category_slider_GyWzgF": {
+      "type": "category-slider",
+      "blocks": {
+        "card_dUUwyp": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Roland_Trettl_525.jpg",
+            "title": "Roland Trettl",
+            "link": "shopify://pages/roland-trettl",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_TpFwMm": {
+          "type": "card",
+          "settings": {
+            "title": "Category name",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_MVF8R8": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_haya-molcho-edition.png",
+            "title": "Haya Molcho",
+            "link": "shopify://pages/haya-molcho-neni",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Mehr erfahren",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_qW8AJz": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stayspiced-ben-perry_1x1_75e3d209-7787-4fcc-9ce3-bbb5d358b656.png",
+            "title": "Ben Perry",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Mehr erfahren",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_dUUwyp",
+        "card_TpFwMm",
+        "card_MVF8R8",
+        "card_qW8AJz"
+      ],
+      "disabled": true,
+      "name": "t:sections.local-extra-words.sections.category-slider.name",
+      "settings": {
+        "heading": "",
+        "section_heading_layout": "section-heading--center",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "title_size": "h3",
+        "button_size": "regular",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_ekY3tk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_QPr8NL": {
+          "type": "title",
+          "settings": {
+            "title": "Tom Heinzle bei Kitchen Impossible",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_JBCcTp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Als bei der beliebten TV-Kochshow <strong>Kitchen Impossible</strong> der legendäre TV-Koch <strong>Tim Mälzer</strong> im regnerischen Vorarlberg ein Gericht aus dem Erdloch nachkochen musste, war schnell klar: Das ist keine gewöhnliche Challenge. Feuer machen, ein Erdloch ausheben und unter freiem Himmel das perfekte Gericht zubereiten – eine Aufgabe, die selbst erfahrene Spitzenköche an ihre Grenzen bringt.<br/><br/>Verantwortlich dafür war <strong>Tom Heinzle</strong>. Mit seiner außergewöhnlichen Grill- und Outdoor-Cooking-Kompetenz brachte er Tim Mälzer mit dieser Aufgabe fast an das Ende seines Koch-Lateins.</p><p>Tom Heinzle gilt seit mehr als zehn Jahren als einer der renommiertesten Grill- und BBQ-Profis der internationalen Szene. Als Buchautor sorgte er bereits mit seinem Erstlingswerk <strong>„</strong><a href=\"https://stayspiced.com/products/wintergrillen-by-tom-heinzle-kochbuch\" title=\"Wintergrillen\"><strong>Wintergrillen</strong></a><strong>“</strong> für Aufsehen. Zu einer Zeit, als Grillen noch als reine Sommersportart galt, definierte er BBQ neu – als ganzjährige Leidenschaft. Eine Haltung, mit der er früh richtig lag.</p><p>Denn Outdoor Cooking spielt nicht nur bei Tom Heinzle eine zentrale Rolle, sondern auch bei <strong>STAY SPICED !</strong> und zehntausenden Grill- und BBQ-Fans, die Feuer, Geschmack und Handwerk das ganze Jahr über leben.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_QPr8NL",
+        "text_JBCcTp"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/20251223115129-lebkuchen-20im-20speckmantel-20-26-20bergka-cc-88se.webp",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#fec200",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_RPYbeg": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Rxkim3": {
+          "type": "title",
+          "settings": {
+            "title": "KONTAKT",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_Fmc3hH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dein <strong>Grillshop</strong> hat noch keine STAY SPICED ! Gewürze im Sortiment?<br/>Dann melde dich gerne bei unserem Vertriebsteam – wir beraten dich persönlich und unterstützen dich dabei, unsere Premium-Gewürze in dein Sortiment aufzunehmen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_FYCwD7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Händler werden",
+            "link": "https://reseller.stayspiced.com/pages/haendler-werden",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Rxkim3",
+        "text_Fmc3hH",
+        "button_FYCwD7"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Erik_Teamfoto_Website.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_N6GN6E": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_8AMJVq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced-testimonial-haya-molcho.png",
+            "title": "Haya Molcho - NENI",
+            "caption": "",
+            "link": "shopify://pages/haya-molcho-neni",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_aRRch9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tom_heinzle_portrait-rauch_a846941a-e34b-4ee5-a7c9-d228f80a748b.png",
+            "title": "Tom Heinzle",
+            "caption": "",
+            "link": "shopify://pages/tom-heinzle",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_mLHepi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced-testimonial-ben-perry.png",
+            "title": "Ben Perry",
+            "caption": "",
+            "link": "shopify://pages/ben-perry",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_8AMJVq",
+        "image_aRRch9",
+        "image_mLHepi"
+      ],
+      "name": "t:sections.text-columns-with-images.name",
+      "settings": {
+        "heading": "Mehr von unseren Profiköchen",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 0,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_GD74wN",
+    "rich_text_YDky9r",
+    "text_columns_images_3MJBTa",
+    "text_columns_images_7NwfTy",
+    "featured_product_LaLe7H",
+    "featured_collection_kig7wz",
+    "media_with_text_overlay_7YBV9H",
+    "rich_text_iCGBLn",
+    "featured_product_Wmm7kg",
+    "featured_collection_iDCUg6",
+    "blog_posts_hWbTVX",
+    "rich_text_zjV8QX",
+    "rich_text_slider_MUmP6J",
+    "featured_collection_CKXxRy",
+    "rich_text_yeCbFM",
+    "featured_collection_pEYHQB",
+    "featured_collection_9GzefY",
+    "collection_list_TWchrn",
+    "category_slider_GyWzgF",
+    "rich_text_ekY3tk",
+    "rich_text_RPYbeg",
+    "text_columns_images_N6GN6E"
+  ]
+}

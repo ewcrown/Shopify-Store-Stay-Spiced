@@ -44,6 +44,7 @@
         },
         "button_8ynGgV": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Händler finden",
             "link": "shopify://pages/grosshaendler_finden",
@@ -68,7 +69,63 @@
         "image_crop": true,
         "text_alignment": "horizontal-center",
         "is_fullwidth": false,
-        "section_background_color": "#009fe3",
+        "section_background_color": "#ffffff",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_jYmKBP": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6TCWtU": {
+          "type": "title",
+          "settings": {
+            "title": "Hast du Fragen?",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_j3qCw9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir beraten dich gerne!  </p><p>Melde dich einfach telefonisch bei uns unter der untenstehenden Hotline-Nummer oder schreib uns eine E-Mail an bestellung@stayspiced.com<br/><br/>+43 662 890919<br/>+49 8654 4093911<br/>Mo - Do: 08:00 - 17:00 <br/>Fr: 08:00 - 14:00 </p><p>Dein Gastro-Team von STAY SPICED !</p>",
+            "content_source": "custom",
+            "text_size": "large"
+          }
+        },
+        "button_ENPFUV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_6TCWtU",
+        "text_j3qCw9",
+        "button_ENPFUV"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Gruppe-Vetrieb_web.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
@@ -339,6 +396,7 @@
         "further_question_yUUdGC",
         "confirm_YWM7mQ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Registrierung als Gastrokunde",
         "master_data_title": "Stammdaten",
@@ -358,7 +416,9 @@
         "image_Qy99XF": {
           "type": "image",
           "settings": {
+            "is_use_video_link": false,
             "video": "shopify://files/videos/Unsere Gastro Dose.mp4",
+            "external_video_link": "",
             "caption": "",
             "title": "",
             "subtitle": "",
@@ -376,6 +436,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/background_white.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
             "caption": "",
             "title": "Der richtige Partner für deine Küche",
             "subtitle": "Wir von STAY SPICED ! kennen die Gastronomie dank unserer jahrelangen Erfahrung genau und wissen, dass es dort vor allem auf zwei Dinge ankommt: Qualität und Praktikabilität! Deshalb setzten wir die Ansprüche an unsere Gewürze auch so hoch an! Von unserer bedingungslosen Qualitätsphilosophie über unser Nachhaltigkeitskonzept bis hin zu unsererem speziell entwickelten Gastro-Gebinde mit Wiedererkennungswert. Wir sind sehr stolz darauf, Gastronomen wie dir eine ganzheitliche Gewürzlösung anbieten zu können - und das zu deutlich reduzierten Preisen!",
@@ -420,6 +482,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/background_white.jpg",
+            "is_use_video_link": false,
+            "external_video_link": "",
             "caption": "",
             "title": "Riesige Auswahl an den besten Reingewürzen",
             "subtitle": "Unsere Reingewürze bieten 100% Qualität und Geschmack ohne Kompromisse. Im Onlineshop von STAY SPICED! findest du eine riesige Auswahl an Pfeffer- und Salzspezialitäten, Chilis, Kräutern, Gourmet-Gewürzen, Blüten aus nachhaltigem Anbau und delikaten Zuckervarianten. Entdecke außergewöhnliche Aromen und erlebe Gewürze, die anders sind als alles, was du bisher gekostet hast.",
@@ -436,7 +500,9 @@
         "image_MUnU9y": {
           "type": "image",
           "settings": {
+            "is_use_video_link": false,
             "video": "shopify://files/videos/Reingewürze Gastro schnell 169.mp4",
+            "external_video_link": "",
             "caption": "",
             "title": "",
             "subtitle": "",
@@ -472,61 +538,6 @@
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
-      }
-    },
-    "rich_text_jYmKBP": {
-      "type": "rich-text",
-      "blocks": {
-        "title_6TCWtU": {
-          "type": "title",
-          "settings": {
-            "title": "Hast du Fragen?",
-            "title_size": "h3",
-            "seo_h_tag": "h2"
-          }
-        },
-        "text_j3qCw9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wir beraten dich gerne!  </p><p>Melde dich einfach telefonisch bei uns unter der untenstehenden Hotline-Nummer oder schreib uns eine E-Mail an bestellung@stayspiced.com</p><p>Dein Gastro-Team von STAY SPICED !</p>",
-            "content_source": "custom",
-            "text_size": "large"
-          }
-        },
-        "button_ENPFUV": {
-          "type": "button",
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "target_id": "",
-            "open_in_new_window": false,
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "title_6TCWtU",
-        "text_j3qCw9",
-        "button_ENPFUV"
-      ],
-      "settings": {
-        "element_id": "",
-        "image": "shopify://shop_images/Gruppe-Vetrieb_web.jpg",
-        "image_position": "right",
-        "height": "small",
-        "image_crop": false,
-        "text_alignment": "horizontal-center",
-        "is_fullwidth": false,
-        "section_background_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false
       }
     },
     "custom_liquid_rXrheB": {
@@ -616,11 +627,11 @@
   "order": [
     "main",
     "rich_text_yeGftq",
+    "rich_text_jYmKBP",
     "rich_text_slider_drgBmk",
     "contact_form_pLDJg8",
     "media_with_text_overlay_ghxLYj",
     "media_with_text_overlay_iFekUn",
-    "rich_text_jYmKBP",
     "custom_liquid_rXrheB",
     "text_columns_icons_MK3Wj4"
   ]

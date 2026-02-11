@@ -17,6 +17,139 @@
         "center": false
       }
     },
+    "rich_text_8WHQFN": {
+      "type": "rich-text",
+      "blocks": {
+        "title_BHzGxp": {
+          "type": "title",
+          "settings": {
+            "title": "STAY SPICED ! GEWÜRZ ADVENTSKALENDER",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_9pWCLh": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Mach dir die Vorweihnachtszeit zu einem kulinarischen Erlebnis! Mit dem STAY SPICED ! Adventskalender 2025 öffnest du nicht nur 24 Türchen – du entdeckst Tag für Tag neue Genussmomente.",
+            "title_size": "h2"
+          }
+        },
+        "text_j8VzhW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><br/>🎄 <strong>DIE STAY SPICED ! Adventskalender 2025</strong> 🎄</p><p>Mach dir die Vorweihnachtszeit zu einem kulinarischen Erlebnis! Mit dem STAY SPICED ! Adventskalender 2025 öffnest du nicht nur 24 Türchen – du entdeckst Tag für Tag neue Genussmomente.</p><p>✨ <strong>Deine Vorteile auf einen Blick:</strong></p><p>🎁 von der Verpackung bis zum Inhalt setzen wir auf Verantwortung gegenüber Umwelt und Ressourcen.<br/></p><p>🌿 eine bunte Mischung aus reinen Gewürzen und exklusiven Gewürzmischungen.<br/></p><p>💎 jedes Gewürz stammt von sorgfältig ausgewählten Produzenten mit höchster Qualität.<br/></p><p>👅 koche gleich los und probiere deine neuen Gewürze mit passenden Gerichten aus.<br/></p><p>☀️ täglich ein kulinarischer Moment, der dich inspiriert und überrascht.<br/></p><p>🌟 Der STAY SPICED ! Adventskalender 2025 ist mehr als nur ein Kalender – er ist dein Begleiter für eine geschmackvolle, kreative und nachhaltige Adventszeit.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_EpBx3L": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gewürzregal",
+            "link": "",
+            "target_id": "#regal",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        },
+        "button_iDn4Ay": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gewürzwürfel",
+            "link": "",
+            "target_id": "#wuerfel",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_BHzGxp",
+        "subtitle_9pWCLh",
+        "text_j8VzhW",
+        "button_EpBx3L",
+        "button_iDn4Ay"
+      ],
+      "custom_css": [
+        ".rich-text__container .rich-text__image figure {height: 100% !important;}"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_header-lp-adventskalender.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#d30145",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_qeagML": {
+      "type": "text-columns",
+      "blocks": {
+        "text_4iCtkY": {
+          "type": "text",
+          "settings": {
+            "title": "Nachhaltig",
+            "caption": "<p>🎁 von der Verpackung bis zum Inhalt setzen wir auf Verantwortung gegenüber Umwelt und Ressourcen.</p>",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_dWe8UA": {
+          "type": "text",
+          "settings": {
+            "title": "100% Geschmack",
+            "caption": "<p>🌿 eine bunte Mischung aus reinen Gewürzen und exklusiven Gewürzmischungen.</p>",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_Hrx8ff": {
+          "type": "text",
+          "settings": {
+            "title": "100% Qualität",
+            "caption": "<p>💎 jedes Gewürz stammt von sorgfältig ausgewählten Produzenten mit höchster Qualität.</p>",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_3RYrW3": {
+          "type": "text",
+          "settings": {
+            "title": "Rezepte",
+            "caption": "<p>☀️ täglich ein kulinarischer Moment, der dich inspiriert und überrascht.</p>",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "text_4iCtkY",
+        "text_dWe8UA",
+        "text_Hrx8ff",
+        "text_3RYrW3"
+      ],
+      "name": "t:sections.words_210.text_columns.name",
+      "settings": {
+        "heading": "✨ Deine Vorteile auf einen Blick:",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "block_text_alignment": "text-align--left",
+        "seo_h_tag": "h2"
+      }
+    },
     "before_after_bqwBgE": {
       "type": "before-after",
       "blocks": {
@@ -39,6 +172,7 @@
         "image_BBFnn8",
         "image_A3AR6t"
       ],
+      "disabled": true,
       "name": "t:sections.refactor_words.before_after.name",
       "settings": {
         "heading": "🎄Adventskalender - Tägliche Geschmacksmomente für echte Genießer🎄",
@@ -46,8 +180,8 @@
         "section_heading_layout": "section-heading--center",
         "layout": "horizontal",
         "invert_layout": false,
-        "desktop_height": "before-after--desktop-large",
-        "mobile_height": "before-after--mobile-large",
+        "desktop_height": "before-after--desktop-medium",
+        "mobile_height": "before-after--mobile-medium",
         "color_style": "light",
         "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
@@ -55,42 +189,52 @@
         "seo_h_tag": "h2"
       }
     },
-    "rich_text_VzAVnV": {
+    "rich_text_TBdVGp": {
       "type": "rich-text",
       "blocks": {
-        "title_8pXUtw": {
+        "title_JM3dwr": {
           "type": "title",
           "settings": {
-            "title": "<strong>🎄Adventskalender Presale🎄</strong>",
-            "title_size": "h2",
-            "seo_h_tag": "h1"
+            "title": "Adventskalender Gewürzregal",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
           }
         },
-        "text_hcyJTJ": {
+        "text_zt4jk8": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere STAY SPICED ! Adventskalender 2025 sind ab sofort im Vorverkauf erhältlich!<br/><br/>Bitte beachte: Der Versand der Kalender startet <strong>Ende September</strong>.</p><p>👉 Wenn du zusätzlich Gewürze zu deinem Kalender bestellst, versenden wir alles <strong>gemeinsam</strong>, sobald der Kalender lieferbar ist.<br/>👉 Falls du deine Gewürze schon früher brauchst, bestelle diese bitte <strong>separat</strong>.</p><p>Danke für dein Verständnis & viel Vorfreude auf eine genussvolle Adventszeit mit STAY SPICED ! ✨</p>",
+            "text": "<p>Der STAY SPICED ! Gewürz-Adventskalender 2025 – Edition Gewürzregal ist das Highlight für alle Feinschmecker! Hinter 24 Türchen verbergen sich hochwertige Original-Gewürzdosen voller kulinarischer Inspiration – von Klassikern über exklusive Mischungen bis hin zu festlichen Spezialitäten. Der stabile Kalenderkarton verwandelt sich nach dem Öffnen in ein dekoratives Gewürzregal und sorgt so das ganze Jahr über für Ordnung und Stil in deiner Küche. Ein edles Geschenk für Gourmets, Hobbyköche und alle, die Würze lieben.</p><p>🌿 24x einzigartige Gewürze für kulinarische Vielfalt.</p><p>👅 Hinter jedem Türchen ein passendes Rezept zum Nachkochen!</p><p>🪚Nach dem Weihnachtsfest im Nu zu einem Gewürzregal umgebaut - perfekt für jede Küche!<br/></p>",
             "content_source": "custom",
-            "text_size": "large"
+            "text_size": "regular"
+          }
+        },
+        "product_ktg8Wa": {
+          "type": "product",
+          "settings": {
+            "product": "stay-spiced-gewurz-edition-gewurzregal"
           }
         }
       },
       "block_order": [
-        "title_8pXUtw",
-        "text_hcyJTJ"
+        "title_JM3dwr",
+        "text_zt4jk8",
+        "product_ktg8Wa"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".rich-text__container .rich-text__image figure {height: 100% !important;}"
+      ],
       "name": "t:sections.rich-text.name",
       "settings": {
-        "element_id": "",
-        "image_position": "top no-image",
-        "height": "small",
-        "image_crop": false,
-        "text_alignment": "horizontal-center",
+        "element_id": "#regal",
+        "image": "shopify://shop_images/stay-spiced_bilder-adventskalender2.png",
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "#ffffff",
+        "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
-        "color_background_main": "#89ccca",
+        "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_accent_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
@@ -99,210 +243,57 @@
         "color_hide_shadow": false
       }
     },
-    "sc_compare_products_NCgpLr": {
-      "type": "sc-compare-products",
-      "disabled": true,
-      "name": "SC Compare Products",
-      "settings": {}
-    },
-    "featured_product_p6ALTU": {
-      "type": "featured-product",
+    "trust_element_with_text_cMHW4r": {
+      "type": "trust-element-with-text",
       "blocks": {
-        "title_QtYj3w": {
-          "type": "title",
+        "element_mYrey8": {
+          "type": "element",
           "settings": {
-            "seo_h_tag": "h2"
+            "element_img": "shopify://shop_images/adventskalender_regal2.jpg",
+            "element_title": "",
+            "element_desc": ""
           }
         },
-        "price_VCFehX": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_49FdBj": {
-          "type": "variant_picker",
+        "element_EchtY4": {
+          "type": "element",
           "settings": {
-            "variants_style": "radio",
-            "show_quantities": "no"
+            "element_img": "shopify://shop_images/adventskalender_regal.jpg",
+            "element_title": "",
+            "element_desc": ""
           }
         },
-        "space_iEEiab": {
-          "type": "space",
-          "settings": {}
-        },
-        "buy_buttons_WpkCqQ": {
-          "type": "buy_buttons",
+        "element_WXMCBF": {
+          "type": "element",
           "settings": {
-            "show_price": false,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "space_ii9dMb": {
-          "type": "space",
-          "settings": {}
-        },
-        "description_cckpqN": {
-          "type": "description",
-          "settings": {}
-        },
-        "bullet_WYYKg4": {
-          "type": "bullet",
-          "settings": {
-            "bullet_01": "🌿 24x einzigartige Gewürze für kulinarische Vielfalt.",
-            "bullet_02": "👅 Hinter jedem Türchen ein passendes Rezept zum Nachkochen!",
-            "bullet_03": "🪚Nach dem Weihnachtsfest im Nu zu einem Gewürzregal umgebaut - perfekt für jede Küche!"
+            "element_img": "shopify://shop_images/adventskalender_regal3.jpg",
+            "element_title": "",
+            "element_desc": ""
           }
         }
       },
       "block_order": [
-        "title_QtYj3w",
-        "price_VCFehX",
-        "variant_picker_49FdBj",
-        "space_iEEiab",
-        "buy_buttons_WpkCqQ",
-        "space_ii9dMb",
-        "description_cckpqN",
-        "bullet_WYYKg4"
+        "element_mYrey8",
+        "element_EchtY4",
+        "element_WXMCBF"
       ],
-      "custom_css": [],
-      "name": "t:sections.featured-product.name",
+      "name": "Trust Element",
       "settings": {
         "title": "",
         "section_heading_layout": "section-heading--center",
-        "product": "stay-spiced-gewurz-edition-gewurzregal",
-        "gallery_ratio": "1",
-        "gallery_fit": false,
-        "show_border": false,
-        "gallery_card_design": false,
-        "gallery_padding": 0,
-        "gallery_pagination": "dots",
-        "enable_zoom": true,
-        "enable_video_looping": false
-      }
-    },
-    "featured_collection_JVMAUL": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_yg4r47": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_VyNDF8": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_ANEHFD": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_yg4r47",
-        "title_VyNDF8",
-        "quick_buy_ANEHFD"
-      ],
-      "custom_css": [
-        "{margin-bottom: 40px;}"
-      ],
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "heading": "Weihnachtliche Gewürzauswahl",
-        "header-width-limit": 500,
-        "subheading": "",
-        "show_view_all": true,
-        "link_label": "Produkte anzeigen",
-        "link_url": "",
-        "show_product_detail": true,
-        "section_heading_layout": "section-heading--center",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3",
-        "mobile_layout": "grid-lap-2 grid-tiny-2",
-        "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 16,
-        "product-info-width-limit": 500,
-        "collection": "weihnachtliche-gewurze",
+        "section_content_column": 3,
         "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
       }
     },
-    "featured_product_eacxH6": {
-      "type": "featured-product",
-      "blocks": {
-        "title_PcEMiW": {
-          "type": "title",
-          "settings": {
-            "seo_h_tag": "h2"
-          }
-        },
-        "price_pCH7Dy": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_xWnUac": {
-          "type": "variant_picker",
-          "settings": {
-            "variants_style": "radio",
-            "show_quantities": "no"
-          }
-        },
-        "space_XBArmb": {
-          "type": "space",
-          "settings": {}
-        },
-        "buy_buttons_qj67Db": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_price": false,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        },
-        "space_EaWjqP": {
-          "type": "space",
-          "settings": {}
-        },
-        "description_zn7nhh": {
-          "type": "description",
-          "settings": {}
-        },
-        "bullet_jJmQTC": {
-          "type": "bullet",
-          "settings": {
-            "bullet_01": "🌿Erlebe einzigartige Geschmackserlebnisse in unserer Gewürz Würfel Edition - wichtige Gewürzinfos inklusive!",
-            "bullet_02": "🎉 Mit 20 exklusiven Gewürzen und 4 Überraschungen rund ums Würzen! 100% Nachhaltig verpackt!",
-            "bullet_03": "👅 Hinter jedem Türchen versteckt sich ein QR Code mit passenden Rezepten zum Nachkochen für Jedermann!"
-          }
-        }
-      },
-      "block_order": [
-        "title_PcEMiW",
-        "price_pCH7Dy",
-        "variant_picker_xWnUac",
-        "space_XBArmb",
-        "buy_buttons_qj67Db",
-        "space_EaWjqP",
-        "description_zn7nhh",
-        "bullet_jJmQTC"
-      ],
-      "name": "t:sections.featured-product.name",
+    "custom_liquid_dcg3Nw": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
       "settings": {
-        "title": "",
-        "section_heading_layout": "section-heading--center",
-        "product": "adventskalender-stay-spiced-cube-edition-2025",
-        "gallery_ratio": "0.666667",
-        "gallery_fit": false,
-        "show_border": false,
-        "gallery_card_design": false,
-        "gallery_padding": 0,
-        "gallery_pagination": "dots",
-        "enable_zoom": true,
-        "enable_video_looping": false
+        "custom_liquid": "<style>\n  .video-wrapper {\n    position: relative;\n    width: 100%;\n    /* The padding-top percentage is calculated as (height / width) * 100% for a 9:16 ratio */\n    padding-top: 100%; /* (16/9) * 100 */\n  }\n  .video-wrapper iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\npadding-bottom:3rem;\n  }\n</style>\n<div class=\"video-wrapper\">\n  <iframe src=\"https://www.youtube.com/embed/p9Uhf40rK9U\" title=\"Achtung Adventskalender Spoiler #shorts\" frameborder=\"0\" \n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n  referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "full_width": false,
+        "remove_margin": false
       }
     },
     "feedback_rpgt7w": {
@@ -353,7 +344,7 @@
       ],
       "name": "t:sections.local-extra-words.sections.feedbacks.name",
       "settings": {
-        "quote_font": "serif",
+        "quote_font": "sans_serif_n4",
         "quote_font_size": 32,
         "quote_line_height": 1.1,
         "content_alignment": "center",
@@ -363,45 +354,55 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false,
-        "section_background_color": "#f39325",
+        "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false
       }
     },
-    "rich_text_8WHQFN": {
+    "rich_text_97erQK": {
       "type": "rich-text",
       "blocks": {
-        "title_BHzGxp": {
+        "title_xxFDfT": {
           "type": "title",
           "settings": {
-            "title": "Vorteile unserer S! Adventskalender",
-            "title_size": "h2",
+            "title": "Adventskalender Gewürzwürfel",
+            "title_size": "h3",
             "seo_h_tag": "h2"
           }
         },
-        "text_j8VzhW": {
+        "text_i7JKfF": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>🎄 <strong>DIE STAY SPICED ! Adventskalender 2025</strong> 🎄</p><p>Mach dir die Vorweihnachtszeit zu einem kulinarischen Erlebnis! Mit dem STAY SPICED ! Adventskalender 2025 öffnest du nicht nur 24 Türchen – du entdeckst Tag für Tag neue Genussmomente.</p><p>✨ <strong>Deine Vorteile auf einen Blick:</strong></p><p>🎁 von der Verpackung bis zum Inhalt setzen wir auf Verantwortung gegenüber Umwelt und Ressourcen.<br/></p><p>🌿 eine bunte Mischung aus reinen Gewürzen und exklusiven Gewürzmischungen.<br/></p><p>💎 jedes Gewürz stammt von sorgfältig ausgewählten Produzenten mit höchster Qualität.<br/></p><p>👅 koche gleich los und probiere deine neuen Gewürze mit passenden Gerichten aus.<br/></p><p>☀️ täglich ein kulinarischer Moment, der dich inspiriert und überrascht.<br/></p><p>🌟 Der STAY SPICED ! Adventskalender 2025 ist mehr als nur ein Kalender – er ist dein Begleiter für eine geschmackvolle, kreative und nachhaltige Adventszeit.</p>",
+            "text": "<p>Der STAY SPICED ! Adventskalender Cube Edition 2025 ist das Must-have für alle Genussmenschen! Hinter 24 kleinen Würfel-Türchen warten täglich neue Geschmackserlebnisse – von Klassikern bis zu exklusiven Limited Editions. Jede Gewürzüberraschung ist im praktischen Cube verpackt und bringt kreative Würze in deine Adventszeit. Der hochwertige Kalenderkarton lässt sich nach dem Öffnen als stylisches Gewürzregal weiterverwenden – so bleibt der Genuss auch nach Weihnachten erhalten!</p><ul><li>🌿Erlebe einzigartige Geschmackserlebnisse in unserer Gewürz Würfel Edition - wichtige Gewürzinfos inklusive!</li><li>🎉 Mit 20 exklusiven Gewürzen und 4 Überraschungen rund ums Würzen! 100% Nachhaltig verpackt!</li><li>👅 Hinter jedem Türchen versteckt sich ein QR Code mit passenden Rezepten zum Nachkochen für Jedermann!</li></ul>",
             "content_source": "custom",
             "text_size": "regular"
+          }
+        },
+        "product_pd43Kz": {
+          "type": "product",
+          "settings": {
+            "product": "adventskalender-stay-spiced-cube-edition-2025"
           }
         }
       },
       "block_order": [
-        "title_BHzGxp",
-        "text_j8VzhW"
+        "title_xxFDfT",
+        "text_i7JKfF",
+        "product_pd43Kz"
+      ],
+      "custom_css": [
+        ".rich-text__container .rich-text__image figure {height: 100% !important;}"
       ],
       "name": "t:sections.rich-text.name",
       "settings": {
-        "element_id": "",
-        "image": "shopify://shop_images/1_60a38d20-32aa-477d-a9ca-2fd3f3ea1d15.png",
-        "image_position": "right",
-        "height": "regular",
+        "element_id": "#wuerfel",
+        "image": "shopify://shop_images/stay-spiced_bilder-adventskalender.png",
+        "image_position": "left",
+        "height": "large",
         "image_crop": true,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "#89ccca",
+        "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
@@ -410,6 +411,87 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false
+      }
+    },
+    "trust_element_with_text_xrB9Eh": {
+      "type": "trust-element-with-text",
+      "blocks": {
+        "element_8JPpKh": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/adventskalender_wuerfel.jpg",
+            "element_title": "",
+            "element_desc": ""
+          }
+        },
+        "element_xmM4L6": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/adventskalender_wuerfel2.jpg",
+            "element_title": "",
+            "element_desc": ""
+          }
+        },
+        "element_XjwWey": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/adventskalender_wuerfel3.jpg",
+            "element_title": "",
+            "element_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "element_8JPpKh",
+        "element_xmM4L6",
+        "element_XjwWey"
+      ],
+      "name": "Trust Element",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "section_content_column": 3,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "custom_liquid_6UeaBF": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .video-wrapper {\n    position: relative;\n    width: 100%;\n    /* The padding-top percentage is calculated as (height / width) * 100% for a 9:16 ratio */\n    padding-top: 100%; /* (16/9) * 100 */\n  }\n  .video-wrapper iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\npadding-bottom:3rem;\n  }\n</style>\n<div class=\"video-wrapper\">\n  <iframe src=\"https://www.youtube.com/embed/wxQ6Kse2R5I\" title=\"Achtung Adventskalender Spoiler #shorts\" frameborder=\"0\" \n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n  referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "blog_slider_CEPhfk": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_XRpAy4": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_XRpAy4"
+      ],
+      "name": "Blog Slider",
+      "settings": {
+        "title": "Weitere Rezepte findest du hinter jedem Türchen",
+        "subheading": "",
+        "post_limit": 8,
+        "section_heading_layout": "section-heading--center",
+        "blog": "gemuse",
+        "article_list": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "0.83333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
       }
     },
     "content_toggles_39rtNV": {
@@ -521,29 +603,48 @@
         "seo_h_tag": "h2"
       }
     },
-    "blog_slider_CEPhfk": {
-      "type": "blog-slider",
+    "featured_collection_JVMAUL": {
+      "type": "featured-collection",
       "blocks": {
-        "title_XRpAy4": {
+        "price_yg4r47": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_VyNDF8": {
           "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ANEHFD": {
+          "type": "quick_buy",
           "settings": {}
         }
       },
       "block_order": [
-        "title_XRpAy4"
+        "price_yg4r47",
+        "title_VyNDF8",
+        "quick_buy_ANEHFD"
       ],
-      "name": "Blog Slider",
+      "custom_css": [
+        "{margin-bottom: 40px;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Weitere Rezepte findest du hinter jedem Türchen",
+        "heading": "Weihnachtliche Gewürzauswahl",
+        "header-width-limit": 500,
         "subheading": "",
-        "post_limit": 8,
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
         "section_heading_layout": "section-heading--center",
-        "blog": "gemuse",
-        "article_list": "",
-        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
-        "blog_show_image": true,
-        "image_aspect_ratio": "0.83333",
-        "section_background_color": "#f39325",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "weihnachtliche-gewurze",
+        "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
@@ -620,6 +721,7 @@
       "block_order": [
         "element_KH8Pgk"
       ],
+      "disabled": true,
       "name": "Trust Element Logo",
       "settings": {
         "title": "Du kennst uns vielleicht aus",
@@ -759,8 +861,8 @@
       ],
       "name": "t:sections.text-columns-with-icons.name",
       "settings": {
-        "heading": "Text columns with icon",
-        "subheading": "Share your best offers",
+        "heading": "",
+        "subheading": "",
         "section_heading_layout": "section-heading--left",
         "style": "slider",
         "layout": "grid-4 grid-portable-3 grid-lap-2",
@@ -774,16 +876,19 @@
   },
   "order": [
     "main",
-    "before_after_bqwBgE",
-    "rich_text_VzAVnV",
-    "sc_compare_products_NCgpLr",
-    "featured_product_p6ALTU",
-    "featured_collection_JVMAUL",
-    "featured_product_eacxH6",
-    "feedback_rpgt7w",
     "rich_text_8WHQFN",
-    "content_toggles_39rtNV",
+    "text_columns_qeagML",
+    "before_after_bqwBgE",
+    "rich_text_TBdVGp",
+    "trust_element_with_text_cMHW4r",
+    "custom_liquid_dcg3Nw",
+    "feedback_rpgt7w",
+    "rich_text_97erQK",
+    "trust_element_with_text_xrB9Eh",
+    "custom_liquid_6UeaBF",
     "blog_slider_CEPhfk",
+    "content_toggles_39rtNV",
+    "featured_collection_JVMAUL",
     "rich_text_6WWPgB",
     "trust_element_logo_wbiHPR",
     "rich_text_HKeGkU",

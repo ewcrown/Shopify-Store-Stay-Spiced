@@ -248,6 +248,7 @@
         "title_pTEyCT"
       ],
       "settings": {
+        "anchor": "recipes",
         "title": "Passende Rezepte zu {{ product.title }}",
         "subheading": "",
         "show_view_all": false,

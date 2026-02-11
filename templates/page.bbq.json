@@ -1,0 +1,641 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": true
+      }
+    },
+    "image_ihB6jg": {
+      "type": "image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "medium"
+      }
+    },
+    "rich_text_mbwphQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_HwmkEX": {
+          "type": "title",
+          "settings": {
+            "title": "BBQ ist eine Lebenseinstellung",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "title_nNFxqP": {
+          "type": "title",
+          "settings": {
+            "title": "Leidenschaft & Qualität",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_6TMBXk": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Bei <strong>STAY SPICED!</strong> dreht sich BBQ um mehr als nur Grillen – es geht um Leidenschaft, Zeit im Freien und echte Genussmomente. </p><p>Deshalb haben wir uns intensiv damit beschäftigt,<a href=\"/collections/barbecue\" title=\"BBQ - Barbecue\"> <strong>BBQ-Gewürzmischungen</strong> </a>zu entwickeln, die jedes Grillgericht auf den Punkt bringen. </p><p>Sorgfältig ausgewählte Zutaten, perfekt abgestimmte Rezepturen und kompromisslose Qualität sorgen dafür, dass Fleisch, Fisch, Gemüse und pflanzliche Alternativen beim Grillen ihr volles Potenzial entfalten. Ob klassisches Barbecue, Low & Slow aus dem Smoker oder kreatives Outdoor Cooking – mit unseren BBQ-Gewürzen bist Du für jede Grillsituation bestens gerüstet.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_TyTkQr": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/barbecue",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_HwmkEX",
+        "title_nNFxqP",
+        "text_6TMBXk",
+        "button_TyTkQr"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/ribs_bbq_1.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_qJx4eU": {
+      "type": "featured-product",
+      "blocks": {
+        "title_hCCtTt": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_QkaE4C": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_gACJtN": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_dcCFQ7": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_HFMwPF": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_pgVERh": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_3B6ybH": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_gRtwNA": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_FAQpBt": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_hCCtTt",
+        "bullet_QkaE4C",
+        "price_gACJtN",
+        "variant_picker_dcCFQ7",
+        "space_HFMwPF",
+        "buy_buttons_pgVERh",
+        "space_3B6ybH",
+        "description_gRtwNA",
+        "product_link_FAQpBt"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "barbecue-gewurz-set-6er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "Mehr Geschmack auf dem Rost – BBQ Gewürze",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle anzeigen",
+        "link_url": "shopify://collections/barbecue",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "barbecue",
+        "section_background_color": "#fd3f00",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_8HC9YF": {
+      "type": "rich-text",
+      "blocks": {
+        "title_JCxqy6": {
+          "type": "title",
+          "settings": {
+            "title": "Outdoor Cooking Erlebnis",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_y4CbbV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Sobald der Smoker läuft und der Duft von glühender Kohle in der Luft liegt, beginnt das echte BBQ-Erlebnis. </p><p>Genau dieses Gefühl möchten wir bei <strong>STAY SPICED !</strong> unterstützen und weitergeben. Unsere Mission ist es, Dich bei Deiner <strong>Outdoor-Cooking-Mission</strong> zu begleiten – vom spontanen Grillabend bis zum ausgedehnten Barbecue mit Freunden. </p><p>Mit vielseitigen <a href=\"/collections/barbecue\" title=\"BBQ - Barbecue\">BBQ</a>-Gewürzen und Gewürzmischungen gelingen Marinaden, Rubs und Grillklassiker ganz unkompliziert. So wird jedes BBQ zu einem besonderen Moment, bei dem Genuss, Gemeinschaft und Freude am Grillen im Mittelpunkt stehen.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_CGdEpi": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/barbecue",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_JCxqy6",
+        "text_y4CbbV",
+        "button_CGdEpi"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/20241014085043-mississippi_bbq_21.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_NqjRqj": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_AHJUdX": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_fCDPz7": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_XBYbJi": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_AHJUdX",
+        "title_fCDPz7",
+        "quick_buy_XBYbJi"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Gewürze für Dips, Saucen & Beilagen",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle anzeigen",
+        "link_url": "shopify://collections/dips",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 4,
+        "product-info-width-limit": 500,
+        "collection": "barbecue",
+        "section_background_color": "#fd3f00",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_NhkgaU": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_jNAKDr": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_hjtEkz": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_8j8bYx": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_jNAKDr",
+        "title_hjtEkz",
+        "quick_buy_8j8bYx"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Gewürze für Dips, Saucen & Beilagen",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "shopify://collections/dips",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 10,
+        "product-info-width-limit": 500,
+        "collection": "dips",
+        "section_background_color": "#f74b12",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_FR9pLX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_mEqVrH": {
+          "type": "title",
+          "settings": {
+            "title": "Herausforderungen",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_fqbK4m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das klassische <a href=\"/collections/barbecue\" title=\"BBQ - Barbecue\">BBQ</a>, wie man es kennt, ist schon vor einiger Zeit aus den Staaten bei uns angekommen. Ob Brisket, Pulled Pork oder Ribs in verschiedensten Variationen, die über viele Stunden bei indirekter, niedriger Hitze im Smoker zart gesmokt und mit BBQ-Sauce veredelt werden, wir sind für alles gerüstet. Die Herausforderung ist es, eine perfekte Symbiose zwischen Rauch, Eigengeschmack und der optimalen Würze zu erschaffen, ohne dass einer dieser Geschmäcker vernachlässigt wird. </p><p><strong>Was unterscheidet echtes BBQ vom Grillen? </strong></p><p>Beim BBQ wird mit Temperaturen von 90 bis120 Grad gearbeitet. Also ist das Ziel, das Fleisch low und slow zuzubereiten. Bei der Entstehung dieser Technik ist das Ziel, Teile vom Tier wie Brust, Rippen, Schulter, Keulen und auch Nacken unter tiefer Temperatur und ausschließlich bei indirekter Hitze über lange Zeit schonend weich zu schmoren. Alles andere zählt zum klassischen Grillen. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_4xR3zz": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/barbecue",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_mEqVrH",
+        "text_fqbK4m",
+        "button_4xR3zz"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/tom.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "blog_slider_TFWrB6": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_YA7hHk": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_KMUqnY": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_YA7hHk",
+        "title_KMUqnY"
+      ],
+      "name": "Blog Slider",
+      "settings": {
+        "title": "BBQ-Rezepte zum Grillen & Smoken",
+        "subheading": "",
+        "post_limit": 4,
+        "section_heading_layout": "section-heading--left",
+        "blog": "barbecue",
+        "article_list": "tom-heinzle/st-lois-ribs-mit-s-mississippi-bbq,barbecue/rezept-dips-aufstriche,tom-heinzle/boston-thunder-dust-ribs,tom-heinzle/atlanta-taste-flank-steak-low-and-slow,tom-heinzle/memphis-chicken-wings,",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_TWenJt": {
+      "type": "rich-text",
+      "blocks": {
+        "text_C4BF6F": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>BBQ – mehr als Grillen, eine Lebenseinstellung</h3><p>BBQ ist nicht einfach nur Grillen – es ist eine Lebenseinstellung. Wenn Feuer auf Hitze trifft, Rauch auf gutes Essen und Zeit plötzlich keine Rolle mehr spielt, beginnt echtes BBQ. Ob am Grill, Smoker oder über offenem Feuer: Beim BBQ geht es um Genuss, Handwerk und das gemeinsame Erlebnis draußen.</p><p>Mit den richtigen <strong>BBQ Gewürzen</strong> holst Du das Beste aus Fleisch, Fisch, Gemüse und Beilagen heraus. Von klassischen Rubs über kräftige Marinaden bis hin zu fein abgestimmten Mischungen für Low & Slow – gute Gewürze sind die Basis für jedes gelungene BBQ.</p><h3>BBQ Gewürze für Grill, Smoker & Outdoor Cooking</h3><p>Egal, ob Du saftige Ribs, Steak, Pulled Pork oder gegrilltes Gemüse zubereitest: Die passende Würze macht den Unterschied. BBQ Gewürze eignen sich perfekt zum <strong>Rubben, Marinieren oder Nachwürzen</strong> und lassen sich vielseitig einsetzen – vom schnellen Grillabend bis zur langen Smoker-Session.</p><p>Auch <strong>Dips, Saucen und Beilagen</strong> gehören zum BBQ einfach dazu. Mit den richtigen Gewürzen zauberst Du im Handumdrehen würzige Dips, cremige Aufstriche oder raffinierte Grillbeilagen, die Dein BBQ perfekt abrunden.</p><h3>Für alle, die <a href=\"/collections/barbecue\" title=\"BBQ - Barbecue\">BBQ</a> leben</h3><p>BBQ verbindet – Freunde, Familie und echte Grillfans. Es steht für Genuss, Leidenschaft und gutes Essen unter freiem Himmel. Mit hochwertigen BBQ Gewürzen bist Du für jede Grillidee bestens gerüstet und bringst Abwechslung auf den Rost.</p><p> Entdecke jetzt <a href=\"/collections/barbecue\" title=\"BBQ - Barbecue\"><strong>BBQ Gewürze für Grillen, Smoken & Outdoor Cooking</strong> </a>und mach jedes BBQ zu einem echten Highlight.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_C4BF6F"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "content_toggles_pEtyMQ": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_bGFVTJ": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist der Unterschied zwischen Grillen und BBQ?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Der Unterschied zwischen <strong>Grillen und BBQ (Barbecue)</strong> liegt vor allem in <strong>Temperatur, Garzeit und Technik</strong>. Obwohl beide Methoden am Grill stattfinden, verfolgen sie unterschiedliche Ansätze.</p><h4>Grillen – schnell & heiß</h4><p>Beim klassischen Grillen wird mit <strong>direkter, hoher Hitze</strong> gearbeitet:</p><ul><li>Temperaturen meist <strong>über 200 °C</strong><br/></li><li><strong>Kurze Garzeiten</strong> von wenigen Minuten<br/></li><li>Gargut liegt <strong>direkt über der Hitzequelle</strong><br/></li><li>Ideal für Würstchen, Steaks, Burger oder Grillgemüse<br/></li></ul><p>👉 Grillen ist spontan, unkompliziert und perfekt für den schnellen Genuss.</p><h4>BBQ – langsam & schonend</h4><p>BBQ (Barbecue) setzt auf <strong>niedrige Temperaturen und Geduld</strong>:</p><ul><li>Temperaturen zwischen <strong>90–130 °C</strong><br/></li><li><strong>Lange Garzeiten</strong> über mehrere Stunden<br/></li><li>Garen mit <strong>indirekter Hitze</strong><br/></li><li>Oft kombiniert mit <strong>Rauch (Smoken)</strong><br/></li></ul><p>👉 Typische BBQ-Klassiker sind Pulled Pork, Ribs oder Brisket.</p><p></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_MCHhxk": {
+          "type": "text",
+          "settings": {
+            "title": "Was gehört zu einem guten BBQ?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Zu einem guten BBQ gehören <strong>Zeit, die richtige Technik, hochwertige Zutaten und eine passende Würzung</strong>. Im Gegensatz zum klassischen Grillen steht beim BBQ das <strong>langsame Garen bei niedriger Temperatur</strong> im Mittelpunkt.</p><h3>Die wichtigsten Bestandteile eines guten BBQ</h3><p><strong>1. Geduld & Temperaturkontrolle</strong><br/><br/>Ein gutes BBQ braucht Zeit. Gegart wird bei <strong>90–130 °C</strong>, meist mit indirekter Hitze. Nur so bleiben Fleisch und pflanzliche Alternativen saftig und zart.</p><p><strong>2. Die richtige Technik</strong><br/><br/>Ob Smoker, Kugelgrill oder Gasgrill mit indirekter Zone – entscheidend ist die <strong>gleichmäßige Hitzeverteilung</strong> und das kontrollierte Garen.</p><p><strong>3. Hochwertige Zutaten</strong><br/><br/>Gutes BBQ beginnt bei der Auswahl:</p><ul><li>Fleisch mit ausreichend Fettanteil<br/></li><li>Frisches Gemüse, Tofu oder pflanzliche Alternativen<br/></li><li>Saubere Schnitte wie Ribs, Pulled Pork oder Brisket<br/></li></ul><p><strong>4. Gewürze, Rubs & Marinaden</strong><br/><br/>Die Würzung ist zentral:</p><ul><li><strong>BBQ Rubs</strong> für eine kräftige Kruste<br/></li><li><strong>Marinaden</strong> für Saftigkeit<br/></li><li>Gewürze, die Hitze und lange Garzeiten vertragen<br/></li></ul><p><strong>5. Rauch & Holz (optional)</strong><br/><br/>Holzchips oder -chunks bringen Tiefe ins BBQ. Je nach Holzart entstehen milde oder kräftige Rauchnoten.</p><p><strong>6. Ruhezeit nach dem Garen</strong><br/><br/>Nach dem BBQ sollte das Grillgut kurz ruhen – so verteilen sich die Fleischsäfte gleichmäßig.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_qGzMiV": {
+          "type": "text",
+          "settings": {
+            "title": "Wie würzt man BBQ richtig?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>BBQ wird <strong>nicht kurz vor dem Grillen</strong>, sondern <strong>frühzeitig und gezielt</strong> gewürzt. Entscheidend sind <strong>Zeit, Technik und die richtige Gewürzform</strong> – meist in Form von Rubs oder Marinaden.</p><h3>1. BBQ Rubs richtig anwenden</h3><p>Rubs sind trockene Gewürzmischungen und die Klassiker beim BBQ.</p><p>So gehst du vor:</p><ul><li>Fleisch oder pflanzliche Alternative trocken tupfen<br/></li><li>Rub gleichmäßig einmassieren<br/></li><li><strong>Mindestens 30 Minuten</strong>, besser mehrere Stunden einwirken lassen<br/></li><li>Bei Bedarf über Nacht im Kühlschrank ziehen lassen<br/></li></ul><p>👉 Rubs sorgen für Würze, Farbe und eine kräftige Kruste beim langsamen Garen.</p><h3>2. Marinaden gezielt einsetzen</h3><p>Marinaden eignen sich besonders für:</p><ul><li>Geflügel<br/></li><li>Fisch<br/></li><li>Gemüse<br/></li><li>Tofu & Fleischersatz<br/></li></ul><p>Tipps:</p><ul><li>Marinaden enthalten meist Öl + Gewürze + etwas Säure<br/></li><li><strong>30 Minuten bis mehrere Stunden</strong> einwirken lassen<br/></li><li>Vor dem BBQ überschüssige Marinade abstreifen</li></ul><p></p><h3>3. Dosierung – wie viel Würzung ist richtig?</h3><p>Beim BBQ gilt: lieber <strong>gleichmäßig und ausreichend</strong> würzen.</p><p>Faustregel:</p><ul><li>ca. <strong>20–30 g Rub pro kg</strong> Fleisch<br/></li><li>Gemüse etwas leichter würzen, bei Bedarf nach dem Garen nachwürzen</li></ul><h3>4. Nachwürzen nicht vergessen</h3><p>Beim BBQ darf auch <strong>nach dem Garen</strong> fein nachgewürzt werden:</p><ul><li>Pfeffer<br/></li><li>Chili<br/></li><li>Kräuter<br/></li><li>finishing Gewürze<br/></li></ul><p>So bleibt die Würzung frisch und ausgewogen.</p><h3>5. Rub oder Marinade – was ist besser?</h3><ul><li><strong>Rubs:</strong> ideal für lange Garzeiten & kräftige Kruste<br/></li><li><strong>Marinaden:</strong> perfekt für Saftigkeit & kürzere Garzeiten<br/></li></ul><p>👉 Beides lässt sich auch kombinieren – erst marinieren, dann leicht rubben.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_TWrXjK": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Gewürze für BBQ?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Für ein gelungenes BBQ braucht es <strong>kräftige, hitzestabile Gewürze</strong>, die auch bei langen Garzeiten Geschmack liefern. Besonders bewährt haben sich <strong>BBQ Rubs</strong>, rauchige Komponenten und ausgewogene Gewürzmischungen.</p><p>Die wichtigsten BBQ-Gewürze im Überblick</p><h6></h6><p><strong>1. Paprika (edelsüß & geräuchert)</strong><br/><br/>Paprika bildet die Basis vieler BBQ Rubs. Sie sorgt für Farbe, milde Würze und leichte Süße.</p><p><strong>2. Pfeffer</strong><br/><br/>Schwarzer Pfeffer, bunter Pfeffer oder grob gemahlene Varianten bringen Tiefe und leichte Schärfe – ideal für Fleisch, Gemüse und veganes BBQ.</p><p><strong>3. Knoblauch & Zwiebel</strong><br/><br/>Unverzichtbar für herzhafte BBQ-Mischungen. Sie geben Würze und Struktur, ohne dominant zu wirken.</p><p><strong>4. Chili & Cayenne</strong><br/><br/>Für alle, die es gern schärfer mögen. Perfekt dosiert sorgen sie für angenehme Hitze.</p><p><strong>5. Senf, Koriander & Kreuzkümmel</strong><br/><br/>Typische BBQ-Gewürze für Tiefe und Würze – besonders beliebt bei Rubs für Rind und Schwein.</p><p><strong>6. Kräuter & mediterrane Gewürze</strong><br/><br/>Rosmarin, Thymian, Oregano oder Kräutermischungen passen hervorragend zu Grillgemüse, Geflügel und Käse-Alternativen.</p><h3>BBQ Rubs – die einfachste Lösung</h3><p>BBQ Rubs vereinen mehrere dieser Gewürze in einer ausgewogenen Mischung. Sie sind:</p><ul><li>ideal für lange Garzeiten<br/></li><li>einfach in der Anwendung<br/></li><li>perfekt für Fleisch, Gemüse & veganes BBQ<br/></li></ul><p>👉 In der <strong>BBQ-Kollektion von STAY SPICED !</strong> findest du genau solche Rubs und Gewürzmischungen – abgestimmt auf unterschiedliche BBQ-Stile und Zutaten:<br/><br/><a href=\"https://stayspiced.com/collections/barbecue\">https://stayspiced.com/collections/barbecue</a></p>",
+            "hide_block_if": false
+          }
+        },
+        "text_66XKTg": {
+          "type": "text",
+          "settings": {
+            "title": "BBQ Gewürze für Rind",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_K7AWrK": {
+          "type": "text",
+          "settings": {
+            "title": "BBQ Gewürze für Schwein",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_4maUXm": {
+          "type": "text",
+          "settings": {
+            "title": "BBQ Gewürze für Geflügel",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_eFeBdc": {
+          "type": "text",
+          "settings": {
+            "title": "BBQ Gewürze für Fisch",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_3hDD37": {
+          "type": "text",
+          "settings": {
+            "title": "Vegetarisches & veganes BBQ würzen",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Informationen folgen</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_bGFVTJ",
+        "text_MCHhxk",
+        "text_qGzMiV",
+        "text_TWrXjK",
+        "text_66XKTg",
+        "text_K7AWrK",
+        "text_4maUXm",
+        "text_eFeBdc",
+        "text_3hDD37"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Alles Wichtige auf einem Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_ihB6jg",
+    "rich_text_mbwphQ",
+    "featured_product_qJx4eU",
+    "featured_collection_wpmJ6R",
+    "rich_text_8HC9YF",
+    "featured_collection_NqjRqj",
+    "featured_collection_NhkgaU",
+    "rich_text_FR9pLX",
+    "blog_slider_TFWrB6",
+    "rich_text_TWenJt",
+    "content_toggles_pEtyMQ"
+  ]
+}

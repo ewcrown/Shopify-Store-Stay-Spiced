@@ -319,7 +319,7 @@
       "settings": {
         "element_id": "",
         "image": "shopify://shop_images/sandro.png",
-        "image_position": "right",
+        "image_position": "left",
         "height": "small",
         "image_crop": true,
         "text_alignment": "horizontal-center",
@@ -359,6 +359,7 @@
         "title_zQfJi4",
         "text_jkwTVw"
       ],
+      "disabled": true,
       "settings": {
         "element_id": "",
         "image": "shopify://shop_images/felix.png",
@@ -410,7 +411,7 @@
         "image_crop": true,
         "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "#89ccca",
+        "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",

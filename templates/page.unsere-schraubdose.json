@@ -160,6 +160,94 @@
         "seo_h_tag": "h2"
       }
     },
+    "rich_text_L8fUqB": {
+      "type": "rich-text",
+      "blocks": {
+        "title_aR37pG": {
+          "type": "title",
+          "settings": {
+            "title": "🫙 <strong>STAY SPICED! Gewürzdose 170 ml</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_DDVLEm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die geniale STAY SPICED! Gewürzdose aus hochwertigem Weißblech ist stapelbar, robust und sorgt für perfekten Aromaschutz. Hergestellt in Tirol, Österreich – ideal für alle Gewürze im 170 ml Format.</p><h3><strong>Vorteile :</strong></h3><p>✨ <strong>Perfekter Aromaschutz</strong> – licht- und luftdicht durch präzisen Schraubverschluss<br/><br/>🧂 <strong>Lebensmittelechtes Weißblech</strong> – langlebig, nachhaltig und wiederverwendbar<br/><br/>📏 <strong>Abmessungen:</strong> Durchmesser 58 mm × Höhe 84 mm, Fassungsvermögen ca. 170 ml<br/>(Höhe mit eingeklicktem Streueinsatz: 88mm. Der Streueinsatz ist Optional erhältlich)<br/><br/>🧱 <strong>Stapelbar</strong> – platzsparend im Regal und Küche aufbewahrbar<br/><br/>🇦🇹 <strong>Regional hergestellt</strong> – produziert in Tirol, Österreich<br/><br/>♻️ <strong>Nachhaltig</strong> – zu 100 % recycelbares Material</p><h3><strong>Gut zu wissen</strong></h3><p>Unsere 170 ml STAY SPICED! Dose ist der Klassiker für alle Standard-Gewürze. Sie schützt die wertvollen Zutaten optimal vor Licht und Feuchtigkeit – und lässt sich durch ihr stapelbares Design besonders platzsparend lagern. Weißblech ist nicht nur robust, sondern auch vollständig recyclebar – ganz im Sinne unserer nachhaltigen Philosophie.  Das Mindesthaltbarkeitsdatum (MHD) findest du immer auf dem Dosenboden.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_aR37pG",
+        "text_DDVLEm"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stayspiced-dose-170ml-facts_3.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_Yc4i6K": {
+      "type": "rich-text",
+      "blocks": {
+        "title_dQNEGf": {
+          "type": "title",
+          "settings": {
+            "title": "🫙 <strong>STAY SPICED! Gewürzdose 870 ml</strong>",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_zA8g9A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die große STAY SPICED! Gewürzdose aus Weißblech ist stapelbar, lichtdicht und ideal für die Gastronomie. Regional produziert in Tirol, Österreich – für beste Qualität und Frische.</p><h3><strong>Vorteile:</strong></h3><p>🧂 <strong>Großes Fassungsvermögen:</strong> ca. 870 ml, Abmessungen Durchmesser 101 mm × Höhe  135 mm<br/><br/>✨ <strong>Weißblech in Premiumqualität</strong> – verzinnt, lebensmittelecht und langlebig<br/><br/>🔒 <strong>Sicherer Schraubdeckel</strong> – luftdicht für maximalen Aromaschutz<br/><br/>🧱 <strong>Stapelbar</strong> – perfekt für Lagerung in Küche oder Vorratsraum<br/><br/>🇦🇹 <strong>Regional hergestellt</strong> – produziert in Tirol, Österreich<br/><br/>♻️ <strong>Nachhaltig</strong> – vollständig recyclebares Material</p><h3><strong>Gut zu wissen</strong></h3><p>Diese 870 ml Dose ist dein Allrounder für große Mengen, Nachfüllpackungen oder den Einsatz in der Profi-Küche. Sie ist stapelbar, leicht zu reinigen und schützt Gewürze zuverlässig vor Feuchtigkeit und Licht. Gefertigt in Tirol aus hochwertigem Weißblech – für langlebige Qualität und regionale Wertschöpfung.Das Mindesthaltbarkeitsdatum (MHD) findest du immer auf dem Dosenboden.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_dQNEGf",
+        "text_zA8g9A"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stayspiced-dose-870ml-facts_4.png",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
     "rich_text_XYTDAX": {
       "type": "rich-text",
       "blocks": {
@@ -230,6 +318,27 @@
         "link": "",
         "open_in_new_window": false,
         "image_size": "fullwidth"
+      }
+    },
+    "text_column_metaobject_fDfEMJ": {
+      "type": "text-column-metaobject",
+      "blocks": {
+        "text_cXibnr": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Hey 👋<br/><br/>das Thema <strong>Nachfüllpackungen</strong> klingt auf den ersten Blick super nachhaltig – ist es in der Praxis aber leider oft nicht.</p><p>Wir bei <strong>STAY SPICED !</strong> haben uns ganz bewusst <strong>gegen Nachfüllungen und für unsere Weißblechdosen</strong> entschieden – und das aus guten Gründen:</p><p>🌿 <strong>Produktschutz = weniger Verschwendung</strong><br/><br/>Nur in unseren luft- und lichtdichten Dosen bleiben Gewürze lange frisch und hochwertig – so muss nichts entsorgt werden. Damit leisten wir einen direkten Beitrag zur Vermeidung von Lebensmittelverschwendung.</p><p>🚫 <strong>Warum kein Sichtfenster?</strong><br/><br/>Wir verzichten bewusst darauf, da ein Sichtfenster zusätzlichen Materialeinsatz erfordern würde und das Gewürz nicht mehr zuverlässig vor Licht schützt – die Qualität würde schneller leiden.</p><p>🚫 <strong>Warum keine Beutel oder Plastikeinsätze?</strong><br/><br/>Viele Gewürze enthalten ätherische Öle und reagieren auf Kunststoffe. Dadurch könnten Inhaltsstoffe migrieren, Barrieren nachlassen und die Qualität sinken.<br/><br/>Beutel sind zudem <strong>nicht vollständig luftdicht</strong>, was besonders bei hygroskopischen Gewürzen (die Feuchtigkeit anziehen) problematisch ist.<br/><br/>Dazu kommt: Beutel und Plastikeinsätze bestehen meist aus <strong>Kunststoff oder Verbundmaterialien</strong> und sind daher schwer recycelbar – ein klarer Ausschluss für uns, da wir <strong>konsequent auf Plastik verzichten</strong>.</p><p>💪 <strong>100 % Weißblech – die nachhaltige Lösung</strong><br/><br/>Unsere Dosen sind regional in Österreich gefertigt, plastikfrei, stapelbar und unendlich oft recycelbar – ohne neues Material und mit kurzen Transportwegen.</p><p>🧂 <strong>Hygiene & Rückverfolgbarkeit</strong><br/><br/>Nach Monaten in der Küche ist eine Wiederbefüllung aus hygienischen Gründen nicht ideal. Außerdem wäre keine lückenlose Chargenkontrolle mehr möglich.</p><p>📦 <strong>Warum wir keine leeren Dosen verkaufen:</strong><br/><br/>Unsere Dosen sind Teil unseres Qualitäts- und Hygienekonzepts. Jede Dose wird unter kontrollierten Bedingungen befüllt und versiegelt, damit das Gewürz optimal geschützt ist.<br/><br/>Ein separater Verkauf leerer Dosen würde diese Standards aufbrechen – und könnte dazu führen, dass sie später mit fremden Inhalten befüllt und dennoch mit <strong>STAY SPICED !</strong> in Verbindung gebracht werden.<br/><br/>Zudem stammen unsere Dosen direkt aus der Produktion unserer Gewürzlinie – sie sind also kein eigenständiges Handelsprodukt, sondern speziell für unsere Abfüllanlagen, Etiketten und Chargenkennzeichnung konzipiert.<br/><br/>Auch aus Nachhaltigkeitsgründen wäre ein separater Verkauf leerer Dosen nicht sinnvoll, da er zusätzliche Logistik- und Verpackungsschritte erfordern würde.</p><p>💡 <strong>Tipp:</strong> Du kannst leere Dosen gerne upcyceln – z. B. für Deko, Teelichter oder getrocknete Kräuter. Einfach trocken reinigen und gut auslüften.</p><p>Wir prüfen laufend neue, plastikfreie Möglichkeiten – aber aktuell ist unsere Weißblechdose die nachhaltigste Lösung, die alle Anforderungen erfüllt. 💛</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cXibnr"
+      ],
+      "name": "Meta Text",
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "col_count": 2,
+        "section_background_color": "rgba(0,0,0,0)"
       }
     },
     "featured_collection_9xW4GX": {
@@ -328,8 +437,11 @@
     "media_with_text_overlay_mMf4xc",
     "rich_text_slider_43YFVh",
     "text_columns_images_kiEJ6y",
+    "rich_text_L8fUqB",
+    "rich_text_Yc4i6K",
     "rich_text_XYTDAX",
     "image_cew7d6",
+    "text_column_metaobject_fDfEMJ",
     "featured_collection_9xW4GX",
     "image_with_hotspots_GGmKe8"
   ]

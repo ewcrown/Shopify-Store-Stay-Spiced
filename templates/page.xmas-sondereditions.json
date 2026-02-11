@@ -1,0 +1,436 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_XyLmcD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_xnCgey": {
+          "type": "title",
+          "settings": {
+            "title": "Welcher XMAS-Typ bist du?",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_zkRrp7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Finde es jetzt heraus! Die limitierten Gewürze für die Vorweihnachtszeit von STAY SPICED!  helfen nicht nur dir in der Weihnachtszeit Charakter zu zeigen, sondern sind auch ideal zum Wichteln oder als kleines Mitbringsel.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_xnCgey",
+        "text_zkRrp7"
+      ],
+      "custom_css": [
+        "{margin-top: -90px !important; margin-bottom: -90px !important;}"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "XMAS-TYPE",
+        "image": "shopify://shop_images/Header_1x1_1.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#b6cbd8",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_Rj3MEq": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_6C7fQV": {
+          "type": "price",
+          "settings": {}
+        },
+        "quick_buy_LefBdi": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_6C7fQV",
+        "quick_buy_LefBdi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "XMAS Sondereditions 2025",
+        "header-width-limit": 500,
+        "subheading": "Diese limitierten Editionen sind nur für kurze Zeit erhältlich. Hol dir deine Portion Weihnachtsfreude und zaubere unvergessliche Momente in der Küche! ✨",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "sondereditions",
+        "section_background_color": "#c7d9e2",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_9YACUN": {
+      "type": "rich-text",
+      "blocks": {
+        "title_rNVnVa": {
+          "type": "title",
+          "settings": {
+            "title": "Was steckt hinter den XMAS-Typen?",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_hCgKF3": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Erfahre die Geschichte hinter den Charakteren!",
+            "title_size": "h2"
+          }
+        },
+        "text_gCazHm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Zu jeder Dose gibt es einen passenden Comic. Vielleicht findest du dich ja in einer ähnlichen Situation wieder 🤔</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_rNVnVa",
+        "subtitle_hCgKF3",
+        "text_gCazHm"
+      ],
+      "custom_css": [
+        "{margin-top: -90px !important; margin-bottom: -90px !important;}"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "XMAS-TYP2",
+        "image": "shopify://shop_images/XMAS_Wichtel.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#c7d9e2",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "testimonial_element_LrkDdt": {
+      "type": "testimonial-element",
+      "blocks": {
+        "element_7BqYka": {
+          "type": "element",
+          "name": "Grantelbart",
+          "settings": {
+            "element_img": "shopify://shop_images/XMAX-Sonderedition_0005_Grantlbart-Standalone.png",
+            "reviewer": "\"ICH BIN NICHT GRANTIG, ICH HAB NUR HUNGER ...\"",
+            "content": "<p>- Grantelbart</p>",
+            "review": 5,
+            "date": ""
+          }
+        },
+        "element_UdBfPD": {
+          "type": "element",
+          "name": "Lieblingsmensch",
+          "settings": {
+            "element_img": "shopify://shop_images/XMAX-Sonderedition_0004_Lieblingsmensch-Standalone.png",
+            "reviewer": "\"DU BIST EINFACH DIE BESTE\"",
+            "content": "<p>- Lieblingsmensch</p>",
+            "review": 5,
+            "date": ""
+          }
+        },
+        "element_R37A67": {
+          "type": "element",
+          "name": "Schneeflocke",
+          "settings": {
+            "element_img": "shopify://shop_images/XMAX-Sonderedition_0003_Schneeflocke-Standalone.png",
+            "reviewer": "\"VON DEN WOLKEN HERAB, IN DIE S! DOSE\"",
+            "content": "<p>- Schneeflocke</p>",
+            "review": 5,
+            "date": ""
+          }
+        },
+        "element_tBYDnA": {
+          "type": "element",
+          "name": "Grinch",
+          "settings": {
+            "element_img": "shopify://shop_images/XMAX-Sonderedition_0006_Ebene-1.png",
+            "reviewer": "\"WEIHNACHTEN IST DOCH AUCH NUR EIN TAG, WIE JEDER ANDERE\"",
+            "content": "<p>- Grinch</p>",
+            "review": 5,
+            "date": ""
+          }
+        },
+        "element_WqNeXN": {
+          "type": "element",
+          "name": "Wichtel",
+          "settings": {
+            "element_img": "shopify://shop_images/XMAX-Sonderedition_0002_Wichtel-Standalone.png",
+            "reviewer": "“ES IST WICHTELIG, TOMATEN RICHTELIG ZU WÜRZEN”",
+            "content": "<p>- Wichtel</p>",
+            "review": 5,
+            "date": ""
+          }
+        },
+        "element_8cXcHf": {
+          "type": "element",
+          "name": "Zimtzicke",
+          "settings": {
+            "element_img": "shopify://shop_images/XMAX-Sonderedition_0001_Zimtzicke-Standalone.png",
+            "reviewer": "„NA DANN BACK DOCH EINFACH ALLEINE“",
+            "content": "<p>- Zimtzicke</p>",
+            "review": 5,
+            "date": ""
+          }
+        },
+        "element_WGbDaj": {
+          "type": "element",
+          "name": "Zipfelklatscher",
+          "settings": {
+            "element_img": "shopify://shop_images/XMAX-Sonderedition_0000_Zipflklatscher-Standalone.png",
+            "reviewer": "\"PATSCH, PATSCH, PATSCH\"",
+            "content": "<p>- Zipfelklatscher</p>",
+            "review": 5,
+            "date": ""
+          }
+        }
+      },
+      "block_order": [
+        "element_7BqYka",
+        "element_UdBfPD",
+        "element_R37A67",
+        "element_tBYDnA",
+        "element_WqNeXN",
+        "element_8cXcHf",
+        "element_WGbDaj"
+      ],
+      "settings": {
+        "title": "Echte Stimmen und Einblicke von unseren XMAS-Typen",
+        "trust_element_type": "test--01",
+        "padding_value": 0,
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 4,
+        "section_background_color": "#c7d9e2",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_icons_EPRKxF": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_jBAeNq": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "Gratis Lieferung ab 39€",
+            "caption": "Wir versenden deine Bestellung nach Deutschland und Österreich ab EUR 39,- kostenlos mit DHL Paket oder Post.at",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_WxGiPE": {
+          "type": "image",
+          "settings": {
+            "icon": "leaf",
+            "title": "Frei von Geschmacks-verstärkern",
+            "caption": "Unsere Gewürze sind frei von zugesetzten Geschmacksverstärkern, künstlichen Aromen",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_3FUpcz": {
+          "type": "image",
+          "settings": {
+            "icon": "map-marker",
+            "title": "Regional hergestellt",
+            "caption": "Wir verwenden viele Gewürz aus Deutschland und Österreich und Mischen und füllen selbst ab.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_7H6QW8": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "title": "Würze über 365 Gerichte",
+            "caption": "Wir bieten dir eine breite Abwechslung aus mehr als 365 Gewürzen - für jeden Tag ein neuer Geschmack",
+            "link": "shopify://pages/alle-rezepte",
+            "open_in_new_window": true,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_jBAeNq",
+        "image_WxGiPE",
+        "image_3FUpcz",
+        "image_7H6QW8"
+      ],
+      "settings": {
+        "heading": "Deine Vorteile mit STAY SPICED !",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "#c7d9e2",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_VbWfwy": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_DnAxXQ": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_aJWnQ8": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_HYnNYX": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_DnAxXQ",
+        "title_aJWnQ8",
+        "quick_buy_HYnNYX"
+      ],
+      "settings": {
+        "heading": "ENTDECKE AUCH UNSERE ADVENTSKALENDER!",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "adventskalender",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_fnhahx": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_4NbbH8": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_KzRz4t": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_7YzN6p": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_4NbbH8",
+        "title_KzRz4t",
+        "quick_buy_7YzN6p"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Noch mehr weihnachtliche Geschenkideen",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Alle entdecken",
+        "link_url": "shopify://pages/weihnachten",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "weihnachtliche-gewurze",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_XyLmcD",
+    "featured_collection_Rj3MEq",
+    "rich_text_9YACUN",
+    "testimonial_element_LrkDdt",
+    "text_columns_icons_EPRKxF",
+    "featured_collection_VbWfwy",
+    "featured_collection_fnhahx"
+  ]
+}

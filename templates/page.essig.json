@@ -24,8 +24,8 @@
           "settings": {
             "publish_date": "",
             "unpublish_date": "",
-            "image": "shopify://shop_images/Header-Startseite_Desktop_Essig.jpg",
-            "mobile_image": "shopify://shop_images/Header-Startseite_Desktop_Essig.jpg",
+            "image": "shopify://shop_images/Essig_by_STAY_SPICED.png",
+            "mobile_image": "shopify://shop_images/Essig_by_STAY_SPICED_mobile_Header.png",
             "caption": "",
             "title": "",
             "link": "",
@@ -58,6 +58,205 @@
         "remove_margin": false,
         "color_hide_borders": false,
         "color_hide_shadow": true
+      }
+    },
+    "rich_text_cQMHpP": {
+      "type": "rich-text",
+      "blocks": {
+        "title_nBy3wG": {
+          "type": "title",
+          "settings": {
+            "title": "Feine Fruchtessige & Essig-Spezialitäten von STAY SPICED !",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_WaLpRn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser <strong>Essig-Sortiment</strong> steht für echten Geschmack, hochwertige Zutaten und sorgfältige Verarbeitung. Bei STAY SPICED ! setzen wir auf natürliche Rohstoffe und traditionelle Herstellungsweisen, damit du Essige erhältst, die deine Küche vielseitig bereichern.</p><p><strong>Ob fruchtig, mild oder ausgewogen</strong> – unsere Essige werden aus echten Früchten oder hochwertigen Fruchtsaftkonzentraten hergestellt und kommen ganz ohne künstliche Zusätze aus. Durch schonende Reifung und sorgfältige Auswahl der Zutaten entsteht Tiefe und Balance, die du bei jedem Einsatz schmeckst.</p><p>Egal ob für Salate, Marinaden, Saucen, Käse, Desserts oder kreative Drinks: Unsere Essige sind echte Allrounder und bringen <strong>Abwechslung in deine Küche</strong> – vom Alltag bis zum besonderen Genussmoment.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_eniChC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sortiment entdecken",
+            "link": "shopify://collections/essig-by-stay-spiced",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_nBy3wG",
+        "text_WaLpRn",
+        "button_eniChC"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_feed-posts_carousel-post-essige2.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "custom_css": [
+        "{margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "essig-by-stay-spiced",
+        "section_background_color": "#d7007f",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "trust_element_with_text_QNKVVC": {
+      "type": "trust-element-with-text",
+      "blocks": {
+        "element_QHtAfM": {
+          "type": "element",
+          "name": "BIO APFEL-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747087-83302xF05.png",
+            "element_title": "BIO APFEL-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Fruchtig, mild, fein </p><p><strong>Säure: 5 %</strong></p><p><strong>Verwendung: </strong>Salate, Marinaden, Chutneys, Limonaden, Getränke</p><p><strong>Besonderheiten: </strong>Bio, naturtrüb & ungefiltert, aus ganzen Äpfeln, Alleskönner</p>"
+          }
+        },
+        "element_qTjFng": {
+          "type": "element",
+          "name": "MANDARINEN-KALAMANSI-ESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747088-83304xF05.png",
+            "element_title": "MANDARINEN-KALAMANSI-ESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Spritzig, süß-herb, exotisch</p><p><strong>Säure: 5 %</strong></p><p><strong>Verwendung: </strong>Fisch, Avocado, Obstsalat, Cocktails, Sorbets</p><p><strong>Besonderheiten: </strong>Exotische Zitrusfrucht, fruchtig-frisch, Dessert & Cocktail-tauglich</p>"
+          }
+        },
+        "element_wBwjNH": {
+          "type": "element",
+          "name": "PASSIONSFRUCHT-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747089-83305xF05.png",
+            "element_title": "PASSIONSFRUCHT-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Tropisch, lebendig, fruchtig</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Sommerliche Salate, Salsas, Meeresfrüchte, Desserts</p><p><strong>Besonderheiten: </strong>Tropen-Charakter, intensiver Fruchtgeschmack, kreative Küche</p>"
+          }
+        },
+        "element_9Pxizi": {
+          "type": "element",
+          "name": "TOMATEN-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747091-83307xF05.png",
+            "element_title": "TOMATEN-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Kräftig, fruchtig</p><p><strong>Säure</strong>: 5 %</p><p><strong>Verwendung: </strong>Caprese, Bruschetta, Tomatensaucen, Dressings</p><p><strong>Besonderheiten: </strong>Mediterran, fruchtig-herzhaft, perfekt für italienische Gerichte</p>"
+          }
+        },
+        "element_tWrci4": {
+          "type": "element",
+          "name": "BIRNE-ROSMARIN-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747092-83308xF05.png",
+            "element_title": "BIRNE-ROSMARIN-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Mild-süß & kräuterwürzig</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Ziegenkäse, Wild, Salat, Nüsse, Drinks</p><p><strong>Besonderheiten: </strong>Spannender Frucht-Kräuter-Mix, ideale Herbstkombination</p>"
+          }
+        },
+        "element_kHXwTb": {
+          "type": "element",
+          "name": "HIMBEER-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747093-83309xF05.png",
+            "element_title": "HIMBEER-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Frisch, beerig, klar, elegant</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Salate, Käse, Eis, Wildgerichte, dunkle Schokolade</p><p><strong>Besonderheiten: </strong>Leuchtend rot, fruchtiger Klassiker für Salat & Dessert</p>"
+          }
+        },
+        "element_iJFpcr": {
+          "type": "element",
+          "name": "VANILLE-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747090-83306xF05.png",
+            "element_title": "VANILLE-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Süß, cremig, rund, elegant</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Käse, Schokolade, Rinderfilet, Desserts, Panna Cotta</p><p><strong>Besonderheiten: </strong>Mit echter Bourbon-Vanille, ideal für Süßes & dunkles Fleisch</p>"
+          }
+        },
+        "element_mEyTA8": {
+          "type": "element",
+          "name": "SAFRAN-BALSAMESSIG",
+          "settings": {
+            "element_img": "shopify://shop_images/747094-83310xF05.png",
+            "element_title": "SAFRAN-BALSAMESSIG",
+            "element_desc": "<p><strong>Geschmack:</strong> Zart süß, würzig, leicht erdig</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Fisch, orientalische Gerichte, Dressings, cremige Saucen</p><p><strong>Besonderheiten: </strong>Mit echtem Safran, besonders edel, goldschimmerndes Highlight</p>"
+          }
+        }
+      },
+      "block_order": [
+        "element_QHtAfM",
+        "element_qTjFng",
+        "element_wBwjNH",
+        "element_9Pxizi",
+        "element_tWrci4",
+        "element_kHXwTb",
+        "element_iJFpcr",
+        "element_mEyTA8"
+      ],
+      "name": "Trust Element",
+      "settings": {
+        "title": "UNSER ESSIG-SORTIMENT IM VERGLEICH",
+        "section_heading_layout": "section-heading--center",
+        "section_content_column": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
       }
     },
     "text_columns_icons_8fYyiY": {
@@ -136,147 +335,6 @@
         "seo_h_tag": "h2"
       }
     },
-    "featured_collection_wpmJ6R": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_frMM3q": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_D7FXkJ": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_ekMiXt": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_frMM3q",
-        "title_D7FXkJ",
-        "quick_buy_ekMiXt"
-      ],
-      "custom_css": [
-        "{margin-bottom: 40px;}"
-      ],
-      "settings": {
-        "heading": "",
-        "header-width-limit": 730,
-        "subheading": "",
-        "show_view_all": false,
-        "link_label": "",
-        "link_url": "",
-        "show_product_detail": true,
-        "section_heading_layout": "section-heading--center",
-        "style": "grid",
-        "layout": "grid-4 grid-portable-3",
-        "mobile_layout": "grid-lap-2 grid-tiny-2",
-        "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 8,
-        "product-info-width-limit": 500,
-        "collection": "essig-by-stay-spiced",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "trust_element_with_text_QNKVVC": {
-      "type": "trust-element-with-text",
-      "blocks": {
-        "element_QHtAfM": {
-          "type": "element",
-          "name": "BIO APFEL-BALSAMESSIG",
-          "settings": {
-            "element_img": "shopify://shop_images/747087-83302xF05.png",
-            "element_title": "BIO APFEL-BALSAMESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Fruchtig, mild, fein ausbalanciert</p><p><strong>Säure: 5 %</strong></p><p><strong>Verwendung: </strong>Salate, Marinaden, Chutneys, Limonaden, Getränke</p><p><strong>Besonderheiten: </strong>Bio, naturtrüb & ungefiltert, aus ganzen Äpfeln, Alleskönner</p>"
-          }
-        },
-        "element_qTjFng": {
-          "type": "element",
-          "name": "MANDARINEN-KALAMANSI-ESSIG",
-          "settings": {
-            "element_img": "shopify://shop_images/747088-83304xF05.png",
-            "element_title": "MANDARINEN-KALAMANSI-ESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Spritzig, süß-herb, exotisch</p><p><strong>Säure: 5 %</strong></p><p><strong>Verwendung: </strong>Fisch, Avocado, Obstsalat, Cocktails, Sorbets</p><p><strong>Besonderheiten: </strong>Exotische Zitrusfrucht, fruchtig-frisch, Dessert & Cocktail-tauglich</p>"
-          }
-        },
-        "element_wBwjNH": {
-          "type": "element",
-          "name": "PASSIONSFRUCHT-BALSAMESSIG",
-          "settings": {
-            "element_img": "shopify://shop_images/747089-83305xF05.png",
-            "element_title": "PASSIONSFRUCHT-BALSAMESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Tropisch, lebendig, fruchtig-frisch</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Sommerliche Salate, Salsas, Meeresfrüchte, Desserts</p><p><strong>Besonderheiten: </strong>Tropen-Charakter, intensiver Fruchtgeschmack, kreative Küche</p>"
-          }
-        },
-        "element_9Pxizi": {
-          "type": "element",
-          "name": "TOMATEN-BALSAMESSIG",
-          "settings": {
-            "element_img": "shopify://shop_images/747091-83307xF05.png",
-            "element_title": "TOMATEN-BALSAMESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Kräftig, fruchtig, fein ausgewogen</p><p><strong>Säure</strong>: 5 %</p><p><strong>Verwendung: </strong>Caprese, Bruschetta, Tomatensaucen, Dressings</p><p><strong>Besonderheiten: </strong>Mediterran, fruchtig-herzhaft, perfekt für italienische Gerichte</p>"
-          }
-        },
-        "element_tWrci4": {
-          "type": "element",
-          "name": "BIRNE-ROSMARIN-BALSAMESSIG",
-          "settings": {
-            "element_img": "shopify://shop_images/747092-83308xF05.png",
-            "element_title": "BIRNE-ROSMARIN-BALSAMESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Mild-süß & kräuterwürzig, mit feiner Honignote</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Ziegenkäse, Wild, Salat, Nüsse, Drinks</p><p><strong>Besonderheiten: </strong>Spannender Frucht-Kräuter-Mix, ideale Herbstkombination</p>"
-          }
-        },
-        "element_kHXwTb": {
-          "type": "element",
-          "name": "HIMBEER-BALSAMESSIG",
-          "settings": {
-            "element_img": "shopify://shop_images/747093-83309xF05.png",
-            "element_title": "HIMBEER-BALSAMESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Frisch, beerig, klar, elegant</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Salate, Käse, Eis, Wildgerichte, dunkle Schokolade</p><p><strong>Besonderheiten: </strong>Leuchtend rot, fruchtiger Klassiker für Salat & Dessert</p>"
-          }
-        },
-        "element_iJFpcr": {
-          "type": "element",
-          "name": "VANILLE-BALSAMESSIG",
-          "settings": {
-            "element_title": "VANILLE-BALSAMESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Süß, cremig, rund, elegant</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Käse, Schokolade, Rinderfilet, Desserts, Panna Cotta</p><p><strong>Besonderheiten: </strong>Mit echter Bourbon-Vanille, ideal für Süßes & dunkles Fleisch</p>"
-          }
-        },
-        "element_mEyTA8": {
-          "type": "element",
-          "name": "SAFRAN-BALSAMESSIG",
-          "settings": {
-            "element_title": "SAFRAN-BALSAMESSIG",
-            "element_desc": "<p><strong>Geschmack:</strong> Zart süß, würzig, leicht erdig, exklusiv</p><p><strong>Säure:</strong> 5 %</p><p><strong>Verwendung: </strong>Fisch, orientalische Gerichte, Dressings, cremige Saucen</p><p><strong>Besonderheiten: </strong>Mit echtem Safran, besonders edel, goldschimmerndes Highlight</p>"
-          }
-        }
-      },
-      "block_order": [
-        "element_QHtAfM",
-        "element_qTjFng",
-        "element_wBwjNH",
-        "element_9Pxizi",
-        "element_tWrci4",
-        "element_kHXwTb",
-        "element_iJFpcr",
-        "element_mEyTA8"
-      ],
-      "name": "Trust Element",
-      "settings": {
-        "title": "UNSER ESSIG-SORTIMENT IM VERGLEICH",
-        "section_heading_layout": "section-heading--center",
-        "section_content_column": 4,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
     "rich_text_cJxFCp": {
       "type": "rich-text",
       "blocks": {
@@ -298,7 +356,7 @@
         "text_Qde7Ln": {
           "type": "text",
           "settings": {
-            "text": "<p>Ob <strong>Kürbiskern-, Walnuss-, Haselnuss-, Hanfsamen-, Traubenkern- oder Olivenöl</strong> – bei uns findest du eine sorgfältig zusammengestellte Auswahl an hochwertigen, kaltgepressten Ölen. Perfekt zum Verfeinern, Kochen oder pur Genießen.</p>",
+            "text": "<p>Ob <strong>Kürbiskern-, Walnuss-, Haselnuss-, Hanfsamen-, Traubenkern- oder </strong><a href=\"/pages/olivenoel\" title=\"Olivenöl\"><strong>Olivenöl</strong> </a>– bei uns findest du eine sorgfältig zusammengestellte Auswahl an hochwertigen, kaltgepressten Ölen. Perfekt zum Verfeinern, Kochen oder pur Genießen.</p>",
             "content_source": "custom",
             "text_size": "regular"
           }
@@ -307,7 +365,7 @@
           "type": "button",
           "settings": {
             "button_label": "Sortiment entdecken",
-            "link": "",
+            "link": "shopify://collections/ol-by-stay-spiced",
             "target_id": "",
             "open_in_new_window": false,
             "button_size": "large",
@@ -328,7 +386,7 @@
         "image_position": "right",
         "height": "regular",
         "image_crop": true,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "is_fullwidth": false,
         "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
@@ -340,14 +398,144 @@
         "color_hide_borders": false,
         "color_hide_shadow": false
       }
+    },
+    "featured_collection_7ibaX7": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_8nmn9U": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_kAmhKM": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_LJkJhT": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_8nmn9U",
+        "title_kAmhKM",
+        "quick_buy_LJkJhT"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "ol-by-stay-spiced",
+        "section_background_color": "#844e38",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_MWxpff": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_8zwKgg": {
+          "type": "text",
+          "settings": {
+            "title": "Essigsorten",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Essigsorten unterscheiden sich vor allem durch <strong>die verwendeten Grundzutaten</strong> und <strong>die Herstellungsweise</strong>. Je nach Sorte variiert die Säure, die Fruchtigkeit und der Einsatz in der Küche. Grundsätzlich lassen sich Essige in mehrere Kategorien einteilen.</p><p><strong>Klassische Essigsorten</strong> sind zum Beispiel <strong>Apfelessig</strong>, <strong>Weißweinessig</strong> oder <strong>Rotweinessig</strong>. Sie eignen sich besonders für Salate, Marinaden und herzhafte Gerichte.</p><p><strong>Fruchtessige</strong> werden aus Früchten oder Fruchtsaft hergestellt, etwa <strong>Himbeer-, Mango- oder Granatapfelessig</strong>. Sie bringen Frische in Dressings, passen zu Käse, Desserts und kreativen Rezepten.</p><p><strong>Essig-Spezialitäten</strong> entstehen durch besondere Zutaten oder Veredelungen, zum Beispiel mit Kräutern oder Gewürzen. Sie sorgen für Abwechslung und neue Geschmackskombinationen in der Küche.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_xQAnNm": {
+          "type": "text",
+          "settings": {
+            "title": "Herstellung Essig",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Essig entsteht durch einen <strong>natürlichen Gärungsprozess</strong>. Grundlage ist immer eine <strong>zucker- oder alkoholhaltige Flüssigkeit</strong>, zum Beispiel Fruchtsaft oder Wein. In einem ersten Schritt wird der enthaltene Zucker durch Hefen in Alkohol umgewandelt.</p><p>Im zweiten Schritt wandeln <strong>Essigsäurebakterien</strong> diesen Alkohol mithilfe von Sauerstoff in Essigsäure um. Dieser Prozess verleiht dem Essig seine typische Säure. Je nach Ausgangsprodukt, Reifezeit und Herstellungsverfahren entstehen unterschiedliche Essigsorten – von mild bis kräftig.</p><p>Für <strong>Fruchtessige</strong> werden hochwertige Früchte oder Fruchtsäfte verwendet, die dem Essig zusätzlich Frische und Tiefe geben. Eine schonende Verarbeitung und ausreichend Reifezeit sind entscheidend für Qualität und Ausgewogenheit.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_CMFY3p": {
+          "type": "text",
+          "settings": {
+            "title": "Welchen Essig kann man für Salate verwenden?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Für Salate eignen sich besonders die <strong>Fruchtessige von STAY SPICED !</strong>. Sorten wie <strong>Apfelessig</strong>, <strong>Himbeer-, Mango- oder Granatapfelessig</strong> bringen Frische und eine ausgewogene Säure ins Dressing. Je nach Salat kannst Du zwischen klassisch-mild oder fruchtig-intensiv wählen – ideal für Blattsalate, Bowls oder Salate mit Käse und Nüssen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_wyiWmN": {
+          "type": "text",
+          "settings": {
+            "title": "Wofür soll man Essig verwenden?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Die Essige von STAY SPICED ! sind echte Allrounder in der Küche. Du kannst sie für <strong>Dressings, Marinaden, Saucen, eingelegtes Gemüse, Suppen, Schmorgerichte, Desserts oder kreative Drinks</strong> einsetzen. Durch die große Auswahl an Frucht- und Spezialessigen findest Du für jedes Gericht die passende Variante.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_H3RYbw": {
+          "type": "text",
+          "settings": {
+            "title": "Welcher Essig ist gesund/am gesündesten?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Als besonders bekömmlich gelten <strong>naturbelassene Fruchtessige</strong>, die schonend hergestellt werden. Im STAY SPICED ! Sortiment zählen dazu vor allem <strong>Apfelessig</strong> sowie milde Fruchtessige aus hochwertigen Zutaten. Sie sind vielseitig einsetzbar und überzeugen durch eine angenehme Balance.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8zwKgg",
+        "text_xQAnNm",
+        "text_CMFY3p",
+        "text_wyiWmN",
+        "text_H3RYbw"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Alles Wichtige auf einem Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
     }
   },
   "order": [
     "main",
     "slideshow_3JM8EY",
-    "text_columns_icons_8fYyiY",
+    "rich_text_cQMHpP",
     "featured_collection_wpmJ6R",
     "trust_element_with_text_QNKVVC",
-    "rich_text_cJxFCp"
+    "text_columns_icons_8fYyiY",
+    "rich_text_cJxFCp",
+    "featured_collection_7ibaX7",
+    "content_toggles_MWxpff"
   ]
 }

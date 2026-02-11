@@ -135,7 +135,7 @@
         "heading": "April 2025",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -201,7 +201,7 @@
         "heading": "Mai 2025",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -227,6 +227,26 @@
             "link": "",
             "open_in_new_window": false,
             "button_label": "",
+            "color_background_main": "#89ccca",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_YjdPzJ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/veganmania_donauinsel_torbogencsophia_mollay.jpg",
+            "caption": "12.-14. September",
+            "title": "Veganmania",
+            "subtitle": "Donauinsel",
+            "link": "https://www.veganmania.at/",
+            "open_in_new_window": false,
+            "button_label": "Ab zur Messe",
             "color_background_main": "#89ccca",
             "color_text_main": "rgba(0,0,0,0)",
             "color_accent_main": "rgba(0,0,0,0)",
@@ -276,39 +296,19 @@
             "color_hide_shadow": false,
             "seo_h_tag": "h3"
           }
-        },
-        "card_m3witM": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Alpine-Kueche_402fcb80-379c-42c1-8ac5-f59c13240fa2.png",
-            "caption": "TBA",
-            "title": "Festspiele der Alpinen Küche",
-            "subtitle": "Zell am See-Kaprun, Österreich",
-            "link": "",
-            "open_in_new_window": true,
-            "button_label": "",
-            "color_background_main": "#89ccca",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_accent_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_shadow_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false,
-            "color_hide_shadow": false,
-            "seo_h_tag": "h3"
-          }
         }
       },
       "block_order": [
         "card_Jnj4wX",
+        "card_YjdPzJ",
         "card_BLFm6D",
-        "card_VU699J",
-        "card_m3witM"
+        "card_VU699J"
       ],
       "settings": {
         "heading": "September 2025",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -345,6 +345,26 @@
             "seo_h_tag": "h3"
           }
         },
+        "card_adykwL": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/jagd-wild-c-nicolai-durbaum-unsplash-1350.webp",
+            "caption": "23. Oktober",
+            "title": "Gault&Millau is(s)t Wild",
+            "subtitle": "Kattus Sektkellerei Wien",
+            "link": "https://www.gaultmillau.at/news/gaultmillau-st-wild",
+            "open_in_new_window": false,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d2da4d",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
         "card_6Qmb6r": {
           "type": "card",
           "settings": {
@@ -368,13 +388,14 @@
       },
       "block_order": [
         "card_XqGbt9",
+        "card_adykwL",
         "card_6Qmb6r"
       ],
       "settings": {
         "heading": "Oktober 2025",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -391,6 +412,26 @@
     "promotion_cards_daT96T": {
       "type": "promotion-cards",
       "blocks": {
+        "card_h6KGW7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/csm_54130472600_f906c204da_k_9c070d5e4f.jpg",
+            "caption": "08.-11. November",
+            "title": "Alles für den GAST",
+            "subtitle": "Messezentrum Salzburg",
+            "link": "https://www.gastmesse.at/",
+            "open_in_new_window": false,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d7007f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
         "card_GXCCgN": {
           "type": "card",
           "settings": {
@@ -413,13 +454,14 @@
         }
       },
       "block_order": [
+        "card_h6KGW7",
         "card_GXCCgN"
       ],
       "settings": {
         "heading": "November 2025",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -531,7 +573,7 @@
         "heading": "November 2024",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -576,7 +618,7 @@
         "heading": "Oktober 2024",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -703,7 +745,7 @@
         "heading": "September 2024",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -748,7 +790,7 @@
         "heading": "Mai 2024",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -793,7 +835,7 @@
         "heading": "April 2024",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -859,7 +901,7 @@
         "heading": "März 2024",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",
@@ -904,7 +946,7 @@
         "heading": "Jänner 2024",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "layout": "grid-3 grid-lap-1",
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
         "image_aspect_ratio": "0.83333",
         "text_alignment": "text-align--center",
         "caption_size": "regular",

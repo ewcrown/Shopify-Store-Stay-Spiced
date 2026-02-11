@@ -1,0 +1,1048 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "slideshow_mkqNTA": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AqdGMY": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/header-testimonial-haya-molcho.jpg",
+            "mobile_image": "shopify://shop_images/header-testimonial-haya-molcho-mobile.jpg",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_AqdGMY"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "60vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "rich_text_YDky9r": {
+      "type": "rich-text",
+      "blocks": {
+        "title_dDn7in": {
+          "type": "title",
+          "settings": {
+            "title": "Haya Molcho x Stay Spiced !",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_zchN7t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>HAYA MOLCHO & NENI: Die Levante-Gewürze von STAY SPICED !</h2><p></p><p><br/>Haya Molcho prägt wie kaum eine andere Köchin die moderne <a href=\"/products/levante-gewurze-set-6er-geschenkbox\" title=\"LEVANTE | Gewürze Set |6er Geschenkbox\">Levante</a>-Küche. Geboren 1955 in Tel Aviv und heute in Wien zu Hause, sammelte sie auf Reisen von Indien bis Marokko prägende kulinarische Eindrücke. </p><p>2009 eröffnete sie gemeinsam mit ihren vier Söhnen das erste <strong>NENI Restaurant am Wiener Naschmarkt</strong> – der Beginn einer europaweit erfolgreichen Marke, die für Teilen, Familie und genussvolle Levante-Küche steht.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_rCLTbU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Zur Kollektion",
+            "link": "shopify://collections/tom-heinzle",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_ePXEwP": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/haya-molcho-neni",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_dDn7in",
+        "text_zchN7t",
+        "button_rCLTbU",
+        "button_ePXEwP"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_haya-molcho-edition.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_3MJBTa": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_NdqhEU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/717840-52301xM-1.png",
+            "title": "Einzelgewürze",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_edNGNB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/871701-71005xM-1.png",
+            "title": "Gewürzmischungen",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_VyW8Ve": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/605252-60047xM-1.png",
+            "title": "Profi-Köche",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_NdqhEU",
+        "image_edNGNB",
+        "image_VyW8Ve"
+      ],
+      "disabled": true,
+      "name": "t:sections.text-columns-with-images.name",
+      "settings": {
+        "heading": "Gewürze",
+        "subheading": "Gewürze sind mehr als Zutaten. Hier findest du ausgewählte Einzelgewürze, kreative Gewürzmischungen, Empfehlungen von Profi-Köchen und Inspirationen aus aller Welt – ergänzt durch Probiersets und aktuelle Neuheiten.",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_images_7NwfTy": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_EjXkMA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/840126-73020xM-1.png",
+            "title": "Weltreise",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_Jf6kJ6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/551732-57012x-1.png",
+            "title": "Afrika",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_4wPcgE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/551736-57015x-1.png",
+            "title": "Neuheiten",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_EjXkMA",
+        "image_Jf6kJ6",
+        "image_4wPcgE"
+      ],
+      "disabled": true,
+      "name": "t:sections.text-columns-with-images.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_product_LaLe7H": {
+      "type": "featured-product",
+      "blocks": {
+        "title_BYckFX": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_x4JUb6": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_6eC3dX": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_bjHVgP": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_Qz9WDw": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "bullet_w3eaWz": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_BYckFX",
+        "price_x4JUb6",
+        "variant_picker_6eC3dX",
+        "space_bjHVgP",
+        "buy_buttons_Qz9WDw",
+        "bullet_w3eaWz"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "levante-gewurze-set-6er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": false,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_kig7wz": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_HxyzwA": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_W4jHnJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_PiV3Yn": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_HxyzwA",
+        "title_W4jHnJ",
+        "quick_buy_PiV3Yn"
+      ],
+      "custom_css": [],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Haya's Auswahl für dich",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "zur Kollektion",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 6,
+        "product-info-width-limit": 100,
+        "collection": "levante-box",
+        "section_background_color": "#d70180",
+        "section_heading_color": "#000000",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "media_with_text_overlay_7YBV9H": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_6HygAf": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/fisch_zubereitung.mov",
+            "external_video_link": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_6HygAf"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "full",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_iCGBLn": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QBVUed": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Aus dieser Leidenschaft entstand gemeinsam mit <strong>STAY SPICED !</strong> eine exklusive Levante-Gewürzlinie. </p><p>Von <strong>Zaatar</strong> über <strong>Harissa</strong> bis <strong>Tel Aviv</strong> spiegeln die Gewürze Begegnungen, Märkte und jahrzehntelange Kochleidenschaft wider. </p><p>Die Kollektion bringt die Vielfalt der Levante-Küche direkt in deine Küche – ideal für alle, die orientalisch, mediterran und modern kochen möchten.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "title_NRBNgm": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Tom Heinzle",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "button_cDA8LG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zur Kollektion",
+            "link": "shopify://collections/haya-molcho-neni",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_QBVUed",
+        "title_NRBNgm",
+        "button_cDA8LG"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/2_d876666f-d874-4231-bbeb-f27c9d0d0fd6.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_Wmm7kg": {
+      "type": "featured-product",
+      "blocks": {
+        "title_mXPa3Y": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_praVeV": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_TjT697": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_7KFMit": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_DbgRCm": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_ThfLLX": {
+          "type": "space",
+          "settings": {}
+        },
+        "bullet_G9aLmx": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_mXPa3Y",
+        "price_praVeV",
+        "variant_picker_TjT697",
+        "space_7KFMit",
+        "buy_buttons_DbgRCm",
+        "space_ThfLLX",
+        "bullet_G9aLmx"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "geschenkset-neni-geschenkbox-levante-inkl-coming-home-buch",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_iDCUg6": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_mimPdm": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_Pt37tW": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_yDq3k3": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_mimPdm",
+        "title_Pt37tW",
+        "quick_buy_yDq3k3"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Haya's Auswahl für dich",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 6,
+        "product-info-width-limit": 100,
+        "collection": "levante-box-kopie",
+        "section_background_color": "#d70180",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_posts_hWbTVX": {
+      "type": "blog-posts",
+      "blocks": {
+        "info_nxpqxJ": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_9CmYVi": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_nxpqxJ",
+        "title_9CmYVi"
+      ],
+      "name": "t:sections.blog-posts.presets.name",
+      "settings": {
+        "title": "Rezepte von Haya Molcho",
+        "subheading": "",
+        "show_view_all": true,
+        "post_limit": 4,
+        "section_heading_layout": "section-heading--center",
+        "blog": "haya-molcho",
+        "article_list": "",
+        "blog_tag": "",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "emphasize_first": false,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_zjV8QX": {
+      "type": "rich-text",
+      "blocks": {
+        "title_zfEEt3": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_RVfTbt": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Der Moment, der unsere LEVANTE-Gewürze prägte!</h2><p></p><p>Ein Schlüsselmoment in der Entwicklung dieser Linie: Lukas M. Walchhofer, CEO von STAY SPICED !, begleitete Haya Molcho durch <strong>Tel Aviv</strong>. Gemeinsam erkundeten sie die kulinarische Vielfalt der Stadt – von traditionellen Familienküchen über Streetfood bis zu duftenden Gewürzmärkten – immer auf der Suche nach dem perfekten Geschmack der Levanten Küche.</p><p><strong>Jetzt die Levante-Gewürze von Haya Molcho entdecken und den Geschmack Tel Avivs in deine Küche holen!</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_7nAidh": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/haya-molcho-neni",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_zfEEt3",
+        "text_RVfTbt",
+        "button_7nAidh"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Haya_Lukas_e51600fd-6415-450d-a9cb-6c107e6db61d.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_pEYHQB": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_W9V94B": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_ptmBNR": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_t4PXpp": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_W9V94B",
+        "title_ptmBNR",
+        "quick_buy_t4PXpp"
+      ],
+      "custom_css": [
+        ".card__media {aspect-ratio: 2 / 3 !important;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Kochbücher von Haya Molcho",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 16,
+        "product-info-width-limit": 100,
+        "collection": "haya-molcho-bucher",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h2"
+      }
+    },
+    "collection_list_TWchrn": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_7WmYmR": {
+          "type": "collection",
+          "settings": {
+            "collection": "roland-trettl",
+            "image": "shopify://shop_images/reviewer-2.png"
+          }
+        },
+        "collection_QqNgJa": {
+          "type": "collection",
+          "settings": {
+            "collection": "tom-heinzle",
+            "image": "shopify://shop_images/Testimonial_Tom-Heinzle_500x500px.png"
+          }
+        },
+        "collection_AJhgQH": {
+          "type": "collection",
+          "settings": {
+            "collection": "ben-perry",
+            "image": "shopify://shop_images/ben-perry.png"
+          }
+        }
+      },
+      "block_order": [
+        "collection_7WmYmR",
+        "collection_QqNgJa",
+        "collection_AJhgQH"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "heading": "Dieses Kollektionen könnten dir auch gefallen",
+        "subheading": "",
+        "show_view_all": false,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-3 grid-palm-2",
+        "image_aspect_ratio": "1",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "category_slider_GyWzgF": {
+      "type": "category-slider",
+      "blocks": {
+        "card_dUUwyp": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Roland_Trettl_525.jpg",
+            "title": "Roland Trettl",
+            "link": "shopify://pages/roland-trettl",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_TpFwMm": {
+          "type": "card",
+          "settings": {
+            "title": "Category name",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_MVF8R8": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced_haya-molcho-edition.png",
+            "title": "Haya Molcho",
+            "link": "shopify://pages/haya-molcho-neni",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Mehr erfahren",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_qW8AJz": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/stayspiced-ben-perry_1x1_75e3d209-7787-4fcc-9ce3-bbb5d358b656.png",
+            "title": "Ben Perry",
+            "link": "",
+            "collection": "",
+            "open_in_new_window": false,
+            "button_label": "Mehr erfahren",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_dUUwyp",
+        "card_TpFwMm",
+        "card_MVF8R8",
+        "card_qW8AJz"
+      ],
+      "disabled": true,
+      "name": "t:sections.local-extra-words.sections.category-slider.name",
+      "settings": {
+        "heading": "",
+        "section_heading_layout": "section-heading--center",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "title_size": "h3",
+        "button_size": "regular",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_ekY3tk": {
+      "type": "rich-text",
+      "blocks": {
+        "title_QPr8NL": {
+          "type": "title",
+          "settings": {
+            "title": "Tom Heinzle bei Kitchen Impossible",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_JBCcTp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Als bei der beliebten TV-Kochshow <strong>Kitchen Impossible</strong> der legendäre TV-Koch <strong>Tim Mälzer</strong> im regnerischen Vorarlberg ein Gericht aus dem Erdloch nachkochen musste, war schnell klar: Das ist keine gewöhnliche Challenge. Feuer machen, ein Erdloch ausheben und unter freiem Himmel das perfekte Gericht zubereiten – eine Aufgabe, die selbst erfahrene Spitzenköche an ihre Grenzen bringt.<br/><br/>Verantwortlich dafür war <strong>Tom Heinzle</strong>. Mit seiner außergewöhnlichen Grill- und Outdoor-Cooking-Kompetenz brachte er Tim Mälzer mit dieser Aufgabe fast an das Ende seines Koch-Lateins.</p><p>Tom Heinzle gilt seit mehr als zehn Jahren als einer der renommiertesten Grill- und BBQ-Profis der internationalen Szene. Als Buchautor sorgte er bereits mit seinem Erstlingswerk <strong>„</strong><a href=\"https://stayspiced.com/products/wintergrillen-by-tom-heinzle-kochbuch\" title=\"Wintergrillen\"><strong>Wintergrillen</strong></a><strong>“</strong> für Aufsehen. Zu einer Zeit, als Grillen noch als reine Sommersportart galt, definierte er BBQ neu – als ganzjährige Leidenschaft. Eine Haltung, mit der er früh richtig lag.</p><p>Denn Outdoor Cooking spielt nicht nur bei Tom Heinzle eine zentrale Rolle, sondern auch bei <strong>STAY SPICED !</strong> und zehntausenden Grill- und BBQ-Fans, die Feuer, Geschmack und Handwerk das ganze Jahr über leben.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_QPr8NL",
+        "text_JBCcTp"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/20251223115129-lebkuchen-20im-20speckmantel-20-26-20bergka-cc-88se.webp",
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "#fec200",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_RPYbeg": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Rxkim3": {
+          "type": "title",
+          "settings": {
+            "title": "KONTAKT",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_Fmc3hH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dein <strong>Grillshop</strong> hat noch keine STAY SPICED ! Gewürze im Sortiment?<br/>Dann melde dich gerne bei unserem Vertriebsteam – wir beraten dich persönlich und unterstützen dich dabei, unsere Premium-Gewürze in dein Sortiment aufzunehmen.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_FYCwD7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Händler werden",
+            "link": "https://reseller.stayspiced.com/pages/haendler-werden",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Rxkim3",
+        "text_Fmc3hH",
+        "button_FYCwD7"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Erik_Teamfoto_Website.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "text_columns_images_YDjfAY": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_er8HEJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced-testimonial-roland-trettl.png",
+            "title": "Roland Trettl",
+            "caption": "",
+            "link": "shopify://pages/roland-trettl",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_KyYPte": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tom_heinzle_portrait-rauch_a846941a-e34b-4ee5-a7c9-d228f80a748b.png",
+            "title": "Tom Heinzle",
+            "caption": "",
+            "link": "shopify://pages/tom-heinzle",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_CUXFYX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stay-spiced-testimonial-ben-perry.png",
+            "title": "Ben Perry",
+            "caption": "",
+            "link": "shopify://pages/ben-perry",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_er8HEJ",
+        "image_KyYPte",
+        "image_CUXFYX"
+      ],
+      "name": "t:sections.text-columns-with-images.name",
+      "settings": {
+        "heading": "Mehr von unseren Profiköchen",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 0,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_mkqNTA",
+    "rich_text_YDky9r",
+    "text_columns_images_3MJBTa",
+    "text_columns_images_7NwfTy",
+    "featured_product_LaLe7H",
+    "featured_collection_kig7wz",
+    "media_with_text_overlay_7YBV9H",
+    "rich_text_iCGBLn",
+    "featured_product_Wmm7kg",
+    "featured_collection_iDCUg6",
+    "blog_posts_hWbTVX",
+    "rich_text_zjV8QX",
+    "featured_collection_pEYHQB",
+    "collection_list_TWchrn",
+    "category_slider_GyWzgF",
+    "rich_text_ekY3tk",
+    "rich_text_RPYbeg",
+    "text_columns_images_YDjfAY"
+  ]
+}

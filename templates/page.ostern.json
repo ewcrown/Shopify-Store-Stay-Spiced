@@ -25,6 +25,137 @@
         "center": true
       }
     },
+    "rich_text_yQmyew": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_EjFtWp": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "für dein Osterfest",
+            "title_size": "h2"
+          }
+        },
+        "title_BiLC3r": {
+          "type": "title",
+          "settings": {
+            "title": "Gewürze & Geschenkideen",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_e36Ddf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du suchst ein passendes <strong>Ostergeschenk</strong>? </p><p>Mit STAY SPICED ! Gewürzen verschenkst Du genussvolle Abwechslung statt klassischer Schokolade. Hochwertige Gewürze, Kräuter und Mischungen sind eine besondere <a href=\"/products/s-sonderedition-eggciting\" title=\"S! Sonderedition Eggciting\">Geschenkidee </a>für Hobbyköche, Foodies und alle, die gerne Neues ausprobieren. </p><p>Stilvoll verpackt und vielseitig einsetzbar begleiten sie vom Osterbrunch bis zum festlichen Essen und bringen frische Inspiration in die Frühlingsküche. Entdecke jetzt <strong>Gewürze & Geschenkideen zu Ostern von STAY SPICED ! </strong>– perfekt zum Kochen, Verfeinern und Verschenken.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_VVedaK": {
+          "type": "button",
+          "settings": {
+            "button_label": "zum Osterspecial",
+            "link": "shopify://products/s-sonderedition-eggciting",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_EjFtWp",
+        "title_BiLC3r",
+        "text_e36Ddf",
+        "button_VVedaK"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/0B5A9539-Bearbeitet.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_7qpHFU": {
+      "type": "featured-product",
+      "blocks": {
+        "title_mff6RE": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_Rc7q8z": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "variant_picker_Vkh6Ug": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons_BfNWUK": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description_aWk9N8": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_qRjtpd": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_mff6RE",
+        "bullet_Rc7q8z",
+        "variant_picker_Vkh6Ug",
+        "buy_buttons_BfNWUK",
+        "description_aWk9N8",
+        "product_link_qRjtpd"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--left",
+        "product": "s-sonderedition-eggciting",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
     "featured_collection_qUQHP3": {
       "type": "featured-collection",
       "blocks": {
@@ -47,7 +178,7 @@
         "quick_buy_43rAmX"
       ],
       "settings": {
-        "heading": "UNSERE OSTER- KLASSIKER",
+        "heading": "Beliebte Gewürze zu Ostern",
         "header-width-limit": 500,
         "subheading": "",
         "show_view_all": false,
@@ -56,16 +187,81 @@
         "show_product_detail": true,
         "section_heading_layout": "section-heading--center",
         "style": "slider",
-        "layout": "grid-3",
+        "layout": "grid-4 grid-portable-3",
         "mobile_layout": "grid-lap-2 grid-tiny-2",
         "mobile_add_to_cart_content": "cart-text",
         "products_number": 8,
         "product-info-width-limit": 1000,
         "collection": "ostern-xm-klasiker",
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#edb2d1",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_mdedfa": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_dGxrqH": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Genussvolle Ostern",
+            "title_size": "h2"
+          }
+        },
+        "title_e7nNKn": {
+          "type": "title",
+          "settings": {
+            "title": "mit ausgewählten Gewürzen",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_LKMtp6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wenn der <a href=\"/collections/fruhling-ist-fresh\" title=\"Frühling isst FRESH\">Frühling </a>beginnt, kommt frischer Genuss auf den Tisch. Ostern steht für gemeinsames Essen, traditionelle Rezepte und neue Ideen in der Küche. Mit den Gewürzen von STAY SPICED ! bringst Du Abwechslung in Dein Osteressen – von würzigen Lammgerichten und feinem <a href=\"/collections/fisch\" title=\"Fisch\">Fisch </a>über leichte Frühlingsrezepte bis hin zu <strong>Germgebäck, süßen Hefeteigen und Osterklassikern aus dem Ofen</strong>.</p><p>Auch als Ostergeschenk sind Gewürze eine geschmackvolle Wahl: Sie sind langlebig, vielseitig einsetzbar und bereiten über die Feiertage hinaus Freude. Entdecke jetzt Gewürz-Geschenkideen zu Ostern von STAY SPICED ! und mache Dein Osterfest genussvoll und inspirierend.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_tUjmYJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_dGxrqH",
+        "title_e7nNKn",
+        "text_LKMtp6",
+        "button_tUjmYJ"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/Germteig.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
       }
     },
     "featured_product_DErhEX": {
@@ -88,6 +284,14 @@
           "type": "space",
           "settings": {}
         },
+        "bullet_MK3ArC": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        },
         "price_QamALg": {
           "type": "price",
           "settings": {}
@@ -105,27 +309,19 @@
         "space_nA6kEr": {
           "type": "space",
           "settings": {}
-        },
-        "bullet_x6CVDb": {
-          "type": "bullet",
-          "settings": {
-            "bullet_01": "",
-            "bullet_02": "",
-            "bullet_03": ""
-          }
         }
       },
       "block_order": [
         "title_maHfPh",
         "variant_picker_fKUCgR",
         "space_emnzbz",
+        "bullet_MK3ArC",
         "price_QamALg",
         "buy_buttons_8tFefc",
-        "space_nA6kEr",
-        "bullet_x6CVDb"
+        "space_nA6kEr"
       ],
       "settings": {
-        "title": "OSTERBUNDLE",
+        "title": "",
         "section_heading_layout": "section-heading--center",
         "product": "ostern-gewurze-bundle-4-gewurze-im-vorteilsset",
         "gallery_ratio": "natural",
@@ -138,67 +334,60 @@
         "enable_video_looping": false
       }
     },
-    "text_columns_icons_7mBGmc": {
-      "type": "text-columns-icons",
+    "rich_text_DrD6gA": {
+      "type": "rich-text",
       "blocks": {
-        "image_6fMdef": {
-          "type": "image",
+        "title_VB4Fx6": {
+          "type": "title",
           "settings": {
-            "icon": "organic",
-            "title": "100% Gewürz",
-            "caption": "Unsere Suppengewürze bestehen zu 100 % aus natürlichen & hochwertigen Zutaten!",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
+            "title": "Oster-Banderole gratis zu jeder Box",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
           }
         },
-        "image_GgzVcW": {
-          "type": "image",
+        "text_fEi9J6": {
+          "type": "text",
           "settings": {
-            "icon": "dinner",
-            "image": "shopify://shop_images/gluten-free-256.png",
-            "title": "Ohne Gluten",
-            "caption": "Perfekt für alle, die auf Gluten verzichten möchten, aber nicht auf vollen Geschmack!",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
+            "text": "<p><br/>Als besonderes Osterspecial erhältst du zu jeder <strong>STAY SPICED ! Geschenkbox zu Ostern</strong> unsere <strong>HOP, HOP, HOP-Oster-Banderole</strong> mit Ostermotiv <strong>gratis</strong> dazu. Die dekorative Oster-Banderole macht deine Geschenkbox im Handumdrehen zum perfekten <strong>Ostergeschenk</strong> – ohne Aufpreis und nur für kurze Zeit.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
           }
         },
-        "image_cPTxqN": {
-          "type": "image",
+        "button_XmhCpT": {
+          "type": "button",
           "settings": {
-            "icon": "tree",
-            "image": "shopify://shop_images/heart-256.png",
-            "title": "Ohne künstliche Zusatzstoffe",
-            "caption": "Unsere Suppengewürze sind ganz ohne künstliche Zusatzstoffe – für den puren, natürlichen Geschmack!",
-            "link": "",
+            "button_label": "HOP HOP HOP",
+            "link": "shopify://collections/oster-boxen-kollektion",
+            "target_id": "",
             "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
+            "button_size": "large",
+            "button_style": "outline"
           }
         }
       },
       "block_order": [
-        "image_6fMdef",
-        "image_GgzVcW",
-        "image_cPTxqN"
+        "title_VB4Fx6",
+        "text_fEi9J6",
+        "button_XmhCpT"
       ],
+      "name": "t:sections.rich-text.name",
       "settings": {
-        "heading": "",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "style": "slider",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200,
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_6er-banderole_ostern_90073x_a1f9ae64-b349-4491-a391-a59d7489f8bf.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
         "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
-        "seo_h_tag": "h2"
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
       }
     },
     "rich_text_cw3icz": {
@@ -266,6 +455,7 @@
         "title_ckYCnq",
         "quick_buy_TaG4Uf"
       ],
+      "disabled": true,
       "settings": {
         "heading": "OSTERN IST GRILLSTART",
         "header-width-limit": 500,
@@ -288,6 +478,49 @@
         "seo_h_tag": "h2"
       }
     },
+    "featured_collection_f9Ft8J": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_MLccfC": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_jPjt9i": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_xnD4Gm": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_MLccfC",
+        "title_jPjt9i",
+        "quick_buy_xnD4Gm"
+      ],
+      "settings": {
+        "heading": "Perfekt zu Ostern: Gewürzbox + gratis Banderole",
+        "header-width-limit": 1000,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "boxen",
+        "section_background_color": "#edb2d1",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "blog_slider_3NCQLz": {
       "type": "blog-slider",
       "blocks": {
@@ -301,11 +534,11 @@
       ],
       "settings": {
         "title": "Ideen für deinen Osterbrunch",
-        "subheading": "",
-        "post_limit": 4,
+        "subheading": "einfach selbst gemacht",
+        "post_limit": 6,
         "section_heading_layout": "section-heading--left",
         "blog": "ostern",
-        "article_list": "",
+        "article_list": "ostern/osterlamm,ostern/tnt-ostereier,ostern/lammfilet-auf-orangen-limetten-hollandaise-und-basilikum-minz-ol,ostern/gebackenes-ei-mit-avocado-im-salatnest,fleisch/gebackenes-lammschnitzel-mit-safran-couscous-und-hummus,blogger-vips/karottenmuffins",
         "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
         "blog_show_image": true,
         "image_aspect_ratio": "1.33333",
@@ -315,24 +548,150 @@
         "seo_h_tag": "h2"
       }
     },
+    "featured_collection_TgiFQq": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_jQctHW": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_MKYHXe": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_pGaB3U": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_jQctHW",
+        "title_MKYHXe",
+        "quick_buy_pGaB3U"
+      ],
+      "settings": {
+        "heading": "Gewürze für die Frühlingsküche",
+        "header-width-limit": 1000,
+        "subheading": "Ausblick auf den Frühling",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 1000,
+        "collection": "fruhling-ist-fresh",
+        "section_background_color": "#edb2d1",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "custom_liquid_xPe6id": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .video-wrapper {\n    position: relative;\n    width: 100%;\n    /* The padding-top percentage is calculated as (height / width) * 100% for a 9:16 ratio */\n    padding-top: 177.77%; /* (16/9) * 100 */\n  }\n\n  .video-wrapper iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"video-wrapper\">\n  <iframe src=\"https://www.youtube.com/embed/MW1WOab0E1c\" title=\"Olivia Dean - felt like a fluffy dream !!! #shorts\" frameborder=\"0\" \n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n  referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "full_width": false,
         "remove_margin": false
+      }
+    },
+    "video_zngDEA": {
+      "type": "video",
+      "name": "t:sections.local-extra-words.sections.video.name",
+      "settings": {
+        "title": "Rezept",
+        "subtitle": "Gebackenes Ei mit Avocado im Salatnest",
+        "section_heading_layout": "section-heading--left",
+        "video": "https://www.youtube.com/watch?v=MW1WOab0E1c",
+        "image": "shopify://shop_images/20241015091747-stay-spiced_rezept_kochen_eggciting_avocado-chakalaka_1-20-3.png",
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_icons_7mBGmc": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_6fMdef": {
+          "type": "image",
+          "settings": {
+            "icon": "organic",
+            "title": "100% Gewürz",
+            "caption": "Unsere Suppengewürze bestehen zu 100 % aus natürlichen & hochwertigen Zutaten!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_GgzVcW": {
+          "type": "image",
+          "settings": {
+            "icon": "dinner",
+            "image": "shopify://shop_images/gluten-free-256.png",
+            "title": "Ohne Gluten",
+            "caption": "Perfekt für alle, die auf Gluten verzichten möchten, aber nicht auf vollen Geschmack!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_cPTxqN": {
+          "type": "image",
+          "settings": {
+            "icon": "tree",
+            "image": "shopify://shop_images/heart-256.png",
+            "title": "Ohne künstliche Zusatzstoffe",
+            "caption": "Unsere Suppengewürze sind ganz ohne künstliche Zusatzstoffe – für den puren, natürlichen Geschmack!",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_6fMdef",
+        "image_GgzVcW",
+        "image_cPTxqN"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
       }
     }
   },
   "order": [
     "image_QPHp8r",
     "main",
+    "rich_text_yQmyew",
+    "featured_product_7qpHFU",
     "featured_collection_qUQHP3",
+    "rich_text_mdedfa",
     "featured_product_DErhEX",
-    "text_columns_icons_7mBGmc",
+    "rich_text_DrD6gA",
     "rich_text_cw3icz",
     "featured_collection_cbQCV6",
+    "featured_collection_f9Ft8J",
     "blog_slider_3NCQLz",
-    "custom_liquid_xPe6id"
+    "featured_collection_TgiFQq",
+    "custom_liquid_xPe6id",
+    "video_zngDEA",
+    "text_columns_icons_7mBGmc"
   ]
 }

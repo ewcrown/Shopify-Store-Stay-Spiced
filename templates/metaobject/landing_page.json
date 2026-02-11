@@ -9,58 +9,6 @@
  */
 {
   "sections": {
-    "sp_rich_text_3Ttm7g": {
-      "type": "sp-rich-text",
-      "blocks": {
-        "title_zizapL": {
-          "type": "title",
-          "settings": {
-            "title": "1"
-          }
-        },
-        "text_A8Xwp4": {
-          "type": "text",
-          "settings": {}
-        },
-        "button_PERyc4": {
-          "type": "button",
-          "source": "{{ metaobject[\"1_text_block\"].value }}",
-          "settings": {
-            "button_label": "{{ metaobject[\"1_text_block\"].value.button_label.value }}",
-            "link": "",
-            "open_in_new_window": false,
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "title_zizapL",
-        "text_A8Xwp4",
-        "button_PERyc4"
-      ],
-      "settings": {
-        "text_snippet": 1,
-        "liquid": "",
-        "seo_h_tag": "h2",
-        "title_size": "h3",
-        "text_size": "regular",
-        "image_position": "left",
-        "height": "large",
-        "image_crop": false,
-        "text_alignment": "horizontal-center",
-        "is_fullwidth": false,
-        "section_background_color": "{{ metaobject[\"1_text_block\"].value.background_color.value.color.value }}",
-        "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "{{ metaobject[\"1_text_block\"].value.text_color.value.color.value }}",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
-        "color_hide_shadow": false
-      }
-    },
     "marquee_Hwq6jL": {
       "type": "marquee",
       "blocks": {
@@ -133,11 +81,14 @@
         "seo_h_tag": "h2",
         "title_size": "h2",
         "text_size": "regular",
+        "is_use_video": false,
         "image_position": "left",
         "height": "regular",
         "image_crop": false,
         "text_alignment": "horizontal-left",
+        "related_product_columns": 3,
         "is_fullwidth": false,
+        "set_video_background": false,
         "section_background_color": "{{ metaobject[\"2_text_block\"].value.background_color.value.color.value }}",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
@@ -149,24 +100,28 @@
         "color_hide_shadow": false
       }
     },
-    "sp_rich_text_hqJpjk": {
+    "sp_rich_text_xaWWj8": {
       "type": "sp-rich-text",
       "blocks": {
-        "title_hjcjRp": {
-          "type": "title",
-          "settings": {
-            "title": "3"
-          }
-        },
-        "subtitle_zL9V7t": {
-          "type": "subtitle",
-          "settings": {}
-        },
-        "text_7pPCqG": {
+        "text_i88UMM": {
           "type": "text",
           "settings": {}
         },
-        "button_F3n7Ke": {
+        "title_eW6WJ9": {
+          "type": "title",
+          "settings": {
+            "title": ""
+          }
+        },
+        "subtitle_3BDthd": {
+          "type": "subtitle",
+          "settings": {}
+        },
+        "text_UT9fVp": {
+          "type": "text",
+          "settings": {}
+        },
+        "button_iwKctc": {
           "type": "button",
           "settings": {
             "button_label": "Show more",
@@ -175,33 +130,97 @@
             "button_size": "large",
             "button_style": "outline"
           }
+        },
+        "product_qxcgwi": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "faq_VmJFeX": {
+          "type": "faq",
+          "settings": {
+            "title": "",
+            "answer": ""
+          }
         }
       },
       "block_order": [
-        "title_hjcjRp",
-        "subtitle_zL9V7t",
-        "text_7pPCqG",
-        "button_F3n7Ke"
+        "text_i88UMM",
+        "title_eW6WJ9",
+        "subtitle_3BDthd",
+        "text_UT9fVp",
+        "button_iwKctc",
+        "product_qxcgwi",
+        "faq_VmJFeX"
       ],
+      "name": "SP - RICH TEXT",
       "settings": {
-        "text_snippet": 3,
+        "text_snippet": 1,
         "liquid": "",
         "seo_h_tag": "h2",
         "title_size": "h2",
         "text_size": "regular",
-        "image_position": "left",
+        "is_use_video": false,
+        "image_position": "right",
         "height": "regular",
-        "image_crop": true,
+        "image_crop": false,
         "text_alignment": "horizontal-left",
+        "related_product_columns": 3,
         "is_fullwidth": false,
-        "section_background_color": "{{ metaobject[\"3_text_block\"].value.background_color.value.color.value }}",
+        "set_video_background": false,
+        "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "{{ metaobject[\"1_text_block\"].value.text_color.value.color.value }}",
+        "color_text_main": "rgba(0,0,0,0)",
         "color_accent_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "rich_text_U9RUcH": {
+      "type": "rich-text",
+      "blocks": {
+        "title_HtGnnV": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_DXNnPT": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Bestellmöglichkeiten für Reseller</h1><p><br/>      Du willst unsere <strong>STAY SPICED!</strong> Produkte als Reseller bestellen?<br/>      Je nach Größe und Bedarf bieten wir dir zwei einfache, digitale Bestellwege:<br/>      über unseren <strong>Reseller-Onlineshop</strong> oder per <strong>EDI</strong> (für größere Partner & LEH).<br/>    </p><h2>Für kleinere Reseller: Bestellung über unseren Reseller-Onlineshop</h2><p><br/>      Für kleinere Reseller ist der schnellste Weg die Bestellung über unseren eigenen Reseller-Shop:<br/>      <a href=\"https://reseller.stayspiced.com/\" target=\"_blank\">reseller.stayspiced.com</a><br/>    </p><h3>Vorteile im Reseller-Shop</h3><ul><li><strong>24/7 bestellen</strong> – unabhängig von Bürozeiten</li><li><br/>        <strong>Schnelleingabe im Kundenkonto</strong>:<br/>        Bestellen per <strong>Artikelnummer</strong> oder <strong>EAN-Code</strong><br/>        (EAN ist auf der Dose scannbar)<br/>      </li><li><strong>Warenkorb wiederholen</strong> – bestehende Warenkörbe mit einem Klick erneut bestellen</li><li><strong>Übersicht im Kundenkonto</strong> – Bestellhistorie & schnelle Nachbestellung</li></ul><p><br/>      <strong>Tipp:</strong> Wenn du regelmäßig die gleichen Artikel nachbestellst, sparst du mit<br/>      „Warenkorb wiederholen“ und der Schnelleingabe besonders viel Zeit.<br/>    </p><h2>Für größere Reseller & LEH: Bestellung per EDI</h2><p><br/>      Für größere Reseller sowie den <strong>Lebensmitteleinzelhandel (LEH)</strong> unterstützen wir Bestellungen über<br/>      <strong>EDI (Electronic Data Interchange)</strong>. Damit läuft die Bestell- und Belegkommunikation standardisiert<br/>      und voll digital – ohne Medienbrüche.<br/>    </p><h3>Unterstützte EDI-Formate</h3><ul><li><strong>EDIFACT</strong></li><li><strong>ANSI X12</strong></li></ul><h3>Unterstützte Nachrichten / Prozesskette</h3><ul><li><strong>ORDER</strong> – Bestellung</li><li><strong>DESADV</strong> – Lieferschein</li><li><strong>INVOICE</strong> – Rechnung</li></ul><h2>Warum elektronische Bestellungen besser sind als E-Mails oder Telefon</h2><p><br/>      Digitale Bestellprozesse (Reseller-Shop oder EDI) machen die Abwicklung schneller, sicherer und klarer –<br/>      besonders bei wiederkehrenden Bestellungen und größeren Mengen.<br/>    </p><ul><li><strong>Keine doppelte Datenerfassung</strong> – Daten werden direkt ins System übernommen</li><li><strong>Weniger Fehler</strong> – automatisierte Übertragung sorgt für höchste Datenqualität</li><li><strong>Höhere Datenqualität</strong> – Minimierung manueller Fehler in der Auftragsabwicklung</li><li><strong>Transparenz</strong> – klare, standardisierte Abläufe im Bestell- und Lieferprozess</li><li><strong>Effizienz</strong> – schneller Informationsfluss und bessere Zusammenarbeit</li><li><strong>Beschleunigte Prozesse</strong> – kürzere Durchlaufzeiten von Bestellung bis Lieferung</li><li><strong>Kostenreduktion</strong> – weniger administrativer Aufwand durch digitale Abläufe</li><li><strong>Bessere Planbarkeit</strong> – schnellere Verfügbarkeit von Infos für Einkauf, Logistik & Controlling</li><li><strong>Skalierbarkeit</strong> – einfache Anbindung vieler Partner über standardisierte Schnittstellen</li></ul><h2>FAQ</h2><h3>Wie bestellen kleinere Reseller bei STAY SPICED?</h3><p><br/>            Kleinere Reseller bestellen über unseren Reseller-Onlineshop unter<br/>            <a href=\"https://reseller.stayspiced.com/\" target=\"_blank\">reseller.stayspiced.com</a>.<br/>            Im Kundenkonto stehen Funktionen wie Schnelleingabe (Artikelnummer/EAN) und das Wiederholen bestehender<br/>            Warenkörbe zur Verfügung.<br/>          </p><h3>Kann ich per EAN-Code bestellen?</h3><p><br/>            Ja. Im Reseller-Shop gibt es im Kundenkonto eine Schnelleingabe, bei der du per Artikelnummer oder per<br/>            EAN-Code bestellen kannst. Der EAN-Code ist auf der Dose scannbar.<br/>          </p><h3>Welche EDI-Formate unterstützt ihr?</h3><p><br/>            Wir unterstützen etablierte EDI-Standards wie EDIFACT und ANSI X12 – branchen- und länderübergreifend<br/>            definiert.<br/>          </p><h3>Welche Dokumente können per EDI ausgetauscht werden?</h3><p><br/>            Je nach Setup unterstützen wir die Prozesskette von Bestellung (ORDER) über Lieferschein (DESADV)<br/>            bis zur Rechnung (INVOICE).<br/>          </p><p><br/>      <strong>Reseller werden?</strong> Nutze den Reseller-Shop für schnelle Bestellungen oder sprich uns für eine<br/>      EDI-Anbindung an, wenn du als größerer Reseller/LEH mit standardisierten Schnittstellen arbeiten möchtest.<br/>    </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_HtGnnV",
+        "text_DXNnPT"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
         "color_hide_shadow": false
       }
     },
@@ -231,15 +250,20 @@
         "price_BKARyY",
         "quick_buy_YXFWC4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Passendes dazu",
         "header-width-limit": 500,
         "subheading": "",
         "show_view_all": false,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
         "show_product_detail": true,
         "section_heading_layout": "section-heading--center",
         "style": "grid",
         "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
         "products_number": 4,
         "product-info-width-limit": 500,
         "collection": "{{ metaobject.related_collection_1.value }}",
@@ -315,6 +339,7 @@
         "card_BYxywM",
         "card_pxnxmk"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Unsere beliebtesten Kategorien",
         "subheading": "",
@@ -404,6 +429,7 @@
         "info_kdti8J",
         "title_EQdjGy"
       ],
+      "disabled": true,
       "settings": {
         "title": "Neuste Rezepte",
         "subheading": "",
@@ -411,6 +437,8 @@
         "post_limit": 3,
         "section_heading_layout": "section-heading--center",
         "blog": "rezepte",
+        "article_list": "",
+        "blog_tag": "",
         "style": "grid",
         "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
         "emphasize_first": true,
@@ -441,10 +469,12 @@
       "block_order": [
         "product_b6BtMR"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Image with hotspots",
         "subheading": "Promote your best products",
         "section_heading_layout": "section-heading--left",
+        "is_fullwidth": false,
         "color_text": "#000000",
         "color_background": "#ffffff",
         "section_background_color": "rgba(0,0,0,0)",
@@ -455,10 +485,12 @@
     },
     "newsletter_jyDTqh": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
+        "brevo_form_id": "",
         "show_icon": false,
         "title": "Melde dich zum Newsletter an und sichere dir -10% Rabatt!",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.</p>",
         "color_background_main": "#ffff00",
         "color_text_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
@@ -495,15 +527,16 @@
         "open_first": false,
         "form_enable": false,
         "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
         "seo_h_tag": "h2"
       }
     }
   },
   "order": [
-    "sp_rich_text_3Ttm7g",
     "marquee_Hwq6jL",
     "sp_rich_text_Yny7LM",
-    "sp_rich_text_hqJpjk",
+    "sp_rich_text_xaWWj8",
+    "rich_text_U9RUcH",
     "featured_collection_tK3dWh",
     "promotion_cards_8YF8qG",
     "featured_product_VX4Vtd",

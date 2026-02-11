@@ -62,6 +62,28 @@
         "seo_h_tag": "h2"
       }
     },
+    "slideshow_E3WVLf": {
+      "type": "slideshow",
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "60vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
     "rich_text_zWeYVF": {
       "type": "rich-text",
       "blocks": {
@@ -96,21 +118,106 @@
       ],
       "settings": {
         "element_id": "",
-        "image": "shopify://shop_images/stay-spiced_valentinstag_header.png",
+        "image": "shopify://shop_images/stay-spiced_amore-rezept-sonderedition.png",
         "image_position": "right",
         "height": "small",
         "image_crop": true,
         "text_alignment": "horizontal-center",
         "is_fullwidth": false,
-        "section_background_color": "#dbb6d7",
+        "section_background_color": "#d83153",
         "remove_margin": true,
-        "color_background_main": "#d83153",
+        "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_accent_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false
+      }
+    },
+    "custom_liquid_fkgM3b": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<section\n  id=\"amore-set\"\n  class=\"featured-product section-{{ section.id }}\"\n>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "featured_product_RATDbJ": {
+      "type": "featured-product",
+      "blocks": {
+        "title_gtEKgr": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "variant_picker_yjmpFE": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_VzqwdE": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_CcMmnB": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_wMWedF": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_nEJeMc": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "bullet_fzbMDc": {
+          "type": "bullet",
+          "disabled": true,
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_gtEKgr",
+        "variant_picker_yjmpFE",
+        "space_VzqwdE",
+        "buy_buttons_CcMmnB",
+        "space_wMWedF",
+        "description_nEJeMc",
+        "bullet_fzbMDc"
+      ],
+      "custom_css": [],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "AMORE Valentinstag Edition – perfekt zum Personalisieren, emotional, zeitlos",
+        "section_heading_layout": "section-heading--center",
+        "product": "s-sonderedition-valentinstag-amore-red-gewurze-set-1er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "thumbnails",
+        "enable_zoom": true,
+        "enable_video_looping": false
       }
     },
     "blog_slider_wFBCje": {
@@ -149,6 +256,15 @@
         "seo_h_tag": "h2"
       }
     },
+    "custom_liquid_T9WYYC": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<section\n  id=\"love-set\"\n  class=\"featured-product section-{{ section.id }}\"\n>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
     "featured_product_QXMCqj": {
       "type": "featured-product",
       "blocks": {
@@ -177,8 +293,9 @@
         },
         "text_UmcPEW": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Ganz viel Liebe verschenken ist mit unserem Love-Set angesagt. Vier würzige Kreationen in einem nachhaltigen Stoffsäckchen zusammengestellt. Was da drin ist? </p><p>- S! Lollipop für eine Vielzahl an sweeten Köstlichkeiten auch vom Grill</p><p>- S! Amore, welches liebevolle Würze in vielerlei mediterrane Gerichte zaubert</p><p>- Mikrodose S! Chilisalz für heiße Nächte</p><p>- Mikrodose S! Liebescurry für Genussmomente</p>",
+            "text": "<p>Ganz viel Liebe verschenken ist mit unserem Love-Set angesagt. Vier würzige Kreationen in einem nachhaltigen Stoffsäckchen zusammengestellt. Was da drin ist? </p><p>- <strong>S! Lollipop </strong>für eine Vielzahl an sweeten Köstlichkeiten auch vom Grill<br/>- <strong>S! Amore</strong>, welches liebevolle Würze in vielerlei mediterrane Gerichte zaubert<br/>- <strong>Mikrodose S! Chilisalz</strong> für heiße Nächte<br/>- <strong>Mikrodose S! Liebescurry</strong> für Genussmomente</p>",
             "text_size": "text-size--regular",
             "text_color": "#000000",
             "text_transform": false
@@ -246,6 +363,15 @@
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
+      }
+    },
+    "custom_liquid_DiLGxd": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<section\n  id=\"love-banderole-free\"\n  class=\"main-content\n section-{{ section.id }}\"\n>",
+        "full_width": false,
+        "remove_margin": false
       }
     },
     "rich_text_dX9Q36": {
@@ -340,6 +466,15 @@
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
+      }
+    },
+    "custom_liquid_4VFpJL": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<section\n  id=\"selbst-bestucken\"\n  class=\"main-content\n section-{{ section.id }}\"\n>",
+        "full_width": false,
+        "remove_margin": false
       }
     },
     "rich_text_wYtmNA": {
@@ -471,6 +606,50 @@
         "seo_h_tag": "h2"
       }
     },
+    "featured_collection_P8YNty": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_89wkUR": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_4eBXEp": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_qywKPd": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_89wkUR",
+        "title_4eBXEp",
+        "quick_buy_qywKPd"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "heading": "Banderolen für 6er Boxen",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-text",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "6er-banderolen",
+        "section_background_color": "#d83153",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h2"
+      }
+    },
     "featured_collection_R4zqE8": {
       "type": "featured-collection",
       "blocks": {
@@ -493,7 +672,7 @@
         "quick_buy_YpeyRM"
       ],
       "settings": {
-        "heading": "SCHARF & FEURIG",
+        "heading": "Banderolen für 3 oder 4 er Boxen",
         "header-width-limit": 1000,
         "subheading": "",
         "show_view_all": true,
@@ -507,8 +686,8 @@
         "mobile_add_to_cart_content": "cart-text",
         "products_number": 8,
         "product-info-width-limit": 500,
-        "collection": "chili",
-        "section_background_color": "rgba(0,0,0,0)",
+        "collection": "2er-3er-4er-banderolen",
+        "section_background_color": "#d83153",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
@@ -518,15 +697,22 @@
   "order": [
     "main",
     "media_with_text_overlay_rTKetw",
+    "slideshow_E3WVLf",
     "rich_text_zWeYVF",
+    "custom_liquid_fkgM3b",
+    "featured_product_RATDbJ",
     "blog_slider_wFBCje",
+    "custom_liquid_T9WYYC",
     "featured_product_QXMCqj",
     "featured_collection_ptfxfx",
+    "custom_liquid_DiLGxd",
     "rich_text_dX9Q36",
     "featured_collection_wpmJ6R",
+    "custom_liquid_4VFpJL",
     "rich_text_wYtmNA",
     "featured_collection_9iFnrz",
     "featured_collection_gVBLwG",
+    "featured_collection_P8YNty",
     "featured_collection_R4zqE8"
   ]
 }

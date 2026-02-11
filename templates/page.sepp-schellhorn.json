@@ -15,6 +15,8 @@
         "image_zAPpDr": {
           "type": "image",
           "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
             "image": "shopify://shop_images/Sepp-Schellhorn_Header-desktop.png",
             "mobile_image": "shopify://shop_images/Sepp-Schellhorn_Header-mobile.png",
             "caption": "Koch. Hotelier. Unternehmer. Politiker. Kochen macht sexy.",
@@ -203,10 +205,18 @@
             "seo_h_tag": "h2"
           }
         },
+        "text_HcF7Pf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sepp Schellhorn ist einer der bekanntesten Gastronomen Österreichs – langjähriger Gastgeber, kreativer Kulinarik-Vordenker und Unternehmer. Viele kennen ihn durch Betriebe wie den Seehof in Goldegg oder das M32 in Salzburg. Zusätzlich ist Sepp politisch aktiv und bekleidet aktuell ein öffentliches Amt als Staatssekretär im Bundesministerium für europäische und internationale Angelegenheiten.</p><p> </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
         "text_xJdAde": {
           "type": "text",
           "settings": {
-            "text": "<p>Josef \"Sepp\" Schellhorn, geboren am 12. Mai 1967 in Schwarzach im Pongau, ist ein österreichischer Unternehmer, Gastronom und Politiker. Er wuchs in Goldegg am See auf und strebte zunächst eine Karriere als Skirennläufer an, bevor er seine Leidenschaft für die Kulinarik entdeckte. Nach Stationen in Österreich, Pisa, Miami, Paris sowie bei renommierten Köchen wie Jörg Wörther und Eckart Witzigmann übernahm er 1996 den elterlichen Betrieb \"Der Seehof\" in Goldegg.</p><p>In den letzten Jahren erlangte Schellhorn durch humorvolle Kochvideos auf Plattformen wie Instagram, YouTube und TikTok zusätzliche Bekanntheit. Diese Videos führten zur Veröffentlichung seines Kochbuchs \"Sepp, was machst du?\", in dem er 90 seiner beliebtesten Rezepte präsentiert.</p><p>Aktuell betreibt er den \"Gasthof zum Bierführer\" in Goldegg, nur wenige Meter von seinem früheren Betrieb entfernt.</p>",
+            "text": "<p>Josef \"Sepp\" Schellhorn, geboren am 12. Mai 1967 in Schwarzach im Pongau, ist ein österreichischer Unternehmer, Gastronom und Politiker. Er wuchs in Goldegg am See auf und strebte zunächst eine Karriere als Skirennläufer an, bevor er seine Leidenschaft für die Kulinarik entdeckte. Nach Stationen in Österreich, Pisa, Miami, Paris sowie bei renommierten Köchen wie Jörg Wörther und Eckart Witzigmann übernahm er 1996 den elterlichen Betrieb \"Der Seehof\" in Goldegg.</p><p>In den letzten Jahren erlangte Schellhorn durch humorvolle Kochvideos auf Plattformen wie Instagram, YouTube und TikTok zusätzliche Bekanntheit. Diese Videos führten zur Veröffentlichung seines Kochbuchs \"Sepp, was machst du?\", in dem er 90 seiner beliebtesten Rezepte präsentiert.</p><p>Aktuell betreibt er den \"Gasthof zum Bierführer\" in Goldegg, nur wenige Meter von seinem früheren Betrieb entfernt.<br/></p>",
             "content_source": "custom",
             "text_size": "regular"
           }
@@ -214,6 +224,7 @@
       },
       "block_order": [
         "title_6D7c9B",
+        "text_HcF7Pf",
         "text_xJdAde"
       ],
       "settings": {
@@ -233,6 +244,87 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
         "color_hide_shadow": false
+      }
+    },
+    "rich_text_pdaf3p": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VE8GYz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Da Sepp in einer öffentlichen Funktion arbeitet, darf er derzeit keine zusätzlichen unternehmerischen Aufgaben wahrnehmen. Deshalb können wir die gemeinsam definierten Sets und Lieblingsprodukte im Moment nicht anbieten, und sie sind daher auch nicht als solche gekennzeichnet.</p><p>Uns verbindet mit Sepp eine sehr gute Partnerschaft, und er bleibt ein großer Fan von STAY SPICED ! – viele unserer Gewürze hat er selbst verwendet und gefeiert. Du kannst daher ganz frei auswählen, was dir gefällt.</p><p></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_VE8GYz"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "sp_featured_products_yNN7tP": {
+      "type": "sp-featured-products",
+      "blocks": {
+        "price_6MKm7p": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_DR9pLT": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_Y4qwwr": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_6MKm7p",
+        "title_DR9pLT",
+        "quick_buy_Y4qwwr"
+      ],
+      "name": "Featured Products",
+      "settings": {
+        "heading": "Empfehlung von SEPP",
+        "header-width-limit": 500,
+        "subheading": "Die Colours of Spices Box kommt seinen persönlichen Vorlieben am nächsten und ist ein perfekter Einstieg in die S! Geschmackswelt.",
+        "show_view_all": true,
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "product_list": [
+          "colours-of-spices-gewurz-set-15er-holzkiste",
+          "hausmannskost-gewurze-set-4er-geschenkbox",
+          "famous-six-top-seller-gewurze-set-6er-geschenkbox",
+          "stay-spiced-famous-six-geschenkbox-mit-6-gewurzen-plus-s-avocado-gewurz-170ml-schraubdose-gewurz-bundle"
+        ],
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
       }
     },
     "blog_slider_NYiLzN": {
@@ -396,6 +488,8 @@
     "main",
     "featured_collection_JXWgUM",
     "rich_text_4dnFLt",
+    "rich_text_pdaf3p",
+    "sp_featured_products_yNN7tP",
     "blog_slider_NYiLzN",
     "featured_collection_PBxXXi",
     "sp_rich_text_WrXRra"

@@ -37,6 +37,13 @@
           "type": "product_benefits",
           "settings": {}
         },
+        "custom_liquid_CnDR8C": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% if product.selected_or_first_available_variant.available %}\n<style>\n  .xmas-delivery-banner {\n    width: 100%;\n    background: #e2edd0;\n    padding: 12px 18px;\n    border-radius: 9px;\n    display: flex;\n    align-items: center;        /* Icon + Text vertikal zentriert */\n    gap: 12px;\n    color: #7e934c;\n    font-size: 14px;\n    line-height: 14px;\n    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;\n  }\n\n  .xmas-delivery-banner__icon {\n    font-size: 30px;            /* +25 % */\n    display: flex;\n    align-items: center;        /* Emoji zentriert */\n  }\n\n  .xmas-delivery-banner__text {\n    margin: 0;\n    display: flex;\n    align-items: center;        /* Text exakt mittig */\n    color: #65783a;\n  }\n\n  .xmas-delivery-banner:hover {\n    background: #dce8c4;\n    box-shadow: 0 2px 6px rgba(0,0,0,0.12);\n    transform: translateY(-1px);\n  }\n</style>\n\n<div class=\"xmas-delivery-banner\">\n  <span class=\"xmas-delivery-banner__icon\">🎄</span>\n  <span class=\"xmas-delivery-banner__text\">\n    <b>Kommt vor Weihnachten an:</b>&nbsp;Bestelle noch bis einschließlich 18.12.\n  </span>\n</div>\n{% endif %}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -130,6 +137,7 @@
         "text_iyX4pw",
         "title",
         "product_benefits_iL3HNP",
+        "custom_liquid_CnDR8C",
         "variant_picker",
         "price_Xx3gHx",
         "buy_buttons",
@@ -308,6 +316,7 @@
         "title_pTEyCT"
       ],
       "settings": {
+        "anchor": "recipes",
         "title": "Passende Rezepte zu {{ product.title }}",
         "subheading": "",
         "show_view_all": false,
@@ -469,6 +478,14 @@
             "liquid": "{% assign text = product.metafields.custom.lagerung.value %}\n{% assign first_letter = text | slice: 0, 1 | upcase %}\n{% assign rest_of_text = text | slice: 1, text.size %}\n{% assign capitalized_text = first_letter | append: rest_of_text %}\n\n{{ capitalized_text }}"
           }
         },
+        "ingredient_ExUAN6": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Ernärungsmerkmale",
+            "value": "{{ product.metafields.custom.att_nutr.value }}",
+            "liquid": ""
+          }
+        },
         "ingredient_ALf7PJ": {
           "type": "ingredient",
           "settings": {
@@ -512,6 +529,7 @@
         "ingredient_8LEENy",
         "ingredient_KMTbzb",
         "ingredient_CLReRG",
+        "ingredient_ExUAN6",
         "ingredient_ALf7PJ",
         "ingredient_AhPYiR",
         "ingredient_ik39mj"

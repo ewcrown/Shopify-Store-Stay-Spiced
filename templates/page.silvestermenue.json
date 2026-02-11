@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "media_with_text_overlay_CwwpUz": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_PXH9dH": {
+          "type": "image",
+          "settings": {
+            "is_use_video_link": false,
+            "video": "shopify://files/videos/stay-spiced_bratapfel-gewuerz_dessert-tom-heinzle.mp4",
+            "external_video_link": "",
+            "caption": "Tom Heinzle",
+            "title": "SILVESTERMENÜ",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "image_PXH9dH"
+      ],
+      "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "small",
+        "alignment": "horizontal-center align-content--vertical-middle",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h1",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_KbH4We": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_jELLkU": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/20251223115129-lebkuchen-20im-20speckmantel-20-26-20bergka-cc-88se.webp",
+            "caption": "",
+            "title": "Lebkuchen & Bergkäse im Speckmantel ",
+            "subtitle": "",
+            "link": "shopify://blogs/tom-heinzle/bergkase-im-speckmantel",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kochen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_Q6WH8d": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Gesmokte_Garnele_mit_Kraeuterbutter.png",
+            "caption": "",
+            "title": "Gesmokte Garnelen mit Orangen-Kräuterbutter",
+            "subtitle": "",
+            "link": "shopify://blogs/tom-heinzle/gesmokte-garnelen-mit-orangen-krauterbutter",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kochen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_HjmnNY": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Tatar_Roast_n_Roll_Style.png",
+            "caption": "",
+            "title": "Tatar „Roast’n Roll Style“",
+            "subtitle": "",
+            "link": "shopify://blogs/tom-heinzle/tatar-roast-n-roll-style",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kochen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_bC6UWL": {
+          "type": "card",
+          "settings": {
+            "caption": "",
+            "title": "Carpaccio von der Roten Bete mit Yuzu",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kochen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_8G8JVq": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Rumpsteak_mit_Lila_Kartoffeln_und_Knoblauchbutter-_Mayo.png",
+            "caption": "",
+            "title": "Rumpsteak mit Lila Kartoffeln und S- Knoblauchbutter Mayo ",
+            "subtitle": "",
+            "link": "shopify://blogs/tom-heinzle/rumpsteak-mit-lila-kartoffeln-knoblauch-buttermayo",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kochen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_xgWmxD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/20241028103802-stay-spiced_rezept-tom-heinzle_bratapfel-vom-grill_bratapfel-gewuerz.png",
+            "caption": "",
+            "title": "Tom`s Winterapfel Dessert",
+            "subtitle": "",
+            "link": "shopify://blogs/cozy/bratapfel-vom-grill",
+            "open_in_new_window": false,
+            "button_label": "Jetzt kochen",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_jELLkU",
+        "card_Q6WH8d",
+        "card_HjmnNY",
+        "card_bC6UWL",
+        "card_8G8JVq",
+        "card_xgWmxD"
+      ],
+      "name": "Silvestermenü",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "#fdc300",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_DEUeYr": {
+      "type": "rich-text",
+      "blocks": {
+        "title_aMUeVD": {
+          "type": "title",
+          "settings": {
+            "title": "Tom Heinzle",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "subtitle_C7yiLL": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Feuerkoch, Buchautor und Grillprofi für STAY SPICED!",
+            "title_size": "h2"
+          }
+        },
+        "text_eR8tB9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gemeinsam mit STAY SPICED! hat Tom eine spezielle Gewürzlinie entwickelt, die nicht nur das Grillen bereichert, sondern auch vielseitige Anwendungen in der Küche findet. Ob für BBQs oder feine Menüs, die Gewürze sind perfekt für alle Grill- und Kochbegeisterten.</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_bKMRWX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gewürze entdecken",
+            "link": "shopify://collections/tom-heinzle",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_aMUeVD",
+        "subtitle_C7yiLL",
+        "text_eR8tB9",
+        "button_bKMRWX"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/tom_heinzle_portrait-rauch_a846941a-e34b-4ee5-a7c9-d228f80a748b.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "custom_css": [
+        "{margin-bottom: -90px !important;}"
+      ],
+      "settings": {
+        "heading": "Kochen wie Tom Heinzle",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": false,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "tom-heinzle",
+        "section_background_color": "#ffffff",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_overlay_CwwpUz",
+    "promotion_cards_KbH4We",
+    "rich_text_DEUeYr",
+    "featured_collection_wpmJ6R"
+  ]
+}

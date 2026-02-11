@@ -91,6 +91,61 @@
         "remove_margin": false
       }
     },
+    "rich_text_QRkK87": {
+      "type": "rich-text",
+      "blocks": {
+        "title_b64tWw": {
+          "type": "title",
+          "settings": {
+            "title": "Unsere Händler – STAY SPICED! ganz in Deiner Nähe",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_HttYhL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du möchtest <strong>STAY SPICED! Gewürze vor Ort kaufen</strong> und live entdecken? Dann bist Du hier genau richtig. Unsere hochwertigen Gewürze und Gewürzmischungen findest Du in ausgewählten <strong>Feinkostläden</strong>, <strong>Delikatessgeschäften</strong>, <strong>Genussläden</strong>, <strong>Hofläden</strong> und bei spezialisierten <strong>Grillshhops</strong> in ganz Österreich, Deutschland und darüber hinaus.</p><p>Auf unserer <strong>Händlerkarte</strong> siehst Du auf einen Blick, welcher <strong>STAY SPICED! Händler</strong> ganz in Deiner Nähe ist. Einfach Standort auswählen oder hineinzoomen – und schon findest Du Deinen nächsten Fachhandel für feinste Gewürze.</p><h3>Warum im Fachhandel kaufen?</h3><p>Der Einkauf im <strong>Feinkostladen</strong> oder <strong>Genussgeschäft</strong> bietet Dir viele Vorteile:</p><ul><li><br/>persönliche Beratung durch erfahrene Händler<br/></li><li><br/>hochwertige Produkte zum Anfassen, Riechen und Entdecken<br/></li><li><br/>regionale Partner, die Qualität und Genuss leben<br/></li></ul><p>Unsere Handelspartner teilen unsere Leidenschaft für ehrliche Zutaten, saubere Rezepturen und intensiven Geschmack – ganz ohne unnötige Zusätze.</p><h3>Händler werden</h3><p>Du betreibst selbst einen <strong>Feinkostladen</strong>, ein <strong>Delikatessengeschäft</strong>, einen <strong>Concept Store</strong> oder einen <strong>Gourmet-Shop</strong> und möchtest STAY SPICED! in Dein Sortiment aufnehmen? Dann freuen wir uns, von Dir zu hören. Gemeinsam bringen wir mehr Würze in die Regale – und zu Deinen Kund:innen.</p><p>👉 <strong>Nutze die Händlerkarte</strong>, finde einen STAY SPICED! Partner in Deiner Nähe oder werde selbst Teil unseres Händlernetzwerks</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_9bWr4E": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_b64tWw",
+        "text_HttYhL",
+        "button_9bWr4E"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
     "featured_collection_fUTmeA": {
       "type": "featured-collection",
       "blocks": {
@@ -117,6 +172,8 @@
         "header-width-limit": 500,
         "subheading": "",
         "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
         "show_product_detail": true,
         "section_heading_layout": "section-heading--left",
         "style": "slider",
@@ -137,6 +194,7 @@
     "main",
     "rich_text_yeGftq",
     "custom_liquid_rXrheB",
+    "rich_text_QRkK87",
     "featured_collection_fUTmeA"
   ]
 }

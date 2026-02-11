@@ -67,6 +67,13 @@
     "rich_text_arF4Wx": {
       "type": "rich-text",
       "blocks": {
+        "subtitle_QbagWh": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Gewürze von",
+            "title_size": "h2"
+          }
+        },
         "title_3d49we": {
           "type": "title",
           "settings": {
@@ -97,13 +104,14 @@
         }
       },
       "block_order": [
+        "subtitle_QbagWh",
         "title_3d49we",
         "text_8LNYCn",
         "button_CzT7Nz"
       ],
       "settings": {
         "element_id": "",
-        "image": "{{ collection.image }}",
+        "image": "shopify://shop_images/stay-spiced_roland-trettl_kocht.png",
         "image_position": "right",
         "height": "regular",
         "image_crop": true,

@@ -36,7 +36,7 @@
         "text_FjgDMA": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>{{ product.metafields.custom.TXT_BULL1.value }}</li><li>{{ product.metafields.custom.TXT_BULL2.value }}</li><li>{{ product.metafields.custom.txt_bull3.value }}</li></ul>",
+            "text": "<ul><li>{{ product.metafields.custom.TXT_BULL1.value }}</li><li>{{ product.metafields.custom.TXT_BULL2.value }}</li><li>{{ product.metafields.custom.txt_bull3.value }}<br/></li></ul>",
             "text_size": "text-size--regular",
             "text_color": "#1d1d1d",
             "text_transform": false,
@@ -69,6 +69,7 @@
         },
         "payment_rrinff": {
           "type": "payment",
+          "disabled": true,
           "settings": {
             "override_payments": "visa,master,american_express,paypal"
           }
@@ -147,7 +148,8 @@
         "text_CnJYwU"
       ],
       "custom_css": [
-        ".main-product {max-width: 1360px; margin: 0 auto;}"
+        ".main-product {max-width: 1360px; margin: 0 auto;}",
+        ".product-item__badge--round {line-height: 0.8rem; font-size: calc(12px / 16 * var(--base-body-size) + 0px);}"
       ],
       "settings": {
         "gallery_style": "slider",
@@ -280,6 +282,7 @@
         "title_pTEyCT"
       ],
       "settings": {
+        "anchor": "recipes",
         "title": "Passende Rezepte zu {{ product.title }}",
         "subheading": "",
         "show_view_all": false,
@@ -441,6 +444,14 @@
             "liquid": "{% assign text = product.metafields.custom.lagerung.value %}\n{% assign first_letter = text | slice: 0, 1 | upcase %}\n{% assign rest_of_text = text | slice: 1, text.size %}\n{% assign capitalized_text = first_letter | append: rest_of_text %}\n\n{{ capitalized_text }}"
           }
         },
+        "ingredient_y6qWdk": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Ernährungsmerkmale",
+            "value": "{{ product.metafields.custom.att_nutr.value }}",
+            "liquid": ""
+          }
+        },
         "ingredient_ALf7PJ": {
           "type": "ingredient",
           "settings": {
@@ -464,6 +475,14 @@
             "value": "",
             "liquid": "{% for variant in product.variants %}\n\n{{ variant.weight | weight_with_unit -}}\n{%- unless forloop.last -%},\n{%- endunless -%}\n\n{% endfor %}"
           }
+        },
+        "ingredient_PbgWmA": {
+          "type": "ingredient",
+          "settings": {
+            "title": "LängexBreitexHöhe",
+            "value": "",
+            "liquid": "{% for variant in product.variants %}\n  {{ variant.Laenge | append: \" x \" | append: variant.Breite | append: \" x \" | append: variant.Hoehe }}\n  {%- unless forloop.last -%}, {% endunless %}\n{% endfor %}"
+          }
         }
       },
       "block_order": [
@@ -484,9 +503,11 @@
         "ingredient_8LEENy",
         "ingredient_KMTbzb",
         "ingredient_CLReRG",
+        "ingredient_y6qWdk",
         "ingredient_ALf7PJ",
         "ingredient_AhPYiR",
-        "ingredient_ik39mj"
+        "ingredient_ik39mj",
+        "ingredient_PbgWmA"
       ],
       "custom_css": [],
       "settings": {
@@ -1093,6 +1114,103 @@
         "seo_h_tag": "h2"
       }
     },
+    "trust_element_logo_ABf8cp": {
+      "type": "trust-element-logo",
+      "blocks": {
+        "element_d9nTHT": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/gault_millau.png",
+            "link": ""
+          }
+        },
+        "element_rnctN6": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/derfeinschmecker_0d732ce7-bfd0-4cbd-8286-e0f04fd704dd.png",
+            "link": ""
+          }
+        },
+        "element_hh7twC": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/falstaffprofi.png",
+            "link": ""
+          }
+        },
+        "element_VP9Fe8": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/rollingpin.png",
+            "link": ""
+          }
+        },
+        "element_MTH7VD": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/alacarte.png",
+            "link": ""
+          }
+        },
+        "element_RkNiQi": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/sn.jpg",
+            "link": ""
+          }
+        },
+        "element_MwqiwA": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/kurier.png",
+            "link": ""
+          }
+        },
+        "element_m6AgnW": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/focus.png",
+            "link": ""
+          }
+        },
+        "element_VrGnDn": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/bunte.png",
+            "link": ""
+          }
+        },
+        "element_di7GXf": {
+          "type": "element",
+          "settings": {
+            "element_img": "shopify://shop_images/orfnachlese.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "element_d9nTHT",
+        "element_rnctN6",
+        "element_hh7twC",
+        "element_VP9Fe8",
+        "element_MTH7VD",
+        "element_RkNiQi",
+        "element_MwqiwA",
+        "element_m6AgnW",
+        "element_VrGnDn",
+        "element_di7GXf"
+      ],
+      "name": "Bekannt aus ",
+      "settings": {
+        "title": "BEKANNT AUS",
+        "section_heading_layout": "section-heading--center",
+        "section_content_layout": 5,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h2"
+      }
+    },
     "trust_element_logo_4g7AhP": {
       "type": "trust-element-logo",
       "blocks": {
@@ -1108,6 +1226,7 @@
       "block_order": [
         "element_GFHHKM"
       ],
+      "disabled": true,
       "settings": {
         "title": "Du kennst uns vielleicht aus",
         "section_heading_layout": "section-heading--center",
@@ -1143,6 +1262,7 @@
     "rich_text_LjLARD",
     "rich_text_txeMVW",
     "text_columns_icons_BYJe7j",
+    "trust_element_logo_ABf8cp",
     "trust_element_logo_4g7AhP"
   ]
 }

@@ -13,7 +13,7 @@
       "type": "main-product",
       "blocks": {
         "trusted_shops_easy_integration_mini_stars_yHcqDE": {
-          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "type": "shopify://apps/trusted-shops-easy-integration/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
           "settings": {}
         },
         "title": {
@@ -448,7 +448,7 @@
       "type": "apps",
       "blocks": {
         "trusted_shops_easy_integration_product_review_list_qDt388": {
-          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/product-review-list/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "type": "shopify://apps/trusted-shops-easy-integration/blocks/product-review-list/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
           "settings": {}
         }
       },

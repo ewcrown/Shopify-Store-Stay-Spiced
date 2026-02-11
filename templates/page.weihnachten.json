@@ -20,11 +20,57 @@
       "type": "image",
       "name": "t:sections.local-extra-words.sections.image-section.name",
       "settings": {
-        "image": "shopify://shop_images/xmas.png",
-        "mobile_image": "shopify://shop_images/xmas_mobil.png",
+        "image": "shopify://shop_images/stay-spiced_header_xmas-geschenke.jpg",
+        "mobile_image": "shopify://shop_images/stay-spiced_header-mobile_xmas-geschenke.jpg",
         "link": "",
         "open_in_new_window": false,
         "image_size": "fullwidth"
+      }
+    },
+    "featured_collection_ANRBHa": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_cjmkpm": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_CbFaRW": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_3xcakH": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_cjmkpm",
+        "title_CbFaRW",
+        "quick_buy_3xcakH"
+      ],
+      "custom_css": [
+        ".product-item__badge {line-height: 0.8rem;}"
+      ],
+      "settings": {
+        "heading": "Empfehlungen für dich",
+        "header-width-limit": 500,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "Produkte anzeigen",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-1 grid-tiny-1",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "alle-geschenke",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
       }
     },
     "featured_collection_EqYi8a": {
@@ -59,7 +105,7 @@
         "show_product_detail": true,
         "section_heading_layout": "section-heading--center",
         "style": "slider",
-        "layout": "grid-3",
+        "layout": "grid-4 grid-portable-3",
         "mobile_layout": "grid-lap-2 grid-tiny-2",
         "mobile_add_to_cart_content": "cart-icon",
         "products_number": 9,
@@ -117,6 +163,7 @@
         "image_WUcAzA",
         "image_9Bmkrf"
       ],
+      "disabled": true,
       "name": "t:sections.local-extra-words.sections.media-with-text-overlay.name",
       "settings": {
         "heading": "",
@@ -236,49 +283,6 @@
         "seo_h_tag": "h2"
       }
     },
-    "featured_collection_ANRBHa": {
-      "type": "featured-collection",
-      "blocks": {
-        "price_cjmkpm": {
-          "type": "price",
-          "settings": {}
-        },
-        "title_CbFaRW": {
-          "type": "title",
-          "settings": {}
-        },
-        "quick_buy_3xcakH": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_cjmkpm",
-        "title_CbFaRW",
-        "quick_buy_3xcakH"
-      ],
-      "settings": {
-        "heading": "Empfehlungen für dich",
-        "header-width-limit": 500,
-        "subheading": "",
-        "show_view_all": true,
-        "link_label": "Produkte anzeigen",
-        "link_url": "",
-        "show_product_detail": true,
-        "section_heading_layout": "section-heading--center",
-        "style": "grid",
-        "layout": "grid-4 grid-portable-3",
-        "mobile_layout": "grid-lap-1 grid-tiny-1",
-        "mobile_add_to_cart_content": "cart-icon",
-        "products_number": 16,
-        "product-info-width-limit": 500,
-        "collection": "alle-geschenke",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
     "featured_collection_ydrKne": {
       "type": "featured-collection",
       "blocks": {
@@ -373,7 +377,7 @@
         "text_rPHFhk": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Weihnachtsgewürze & Geschenkideen von STAY SPICED! – Festlicher Genuss und Inspiration</strong></p><p>Entdecke die Weihnachtswelt von STAY SPICED! und lass deine Küche in den Festgeschmack von Zimt, Kardamom und Vanille kommen. Unsere weihnachtlichen Gewürzmischungen und Reingewürze für Weihnachten bringen nicht nur himmlischen Geschmack in Plätzchen und Festtagsgerichte, sondern machen auch Glühwein, Punsch und heiße Schokolade zu einem besonderen Erlebnis.</p><p><strong>Weihnachtsgewürze für Plätzchen & Festtagsspezialitäten<br/></strong>STAY SPICED! bietet dir alles, was du für traditionelle und kreative Weihnachtsbäckerei benötigst: Lebkuchen-Gewürz, Spekulatius-Gewürz, und das Glühwein-Gewürz sind ideal für Gebäck und heiße Getränke. Unsere Gewürzmischungen sind aus hochwertigen Zutaten zusammengestellt und verleihen deinen Weihnachtsrezepten das gewisse Etwas – perfekt für den festlichen Genuss zu Hause.</p><h2></h2><p><strong>Geschenkideen für Genießer & Hobbyköche</strong><em><br/></em>Schenke Genussmomente, die bleiben! Unsere DIY-Geschenkboxen und Gewürzkoffer bieten Platz für individuelle Auswahl und sind die ideale Geschenkidee für alle, die Vielfalt und Geschmack lieben. STAY SPICED! Gutscheine sind ebenfalls das perfekte Präsent für Foodies, die sich selbst ihr Gewürzsortiment zusammenstellen möchten.</p><h3></h3><p><strong>Deine Vorteile:</strong></p><ul><li>Hochwertige Zutaten ohne Zusatzstoffe für authentischen Geschmack</li><li>Vielseitig einsetzbar für Plätzchen, Glühwein, Desserts und Festtagsspeisen</li><li>Nachhaltige Verpackungen – ideal als Geschenk oder zur eigenen Freude</li></ul><p>Stöbere durch unser weihnachtliches Gewürzsortiment und finde Geschenkideen, die jedes Foodie-Herz höherschlagen lassen. Schaffe unvergessliche Genussmomente in der Weihnachtszeit – mit STAY SPICED!</p>",
+            "text": "<p><strong>✨ Weihnachten bei STAY SPICED !</strong> </p><p><strong>Geschenkideen, die begeistern – Genussmomente, die bleiben</strong> </p><p>Willkommen auf der STAY SPICED ! Weihnachtsseite – hier findest du Geschenkideen für Foodies, leidenschaftliche Hobbyköche und alle, die gutes Essen lieben. Von limitierten Gewürz-Sondereditionen über fertige Geschenkboxen bis hin zu inspirierenden Kochbüchern: Bei uns bekommst du alles, was Weihnachten köstlich macht – hochwertig, kreativ und voller Genussideen für die Festtage. </p><p><strong>🎁 Fertige Geschenkboxen & Boxen zum Selbstbestücken</strong> </p><p>Ob <strong>Famous Six</strong>, <strong>Italia</strong>, <strong>Levante</strong> oder deine ganz persönliche Auswahl: Unsere Geschenkboxen sind die perfekte Idee für alle, die hochwertiges Würzen feiern. Du kannst aus unseren beliebtesten Sets wählen – oder deine eigene Box zusammenstellen. So entsteht ein Geschenk, das wirklich zu den Beschenkten passt und Foodies garantiert begeistert. </p><p><strong>⭐ Limitierte Sondereditionen – nur für kurze Zeit</strong> </p><p>Weihnachten ohne unsere legendären Limited Editions? Undenkbar! Dieses Jahr erwarten dich wieder humorvolle und zugleich großartige Mischungen wie: </p><ul><li><strong>Zimtzicke</strong> – ideal für winterliche Süßspeisen und Desserts </li><li><strong>Zipfelklatscher</strong> – perfekt für herzhafte Festtagsküche die etwas Schärfe verträgt </li><li><strong>Grillmeister</strong> – für alle, die selbst im Winter den Grill anwerfen </li><li><strong>Lieblingsmensch</strong> – das ideale Geschenk für Herzensmenschen </li><li><strong>Grinch</strong> – herrlich frech und ein echter Hingucker </li><li><strong>Wichtel</strong> – ein kleiner Genussgruß für große Freude </li></ul><p>Ob als Wichtelgeschenk, Mitbringsel oder als liebevolle Aufmerksamkeit unter dem Christbaum: Die Limited Editions sind ein besonderes Highlight. In jedem Fall heißt es schnell sein! </p><p><strong>🎄 Weihnachtliche Gewürze für deine Festküche</strong> </p><p>Die Adventszeit lebt von Gewürzen – und bei S! findest du alles, was deine Küche winterfit macht: </p><ul><li><strong>Vanille</strong> für Desserts, Kekse und Cremes </li><li><strong>Apfelstrudel Gewürz</strong> für Klassiker und moderne Backideen </li><li><strong>Apfelrotkraut Gewürz</strong> für die perfekte Beilage zu Festtagsmenüs </li></ul><p>Dazu findest du winterliche Mischungen für Weihnachtskekse, Braten, Rotkraut, Apfelgerichte und warme Drinks. Damit gelingt dir die Festküche – von traditionellen Braten bis zu modernen Interpretationen. </p><p><strong>📚 Kochbücher – Inspiration zum Verschenken</strong> </p><p>Weihnachten ist die beste Zeit für kulinarische Inspiration. Diese hochwertigen Kochbücher ziehen garantiert ein Lächeln unter den Christbaum: </p><ul><li><strong>STAY SPICED ! Koch-Handbuch</strong> – unser eigenes Nachschlagewerk voller Know-how </li><li><strong>Krauli / Held & Herd – Grenzenlos verwurzelt kochen</strong> </li><li><strong>Dominik Süss – Einfach herzhaft & süss</strong> </li><li><strong>Sepp Schellhorn – Sepp, was machst du?</strong> </li><li><strong>Haya Molcho</strong> – kreative Küche mit internationaler Handschrift </li><li><strong>Tom Heinzle</strong> – Grillen auf neuem Niveau </li><li><strong>Roland Trettl</strong> – Genuss mit Profi-Know-how </li></ul><p> </p>",
             "content_source": "custom",
             "text_size": "regular"
           }
@@ -404,11 +408,11 @@
   "order": [
     "main",
     "image_Gc3HMK",
+    "featured_collection_ANRBHa",
     "featured_collection_EqYi8a",
     "media_with_text_overlay_pHemEQ",
     "rich_text_miJHM7",
     "featured_collection_gcgGHa",
-    "featured_collection_ANRBHa",
     "featured_collection_ydrKne",
     "media_with_text_overlay_Q33r4d",
     "rich_text_3UQjNK"

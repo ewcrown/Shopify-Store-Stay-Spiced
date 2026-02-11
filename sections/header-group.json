@@ -11,6 +11,42 @@
   "type": "header",
   "name": "t:sections.refactor_words.labels.header_group",
   "sections": {
+    "marquee_tzYJq7": {
+      "type": "marquee",
+      "blocks": {
+        "text_cNqHpG": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<strong>🔥 HOT WEEK  </strong>–15 % auf ausgewählte Artikel <strong>🔥 </strong>"
+          }
+        },
+        "text_ELaUim": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<em>Rabatt wird automatisch im Warenkorb abgezogen</em>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cNqHpG",
+        "text_ELaUim"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "scrolling-text {font-size: 1rem; height: 2rem;}",
+        ".italic {font-style: normal;}",
+        ".scrolling-text__container > span {display: inline-block; padding-left: 4.5rem; padding-right: 4.5rem;}"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 50,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#fcff30",
+        "color_text_main": "#000000"
+      }
+    },
     "announcement": {
       "type": "announcement-bar",
       "blocks": {
@@ -36,85 +72,37 @@
         "bar_txtcolor": "#1d1d1d"
       }
     },
-    "marquee_tzYJq7": {
-      "type": "marquee",
-      "blocks": {
-        "text_9twy3b": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "marquee_text": "🌱 Nachhaltige Verpackung"
-          }
-        },
-        "text_n8E4TU": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "marquee_text": "🇦🇹 Regional produziert"
-          }
-        },
-        "text_JPqeWn": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "marquee_text": "❤️ Ohne künstliche Zusatzstoffe"
-          }
-        },
-        "text_w7WeQ8": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "marquee_text": "🥘 100% Geschmack ohne Kompromisse"
-          }
-        },
-        "text_cNJRMR": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "<em>Versandkostenfreies Wochenende</em>. Jetzt Versandkosten sparen! (in AT DE IT)"
-          }
-        }
-      },
-      "block_order": [
-        "text_9twy3b",
-        "text_n8E4TU",
-        "text_JPqeWn",
-        "text_w7WeQ8",
-        "text_cNJRMR"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "scrolling-text {font-size: 0.8rem; height: 2rem;}",
-        ".italic {font-style: normal;}",
-        ".scrolling-text__container > span {display: inline-block; padding-left: 4.5rem; padding-right: 4.5rem;}"
-      ],
-      "settings": {
-        "scroll_direction": "left",
-        "speed": 20,
-        "pause_on_hover": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "color_background_main": "#cad948",
-        "color_text_main": "#1d1d1d"
-      }
-    },
     "header": {
       "type": "header",
       "blocks": {
-        "info": {
+        "info_PmrYgP": {
           "type": "info",
           "settings": {
-            "caption": "Jetzt",
-            "title": "Adventskalender sichern",
-            "link": "shopify://pages/adventskalender-2025",
+            "caption": "verschenke",
+            "title": "AMORE 🖤",
+            "link": "shopify://products/s-sonderedition-valentinstag-amore-red-gewurze-set-1er-geschenkbox",
+            "link_type": "_self",
+            "icon": "no-icon"
+          }
+        },
+        "info_fHYqyx": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "caption": "perfekt gewürzte",
+            "title": "Suppen",
+            "link": "https://stayspiced.com/pages/supperpower",
             "link_type": "_self",
             "icon": "no-icon",
-            "custom_icon": "shopify://shop_images/tree.svg"
+            "custom_icon": "shopify://shop_images/ChatGPT_Image_27._Jan._2026_12_47_06.png"
           }
         }
       },
       "block_order": [
-        "info"
+        "info_PmrYgP",
+        "info_fHYqyx"
       ],
+      "custom_css": [],
       "settings": {
         "logo_src": "shopify://shop_images/logo.svg",
         "logo_height": 34,
@@ -131,8 +119,8 @@
     }
   },
   "order": [
-    "announcement",
     "marquee_tzYJq7",
+    "announcement",
     "header"
   ]
 }

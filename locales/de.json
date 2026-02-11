@@ -173,7 +173,7 @@
       "preorder_product": "Pre order",
       "no_products_text": "Nicht vorrätig",
       "save_amount_html": "Spare {{ amount }}",
-      "save_up_to_amount_html": "Spare {{ amount }}",
+      "save_up_to_amount_html": "Sparen Sie bis zu {{ amount }}",
       "save_percent": "Bis zu {{ percent }}",
       "quick_buy": "In den Warenkorb",
       "quick_view": "Schnellansicht"

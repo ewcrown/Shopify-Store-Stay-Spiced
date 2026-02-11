@@ -1,0 +1,434 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "slideshow_e43VLk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_GiGyDw": {
+          "type": "image",
+          "settings": {
+            "publish_date": "",
+            "unpublish_date": "",
+            "image": "shopify://shop_images/stay-spiced_header-landingpage-dipit-desktop.jpg",
+            "mobile_image": "shopify://shop_images/stay-spiced_header-landingpage-dipit-mobile.jpg",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_GiGyDw"
+      ],
+      "name": "t:sections.local-extra-words.sections.slideshow.name",
+      "settings": {
+        "desktop_height": "60vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "text_size": "regular",
+        "title_size": "h2",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "rich_text_mbwphQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_nNFxqP": {
+          "type": "title",
+          "settings": {
+            "title": "Dip-Gewürze für Gemüse, Grillen & Raclette",
+            "title_size": "h3",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_6TMBXk": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Grillen ohne cremige Dips? Kaum vorstellbar. Genauso wenig wie Nachos ohne Avocado-Dip oder eine Brezel ohne Liptauer. Wenn Du selbstgemachte Dips liebst, bist Du hier genau richtig. Ob zu knackigem Gemüse, knusprigem Brot oder als Highlight auf dem Partybuffet – würzige Aufstriche und cremige Dips gehören einfach dazu.<br/><br/>Von fruchtig-pikanter <a href=\"/products/chakalaka-exotische-gewurzmischung\" title=\"Chakalaka - exotische Gewürzmischung\"><strong>Chakalaka</strong> </a>über mediterrane <a href=\"/products/bruschetta-grune-olive\" title=\"Bruschetta grüne Olive\"><strong>Bruschetta</strong></a>, feine<a href=\"/products/sour-cream\" title=\"Sour Cream - Dip & Gewürzmischung\"> <strong>Sour Creme</strong></a> und frische <a href=\"/products/salsa-verde-dip-gewurzmischung\" title=\"Salsa Verde - Dip & Gewürzmischung\"><strong>Salsa Verde</strong></a> bis hin zu cremigem <a href=\"/products/avocado-guacamole-dip-gewurz\" title=\"Avocado - Guacamole & Dip Gewürz\"><strong>Avocado</strong></a><strong>-Dip</strong>, <a href=\"/products/ajoli-spanischer-knoblauch-dip\" title=\"Ajoli - spanischer Knoblauch-Dip\"><strong>Ajoli</strong></a>, <a href=\"/products/zaziki-dip\" title=\"Zaziki & Dip\"><strong>Zaziki</strong></a>, <a href=\"/products/tapas-bravas\" title=\"Tapas Bravas\"><strong>Tapas Bravas</strong></a>, klassischem <strong>Liptauer</strong> und einem leichten <strong>Frühlingsaufstrich</strong>: Hier findest Du die perfekte Basis für abwechslungsreiche Dip-Ideen. Besonders praktisch: In der <a href=\"/products/dip-it-gewurze-set-olivenol-3-gewurze-und-1-olivenol-in-der-box\" title=\"DIP IT | Gewürze Set & Olivenöl | 3 Gewürze und 1 Olivenöl in der Box\"><strong>Dip-it Box</strong></a> sind ausgewählte Dip-Gewürze bereits fix & fertig zusammengestellt – ideal zum Probieren, Kombinieren und Teilen.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_g3LbNU": {
+          "type": "button",
+          "settings": {
+            "button_label": "jetzt dippen",
+            "link": "shopify://collections/dips",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_nNFxqP",
+        "text_6TMBXk",
+        "button_g3LbNU"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/DipIt.jpg",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_nKnLpy": {
+      "type": "featured-product",
+      "blocks": {
+        "title_YcmYYB": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "price_aNTGfF": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_iKWBAj": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_NFfMyq": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_hGFE8j": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_wBNANX": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_AJGEgA": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "bullet_7MBKVz": {
+          "type": "bullet",
+          "disabled": true,
+          "settings": {
+            "bullet_01": "",
+            "bullet_02": "",
+            "bullet_03": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_YcmYYB",
+        "price_aNTGfF",
+        "variant_picker_iKWBAj",
+        "space_NFfMyq",
+        "buy_buttons_hGFE8j",
+        "space_wBNANX",
+        "description_AJGEgA",
+        "bullet_7MBKVz"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "dip-it-gewurze-set-olivenol-3-gewurze-und-1-olivenol-in-der-box",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "Gewürzmischungen für Dips & Aufstriche",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 15,
+        "product-info-width-limit": 500,
+        "collection": "dips",
+        "section_background_color": "#95c11f",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_M3gpqL": {
+      "type": "rich-text",
+      "blocks": {
+        "title_x9fMNe": {
+          "type": "title",
+          "settings": {
+            "title": "Buttervariationen einfach selber machen",
+            "title_size": "h3",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_dNctwm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ob zum Grillen, für Brot, Raclette oder Gemüse – <strong>selbstgemachte Buttervariationen</strong> sorgen für Abwechslung und Genuss. Mit den passenden Gewürzmischungen gelingen Dir Klassiker wie <a href=\"https://stayspiced.com/products/krauterbutter-dip-streugewurz\" title=\"Kräuterbutter\"><strong>Kräuterbutter</strong></a>, <a href=\"https://stayspiced.com/products/knoblauchbutter-dip-streugewurz\" title=\"Knoblauchbutter\"><strong>Knoblauchbutter</strong> </a>oder <a href=\"/products/chilibutter-dip-streugewurz\" title=\"Chilibutter - Dip & Streugewürz\"><strong>Chilibutter</strong></a> im Handumdrehen.</p><p>Ein besonderes Highlight ist die <a href=\"https://stayspiced.com/products/cafe-de-paris-krauterbutter-gewurzzubereitung\" title=\"Cafe de Paris\"><strong>Café-de-Paris-Butter</strong></a>, die perfekt zu Fleisch, Fisch und Raclette passt. Einfach anrühren, kombinieren und nach Deinem Geschmack verfeinern – so wird Butter zum vielseitigen Begleiter in Deiner Küche.<br/><br/></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_xFqwni": {
+          "type": "button",
+          "settings": {
+            "button_label": "Alles in Butter",
+            "link": "shopify://collections/butter",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_x9fMNe",
+        "text_dNctwm",
+        "button_xFqwni"
+      ],
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/butter.png",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_collection_BLhDxF": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_qHjM6y": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_JxdtUH": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_EFCeEF": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_qHjM6y",
+        "title_JxdtUH",
+        "quick_buy_EFCeEF"
+      ],
+      "settings": {
+        "heading": "Gewürzmischungen für Butter",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "butter",
+        "section_background_color": "#95c11f",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_N68Mwc": {
+      "type": "blog-slider",
+      "blocks": {
+        "title_8n6x3G": {
+          "type": "title",
+          "settings": {}
+        },
+        "info_VwjPdk": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        }
+      },
+      "block_order": [
+        "title_8n6x3G",
+        "info_VwjPdk"
+      ],
+      "name": "Blog Slider",
+      "settings": {
+        "title": "Dips & Aufstriche",
+        "subheading": "Schnell gemacht und vielseitig kombinierbar",
+        "post_limit": 8,
+        "section_heading_layout": "section-heading--left",
+        "blog": "barbecue",
+        "article_list": "s-rezepte/guacamole-dip-mit-s-avocado-gewurz,s-rezepte/der-wohl-schnellste-s-our-cream-dip,barbecue/rezept-dips-aufstriche,grill/maisribs-mit-dukkah-und-cheddar-cheese-dip,s-rezepte/fluffige-kimchi-pancakes-mit-s-salty-bowl-dip-und-sojasauce,fleisch/filet-steak-mit-gemuse-susskartoffelpommes-und-dips,roland-trettl/bruschetta-mit-s-bruschetta-grune-olive",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_q7k9Vy": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_yFMYRL": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_X73b8k": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_4qaGGF": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_yFMYRL",
+        "title_X73b8k",
+        "quick_buy_4qaGGF"
+      ],
+      "settings": {
+        "heading": "Bereit für Ostern?",
+        "header-width-limit": 1000,
+        "subheading": "Entdecke besondere Gewürze und Geschenkideen für genussvolle Feiertage im Frühling.",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 16,
+        "product-info-width-limit": 500,
+        "collection": "ostern-xm-klasiker",
+        "section_background_color": "#dbb6d7",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_e43VLk",
+    "rich_text_mbwphQ",
+    "featured_product_nKnLpy",
+    "featured_collection_wpmJ6R",
+    "rich_text_M3gpqL",
+    "featured_collection_BLhDxF",
+    "blog_slider_N68Mwc",
+    "featured_collection_q7k9Vy"
+  ]
+}

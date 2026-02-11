@@ -28,7 +28,7 @@
         "summary": {
           "type": "summary",
           "settings": {
-            "excerpt_limit": 25
+            "excerpt_limit": 40
           }
         }
       },

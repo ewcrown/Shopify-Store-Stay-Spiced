@@ -1,0 +1,713 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "rich_text_GnLy36": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Uq7kBR": {
+          "type": "title",
+          "settings": {
+            "title": "LET’S GRILL",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_YRHf3d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grillen ist mehr als Hitze und Rost – es ist Leidenschaft und purer Genuss. Mit den <strong>STAY SPICED ! Grill Bestsellern</strong> bist Du bestens ausgestattet, um Fleisch, Fisch, Gemüse oder pflanzliche Alternativen perfekt zu würzen. Unsere beliebtesten <strong>Grillgewürze, BBQ Rubs und Gewürzmischungen</strong> bringen intensive Würze auf den Rost und machen jedes Grillgericht zum Highlight.</p><p>Ob saftige Steaks, knuspriges Grillgemüse, zarter Fisch oder kreative vegane Grillideen:<br/><br/>Die <strong>STAY SPICED ! Gewürze</strong> sind vielseitig einsetzbar und passen zu jedem Grillstil – vom schnellen After-Work-Grillen bis zum ausgedehnten BBQ mit Smoker.</p><p><strong>Egal, was Du auf den Rost legst – es wird lecker.</strong><br/><br/>Entdecke jetzt unsere Grill-Bestseller und bring echtes BBQ-Feeling auf Deinen Teller 🔥</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_j8P4mq": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollekiton",
+            "link": "shopify://collections/grillen",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Uq7kBR",
+        "text_YRHf3d",
+        "button_j8P4mq"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/grillen.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_VDEVBQ": {
+      "type": "featured-product",
+      "blocks": {
+        "title_dqyJXz": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_UjhiVE": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_ptMzkM": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_LUEhHw": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_JrUJiT": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_yAzR3n": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_h8Q3a3": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_fjeFEX": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_PDEe6U": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_dqyJXz",
+        "bullet_UjhiVE",
+        "price_ptMzkM",
+        "variant_picker_LUEhHw",
+        "space_JrUJiT",
+        "buy_buttons_yAzR3n",
+        "space_h8Q3a3",
+        "description_fjeFEX",
+        "product_link_PDEe6U"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "grill-gewurz-set-6er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_wpmJ6R": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_frMM3q": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_D7FXkJ": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_ekMiXt": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_frMM3q",
+        "title_D7FXkJ",
+        "quick_buy_ekMiXt"
+      ],
+      "settings": {
+        "heading": "Upgrade für den Rost",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "grillen",
+        "section_background_color": "#ff8f00",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_DqGU9L": {
+      "type": "rich-text",
+      "blocks": {
+        "title_pdayrz": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "LET’S GRILL",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_MUzEkW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Grillen verbindet – und gutes Würzen macht den Unterschied.</strong><br/><br/>Genau das lebt auch <a href=\"/pages/tom-heinzle\" title=\"Tom Heinzle\"><strong>Tom Heinzle</strong> </a>als leidenschaftlicher Koch und <a href=\"/pages/bbq\" title=\"BBQ\">BBQ</a>-Experte. Ob spontanes Feierabend-Grillen oder ausgedehntes BBQ mit Freunden: Mit den <strong>STAY SPICED ! </strong><a href=\"/collections/grillen\" title=\"Grillen\"><strong>Grillgewürzen</strong></a>, die auch von Profis geschätzt werden, wird jedes Grillgericht zum echten Genussmoment. Unsere sorgfältig abgestimmten <strong>Grillgewürzmischungen und </strong><a href=\"/collections/usa\" title=\"USA\"><strong>BBQ Rubs</strong></a> bringen Abwechslung auf den Rost und lassen Fleisch, Fisch, Gemüse und pflanzliche Alternativen perfekt zur Geltung kommen.</p><p>Von klassisch-würzig bis kräftig und pikant:<br/><br/>Die <strong>Grillgewürze von STAY SPICED !</strong> sind vielseitig einsetzbar – zum Einreiben, Marinieren oder Nachwürzen. Sie passen zu Steaks, Burgern, Grillgemüse, Halloumi oder kreativen veganen Grillideen und geben Dir genug Raum für Deine ganz persönliche Grillhandschrift – so, wie es auch Profis am Grill handhaben.</p><p><strong>Egal ob Balkon, Garten oder Smoker – Hauptsache Grill.</strong><br/><br/>Entdecke neue Kombinationen, probiere Dich durch unsere Grill-Bestseller und genieße entspanntes Outdoor Cooking zu jeder Jahreszeit. </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_m677gV": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/tom-heinzle",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_pdayrz",
+        "text_MUzEkW",
+        "button_m677gV"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/tom_heinzle_portrait-rauch.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_DKF3nP": {
+      "type": "featured-product",
+      "blocks": {
+        "title_CCPEHn": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_rbfMXH": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_ncbLD6": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_JCHtHX": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_TkYdKA": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_NH4eKe": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_dA3hdd": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_DrPmTF": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_LGcYVA": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_CCPEHn",
+        "bullet_rbfMXH",
+        "price_ncbLD6",
+        "variant_picker_JCHtHX",
+        "space_TkYdKA",
+        "buy_buttons_NH4eKe",
+        "space_dA3hdd",
+        "description_DrPmTF",
+        "product_link_LGcYVA"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "tom-heinzle-outdoor-gewurze-set-6er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "rich_text_FfPNyy": {
+      "type": "rich-text",
+      "blocks": {
+        "title_TC4eVL": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "LET’S GRILL",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_4aYJHt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Grillen ist Genuss, Reduktion und gute Zutaten – genau dafür steht </strong><a href=\"/pages/roland-trettl\" title=\"Roland Trettl\"><strong>Roland Trettl</strong></a><strong>.</strong><br/><br/>Gemeinsam mit <strong>STAY SPICED !</strong> wird Grillen zur modernen Küche unter freiem Himmel: unkompliziert, kreativ und voller Ideen.</p><p>Die <strong>STAY SPICED ! Gewürze und Mischungen</strong>, die auch Roland Trettl schätzt, bringen Tiefe in gegrilltes Fleisch, Fisch, Gemüse sowie vegetarische und vegane Gerichte. Sie unterstützen den Eigengeschmack der Zutaten und lassen Dir genug Raum für eine feine, persönliche Handschrift am Grill.</p><p>Ob Frühling, Sommer oder Winter –<br/><br/><strong>Grillen mit Roland Trettl und STAY SPICED!</strong> steht für bewussten Genuss und gemeinsame Momente am Feuer </p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_rRydEJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "zur Kollektion",
+            "link": "shopify://collections/roland-trettl",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_TC4eVL",
+        "text_4aYJHt",
+        "button_rRydEJ"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image": "shopify://shop_images/stay-spiced_roland-trettl_gewuerze_1.jpg",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "featured_product_MG8bma": {
+      "type": "featured-product",
+      "blocks": {
+        "title_9iy4qd": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "bullet_hCtFrd": {
+          "type": "bullet",
+          "settings": {
+            "bullet_01": "{{ section.settings.product.metafields.custom.TXT_BULL1.value }}",
+            "bullet_02": "{{ section.settings.product.metafields.custom.TXT_BULL2.value }}",
+            "bullet_03": "{{ section.settings.product.metafields.custom.txt_bull3.value }}"
+          }
+        },
+        "price_rHXwwz": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_gb4C9m": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_6YyLXq": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_nAJpWr": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "space_YqL8DH": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "description_HkzwEa": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_WH6eFq": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_9iy4qd",
+        "bullet_hCtFrd",
+        "price_rHXwwz",
+        "variant_picker_gb4C9m",
+        "space_6YyLXq",
+        "buy_buttons_nAJpWr",
+        "space_YqL8DH",
+        "description_HkzwEa",
+        "product_link_WH6eFq"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "title": "",
+        "section_heading_layout": "section-heading--center",
+        "product": "roland-trettl-grill-gewurze-set-6er-geschenkbox",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "featured_collection_CwA6RY": {
+      "type": "featured-collection",
+      "blocks": {
+        "price_9PChEa": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_xXhYjk": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_JayiB7": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_9PChEa",
+        "title_xXhYjk",
+        "quick_buy_JayiB7"
+      ],
+      "settings": {
+        "heading": "Gemüse liebt Feuer",
+        "header-width-limit": 730,
+        "subheading": "",
+        "show_view_all": true,
+        "link_label": "",
+        "link_url": "",
+        "show_product_detail": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3",
+        "mobile_layout": "grid-lap-2 grid-tiny-2",
+        "mobile_add_to_cart_content": "cart-icon",
+        "products_number": 8,
+        "product-info-width-limit": 500,
+        "collection": "grillen-vegan",
+        "section_background_color": "#ff8f00",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "blog_slider_zQXKHa": {
+      "type": "blog-slider",
+      "blocks": {
+        "info_T8bFjh": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "title_VNkyf3": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "info_T8bFjh",
+        "title_VNkyf3"
+      ],
+      "name": "Blog Slider",
+      "settings": {
+        "title": "Grillen: Rezepte & Ideen",
+        "subheading": "",
+        "post_limit": 4,
+        "section_heading_layout": "section-heading--left",
+        "blog": "grill",
+        "article_list": "grill/beef-burger-gefullt-mit-zweierlei-kase,grill/rezept-mediterraner-nudelsalat-mit-hendl-vom-grill,grill/schwarzbeeren-bbq-sauce,grill/levantes-bruschetta-fladenbrot-mit-kohlrabi-und-cherrytomaten",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_eqMnXJ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_Fmyy8Q": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_qbxxda": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Grillen ist mehr als eine Zubereitungsart – es ist Genuss, Geselligkeit und Vielfalt.</strong><br/><br/>Egal ob Du Fleisch, Fisch, Gemüse oder pflanzliche Alternativen auf den Grill legst: Mit den <strong>STAY SPICED! Grillgewürzen, BBQ Rubs und Gewürzmischungen</strong> holst Du das Beste aus jedem Grillgericht heraus. Die sorgfältig abgestimmten Mischungen eignen sich ideal zum Einreiben, Marinieren oder Nachwürzen und begleiten Dich durch jede Grillsituation.</p><p>Unsere <strong>Grillgewürze für BBQ, Smoker und klassisches Grillen</strong> passen zu saftigen Steaks, Burgern, Grillhähnchen, Fischfilets, Grillgemüse sowie vegetarischen und veganen Grillideen. Ob Balkon, Garten oder Outdoor Kitchen – die richtige Würze sorgt dafür, dass jedes Grillen gelingt und Abwechslung auf den Rost kommt.</p><p><strong>Grillsaison? Gibt es bei uns das ganze Jahr.</strong><br/><br/>Mit STAY SPICED! entdeckst Du neue Kombinationen, bringst Kreativität in Deine Küche unter freiem Himmel und genießt entspanntes Outdoor Cooking mit Freunden und Familie – vom ersten Frühlingstag bis zum Wintergrillen.</p><p>Entdecke jetzt die Vielfalt unserer <strong>Grillgewürze und BBQ Rubs</strong> und mach jedes Grillgericht zu einem echten Highlight</p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_bqKmEC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_Fmyy8Q",
+        "text_qbxxda",
+        "button_bqKmEC"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "element_id": "",
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "content_toggles_34PtAe": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_LyVPMX": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist der Unterschied zwischen Grillen und BBQ?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Der Unterschied zwischen <strong>Grillen und BBQ (Barbecue)</strong> liegt vor allem in <strong>Temperatur, Garzeit und Technik</strong>. Obwohl beide Methoden am Grill stattfinden, verfolgen sie unterschiedliche Ansätze.</p><h4>Grillen – schnell & heiß</h4><p>Beim klassischen Grillen wird mit <strong>direkter, hoher Hitze</strong> gearbeitet:</p><ul><li>Temperaturen meist <strong>über 200 °C</strong><br/></li><li><strong>Kurze Garzeiten</strong> von wenigen Minuten<br/></li><li>Gargut liegt <strong>direkt über der Hitzequelle</strong><br/></li><li>Ideal für Würstchen, Steaks, Burger oder Grillgemüse<br/></li></ul><p>👉 Grillen ist spontan, unkompliziert und perfekt für den schnellen Genuss.</p><h4>BBQ – langsam & schonend</h4><p>BBQ (Barbecue) setzt auf <strong>niedrige Temperaturen und Geduld</strong>:</p><ul><li>Temperaturen zwischen <strong>90–130 °C</strong><br/></li><li><strong>Lange Garzeiten</strong> über mehrere Stunden<br/></li><li>Garen mit <strong>indirekter Hitze</strong><br/></li><li>Oft kombiniert mit <strong>Rauch (Smoken)</strong><br/></li></ul><p>👉 Typische BBQ-Klassiker sind Pulled Pork, Ribs oder Brisket.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_7Ygtxm": {
+          "type": "text",
+          "settings": {
+            "title": "Wie würzt man richtig beim Grillen?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Richtig würzen beim Grillen bedeutet, <strong>den richtigen Zeitpunkt, die passende Gewürzform und die richtige Dosierung</strong> zu wählen. So entsteht ein ausgewogenes Grillergebnis mit schönen Röstaromen.</p><h3>1. Wann würzt man beim Grillen?</h3><p>Der Zeitpunkt ist entscheidend:</p><ul><li><strong>Vor dem Grillen:</strong> ideal für Marinaden und Rubs, damit die Würzung einziehen kann<br/></li><li><strong>Kurz vor dem Grillen:</strong> bei Steaks oder Gemüse für eine gleichmäßige Würze<br/></li><li><strong>Nach dem Grillen:</strong> perfekt für Pfeffer, Kräuter oder feine Gewürze<br/></li></ul><p>👉 Salz bei empfindlichem Grillgut besser <strong>kurz vor oder nach dem Grillen</strong> einsetzen.</p><p></p><h3>2. Rub oder Marinade – was passt besser?</h3><p>Beides hat seinen Platz:</p><ul><li><strong>Rubs (trockene Gewürzmischungen)</strong><br/><br/>Ideal für Fleisch, Gemüse und vegane Alternativen. Sie sorgen für Würze und Röstaromen.<br/></li><li><strong>Marinaden</strong><br/><br/>Bestehen aus Öl, Gewürzen und etwas Säure. Sie machen Grillgut saftig und eignen sich besonders für Geflügel, Fisch und Gemüse.</li></ul><h3>3. Wie viel Gewürz ist richtig?</h3><p>Eine gleichmäßige Dosierung ist wichtig:</p><ul><li>ca. <strong>10–20 g Gewürz pro kg</strong> Grillgut<br/></li><li>Gemüse etwas leichter würzen, bei Bedarf nach dem Grillen nachwürzen</li></ul><h3>4. Nachwürzen nicht vergessen</h3><p>Feine Gewürze wie Pfeffer, Chili oder Kräuter kommen am besten <strong>nach dem Grillen</strong> zum Einsatz. So bleiben sie ausgewogen und frisch.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_xmfn4p": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Gewürze eignen sich zum Grillen?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Beim Grillen kommen Gewürze zum Einsatz, die <strong>hohe Temperaturen vertragen</strong> und für kräftige Röstaromen sorgen. Ob Fleisch, Gemüse oder vegane Alternativen – die richtige Würzung macht den Unterschied zwischen gut und richtig gut.</p><p>Die wichtigsten Grillgewürze im Überblick</p><p><strong>Paprika (edelsüß & geräuchert)</strong><br/><br/>Paprika ist ein Klassiker beim Grillen. Sie sorgt für Farbe, milde Würze und passt zu Fleisch, Gemüse und Grillkäse.</p><p><strong>Pfeffer</strong><br/><br/>Schwarzer Pfeffer, bunter Pfeffer oder grob gemahlene Varianten bringen Tiefe und leichte Schärfe. Ideal zum Nachwürzen oder als Bestandteil von Rubs.</p><p><strong>Knoblauch & Zwiebel</strong><br/><br/>Unverzichtbar für herzhafte Grillgerichte. Sie geben Struktur und Würze – besonders beliebt bei Fleisch, Gemüse und veganen Patties.</p><p><strong>Chili & scharfe Gewürze</strong><br/><br/>Für alle, die es würziger mögen. Chili sorgt für angenehme Hitze und harmoniert hervorragend mit Grillfleisch und BBQ-Gerichten.</p><p><strong>Kräuter & mediterrane Gewürze</strong><br/><br/>Rosmarin, Thymian, Oregano oder Kräutermischungen eignen sich besonders für Grillgemüse, Geflügel und vegetarisches Grillen.</p><h3>Grillgewürze oder Rubs – was ist besser?</h3><p>Grillgewürze können einzeln oder als <strong>Grill- und BBQ-Rubs</strong> verwendet werden:</p><ul><li><strong>Rubs</strong> sind ideal für Fleisch, Gemüse und veganes Grillgut<br/></li><li>Sie lassen sich einfach anwenden<br/></li><li>Sie sorgen für gleichmäßige Würzung und Röstaromen<br/></li></ul><p>👉 In der <a href=\"https://stayspiced.com/collections/grillen\"><strong>Grillen-Kollektion von STAY SPICED !</strong></a> findest du eine große Auswahl an Grillgewürzen, Rubs und Mischungen für jeden Grillstil.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_j8r7Rz": {
+          "type": "text",
+          "settings": {
+            "title": "Vegetarisches & veganes Grillen",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<h2>Vegetarisches & veganes Grillen – so wird es richtig gut</h2><p>Vegetarisches und veganes Grillen ist längst mehr als eine Beilage zum Fleisch. Mit den richtigen Zutaten und einer durchdachten Würzung wird pflanzliches Grillgut zum echten Highlight. Entscheidend sind <strong>kräftige Gewürze, Röstaromen und die passende Zubereitung</strong>.</p><h3>Was eignet sich zum vegetarischen & veganen Grillen?</h3><p>Besonders beliebt sind:</p><ul><li>Grillgemüse wie Zucchini, Paprika, Mais, Aubergine oder Pilze<br/></li><li>Tofu, Tempeh und pflanzliche Alternativen<br/></li><li>Grillkäse und vegane Käse-Alternativen<br/></li><li>Vegane Burger-Patties und Spieße<br/></li></ul><p>Diese Zutaten bringen von Natur aus wenig Eigengeschmack mit – genau hier spielt die richtige Würzung ihre Stärke aus.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_LyVPMX",
+        "text_7Ygtxm",
+        "text_xmfn4p",
+        "text_j8r7Rz"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Alles Wichtige auf einem Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_GnLy36",
+    "featured_product_VDEVBQ",
+    "featured_collection_wpmJ6R",
+    "rich_text_DqGU9L",
+    "featured_product_DKF3nP",
+    "rich_text_FfPNyy",
+    "featured_product_MG8bma",
+    "featured_collection_CwA6RY",
+    "blog_slider_zQXKHa",
+    "rich_text_eqMnXJ",
+    "content_toggles_34PtAe"
+  ]
+}

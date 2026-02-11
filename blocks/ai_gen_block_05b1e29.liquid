@@ -1,0 +1,355 @@
+{% doc %}
+  @prompt
+    Coundown to Christmas Eve 6p.m.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-countdown-{{ ai_gen_id }} {
+    padding: {{ block.settings.padding }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    text-align: center;
+  }
+
+  .ai-countdown-heading-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 20px;
+  }
+
+  .ai-countdown-timer-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: center;
+    gap: {{ block.settings.timer_gap }}px;
+    flex-wrap: wrap;
+  }
+
+  .ai-countdown-unit-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: {{ block.settings.unit_width }}px;
+  }
+
+  .ai-countdown-value-{{ ai_gen_id }} {
+    font-size: {{ block.settings.number_size }}px;
+    font-weight: bold;
+    color: {{ block.settings.number_color }};
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .ai-countdown-label-{{ ai_gen_id }} {
+    font-size: {{ block.settings.label_size }}px;
+    color: {{ block.settings.label_color }};
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .ai-countdown-message-{{ ai_gen_id }} {
+    margin-top: 20px;
+    font-size: {{ block.settings.message_size }}px;
+    color: {{ block.settings.message_color }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-countdown-heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+    }
+
+    .ai-countdown-value-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.number_size }}px * 0.8);
+    }
+
+    .ai-countdown-unit-{{ ai_gen_id }} {
+      min-width: calc({{ block.settings.unit_width }}px * 0.8);
+    }
+  }
+{% endstyle %}
+
+<christmas-countdown-{{ ai_gen_id }}
+  class="ai-countdown-{{ ai_gen_id }}"
+  data-target-date="{{ block.settings.target_date }}"
+  data-target-time="{{ block.settings.target_time }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.heading != blank %}
+    <h2 class="ai-countdown-heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+  {% endif %}
+
+  <div class="ai-countdown-timer-{{ ai_gen_id }}">
+    <div class="ai-countdown-unit-{{ ai_gen_id }}">
+      <div class="ai-countdown-value-{{ ai_gen_id }}" data-days>0</div>
+      <div class="ai-countdown-label-{{ ai_gen_id }}">{{ block.settings.days_label }}</div>
+    </div>
+    <div class="ai-countdown-unit-{{ ai_gen_id }}">
+      <div class="ai-countdown-value-{{ ai_gen_id }}" data-hours>0</div>
+      <div class="ai-countdown-label-{{ ai_gen_id }}">{{ block.settings.hours_label }}</div>
+    </div>
+    <div class="ai-countdown-unit-{{ ai_gen_id }}">
+      <div class="ai-countdown-value-{{ ai_gen_id }}" data-minutes>0</div>
+      <div class="ai-countdown-label-{{ ai_gen_id }}">{{ block.settings.minutes_label }}</div>
+    </div>
+    <div class="ai-countdown-unit-{{ ai_gen_id }}">
+      <div class="ai-countdown-value-{{ ai_gen_id }}" data-seconds>0</div>
+      <div class="ai-countdown-label-{{ ai_gen_id }}">{{ block.settings.seconds_label }}</div>
+    </div>
+  </div>
+
+  <div class="ai-countdown-message-{{ ai_gen_id }}" data-message style="display: none;"></div>
+</christmas-countdown-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ChristmasCountdown{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.targetDate = this.dataset.targetDate;
+        this.targetTime = this.dataset.targetTime;
+        this.daysEl = this.querySelector('[data-days]');
+        this.hoursEl = this.querySelector('[data-hours]');
+        this.minutesEl = this.querySelector('[data-minutes]');
+        this.secondsEl = this.querySelector('[data-seconds]');
+        this.messageEl = this.querySelector('[data-message]');
+        this.timerEl = this.querySelector('.ai-countdown-timer-{{ ai_gen_id }}');
+        this.interval = null;
+      }
+
+      connectedCallback() {
+        this.startCountdown();
+      }
+
+      disconnectedCallback() {
+        if (this.interval) {
+          clearInterval(this.interval);
+        }
+      }
+
+      startCountdown() {
+        this.updateCountdown();
+        this.interval = setInterval(() => {
+          this.updateCountdown();
+        }, 1000);
+      }
+
+      updateCountdown() {
+        const now = new Date();
+        const targetDateTime = new Date(this.targetDate + 'T' + this.targetTime);
+        const difference = targetDateTime - now;
+
+        if (difference <= 0) {
+          this.showCompletedMessage();
+          if (this.interval) {
+            clearInterval(this.interval);
+          }
+          return;
+        }
+
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        this.daysEl.textContent = String(days).padStart(2, '0');
+        this.hoursEl.textContent = String(hours).padStart(2, '0');
+        this.minutesEl.textContent = String(minutes).padStart(2, '0');
+        this.secondsEl.textContent = String(seconds).padStart(2, '0');
+      }
+
+      showCompletedMessage() {
+        this.timerEl.style.display = 'none';
+        this.messageEl.style.display = 'block';
+        this.messageEl.innerHTML = '{{ block.settings.completed_message }}';
+      }
+    }
+
+    customElements.define('christmas-countdown-{{ ai_gen_id }}', ChristmasCountdown{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Christmas countdown",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Countdown settings"
+    },
+    {
+      "type": "text",
+      "id": "target_date",
+      "label": "Target date",
+      "default": "2025-12-24",
+      "info": "Format: YYYY-MM-DD"
+    },
+    {
+      "type": "text",
+      "id": "target_time",
+      "label": "Target time",
+      "default": "18:00",
+      "info": "Format: HH:MM (24-hour)"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<p>Countdown to Christmas Eve</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "completed_message",
+      "label": "Completed message",
+      "default": "<p>Merry Christmas! 🎄</p>"
+    },
+    {
+      "type": "header",
+      "content": "Labels"
+    },
+    {
+      "type": "text",
+      "id": "days_label",
+      "label": "Days label",
+      "default": "Tage"
+    },
+    {
+      "type": "text",
+      "id": "hours_label",
+      "label": "Hours label",
+      "default": "Stunden"
+    },
+    {
+      "type": "text",
+      "id": "minutes_label",
+      "label": "Minutes label",
+      "default": "Minuten"
+    },
+    {
+      "type": "text",
+      "id": "seconds_label",
+      "label": "Seconds label",
+      "default": "Sekunden"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Heading color",
+      "default": "#1d1d1d"
+    },
+    {
+      "type": "color",
+      "id": "number_color",
+      "label": "Number color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "Label color",
+      "default": "#1d1d1d"
+    },
+    {
+      "type": "color",
+      "id": "message_color",
+      "label": "Message color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "number_size",
+      "min": 24,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Number size",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "label_size",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Label size",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "message_size",
+      "min": 14,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Message size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "timer_gap",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Timer gap",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "unit_width",
+      "min": 60,
+      "max": 120,
+      "step": 10,
+      "unit": "px",
+      "label": "Unit width",
+      "default": 80
+    }
+  ],
+  "presets": [
+    {
+      "name": "Christmas countdown"
+    }
+  ]
+}
+{% endschema %}

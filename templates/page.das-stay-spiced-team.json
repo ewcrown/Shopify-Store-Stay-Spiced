@@ -298,6 +298,7 @@
         },
         "image_LHgiXk": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Matthias_Teamfoto_Website_2__1.png",
             "is_use_video_link": false,
@@ -431,6 +432,7 @@
         },
         "image_htTMWU": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Felix_Teamfoto_Website-tinified_1.png",
             "is_use_video_link": false,
@@ -726,6 +728,7 @@
         },
         "image_KP7U8w": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Martina_Fr_Teamfoto_Website-tinified.png",
             "is_use_video_link": false,

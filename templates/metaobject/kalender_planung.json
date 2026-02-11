@@ -1,0 +1,45 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "content_toggles_6WewC3": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_gMMEdX": {
+          "type": "text",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "title": "{{ metaobject.title.value }}",
+            "subtitle": "{{ metaobject.button_text.value }}",
+            "button_link": "{{ metaobject.system.url }}",
+            "body": "{{ metaobject.button_link | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_gMMEdX"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Frequently asked question",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "content_toggles_6WewC3"
+  ]
+}
