@@ -29,6 +29,7 @@
     },
     "custom_liquid_NgQKPK": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".container {max-width: 100%;}",
         "h2 {font-family: neue-haas-grotesk-display, sans-serif; font-weight: 700; font-style: italic; color: #000000;}",
@@ -44,7 +45,6 @@
     },
     "newsletter_zDpgeM": {
       "type": "newsletter",
-      "disabled": true,
       "settings": {
         "brevo_form_id": "94260",
         "show_icon": true,

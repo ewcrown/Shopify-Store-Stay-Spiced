@@ -61,14 +61,6 @@
             "buy_button_color": "#1d1d1d"
           }
         },
-        "wishcraft_ultimate_wishlist_inline_wishlist_button_p6pxmx": {
-          "type": "shopify://apps/wishcraft-ultimate-wishlist/blocks/inline-wishlist-button/f2e93a20-20d3-4e28-9abb-b5ab07f852bf",
-          "settings": {
-            "title": "Zur Wunschliste",
-            "added_title": "Zur Wunschliste hinzugefüht",
-            "icon": ""
-          }
-        },
         "payment_rrinff": {
           "type": "payment",
           "settings": {
@@ -156,7 +148,6 @@
         "variant_picker",
         "price_Xx3gHx",
         "buy_buttons",
-        "wishcraft_ultimate_wishlist_inline_wishlist_button_p6pxmx",
         "payment_rrinff",
         "icons_XFxmNa",
         "text_CraKEw",
