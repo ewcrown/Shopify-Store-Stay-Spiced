@@ -289,15 +289,27 @@
     "content_toggles_aQdmcF": {
       "type": "content-toggles",
       "blocks": {
-        "text_zr3miq": {
+        "text_mPrEAD": {
           "type": "text",
           "settings": {
-            "title": "Shipping details",
+            "title": "Wie sollte man den Paprika lagern?",
             "subtitle": "",
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Write some useful information about your shipping details</p><p>Link to your <a href='#'>shipping policy</a>.</p>",
+            "body": "<p>Kühl, dunkel und trocken lagern!</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_zr3miq": {
+          "type": "text",
+          "settings": {
+            "title": "Was sollte man über den handselektierten Paprika wissen?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Dieser edelsüße Paprika wird aus sorgfältig ausgewählten ungarischen Paprikaschoten gewonnen und schonend getrocknet. Mit seiner hohen ASTA-Wertigkeit (220 ASTA) überzeugt er durch eine besonders kräftige Farbgebung und ein intensives Geschmacksprofil. Zudem ist er reich an Vitamin C und wertvollen Antioxidantien.<br/></p>",
             "hide_block_if": false
           }
         },
@@ -316,17 +328,18 @@
         "text_Wkk9Xn": {
           "type": "text",
           "settings": {
-            "title": "Returns details",
+            "title": "Wie schmeckt der Paprika?",
             "subtitle": "",
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Show customers how much time they have for testing your products</p><p>Link to your <a href='#'>returns policy</a>.</p>",
+            "body": "<p>Edelsüß und harmonisch – dieser Paprika überzeugt mit seiner milden Süße und einer leichten Würze. Er verleiht Speisen eine angenehme Tiefe, ohne dabei zu scharf zu sein, und sorgt für eine runde Geschmacksnote.<br/></p>",
             "hide_block_if": false
           }
         }
       },
       "block_order": [
+        "text_mPrEAD",
         "text_zr3miq",
         "text_weRirc",
         "text_Wkk9Xn"
