@@ -179,7 +179,7 @@
     "border_width_buttons": 1,
     "border_radius_buttons": 0,
     "border_radius_forms": 0,
-    "shadow_cards_x": -10,
+    "shadow_cards_x": -3,
     "shadow_cards_blur": 0,
     "quick_buy_disable_modal": true,
     "product_card_aspect_ratio": "natural",

@@ -289,6 +289,42 @@
     "content_toggles_aQdmcF": {
       "type": "content-toggles",
       "blocks": {
+        "text_j4BgYw": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist der Unterschied zwischen edelsüß und rosenscharf?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Der Unterschied liegt vor allem im <strong>Schärfegrad</strong> und in der Zusammensetzung der gemahlenen Paprikaschoten.</p><h3>🌶️ Paprika edelsüß</h3><ul><li>mild bis leicht würzig<br/></li><li>kaum spürbare Schärfe<br/></li><li>rund und ausgewogen im Geschmack<br/></li><li>intensiv rote Farbe<br/></li></ul><p>Edelsüß ist die klassische Variante für Gulasch, Saucen, Eintöpfe oder Kartoffelgerichte. Es bringt Farbe und angenehme Würze, ohne dominant scharf zu wirken.</p><p></p><h3>🌶️ Paprika rosenscharf</h3><ul><li>deutlich schärfer<br/></li><li>kräftiger, markanter Charakter<br/></li><li>oft etwas dunklere Farbe<br/></li><li>spürbare, aber nicht extreme Schärfe<br/></li></ul><p>Rosenscharf enthält mehr schärfetragende Bestandteile der Paprika (z. B. Rippen und Samenanteile). Es eignet sich, wenn du Gerichten mehr Intensität und eine leichte Schärfe verleihen möchtest.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_iaj4FD": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet der ASTA-Wert bei Paprika?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Der <strong>ASTA-Wert</strong> ist ein international anerkannter Messwert für die <strong>Farbintensität von Paprikapulver</strong>. Er wurde von der <em>American Spice Trade Association (ASTA)</em> definiert und gibt an, wie stark die natürliche Rotfärbung des Paprikas ist.</p><p></p><p>Je höher der ASTA-Wert, desto:</p><ul><li>intensiver und leuchtender ist die rote Farbe<br/></li><li>höher ist die Farbkraft im Gericht<br/></li><li>besser ist in der Regel die Rohwarenqualität</li></ul><p></p><p><br/>Paprikapulver wird nicht nur wegen seiner Würze eingesetzt, sondern auch wegen seiner Farbwirkung. Ein hoher ASTA-Wert sorgt dafür, dass Gulasch, Saucen oder Grillgerichte eine satte, appetitliche Rotfärbung erhalten.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_aVeJRA": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist handselektierter Paprika?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Handselektierter Paprika bedeutet, dass die Paprikaschoten vor der Weiterverarbeitung sorgfältig von Hand ausgewählt werden. Dabei werden nur vollreife, gesunde und qualitativ einwandfreie Früchte verwendet. Beschädigte, unreife oder farbschwache Schoten werden aussortiert.</p>",
+            "hide_block_if": false
+          }
+        },
         "text_mPrEAD": {
           "type": "text",
           "settings": {
@@ -336,17 +372,46 @@
             "body": "<p>Edelsüß und harmonisch – dieser Paprika überzeugt mit seiner milden Süße und einer leichten Würze. Er verleiht Speisen eine angenehme Tiefe, ohne dabei zu scharf zu sein, und sorgt für eine runde Geschmacksnote.<br/></p>",
             "hide_block_if": false
           }
+        },
+        "text_b3H7dV": {
+          "type": "text",
+          "settings": {
+            "title": "Darf man Paprikapulver mitbraten?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ja – aber mit Vorsicht.</p><p>Paprikapulver ist hitzeempfindlich und sollte <strong>nicht bei hoher Temperatur direkt im heißen Fett angebraten</strong> werden. Wird es zu stark erhitzt, können die enthaltenen Farbstoffe und Geschmacksstoffe verbrennen.</p><p>So machst du es richtig:</p><ul><li>Erst Zwiebeln oder andere Zutaten anbraten<br/></li><li>Hitze reduzieren oder die Pfanne kurz vom Herd ziehen<br/></li><li>Paprikapulver einrühren<br/></li><li>Direkt mit Flüssigkeit (z. B. Brühe oder Wasser) ablöschen<br/></li></ul><p>So bleibt die Farbe intensiv und der Geschmack rund.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_yhnPtB": {
+          "type": "text",
+          "settings": {
+            "title": "Warum wird Paprikapulver bitter?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Paprikapulver wird meist dann bitter, wenn es:</p><ol><li><strong>Zu stark erhitzt wird</strong><br/><br/>Direkte Hitze im heißen Öl verbrennt die feinen Bestandteile.<br/></li><li><strong>Zu lange trocken mitgebraten wird</strong><br/><br/>Ohne Flüssigkeit kann es schnell überhitzen.<br/></li><li><strong>Nicht mehr frisch ist</strong><br/><br/>Alte Gewürze verlieren an Qualität und entwickeln eine unangenehme Note.<br/></li><li><strong>Geringe Rohwarenqualität hat</strong><br/><br/>Schwache oder überlagerte Ware kann von Anfang an leicht bitter schmecken.<br/></li></ol><p>Tipp: Paprikapulver immer erst gegen Ende des Anröstens zugeben und zeitnah mit Flüssigkeit arbeiten – so bleibt es farbintensiv und ausgewogen im Geschmack. 🌶️</p>",
+            "hide_block_if": false
+          }
         }
       },
       "block_order": [
+        "text_j4BgYw",
+        "text_iaj4FD",
+        "text_aVeJRA",
         "text_mPrEAD",
         "text_zr3miq",
         "text_weRirc",
-        "text_Wkk9Xn"
+        "text_Wkk9Xn",
+        "text_b3H7dV",
+        "text_yhnPtB"
       ],
       "name": "t:sections.local-extra-words.sections.content-toggles.name",
       "settings": {
-        "heading": "Frequently asked question",
+        "heading": "Alles Wichtige auf einem Blick",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
         "open_first": false,

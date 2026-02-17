@@ -61,7 +61,7 @@
         "image_crop": false,
         "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#f39325",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
@@ -142,6 +142,9 @@
         "space_h8Q3a3",
         "description_fjeFEX",
         "product_link_PDEe6U"
+      ],
+      "custom_css": [
+        "shopify-section mount-css-slider mount-toggles mount-product-page {background-color: #f39325;}"
       ],
       "name": "t:sections.featured-product.name",
       "settings": {
@@ -247,7 +250,7 @@
         "image_crop": false,
         "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#ff8f00",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
@@ -561,7 +564,7 @@
         "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
         "blog_show_image": true,
         "image_aspect_ratio": "1.33333",
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#ff8f00",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
@@ -691,7 +694,7 @@
         "open_first": false,
         "form_enable": false,
         "form_title": "Contact form",
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#ff8f00",
         "seo_h_tag": "h2"
       }
     }

@@ -32,8 +32,8 @@
       ],
       "settings": {
         "results_number": 24,
-        "enable_filtering": false,
-        "enable_sorting": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
         "blog_show_image": true,
         "image_aspect_ratio": "1.33333",
         "show_date": false,

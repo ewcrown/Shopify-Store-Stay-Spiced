@@ -393,6 +393,115 @@
         "remove_margin": false,
         "seo_h_tag": "h2"
       }
+    },
+    "content_toggles_dQAmBh": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_mYCNzW": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist eine Brühe?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Eine Brühe ist eine <strong>klare, dünnflüssige Flüssigkeit</strong>, die durch das Auskochen von Zutaten wie Fleisch, Knochen, Gemüse oder Gewürzen entsteht. Sie dient meist als <strong>Basis</strong> für andere Gerichte.</p><p>Typisch für Brühe:</p><ul><li>klar und leicht<br/></li><li>gekocht aus Fleisch, Knochen oder Gemüse<br/></li><li>gewürzt mit Lorbeer, Pfeffer, Wacholder & Co.<br/></li><li>Grundlage für Suppen, Saucen oder Risotto<br/></li></ul><p>Beispiele: Rinderbrühe, Hühnerbrühe, Gemüsebrühe.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_NhGnbL": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist eine Suppe?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Eine Suppe ist ein <strong>fertiges Gericht</strong>, das auf Brühe oder Wasser basiert und zusätzliche Zutaten enthält.</p><p>Typisch für Suppe:</p><ul><li>enthält Einlagen (Gemüse, Nudeln, Fleisch etc.)<br/></li><li>kann klar oder cremig sein<br/></li><li>wird als eigenständige Mahlzeit serviert<br/></li></ul><p>Beispiele: Gulaschsuppe, Kürbissuppe, Minestrone, Kartoffelsuppe.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_dmVq3B": {
+          "type": "text",
+          "settings": {
+            "title": "Wie würzt man Suppe richtig?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Suppe wird idealerweise <strong>in mehreren Schritten</strong> gewürzt. Beginne mit einer Grundwürze aus <a href=\"/products/ausseer-bergkern-salz-grau-rosa-fein\" title=\"Ausseer Bergkern Salz grau-rosa, fein\">Salz</a>, <a href=\"/products/pfeffermischung-schwarzes-gold\" title=\"Pfeffermischung &quot;Schwarzes Gold&quot;\">Pfeffer </a>und passenden Gewürzen beim Anbraten der Basiszutaten (z. B. Zwiebeln oder Gemüse). Während des Kochens können Kräuter, Gewürzmischungen oder <a href=\"/products/rindssuppe\" title=\"Rindssuppe\">Brühen </a>ergänzt werden.</p><p>Ganz wichtig: <strong>Am Ende nochmals abschmecken.</strong> Durch das Köcheln verändern sich Intensität und Salzgehalt. Erst kurz vor dem Servieren final nachwürzen – so bleibt der Geschmack ausgewogen und frisch.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_wEyXEC": {
+          "type": "text",
+          "settings": {
+            "title": "Wann würzt man Suppe – am Anfang oder am Ende?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Beides – aber unterschiedlich.</p><ul><li><strong>Grundgewürze</strong> wie Lorbeer, Pfefferkörner oder Gewürzmischungen dürfen früh mitkochen, damit sie ihr volles Aroma entfalten.<br/></li><li><strong>Feine Gewürze, frische Kräuter oder empfindliche Gewürze</strong> gibst du besser gegen Ende hinzu.<br/></li></ul><p>Die finale Abstimmung erfolgt immer kurz vor dem Servieren.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_7QNmhg": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Gewürze passen in Suppe?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Das hängt von der Suppenart ab. Bewährte Gewürze für Suppen sind:</p><ul><li><a href=\"/products/pfeffermischung-schwarzes-gold\" title=\"Pfeffermischung &quot;Schwarzes Gold&quot;\">Pfeffer </a>(schwarz oder weiß)<br/></li><li><a href=\"/products/muskatnusse-dunkel-gemahlen\" title=\"Muskatnüsse dunkel gemahlen\">Muskatnuss </a>(für cremige Suppen)<br/></li><li><a href=\"/products/paprika-edelsuss-original-ungarisch\" title=\"Paprika edelsüß - original ungarisch\">Paprika </a>(für Farbe und Tiefe)<br/></li><li><a href=\"/products/lorbeerblatter-ganz-handsortiert\" title=\"Lorbeerblätter ganz - handsortiert\">Lorbeer</a> & <a href=\"/products/wacholderbeeren-ganz-italienische-riesen\" title=\"Wacholderbeeren ganz - italienische Riesen\">Wacholder </a>(für kräftige Brühen)<br/></li><li><a href=\"/products/curcuma-gelbwurz-gemahlen\" title=\"Kurkuma - Gelbwurz - gemahlen\">Kurkuma </a>& <a href=\"/products/ingwer-gemahlen\" title=\"Ingwer gemahlen\">Ingwer </a>(für Gemüsesuppen)<br/></li><li><a href=\"/products/chili-peperoncino-rot-geschrotet-mit-saat\" title=\"Chili / Peperoncino rot geschrotet mit Saat\">Chili </a>(für leichte Schärfe)<br/></li></ul><p>Auch fertige Gewürzmischungen für <a href=\"/products/gemusesuppe\" title=\"Gemüsesuppe\">Gemüse</a>-, <a href=\"/products/huhnersuppe\" title=\"Hühnersuppe\">Hühner</a>- oder <a href=\"/products/rindssuppe\" title=\"Rindssuppe\">Rindsuppe </a>sind ideal, um schnell eine harmonische Würze zu erzielen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_iF3x69": {
+          "type": "text",
+          "settings": {
+            "title": "Wie bekommt man mehr Geschmack in Suppe?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Mehr Geschmack entsteht durch:</p><ul><li>Anrösten von Zwiebeln oder Gemüse vor dem Aufgießen<br/></li><li>Gewürze kurz mit anschwitzen (nicht verbrennen)<br/></li><li>Verwendung von Kräutern und Gewürzmischungen<br/></li><li>Eine Prise Muskat oder Paprika für mehr Tiefe<br/></li><li>Ein paar Tropfen hochwertiges Öl zum Schluss<br/></li></ul><p>Auch ein kleiner Schärfeimpuls oder ein Hauch Säure kann eine Suppe deutlich lebendiger machen.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_ENw8jL": {
+          "type": "text",
+          "settings": {
+            "title": "Was tun, wenn Suppe zu salzig ist?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Ist die Suppe zu salzig, helfen diese Tricks:</p><ul><li>Mit Wasser oder ungesalzener Brühe verdünnen<br/></li><li>Eine rohe Kartoffel mitkochen (zieht etwas Salz)<br/></li><li>Etwas Sahne oder Kokosmilch ergänzen<br/></li><li>Mit Säure (z. B. Zitronensaft oder Essig) ausbalancieren<br/></li></ul><p>Wichtig: Nach jeder Korrektur erneut abschmecken.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_mYCNzW",
+        "text_NhGnbL",
+        "text_dmVq3B",
+        "text_wEyXEC",
+        "text_7QNmhg",
+        "text_iF3x69",
+        "text_ENw8jL"
+      ],
+      "name": "t:sections.local-extra-words.sections.content-toggles.name",
+      "settings": {
+        "heading": "Alles Wichtige auf einem Blick",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form",
+        "section_background_color": "rgba(0,0,0,0)",
+        "seo_h_tag": "h2"
+      }
     }
   },
   "order": [
@@ -406,6 +515,7 @@
     "video_CPNGBy",
     "featured_collection_haYwfD",
     "rich_text_slider_RQ7qPA",
-    "featured_collection_tegpCL"
+    "featured_collection_tegpCL",
+    "content_toggles_dQAmBh"
   ]
 }

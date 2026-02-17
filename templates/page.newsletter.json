@@ -19,8 +19,8 @@
     "image_ihB6jg": {
       "type": "image",
       "settings": {
-        "image": "shopify://shop_images/Newsletter.png",
-        "mobile_image": "shopify://shop_images/Newsletter_mobile.png",
+        "image": "shopify://shop_images/stay-spiced-newsletter-header-desktop.jpg",
+        "mobile_image": "shopify://shop_images/stay-spiced-newsletter-header-mobile.jpg",
         "link": "",
         "open_in_new_window": false,
         "image_size": "fullwidth"
@@ -98,25 +98,60 @@
         "text_9VbtgH": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit dem Newsletter bleibst du regelmäßig über Neuigkeiten, Aktionen und Inspiration aus der Welt der Gewürze informiert. Erfahre mehr über hochwertige Gewürze, saisonale Produkte und neue Ideen für deine Küche. Zusätzlich erhältst du ausgewählte Vorteile, Rezepte und hilfreiche Tipps zur Verwendung von Gewürzen – bequem per Mail.<br/></p><ul><li>10% Willkommensbonus auf die erste Bestellung</li><li>Regelmäßige Boni zu saiosnalen Gewürzen & Boxen</li><li>Early-Access bei limitierten Aktionen</li><li>Exklusive Deals für Newsletter (z.B. Versandkostenfrei)</li><li>Tipps & Know-How für deine Gewürze</li><li>Saisonale Rezepte<br/></li></ul>",
+            "text": "<p>Mit dem Newsletter bleibst du regelmäßig über Neuigkeiten, Aktionen und Inspiration aus der Welt der Gewürze informiert. Erfahre mehr über hochwertige Gewürze, saisonale Produkte und neue Ideen für deine Küche. Zusätzlich erhältst du ausgewählte Vorteile, Rezepte und hilfreiche Tipps zur Verwendung von Gewürzen – bequem per Mail.<br/></p><ul><li>10% Willkommensbonus auf den ersten Einkauf</li><li>Regelmäßige Boni zu saiosnalen Gewürzen & Boxen</li><li>Early-Access bei limitierten Aktionen</li><li>Exklusive Deals für Newsletter (z.B. Versandkostenfrei)</li><li>Tipps & Know-How für deine Gewürze</li><li>Saisonale Rezepte<br/></li></ul>",
             "content_source": "custom",
             "text_size": "regular"
+          }
+        },
+        "text_xpGJRb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Du kommst aus dem Raum Salzburg Umgebung oder Wien?<br/><br/>Dann melde dich jetzt zu unserem Concept Store Newsletter an und erfahre als Erste:r von Events, Tastings, Aktionen und besonderen Angeboten in deiner Nähe.</strong></p>",
+            "content_source": "custom",
+            "text_size": "regular"
+          }
+        },
+        "button_7EkrAq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Newsletter Concept Store Europark",
+            "link": "https://5c73b02f.sibforms.com/serve/MUIFANjqwfKX6-UU6mmX5mQ-uVMdmYKQoU-9_AxLITmW_s4DZWYFIfcFSF4wJbKifY_RdTZcwKV6qxEHK63gN7kE2IENRqgo5y0a9LaO1iOepXW7Y8vPbzERHPqwX9YuLtSKPw5dF6XzlNrUtx187gRXdWjSGsJ1ytic8HhPCZWKhxBzVTF20ijhxOT6Lon71EDpG6qW9kIf-P1h",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "button_hN9kLJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Newsletter Store SCS Vösendorf",
+            "link": "https://5c73b02f.sibforms.com/serve/MUIFAI6wWMGgIrJeWiS2lQ-39jCyhUrYh79t4UKC7Tw22t67kdLC7hyrwQuhj7PLFqaJy-9kcMaBXv_JHpoTDkuPeSj8kgOB7Za0mydE9Kf-AbvK-4sJzZYAFSIWMABO60EXt15knH7-amhgj6MSjUFcxqfQ2azw8qZ-R320lIuuGNAnuoJLmQP0jB7EM3-8rqLPZFLFfXwAL3kh",
+            "target_id": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
           }
         }
       },
       "block_order": [
         "title_r34PGe",
         "subtitle_hhw3LN",
-        "text_9VbtgH"
+        "text_9VbtgH",
+        "text_xpGJRb",
+        "button_7EkrAq",
+        "button_hN9kLJ"
       ],
+      "custom_css": [],
       "settings": {
         "element_id": "",
-        "image_position": "top no-image",
-        "height": "regular",
+        "image": "shopify://shop_images/stay-spiced-roland-trettl-mit-dose-min.png",
+        "image_position": "right",
+        "height": "small",
         "image_crop": false,
         "text_alignment": "horizontal-left",
         "is_fullwidth": false,
-        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_color": "#cad948",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",

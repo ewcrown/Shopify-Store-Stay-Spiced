@@ -24,8 +24,8 @@
           "settings": {
             "publish_date": "",
             "unpublish_date": "",
-            "image": "shopify://shop_images/stay-spiced_header-landingpage-dipit-desktop.jpg",
-            "mobile_image": "shopify://shop_images/stay-spiced_header-landingpage-dipit-mobile.jpg",
+            "image": "shopify://shop_images/stay-spiced-header-dipit-desktop-lp.jpg",
+            "mobile_image": "shopify://shop_images/stay-spiced-header-dipit-mobile-lp.jpg",
             "caption": "",
             "title": "",
             "link": "",
@@ -115,6 +115,15 @@
         "color_hide_shadow": false
       }
     },
+    "custom_liquid_UneHpc": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<section\n  id=\"dip-it-box\"\n  class=\"main-content\n section-{{ section.id }}\"\n>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
     "featured_product_nKnLpy": {
       "type": "featured-product",
       "blocks": {
@@ -195,6 +204,15 @@
         "gallery_pagination": "dots",
         "enable_zoom": true,
         "enable_video_looping": false
+      }
+    },
+    "custom_liquid_waDbiG": {
+      "type": "custom-liquid",
+      "name": "t:sections.refactor_words.custom_code.name",
+      "settings": {
+        "custom_liquid": "<section\n  id=\"dips\"\n  class=\"main-content\n section-{{ section.id }}\"\n>",
+        "full_width": false,
+        "remove_margin": false
       }
     },
     "featured_collection_wpmJ6R": {
@@ -424,7 +442,9 @@
     "main",
     "slideshow_e43VLk",
     "rich_text_mbwphQ",
+    "custom_liquid_UneHpc",
     "featured_product_nKnLpy",
+    "custom_liquid_waDbiG",
     "featured_collection_wpmJ6R",
     "rich_text_M3gpqL",
     "featured_collection_BLhDxF",

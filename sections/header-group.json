@@ -77,6 +77,7 @@
       "blocks": {
         "info_PmrYgP": {
           "type": "info",
+          "disabled": true,
           "settings": {
             "caption": "verschenke",
             "title": "AMORE 🖤",
@@ -87,14 +88,13 @@
         },
         "info_fHYqyx": {
           "type": "info",
-          "disabled": true,
           "settings": {
-            "caption": "perfekt gewürzte",
-            "title": "Suppen",
-            "link": "https://stayspiced.com/pages/supperpower",
+            "caption": "Love it.",
+            "title": "Dip it.",
+            "link": "https://stayspiced.com/pages/dip-it",
             "link_type": "_self",
             "icon": "no-icon",
-            "custom_icon": "shopify://shop_images/ChatGPT_Image_27._Jan._2026_12_47_06.png"
+            "custom_icon": "shopify://shop_images/ChatGPT_Image_16._Feb._2026_15_48_24.png"
           }
         }
       },

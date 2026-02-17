@@ -65,6 +65,227 @@
         "card_JmwUbp": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/intergastra.png",
+            "caption": "07.-11. Februar in Stuttgart",
+            "title": "Intergastra",
+            "subtitle": "Halle 1, Stand Nr. 1H35",
+            "link": "https://www.messe-stuttgart.de/intergastra/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#f39323",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_axMPiY": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/hoheJagd.png",
+            "caption": "19-22. Februar in Salzburg",
+            "title": "Die Hohe Jagd & Fischerei",
+            "subtitle": "Halle 2 & 6, Stand Nr. 02-0108",
+            "link": "https://www.hohejagd.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#f39323",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_JmwUbp",
+        "card_axMPiY"
+      ],
+      "settings": {
+        "heading": "Februar 2026",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_nAUL6R": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_W6Gade": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/kulinarik.png",
+            "caption": "06.-08. März in Salzburg",
+            "title": "Kulinarik",
+            "subtitle": "Halle 6, Stand Nr. 06-313",
+            "link": "https://www.kulinarik-salzburg.at/de/",
+            "open_in_new_window": false,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d2da4d",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_CEkwiU": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Internorga.png",
+            "caption": "13.- 17. März in Hamburg",
+            "title": "Internorga",
+            "subtitle": "Stand Halle A3.333",
+            "link": "https://www.internorga.com/programm-kongresse/kongresse/internationales-foodservice-forum?gad_source=1&gad_campaignid=23559781624&gbraid=0AAAAADoB6IQaNiQNRnPKdqCaAge3UKuQy&gclid=CjwKCAiAtLvMBhB_EiwA1u6_PnVwX_YpclB5h7-mzjwHZcwe1zuVI22b-CEBh0vTLl_3-j0EbalsdxoCsT0QAvD_BwE",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d2da4d",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_W6Gade",
+        "card_CEkwiU"
+      ],
+      "settings": {
+        "heading": "März  2026",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_kP7wNr": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_KQ6FPq": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/genusswerk.png",
+            "caption": "19.-20. April in Ulm",
+            "title": "Genusswerk",
+            "subtitle": "",
+            "link": "https://www.genusswerk-messe.de/",
+            "open_in_new_window": false,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d7007f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_dAaKTU": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/PUR_62bce799-30ea-476d-a47d-36aab5653f26.png",
+            "caption": "20.-21. April in Salzburg",
+            "title": "Transgourmet PUR",
+            "subtitle": "Halle 10, Stand Nr. 242",
+            "link": "https://pur.transgourmet.at/",
+            "open_in_new_window": true,
+            "button_label": "Ab zur Messe",
+            "color_background_main": "#d7007f",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_KQ6FPq",
+        "card_dAaKTU"
+      ],
+      "settings": {
+        "heading": "April 2026",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "0.83333",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "marquee_tU3QwM": {
+      "type": "marquee",
+      "blocks": {
+        "text_hHLbkD": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "VERGANGENE MESSEN & EVENTS <3"
+          }
+        }
+      },
+      "block_order": [
+        "text_hHLbkD"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 100,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#e74019",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "promotion_cards_UFYQpT": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_h3N8Rw": {
+          "type": "card",
+          "settings": {
             "image": "shopify://shop_images/Image_56.jpg",
             "caption": "14.–18. März in Hamburg",
             "title": "Internorga",
@@ -84,7 +305,7 @@
         }
       },
       "block_order": [
-        "card_JmwUbp"
+        "card_h3N8Rw"
       ],
       "settings": {
         "heading": "März 2025",
@@ -496,29 +717,6 @@
         "remove_bottom_margin": false,
         "color_background_main": "#ffffff",
         "color_text_main": "#ffffff"
-      }
-    },
-    "marquee_tU3QwM": {
-      "type": "marquee",
-      "blocks": {
-        "text_hHLbkD": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "VERGANGENE MESSEN & EVENTS <3"
-          }
-        }
-      },
-      "block_order": [
-        "text_hHLbkD"
-      ],
-      "settings": {
-        "scroll_direction": "left",
-        "speed": 100,
-        "pause_on_hover": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "color_background_main": "#e74019",
-        "color_text_main": "rgba(0,0,0,0)"
       }
     },
     "promotion_cards_he7Djt": {
@@ -1017,13 +1215,16 @@
     "main",
     "slideshow_zVpgN4",
     "promotion_cards_8NaWML",
+    "promotion_cards_nAUL6R",
+    "promotion_cards_kP7wNr",
+    "marquee_tU3QwM",
+    "promotion_cards_UFYQpT",
     "promotion_cards_8VFfjA",
     "promotion_cards_cd4LLL",
     "promotion_cards_gKpJh8",
     "promotion_cards_Ya7Ydc",
     "promotion_cards_daT96T",
     "marquee_QgbKQX",
-    "marquee_tU3QwM",
     "promotion_cards_he7Djt",
     "promotion_cards_N3qGrb",
     "promotion_cards_HnFMpX",
